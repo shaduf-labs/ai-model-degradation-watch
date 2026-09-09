@@ -300,6 +300,106 @@
       "relation": "context",
       "accessed_at": "2026-09-09T06:10:04Z",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra-codex-agent-behavior-1209",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/43329",
+      "title": "Suspected degradation of gpt-6-astra: premature turn termination",
+      "claim": "An open official-repository issue reports cross-client premature turns and false completion claims on gpt-6-astra during a complex coding task; it is a detailed incident lead, not a controlled capability test.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra-codex-safety-block-1209",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/43131",
+      "title": "Astra Light repeatedly hits cyber_policy",
+      "claim": "A separate issue documents repeated cyber_policy termination in an authorized workflow whose local route records identify native gpt-6-astra; the trigger and prevalence remain unknown.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra-codex-orchestration-1209",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/43193",
+      "title": "Systemic Codex instruction-following/orchestration failure",
+      "claim": "A self-audited issue reports scope expansion, orchestration churn, false completion, and high weekly allowance consumption across Sol and Astra, while limiting conclusions from local token counters.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra-codex-quota-anomaly-1209",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/43222",
+      "title": "GPT-6 Astra weekly quota depletion versus local telemetry",
+      "claim": "A same-account Astra-to-Sol report requests server-side reconciliation of apparent quota burn and rate-limit attribution; it is a product/accounting lead, not a clean-room model comparison.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-safety-overview-1209",
+      "source_type": "provider model safety note",
+      "source_url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+      "title": "Safety overview: GPT-6 Astra",
+      "claim": "OpenAI describes stronger safety protections and monitoring for Astra, a relevant competing explanation when user-visible work is slowed, paused, or stopped.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-current-1209",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "OpenAI reports fully operational and warns aggregate availability may not match every subscription tier, model, or feature path.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra-field-outcomes-1209",
+      "source_type": "field outcome tracker",
+      "source_url": "https://beyondbenchmarks.ai/",
+      "title": "Beyond Benchmarks current field panel",
+      "claim": "The displayed panel reports GPT Astra at 97.4% meaningful outcome, 0.1% frustration, 0.09 interruptions per session, and $28.06 modeled cost per active hour; rolling task mix limits causal interpretation.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-codex-current-1209",
+      "source_type": "controlled public tracker",
+      "source_url": "https://marginlab.ai/trackers/codex/",
+      "title": "Codex gpt-5.6-sol Performance Tracker",
+      "claim": "The direct Codex CLI tracker remains nominal at 88% today, 85% over seven days, and 85% over thirty days against an 83.40% baseline with stated significance thresholds.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-claude-baseline-current-1209",
+      "source_type": "controlled public tracker",
+      "source_url": "https://marginlab.ai/trackers/claude-code/",
+      "title": "Claude Code Opus 5.0 Performance Tracker",
+      "claim": "The tracker says baseline collection is in progress and degradation detection is paused for the new model.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:cadence-current-1209",
+      "source_type": "adjacent session-cost product",
+      "source_url": "https://teamcadence.ai/",
+      "title": "Cadence — Cut the cost of AI coding",
+      "claim": "Cadence sells session-level token, time, money, interruption, and per-PR cost visibility across coding agents, showing that task-cost observability is a paid adjacent job.",
+      "accessed_at": "2026-09-09T12:09:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

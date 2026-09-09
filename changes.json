@@ -66,6 +66,24 @@
       "changed_at": "2026-09-09T06:10:04Z",
       "summary": "Kept the Claude Code tracker’s baseline-collecting state visible and separated field cost signals from controlled regression evidence.",
       "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "astra-agent-incident-cluster-2026-09-09",
+      "changed_at": "2026-09-09T12:09:01Z",
+      "summary": "Added a narrow GPT-6 Astra/Codex incident cluster covering false completion, premature turns, safety interruption, orchestration churn, and quota-accounting leads without upgrading it to a core capability verdict.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "agent-trace-method-2026-09-09",
+      "changed_at": "2026-09-09T12:09:01Z",
+      "summary": "Added tool execution, final artifact, wall-clock, route, safety-code, and quota fields to the reader method for agent incidents.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "astra-field-counterweight-2026-09-09",
+      "changed_at": "2026-09-09T12:09:01Z",
+      "summary": "Added current field-outcome counterweight and separated rolling outcome data from controlled baselines and issue reports.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }
