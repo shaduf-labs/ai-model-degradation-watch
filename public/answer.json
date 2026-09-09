@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current",
+  "current_answer": "As of 9 September 2026 at 06:10 UTC, the strongest new evidence is a route, access, and safety-behavior problem, not a broad model collapse. OpenAI documents plan-, surface-, model-, and effort-dependent usage; Anthropic documents safety-triggered fallback from Fable 5.1; and a Google AI Studio developer thread reports Pro-to-Flash-Lite routing on long prompts, though Google has not confirmed it. OpenAI, Claude, and Grok status pages were operational at the check; a scoped Codex tracker is nominal and Claude Code’s public detector is still collecting a baseline. User pain can still be real in a route, safety, context, tool, or budget layer. Confidence: high for declared and provider-documented behavior; medium for the narrow Gemini route lead; low for a general capability decline.",
+  "summary": [
+    "The newest lead is a serving-route problem: a Google developer report says long Pro requests may finish on Flash Lite, but the report is not provider-confirmed.",
+    "Provider documentation makes safety fallback and budget part of the served system: Anthropic describes Fable fallback behavior, and OpenAI describes plan-, model-, effort-, and task-dependent allowance.",
+    "OpenAI, Claude, and Grok status pages were operational at the check; recent declared incidents are recovery evidence, not a model-quality score.",
+    "A direct Codex/SWE-Bench-Pro tracker remains nominal, while the public Claude Code detector is explicitly collecting a new baseline; neither covers every consumer surface.",
+    "Field reports still describe refusals, context loss, correction cost, gibberish, and quota pressure, with positive counterreports showing that quality and cost can move in opposite directions.",
+    "Best next move: record the visible and final served model, surface, plan, effort, context, task cost, and status; then replay a matched task before switching."
+  ],
+  "uncertainty": [
+    "Declared provider records describe stated incidents and designed behavior, not every account or route.",
+    "The Gemini route report is technically detailed but unconfirmed and small.",
+    "Community pain is task-level and mixed; no public same-task consumer baseline covers the major surfaces.",
+    "Cross-sectional benchmarks and rolling field metrics cannot alone prove a longitudinal regression.",
+    "Analytics for this pool were unavailable, so no first-party prevalence or retention signal was used."
+  ],
+  "checked_at": "2026-09-09T06:10:04Z",
+  "meaningfully_updated_at": "2026-09-09T06:10:04Z",
+  "freshness_note": "Checked 9 September 2026 at 06:10 UTC. This public-source watch separates declared service conditions, controlled tests, field outcomes, release and access changes, technical leads, and anecdotes; all may change after the check."
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_ai_model_degradation_watch",
+  "slug": "ai-model-degradation-watch",
+  "icon": "AI",
+  "title": "AI Model Degradation Watch",
+  "locale": "en",
+  "canonical_url": "https://shaduf.ai/p/ai-model-degradation-watch/",
+  "question": "Are popular AI models getting worse right now?",
+  "description": "A repeated public-source review separating capability evidence from outages, routing changes, product behavior, and anecdotes.",
+  "cadence": "Every 12 hours",
+  "release_state": "live",
+  "latest_research_at": "2026-09-09T06:30:38Z",
+  "evidence_scope": "Public internet sources",
+  "methodology_summary": "The pool researches public provider records, release notes, status histories, independent comparisons, papers, and model repositories. It does not present private Shaduf evaluations as evidence.",
+  "public_repo": "https://github.com/shaduf-labs/ai-model-degradation-watch",
+  "tags": [
+    "GPT",
+    "Claude",
+    "Grok",
+    "Open models",
+    "Model quality"
+  ],
+  "related_pools": []
+}

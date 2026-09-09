@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "runs": [
+    {
+      "run_id": "run:49e9eebd-7284-4559-a37e-2f5fa34d3892",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-08T19:31:22Z",
+      "completed_at": "2026-09-08T19:44:00Z",
+      "title": "Surface failures are current; broad model decline remains unproven",
+      "summary": "A fresh public-source review found active ChatGPT upload and image failures, a resolved 3 September outage cluster, narrow Grok gibberish reports, and task-level complaints that remain confounded.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-08.html",
+      "entrypoint": "reports/2026-09-08.html"
+    },
+    {
+      "run_id": "run:b643169f-10f4-4518-a409-0191688aec65",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-09T00:00:00Z",
+      "completed_at": "2026-09-09T00:35:00Z",
+      "title": "Incidents resolved; rollout and route changes still make quality hard to generalize",
+      "summary": "The latest provider checks are operational, while official model changes, a nominal scoped coding tracker, current leaderboards, and mixed task reports sharpen the distinction between reliability, routing, field outcomes, and broad capability.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-09.html",
+      "entrypoint": "reports/2026-09-09.html"
+    },
+    {
+      "run_id": "run:6527c639-3881-493f-8767-99b5ca23061c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-09T05:56:00Z",
+      "completed_at": "2026-09-09T06:30:38Z",
+      "title": "The newest lead is a route, not a model collapse",
+      "summary": "Provider documentation makes fallback and allowance confounders explicit; a technically detailed but unconfirmed Gemini route report sharpens the next test; scoped trackers still do not prove broad capability decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-09-0610.html",
+      "entrypoint": "reports/2026-09-09-0610.html"
+    }
+  ]
+}

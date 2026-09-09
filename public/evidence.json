@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "evidence_id": "evidence:openai-status-sep9",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "At the latest check, OpenAI reported full operational status; the file-upload and image-generation incidents from 8 September were marked recovered.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-image-resolved-sep8",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/82v9qavc",
+      "title": "Elevated errors for image generation",
+      "claim": "OpenAI recorded and resolved elevated ChatGPT image-generation errors on 8 September.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-files-resolved-sep8",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M20QBACYZMK2PRCJQCBSWTYJ",
+      "title": "File uploads are delayed or failing",
+      "claim": "OpenAI recorded and resolved ChatGPT file-upload processing failures and delays on 8 September.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-status-sep9",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "Claude status showed all systems operational at the latest check; past incidents were resolved.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:grok-status-sep9",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/grok-com",
+      "title": "Grok.com Status",
+      "claim": "xAI showed Grok.com operational and listed the 3 September model outage as resolved.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-astra-rollout-sep9",
+      "source_type": "provider access note",
+      "source_url": "https://help.openai.com/en/articles/20001354-gpt-56-and-gpt-6-pro-in-chatgpt",
+      "title": "GPT-5.6 and GPT-6 Pro in ChatGPT",
+      "claim": "OpenAI documents gradual, plan- and surface-dependent rollout and access differences, a confounder when a user compares behavior across days.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-fable51-sep1",
+      "source_type": "provider release page",
+      "source_url": "https://www.anthropic.com/claude/fable",
+      "title": "Claude Fable 5.1",
+      "claim": "Anthropic documents a new model and plan availability in the current window; a model change can change behavior without proving regression.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-gemini38-sep2",
+      "source_type": "provider changelog",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "title": "Gemini API changelog",
+      "claim": "Google documents Gemini 3.8 Flash entering general availability on 2 September.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-codex-sep8",
+      "source_type": "controlled public tracker",
+      "source_url": "https://marginlab.ai/trackers/codex/",
+      "title": "Marginlab Codex tracker",
+      "claim": "A direct Codex CLI SWE-Bench-Pro tracker reports nominal performance against a frozen 83.40% baseline; its scope does not include consumer chat.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:artificial-analysis-v43-sep8",
+      "source_type": "independent evaluation",
+      "source_url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-3",
+      "title": "Artificial Analysis Intelligence Index v4.3",
+      "claim": "The current index places Fable 5.1 and GPT-6 Astra at the same overall score and reports current category results, but it is not a before-and-after deployment test.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:arena-labs-sep9",
+      "source_type": "independent preference leaderboard",
+      "source_url": "https://arena.ai/leaderboard/text?rankBy=labs",
+      "title": "Arena lab leaderboard",
+      "claim": "Current lab scores cluster several active model families near the top; this is cross-sectional context, not proof that no route regressed.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:sdd-terminal-bench-sep9",
+      "source_type": "independent evaluation analysis",
+      "source_url": "https://sdd.sh/2026/09/terminal-bench-4-0-astra-fable-5-1-statistical-tie/",
+      "title": "Terminal-Bench 4.0 comparison",
+      "claim": "An independent analysis calls Astra and Fable 5.1 a statistical tie on its benchmark, with task and harness limits.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gemini-statusgator-sep9",
+      "source_type": "third-party status tracker",
+      "source_url": "https://statusgator.com/services/google-ai-studio-and-gemini-api/api",
+      "title": "Google AI Studio and Gemini API status",
+      "claim": "StatusGator showed operational status alongside user reports and recent unacknowledged surface incidents; this is not a capability measurement.",
+      "relation": "unresolved",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-hub-sep8",
+      "source_type": "community meta-thread",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w8r035/performance_and_bugs_discussion_hub_updated_on_6/",
+      "title": "Claude performance and bugs hub",
+      "claim": "Current reports describe refusals, incomplete work, and output behavior, while conditions and model routes vary.",
+      "relation": "unresolved",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:grok-quality-sep2",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/grok/comments/1w5p2lh/grok_is_absolute_trash_do_not_upgrade_to_supergrok/",
+      "title": "Grok quality and moderation discussion",
+      "claim": "Users report moderation, context, and subscription pain, while other commenters report useful programming; the signal is mixed.",
+      "relation": "unresolved",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:chatgpt-postoutage-sep4-current",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1w74uk5/wtf_is_wrong_with_chatgpt_yesterday_catastrophic/",
+      "title": "ChatGPT post-outage report",
+      "claim": "A user describes high correction cost after an outage day and another commenter reports normal service the next day.",
+      "relation": "unresolved",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:wired-outage-cause-sep3",
+      "source_type": "independent reporting",
+      "source_url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+      "title": "Why the 3 September outages overlapped",
+      "claim": "Reporting records provider-specific explanations and no confirmed common cause for the multi-provider outage cluster.",
+      "relation": "limits",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:beyond-benchmarks-sep8",
+      "source_type": "field outcome tracker",
+      "source_url": "https://beyondbenchmarks.ai/",
+      "title": "Beyond Benchmarks",
+      "claim": "The tracker publishes anonymized coding-session outcomes and friction metrics, but warns that task mix and difficulty vary.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T00:19:25Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-history-sep9",
+      "source_type": "provider status history",
+      "source_url": "https://status.openai.com/history",
+      "title": "OpenAI status history",
+      "claim": "OpenAI’s history shows the 8 September image-generation and file-upload incidents recovered, alongside earlier plan- and surface-specific incidents; this supports a reliability explanation without measuring model capability.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-astra-usage-sep9",
+      "source_type": "provider access and usage guide",
+      "source_url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex",
+      "title": "Managing usage with GPT-6 Astra in Work and Codex",
+      "claim": "OpenAI says access and allowance vary by plan, workspace, rollout eligibility, model, reasoning setting, Fast mode, and task; Plus access to Astra in Work and Codex is distinct from GPT-6 Pro in Chat.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-astra-safety-sep9",
+      "source_type": "provider safety documentation",
+      "source_url": "https://openai.com/index/gpt-6-astra/",
+      "title": "GPT-6 Astra safety",
+      "claim": "OpenAI says extra safety checks can slow, pause, or stop legitimate work, making safety behavior a plausible workflow-level confounder.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-fallback-sep9",
+      "source_type": "provider fallback documentation",
+      "source_url": "https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5-or-fable-5-1",
+      "title": "Why Claude switched models in a Fable 5 or Fable 5.1 conversation",
+      "claim": "Anthropic says every request is checked and a flagged Fable request may fall back to a less capable Opus path; automatic switching and fallback usage or billing are documented behavior.",
+      "relation": "supports",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gemini-silent-routing-report-sep9",
+      "source_type": "technical community report",
+      "source_url": "https://discuss.ai.google.dev/t/ai-studio-silently-routing-gemini-3-1-pro-preview-requests-to-flash-lite/180734",
+      "title": "AI Studio silently routing Pro requests to Flash Lite",
+      "claim": "A developer forum report says final streaming chunks changed from gemini-3.1-pro-preview to 3.1-flash-lite-preview above roughly 12,600 input tokens, with a second poster describing similar GCP behavior; Google did not confirm the report in the thread.",
+      "relation": "unresolved",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-claude-baseline-sep9",
+      "source_type": "controlled public tracker",
+      "source_url": "https://marginlab.ai/trackers/claude-code/",
+      "title": "Marginlab Claude Code tracker",
+      "claim": "The tracker says Opus 5.0 baseline collection is in progress and degradation detection is paused; a collecting-baseline state is not a regression verdict.",
+      "relation": "limits",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:winzheng-wdcd-sep9",
+      "source_type": "independent benchmark report",
+      "source_url": "https://www.winzheng.com/en/lab/reports/wdcd-run-306-gemini-3-1-pro-leads-average-decay-45-percent",
+      "title": "WDCD Run 306 instruction decay",
+      "claim": "A three-round, 11-model cross-sectional run reports measurable commitment decay, showing why instruction and context decay deserve task-specific metrics; it does not establish a recent regression.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:modelgrep-live-benchmarks-sep9",
+      "source_type": "benchmark aggregator",
+      "source_url": "https://modelgrep.com/benchmarks",
+      "title": "Modelgrep live benchmarks",
+      "claim": "Modelgrep aggregates live benchmark results across many models while acknowledging that benchmark scores predict real use poorly; useful for discovery, not causal diagnosis.",
+      "relation": "limits",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:beyond-benchmarks-metrics-sep9",
+      "source_type": "field outcome tracker",
+      "source_url": "https://beyondbenchmarks.ai/",
+      "title": "Beyond Benchmarks field metrics",
+      "claim": "Beyond Benchmarks exposes meaningful outcome, frustration, speed, cost, interruptions, context-hunting, and failed-tool-call measures, giving workflow pain a vocabulary distinct from capability regression.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-code-usage-pressure-sep9",
+      "source_type": "community usage report",
+      "source_url": "https://www.reddit.com/r/ClaudeCodeTLDR/comments/1wavw5q/tldr-what-is-happening-absolutely-frustrating/",
+      "title": "Claude Code usage-pressure discussion",
+      "claim": "A community thread frames caps, subagents, and unexplained usage spikes as switching pressure; it does not isolate a capability change.",
+      "relation": "unresolved",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-positive-counterreport-sep9",
+      "source_type": "community counterreport",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1w5ai3j/fable_51_is_insane_and_it_burned_usage_which_is/",
+      "title": "Fable 5.1 positive counterreport",
+      "claim": "A positive Fable 5.1 report praises quality while describing high usage burn, a counterweight showing that quality and access economics can move in opposite directions.",
+      "relation": "limits",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:cadence-session-observability-sep9",
+      "source_type": "adjacent session-cost product",
+      "source_url": "https://teamcadence.ai/",
+      "title": "Cadence session-cost observability",
+      "claim": "Cadence markets tokens, time, money, interruptions, and per-PR cost from coding sessions, a commercial signal that task-cost observability is a practical job distinct from model-quality proof.",
+      "relation": "context",
+      "accessed_at": "2026-09-09T06:10:04Z",
+      "publication_basis": "linked-summary"
+    }
+  ]
+}

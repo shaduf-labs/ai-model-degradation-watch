@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "default_page": "home",
+  "meaningfully_updated_at": "2026-09-08T19:06:44.086Z",
+  "pages": [
+    {
+      "id": "home",
+      "slug": "",
+      "label": "Watch",
+      "icon": "eye",
+      "group": "Start",
+      "description": "The current answer from people's reports: as-of date, model and product surface, what people observed, verdict state, confidence, scope, strongest corroboration, and a reversible next move.",
+      "parent": null,
+      "entrypoint": "index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "research",
+      "slug": "research",
+      "label": "Community reports",
+      "icon": "library",
+      "group": "Explore",
+      "description": "Dated reports of what people say they experienced, with source, task or behavior, product surface, time window, context, corroboration, competing explanations, confidence, and next check across Calendar, Table, List, and Gallery views.",
+      "parent": null,
+      "entrypoint": "research/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "method",
+      "slug": "method",
+      "label": "How we read",
+      "icon": "flask",
+      "group": "Explore",
+      "description": "How we find, compare, and grade people's reports from public sources; how we separate product or service changes from capability claims, and what public reports cannot establish.",
+      "parent": null,
+      "entrypoint": "method/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "signals",
+      "slug": "signals",
+      "label": "Signals",
+      "icon": "pulse",
+      "group": "Explore",
+      "description": "A source-separated ledger of community reports, provider records, published independent evaluations, repeated patterns, and unresolved questions, each marked by scope and corroboration status.",
+      "parent": null,
+      "entrypoint": "signals/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    }
+  ]
+}

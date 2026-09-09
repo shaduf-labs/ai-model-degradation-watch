@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "change_id": "current-verdict-2026-09-08",
+      "changed_at": "2026-09-08T19:31:22Z",
+      "summary": "Added a dated verdict separating active ChatGPT surface failures, resolved cross-provider outages, narrow Grok output failures, and unproven broad capability decline.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "community-report-ledger-2026-09-08",
+      "changed_at": "2026-09-08T19:31:22Z",
+      "summary": "Added task-level community reports with source, timing, surface, competing explanations, counterreports, and confidence.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "audience-scan-2026-09-08",
+      "changed_at": "2026-09-08T19:31:22Z",
+      "summary": "Added fresh audience language, multilingual discovery, and competitor monitoring notes to the private research record.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-09",
+      "changed_at": "2026-09-09T00:35:00Z",
+      "summary": "Updated the verdict after OpenAI, Claude, and Grok incidents resolved: current evidence points to surface, rollout, routing, access, and mixed user signals rather than a proven broad capability decline.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "controlled-baseline-2026-09-09",
+      "changed_at": "2026-09-09T00:35:00Z",
+      "summary": "Added a scoped Marginlab Codex time-series result and independent cross-sectional comparisons, with explicit limits against generalizing to consumer chat.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "field-outcomes-2026-09-09",
+      "changed_at": "2026-09-09T00:35:00Z",
+      "summary": "Added field-outcome and monitoring alternatives, including Beyond Benchmarks and current community hubs, to show the gap between lived workflow pain and controlled regression evidence.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "rollout-context-2026-09-09",
+      "changed_at": "2026-09-09T00:35:00Z",
+      "summary": "Added current provider rollout, access, safety, and model-change context so a day-over-day difference is not mislabeled as capability decline.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "served-system-tuple-2026-09-09",
+      "changed_at": "2026-09-09T06:10:04Z",
+      "summary": "Made final served model or fallback, surface, plan, effort, context, and task cost first-class comparison fields when a product can route or switch models.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "safety-and-budget-confounders-2026-09-09",
+      "changed_at": "2026-09-09T06:10:04Z",
+      "summary": "Added provider-documented safety fallback and plan- or model-dependent allowance as concrete explanations for a worse workflow without a broad capability decline.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "gemini-route-lead-2026-09-09",
+      "changed_at": "2026-09-09T06:10:04Z",
+      "summary": "Added an unconfirmed Google developer report of a long-context Pro-to-Flash-Lite route switch as a reproducible lead, not a confirmed incident.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "baseline-collecting-state-2026-09-09",
+      "changed_at": "2026-09-09T06:10:04Z",
+      "summary": "Kept the Claude Code tracker’s baseline-collecting state visible and separated field cost signals from controlled regression evidence.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    }
+  ]
+}
