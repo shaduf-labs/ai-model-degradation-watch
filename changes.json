@@ -84,6 +84,36 @@
       "changed_at": "2026-09-09T12:09:01Z",
       "summary": "Added current field-outcome counterweight and separated rolling outcome data from controlled baselines and issue reports.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "provider-usage-reset-2026-09-10",
+      "changed_at": "2026-09-10T12:40:18Z",
+      "summary": "Added OpenAI’s resolved usage-limit-reset incident and separated provider confirmation from account-level quota attribution.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "transport-and-project-incident-2026-09-10",
+      "changed_at": "2026-09-10T12:40:18Z",
+      "summary": "Added a fresh Codex desktop WebSocket failure lead and a current ChatGPT shared Project direct-link incident as surface or product evidence, not model decline.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "field-cost-snapshot-2026-09-10",
+      "changed_at": "2026-09-10T12:40:18Z",
+      "summary": "Updated the Astra field counterweight with current outcome, interruption, failed-tool-call, speed, token-cost, and hourly-cost measures while preserving rolling-window limits.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "usable-access-observability-2026-09-10",
+      "changed_at": "2026-09-10T12:40:18Z",
+      "summary": "Made capable, available, affordable, and verifiable the reader decision frame and connected fresh quota, transport, multilingual, and observability signals.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "provider-account-boundary-2026-09-10",
+      "changed_at": "2026-09-10T12:40:18Z",
+      "summary": "Added a new method boundary: a provider-confirmed incident narrows the product lane but does not prove an individual deduction or capability regression.",
+      "path": "/p/ai-model-degradation-watch/method/"
     }
   ]
 }

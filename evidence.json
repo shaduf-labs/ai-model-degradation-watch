@@ -400,6 +400,186 @@
       "accessed_at": "2026-09-09T12:09:01Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-usage-reset-2026-09-10",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M23KG62KKK448RN434CQ64Z8",
+      "title": "OpenAI usage-limit reset incident",
+      "claim": "OpenAI reported unexpected usage-limit resets affecting some Codex users on 9 September and marked the incident resolved; this supports a product or entitlement explanation but not account-level deduction or capability decline.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-project-link-2026-09-10",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M24HYC9SX2Q4471EVMY6EXQE",
+      "title": "ChatGPT shared Project direct-link incident",
+      "claim": "OpenAI is monitoring inability to open shared ChatGPT Projects through direct links after mitigation; this is a product/access incident, not a model-quality test.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-websocket-2026-09-10",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/44099",
+      "title": "Codex desktop WebSocket failure report",
+      "claim": "An open issue reports desktop WebSocket disconnect and reconnect loops while web ChatGPT worked on the same account and network; this is a narrow transport lead.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-usage-limit-44254-2026-09-10",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/44254",
+      "title": "Codex usage-limit lockout report",
+      "claim": "A fresh issue describes usage-limit errors despite local remaining allowance and later recovery; local telemetry is not an authoritative account ledger.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-usage-limit-44234-2026-09-10",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/44234",
+      "title": "Codex premium-window report",
+      "claim": "A separate issue describes usage-limit failures with null or changing premium windows and later access; it adds account and entitlement detail without proving an incorrect deduction.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra-field-metrics-2026-09-10",
+      "source_type": "field outcome tracker",
+      "source_url": "https://beyondbenchmarks.ai/",
+      "title": "Beyond Benchmarks current Astra panel",
+      "claim": "The displayed panel reports 94.6% meaningful outcome, 0.1% frustration, 14.0 output tokens per second, $37.42 per million tokens, $28.73 modeled active hour, 0.16 interruptions per session, 1.42x context hunting, and 5.5% failed tool calls; rolling task mix limits causal interpretation.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-codex-2026-09-10",
+      "source_type": "controlled public tracker",
+      "source_url": "https://marginlab.ai/trackers/codex/",
+      "title": "Marginlab Codex tracker",
+      "claim": "The direct Codex CLI tracker remains nominal within its scoped task set, baseline, and significance thresholds; it does not test Astra desktop or ChatGPT Projects.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-claude-2026-09-10",
+      "source_type": "controlled public tracker",
+      "source_url": "https://marginlab.ai/trackers/claude-code/",
+      "title": "Marginlab Claude Code tracker",
+      "claim": "The Claude Code tracker still says the new baseline is collecting and degradation detection is paused.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:statusgator-gemini-2026-09-10",
+      "source_type": "third-party status tracker",
+      "source_url": "https://statusgator.com/services/google-ai-studio-and-gemini-api/api",
+      "title": "Google AI Studio and Gemini API status",
+      "claim": "StatusGator marks the service operational while listing user-submitted incidents in the prior 24 hours; this is an early surface signal, not capability evidence.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openusage-2026-09-10",
+      "source_type": "open-source usage observability tool",
+      "source_url": "https://openusage.sh/",
+      "title": "OpenUsage",
+      "claim": "A local dashboard exposes usage, spend, quotas, rate limits, tokens, sessions, and burn-rate projections across tools, showing demand for personal usable-cost observability.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:aws-agent-insights-2026-09-10",
+      "source_type": "official observability documentation",
+      "source_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/coding-agents-insights.html",
+      "title": "AWS CloudWatch Coding Agent Insights",
+      "claim": "AWS documents agent telemetry for token consumption, latency, tool calls, API requests, and approvals with model, user, team, and token-type dimensions.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:tracecheck-2026-09-10",
+      "source_type": "monitoring and comparison alternative",
+      "source_url": "https://tracecheck.dev/",
+      "title": "TraceCheck",
+      "claim": "TraceCheck positions itself around verified pricing, usage-limit, access, and provider-change signals, reinforcing a repeat discovery job around model availability and economics.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-astra-mixed-2026-09-10",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/ChatGPTPro/comments/1w8b9cq/what_is_everyones_opinion_on_chatgpt6_astra_so_far/",
+      "title": "ChatGPTPro Astra discussion",
+      "claim": "The current discussion mixes reports of strong Astra capability with high credit use, rule-following variability, and positive browser or computer-use experiences; it is self-selected field language.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-astra-plus-cost-2026-09-10",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1wbjxrc/astra_on_plus_is_basically_a_contradiction/",
+      "title": "Astra on Plus discussion",
+      "claim": "A community report describes Astra as highly capable for demanding work while saying the Plus allowance can be consumed by a short task window; capability and usable access diverge.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-astra-spanish-2026-09-10",
+      "source_type": "multilingual community report",
+      "source_url": "https://www.reddit.com/r/ColombiaDevs/comments/1w8aivo/alguien_ya_prob%C3%B3_chatgpt_astra_6_de_verdad/",
+      "title": "Spanish-language Astra discussion",
+      "claim": "Spanish-language comments describe both successful complex spreadsheet work and severe quota burn or early stopping; this is qualitative, self-selected evidence.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-astra-portuguese-2026-09-10",
+      "source_type": "multilingual community report",
+      "source_url": "https://www.reddit.com/r/devBR/comments/1wbta7m/conversa_s%C3%B3bria_sobre_o_gpt6_qual_a_opiniao_de/",
+      "title": "Portuguese-language GPT-6 discussion",
+      "claim": "Portuguese-language comments describe Astra stopping or consuming short usable sessions alongside positive or model-comparison reports; this does not establish prevalence.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-status-2026-09-10",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "Claude public status was operational at the current check; aggregate availability does not measure model quality.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:xai-status-2026-09-10",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/grok-com",
+      "title": "Grok Web Status",
+      "claim": "Grok Web public status was operational at the current check; aggregate availability does not measure model quality.",
+      "accessed_at": "2026-09-10T12:40:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

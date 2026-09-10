@@ -44,6 +44,17 @@
       "summary": "Fresh open Codex reports add a detailed Astra agent-behavior, safety, orchestration, and quota incident cluster. Aggregate status and rolling field outcomes remain counterweights, so the verdict narrows to a real user-facing incident without proving core capability regression.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-09-1209.html",
       "entrypoint": "reports/2026-09-09-1209.html"
+    },
+    {
+      "run_id": "run:b7ea6124-fa0d-4889-9f63-2af727ace3ed",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-10T12:18:18Z",
+      "completed_at": "2026-09-10T12:53:03.725Z",
+      "title": "Astra is not broadly worse; the system around it is failing in public",
+      "summary": "OpenAI confirmed a recent usage-limit incident, a fresh desktop transport report separates web from client behavior, and a current Project-link incident adds product context. The field panel remains strong but costly and rolling, so the verdict stays narrow: specific surfaces are different, blocked, or expensive; broad capability decline is unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-10.html",
+      "entrypoint": "reports/2026-09-10.html"
     }
   ]
 }

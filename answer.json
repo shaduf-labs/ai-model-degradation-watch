@@ -1,23 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 9 September 2026 at 12:09 UTC, broad cross-model capability decline remains unproven, but the call is narrower: GPT-6 Astra/Codex has a credible open user-facing incident cluster involving premature or false completion, safety-policy interruption, orchestration churn, and quota-accounting complaints. OpenAI reports aggregate systems fully operational, and a rolling field panel currently shows strong Astra outcomes, so the strongest supported reading is a localized agent/product incident with mixed safety and budget explanations—not a proven decline in Astra’s core capability. Confidence: high for aggregate status and documented safeguards; medium for the narrow incident cluster; low for a population-wide capability decline.",
+  "current_answer": "As of 10 September 2026 at 12:40 UTC, no broad cross-model capability decline is proven. The Astra/Codex issue cluster is now better attributed as a mixed user-facing system incident: OpenAI recorded and resolved unexpected usage-limit resets on 9 September, a fresh Codex report documents WebSocket and reconnect failures where web ChatGPT worked on the same account, and OpenAI is monitoring a 10 September ChatGPT Project-link incident. Safety and orchestration reports remain real, while the field panel still shows strong outcomes alongside material cost and interruption signals. The supported call is different, blocked, or expensive on specific surfaces—not broadly worse; server-side reconciliation and matched tests are still needed before attributing a deduction or capability decline to Astra itself.",
+  "catalogue_card": {
+    "question": "Are popular AI models getting worse right now?",
+    "text": "No broad decline is proven. As of 10 September 2026, Astra/Codex shows a real but mixed system incident—quota resets, transport failures, and a Project-link outage around a capable but costly field signal."
+  },
   "summary": [
-    "A detailed open Codex issue reports premature Astra turns and completion claims that could not contain the described tool work, reproduced across three clients; it is an incident lead, not a controlled capability test.",
-    "A separate native-route issue reports repeated cyber_policy termination, making safety behavior a concrete explanation for some blocked Astra work.",
-    "Other open issues describe orchestration churn and quota movement that local logs cannot fully reconcile; server-side attribution is missing.",
-    "OpenAI’s aggregate status is green, but the page warns individual customer availability can vary by tier, model, and feature.",
-    "Beyond Benchmarks currently shows strong rolling Astra field outcomes, while Marginlab’s Codex tracker remains nominal and its Claude Code tracker is still collecting a baseline.",
-    "Best next move: capture tool execution, final artifact, model/effort/route, safety code, quota, and wall clock; replay a matched task before calling core degradation or switching."
+    "OpenAI publicly recorded and resolved unexpected Codex usage-limit resets on 9 September; this confirms a product or entitlement event, not a specific account deduction.",
+    "A fresh Codex issue reports desktop WebSocket reconnect failures while web ChatGPT worked on the same account and network; OpenAI is also monitoring a shared Project direct-link incident.",
+    "Safety, false-completion, orchestration, and quota reports remain credible narrow user-facing signals, but they do not identify a broad Astra capability decline.",
+    "Beyond Benchmarks displays 94.6% meaningful Astra outcomes alongside 0.16 interruptions per session, 5.5% failed tool calls, $37.42 per million tokens, and $28.73 modeled active hour; the rolling field mix is not a controlled baseline.",
+    "Marginlab’s scoped Codex tracker remains nominal and its Claude Code tracker is still collecting a baseline.",
+    "Best next move: check status, save the served system and task trace, verify the final artifact and allowance, retry on a stable surface, then replay a matched task before switching."
   ],
   "uncertainty": [
-    "The Astra/Codex cluster is detailed but self-selected, unresolved, and not provider-confirmed.",
-    "No clean matched Astra baseline or server-side quota and safety reconciliation is public.",
-    "Field metrics mix tasks, teams, tools, and a rolling window; they cannot clear every route.",
-    "Aggregate status does not test individual agent behavior.",
-    "Analytics for this pool were unavailable."
+    "OpenAI status records confirm product or entitlement incidents, but do not expose account-level deductions, exact limit buckets, or causality for any one task.",
+    "The WebSocket, quota, safety, and false-completion reports are detailed but self-selected, unresolved, and not a prevalence study.",
+    "Beyond Benchmarks uses rolling, task-mix-dependent field data; its displayed metrics are not a matched before-and-after Astra test.",
+    "No clean matched Astra baseline, final served-model comparison, or provider-side safety and quota reconciliation is public.",
+    "Analytics were unavailable, so no first-party retention, conversion, or prevalence signal was used."
   ],
-  "checked_at": "2026-09-09T12:09:01Z",
-  "meaningfully_updated_at": "2026-09-09T12:09:01Z",
-  "freshness_note": "Checked 9 September 2026 at 12:09 UTC. This public-source watch separates agent behavior, safety, quota, routing, availability, controlled tests, field outcomes, and core-capability claims; all may change after the check."
+  "checked_at": "2026-09-10T12:40:18Z",
+  "meaningfully_updated_at": "2026-09-10T12:40:18Z",
+  "freshness_note": "Checked 10 September 2026 at 12:40 UTC. This public-source watch separates capability, agent behavior, safety, transport, routing, access, quota, pricing, controlled tests, field outcomes, and anecdotes; each can change after the check."
 }

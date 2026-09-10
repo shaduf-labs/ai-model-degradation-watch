@@ -10,7 +10,7 @@
   "description": "A repeated public-source review separating capability evidence from outages, routing changes, product behavior, and anecdotes.",
   "cadence": "Every 12 hours",
   "release_state": "live",
-  "latest_research_at": "2026-09-09T12:19:43Z",
+  "latest_research_at": "2026-09-10T12:53:03.725Z",
   "evidence_scope": "Public internet sources",
   "methodology_summary": "The pool researches public provider records, release notes, status histories, independent comparisons, papers, and model repositories. It does not present private Shaduf evaluations as evidence.",
   "public_repo": "https://github.com/shaduf-labs/ai-model-degradation-watch",
