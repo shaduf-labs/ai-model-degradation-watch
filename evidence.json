@@ -580,6 +580,196 @@
       "accessed_at": "2026-09-10T12:40:18Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gemini-tool-selection-2026-09-11",
+      "source_type": "technical community report",
+      "title": "gemini-tool-selection",
+      "claim": "A Google forum report compares Gemini 3.5 and 3.8 on the same tool task: reflective context produces 8/8 versus 0/8 self-initiated calls, with ablations changing 3.8.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://discuss.ai.google.dev/t/gemini-3-8-flash-tool-calls-are-suppressed-when-the-prompt-contains-reflective-first-person-text-regression-vs-3-5/180934"
+    },
+    {
+      "evidence_id": "evidence:gemini-provider-context-2026-09-11",
+      "source_type": "provider model documentation",
+      "title": "gemini-provider-context",
+      "claim": "Google describes Gemini 3.8 as GA with long context, tunable thinking, and tool-orchestration positioning; this does not confirm the forum report.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "source_url": "https://ai.google.dev/gemini-api/docs/latest-model"
+    },
+    {
+      "evidence_id": "evidence:google-cloud-status-2026-09-11",
+      "source_type": "provider status page",
+      "title": "google-cloud-status",
+      "claim": "Aggregate Google Cloud status showed no broad severe incident; this narrows availability only.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "source_url": "https://status.cloud.google.com/?hl=En"
+    },
+    {
+      "evidence_id": "evidence:claude-surface-incidents-2026-09-11",
+      "source_type": "provider status incident",
+      "title": "claude-surface-incidents",
+      "claim": "Claude Cowork on Windows could not reach the computer drive after an update while chat and file operations mostly worked.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://status.claude.com/incidents/r1pqn1kb4hvk"
+    },
+    {
+      "evidence_id": "evidence:claude-api-latency-2026-09-11",
+      "source_type": "provider status incident",
+      "title": "claude-api-latency",
+      "claim": "Claude API latency affecting some US Midwest traffic was resolved on 10 September.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://status.claude.com/incidents/2pt83vlkk7x7"
+    },
+    {
+      "evidence_id": "evidence:openai-cost-guidance-2026-09-11",
+      "source_type": "provider access and usage guide",
+      "title": "openai-cost-guidance",
+      "claim": "OpenAI ties shared allowance use to plan, model, task, input/output, effort, Fast, and multistep work.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex"
+    },
+    {
+      "evidence_id": "evidence:openai-rate-card-2026-09-11",
+      "source_type": "provider rate card",
+      "title": "openai-rate-card",
+      "claim": "OpenAI lists Astra output at 1,250 credits per million tokens and Fast at 2.5x.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://help.openai.com/en/articles/11481834-cha"
+    },
+    {
+      "evidence_id": "evidence:codex-websocket-credit-drain-2026-09-11",
+      "source_type": "technical community report",
+      "title": "codex-websocket-credit-drain",
+      "claim": "A Codex issue describes WebSocket reconnect loops consuming purchased credits before HTTPS fallback.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://github.com/openai/codex/issues/43045"
+    },
+    {
+      "evidence_id": "evidence:codex-rate-bucket-mismatch-2026-09-11",
+      "source_type": "technical community report",
+      "title": "codex-rate-bucket-mismatch",
+      "claim": "A Codex issue describes concurrent threads receiving different rate-limit buckets on one account.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://github.com/openai/codex/issues/43136"
+    },
+    {
+      "evidence_id": "evidence:claude-fable-output-meter-2026-09-11",
+      "source_type": "technical community report",
+      "title": "claude-fable-output-meter",
+      "claim": "An Anthropic issue reports roughly doubled output tokens per turn and rapid Max-plan meter movement after a Fable alias change.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://github.com/anthropics/claude-code/issues/91623"
+    },
+    {
+      "evidence_id": "evidence:bug-hunt-bench-2026-09-11",
+      "source_type": "independent evaluation",
+      "title": "bug-hunt-bench",
+      "claim": "Bug Hunt Bench reports 105 planted bugs, 63 runs, 23 models, and displayed Astra and Fable 5.1 maxima above Sol; it is cross-sectional.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "source_url": "https://github.com/phuryn/bug-hunt-bench"
+    },
+    {
+      "evidence_id": "evidence:astra-field-metrics-2026-09-11",
+      "source_type": "field outcome tracker",
+      "title": "astra-field-metrics",
+      "claim": "Beyond Benchmarks displays current Astra outcome, speed, modeled cost, interruption, context-hunting, and failed-call metrics in a rolling panel.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "source_url": "https://beyondbenchmarks.ai/"
+    },
+    {
+      "evidence_id": "evidence:controlled-trackers-current-2026-09-11",
+      "source_type": "controlled public tracker",
+      "title": "controlled-trackers-current",
+      "claim": "Marginlab Codex is nominal with a frozen baseline and non-significant displayed movement.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "source_url": "https://marginlab.ai/trackers/codex/"
+    },
+    {
+      "evidence_id": "evidence:controlled-trackers-claude-2026-09-11",
+      "source_type": "controlled public tracker",
+      "title": "controlled-trackers-claude",
+      "claim": "Marginlab Claude Code is still collecting a new baseline.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "source_url": "https://marginlab.ai/trackers/claude-code/"
+    },
+    {
+      "evidence_id": "evidence:audience-cost-confusion-2026-09-11",
+      "source_type": "community report",
+      "title": "audience-cost-confusion",
+      "claim": "OpenAI community discussion describes credit-mapping confusion and requests more A/B context.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://community.openai.com/t/gpt-6-astra-on-pro-20x-less-credit-per-week/1396026"
+    },
+    {
+      "evidence_id": "evidence:audience-reddit-quota-2026-09-11",
+      "source_type": "community report",
+      "title": "audience-reddit-quota",
+      "claim": "Reddit users report materially faster Astra quota burn than Sol under their default workflows.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wciwc1/gpt6_astra_burns_quota_4_times_faster_than_gpt56/"
+    },
+    {
+      "evidence_id": "evidence:audience-reddit-codex-today-2026-09-11",
+      "source_type": "community report",
+      "title": "audience-reddit-codex-today",
+      "claim": "A Reddit thread describes a short Astra usable window alongside counterreports and A/B suggestions.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "source_url": "https://www.reddit.com/r/OpenaiCodex/comments/1wd50yt/just_dont_use_codex_today/"
+    },
+    {
+      "evidence_id": "evidence:audience-outcome-observability-2026-09-11",
+      "source_type": "adjacent observability product",
+      "title": "audience-outcome-observability",
+      "claim": "Telemetry.sh emphasizes tool loops, accepted outputs per dollar, and cost by model or feature.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "source_url": "https://telemetry.sh/product/ai-agent-observability"
+    },
+    {
+      "evidence_id": "evidence:audience-uber-outcome-units-2026-09-11",
+      "source_type": "secondary industry analysis",
+      "title": "audience-uber-outcome-units",
+      "claim": "SWFT describes outcome units such as merged pull requests, code reviews, alerts, and cleanup.",
+      "accessed_at": "2026-09-11T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "source_url": "https://swft.io/companies/uber-software-factory"
     }
   ]
 }

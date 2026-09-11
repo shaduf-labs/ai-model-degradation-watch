@@ -55,6 +55,17 @@
       "summary": "OpenAI confirmed a recent usage-limit incident, a fresh desktop transport report separates web from client behavior, and a current Project-link incident adds product context. The field panel remains strong but costly and rolling, so the verdict stays narrow: specific surfaces are different, blocked, or expensive; broad capability decline is unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-10.html",
       "entrypoint": "reports/2026-09-10.html"
+    },
+    {
+      "run_id": "run:79308838-2835-4864-9c53-52fd7e33d7ca",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-11T12:00:00Z",
+      "completed_at": "2026-09-11T12:36:00Z",
+      "title": "One narrow Gemini tool-use regression joins the ledger; broad decline remains unproven",
+      "summary": "A repeated matched-context Gemini report adds the strongest capability-shaped lead yet, while Claude status and new Astra/Codex cost and transport evidence show why usable access and capability must stay separate. Independent replication and server-side attribution remain open.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-11.html",
+      "entrypoint": "reports/2026-09-11.html"
     }
   ]
 }

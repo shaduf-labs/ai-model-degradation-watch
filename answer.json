@@ -1,27 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 10 September 2026 at 12:40 UTC, no broad cross-model capability decline is proven. The Astra/Codex issue cluster is now better attributed as a mixed user-facing system incident: OpenAI recorded and resolved unexpected usage-limit resets on 9 September, a fresh Codex report documents WebSocket and reconnect failures where web ChatGPT worked on the same account, and OpenAI is monitoring a 10 September ChatGPT Project-link incident. Safety and orchestration reports remain real, while the field panel still shows strong outcomes alongside material cost and interruption signals. The supported call is different, blocked, or expensive on specific surfaces—not broadly worse; server-side reconciliation and matched tests are still needed before attributing a deduction or capability decline to Astra itself.",
+  "current_answer": "As of 11 September 2026 at 12:00 UTC, no broad cross-model capability decline is proven. A new, narrow Gemini 3.8 Flash report is the strongest capability-shaped lead: on a matched API task, it suppressed a self-initiated save_note call 0/8 where Gemini 3.5 Flash called it 8/8 under a reflective context, with ablations changing the result. That is not yet independent or provider-confirmed, and Google documents 3.8 as a GA tool-orchestration model. Separate confirmed product incidents include Claude Cowork Windows degradation and resolved API latency, while Astra/Codex evidence now includes transport credit drain, session rate-bucket mismatch, official cost rules, and account reports of expensive usage. The supported call remains different, blocked, or expensive on specific surfaces—not broadly worse; reproduce the Gemini context/tool test and reconcile route, transport, tool trace, meter, and final artifact before naming a model regression.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad decline is proven. As of 10 September 2026, Astra/Codex shows a real but mixed system incident—quota resets, transport failures, and a Project-link outage around a capable but costly field signal."
+    "text": "No broad decline is proven. A narrow Gemini 3.8 tool-selection lead joins confirmed Claude surface incidents and Astra/Codex cost or transport signals; the system can be different, blocked, or expensive without being broadly less capable."
   },
   "summary": [
-    "OpenAI publicly recorded and resolved unexpected Codex usage-limit resets on 9 September; this confirms a product or entitlement event, not a specific account deduction.",
-    "A fresh Codex issue reports desktop WebSocket reconnect failures while web ChatGPT worked on the same account and network; OpenAI is also monitoring a shared Project direct-link incident.",
-    "Safety, false-completion, orchestration, and quota reports remain credible narrow user-facing signals, but they do not identify a broad Astra capability decline.",
-    "Beyond Benchmarks displays 94.6% meaningful Astra outcomes alongside 0.16 interruptions per session, 5.5% failed tool calls, $37.42 per million tokens, and $28.73 modeled active hour; the rolling field mix is not a controlled baseline.",
-    "Marginlab’s scoped Codex tracker remains nominal and its Claude Code tracker is still collecting a baseline.",
-    "Best next move: check status, save the served system and task trace, verify the final artifact and allowance, retry on a stable surface, then replay a matched task before switching."
+    "A matched Google API report is the strongest new capability-shaped signal: Gemini 3.8 Flash made a self-initiated save_note call 0/8 under a reflective context where Gemini 3.5 Flash made it 8/8; context and prior-reasoning ablations changed the result. This is a narrow, single-source lead, not a broad collapse.",
+    "Google documents Gemini 3.8 as a GA model designed for tool orchestration, but neither the docs nor aggregate Cloud status confirm the report. The next useful test is independent replay with final model and tool traces across API and another surface.",
+    "Claude status confirms a Windows Cowork work-surface failure and records a resolved regional API latency incident. These are real product and availability events, not model-quality measurements.",
+    "Astra/Codex evidence now separates transport, rate-bucket, and cost lanes: one report describes WebSocket credit drain before HTTPS fallback; another describes session-scoped bucket mismatch; OpenAI documents shared allowance and 2.5x Fast-rate mechanics. Account-level attribution remains open.",
+    "Counterweights remain: Bug Hunt Bench is cross-sectional and currently favors Astra and Fable 5.1 over Sol on displayed planted-bug maximums; Beyond Benchmarks shows high but changed rolling field outcomes; Marginlab Codex is nominal and Claude Code is still collecting a baseline.",
+    "Reader move: capture surface, visible and effective model, context, effort, route, transport, tool trace, final artifact, error, allowance, output tokens, and wall clock; check status, replay the same task, and only then call a capability regression or switch."
   ],
   "uncertainty": [
-    "OpenAI status records confirm product or entitlement incidents, but do not expose account-level deductions, exact limit buckets, or causality for any one task.",
-    "The WebSocket, quota, safety, and false-completion reports are detailed but self-selected, unresolved, and not a prevalence study.",
-    "Beyond Benchmarks uses rolling, task-mix-dependent field data; its displayed metrics are not a matched before-and-after Astra test.",
-    "No clean matched Astra baseline, final served-model comparison, or provider-side safety and quota reconciliation is public.",
+    "The Gemini tool-selection result is one technically detailed Google API report, without independent replication, prevalence, or provider confirmation; consumer surfaces may differ.",
+    "Provider status and model documentation establish declared product state, not capability on a particular task or account.",
+    "Codex, Fable, and quota-cost reports are detailed self-reports with no server-side ledger or representative sample.",
+    "Beyond Benchmarks is a rolling task-mix-dependent field panel, Bug Hunt Bench is cross-sectional, and Marginlab covers narrow surfaces; none is a matched broad time series.",
+    "No public server-side reconciliation joins route, transport, safety, tool execution, quota, and final artifact for the reported workflows.",
     "Analytics were unavailable, so no first-party retention, conversion, or prevalence signal was used."
   ],
-  "checked_at": "2026-09-10T12:40:18Z",
-  "meaningfully_updated_at": "2026-09-10T12:40:18Z",
-  "freshness_note": "Checked 10 September 2026 at 12:40 UTC. This public-source watch separates capability, agent behavior, safety, transport, routing, access, quota, pricing, controlled tests, field outcomes, and anecdotes; each can change after the check."
+  "checked_at": "2026-09-11T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-11T12:00:00Z",
+  "freshness_note": "Fresh public-source check completed 11 September 2026. The report is current for the checked sources; incident and field metrics are snapshots with explicit scope limits."
 }

@@ -114,6 +114,30 @@
       "changed_at": "2026-09-10T12:40:18Z",
       "summary": "Added a new method boundary: a provider-confirmed incident narrows the product lane but does not prove an individual deduction or capability regression.",
       "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "gemini-context-tool-lead-2026-09-11",
+      "changed_at": "2026-09-11T12:00:00Z",
+      "summary": "Added a matched-context Gemini 3.8 tool-selection lead with repeated cells and ablations; kept it explicitly separate from broad capability decline until independently replicated.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "surface-and-economics-split-2026-09-11",
+      "changed_at": "2026-09-11T12:00:00Z",
+      "summary": "Added confirmed Claude Cowork and API surface incidents plus Astra/Codex transport, rate-bucket, official cost, and Fable output-meter evidence to separate usable access from capability.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "matched-replay-method-2026-09-11",
+      "changed_at": "2026-09-11T12:00:00Z",
+      "summary": "Made context ablation, repeated tool-call counts, final model identity, and final tool trace first-class fields for a narrow regression diagnostic.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "outcome-counterweights-2026-09-11",
+      "changed_at": "2026-09-11T12:00:00Z",
+      "summary": "Added Bug Hunt Bench, current rolling field metrics, and tracker states as counterweights while preserving their different estimands and limits.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }
