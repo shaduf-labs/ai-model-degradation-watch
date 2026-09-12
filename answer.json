@@ -1,28 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 11 September 2026 at 12:00 UTC, no broad cross-model capability decline is proven. A new, narrow Gemini 3.8 Flash report is the strongest capability-shaped lead: on a matched API task, it suppressed a self-initiated save_note call 0/8 where Gemini 3.5 Flash called it 8/8 under a reflective context, with ablations changing the result. That is not yet independent or provider-confirmed, and Google documents 3.8 as a GA tool-orchestration model. Separate confirmed product incidents include Claude Cowork Windows degradation and resolved API latency, while Astra/Codex evidence now includes transport credit drain, session rate-bucket mismatch, official cost rules, and account reports of expensive usage. The supported call remains different, blocked, or expensive on specific surfaces—not broadly worse; reproduce the Gemini context/tool test and reconcile route, transport, tool trace, meter, and final artifact before naming a model regression.",
+  "current_answer": "As of 12 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The evidence now includes a quoted GCP Support acknowledgement of a Gemini Deep Research MCP backend failure and a separate repeated Gemini 3.8 Agentic Video tool-processing failure, while Claude Cowork remains the only degraded Claude component in the current status snapshot and Codex telemetry points to higher runtime step frequency and shorter usable allowance windows. These are real changes around specific workflows; they do not establish a broad model-weight decline. Reproduce the exact tool lifecycle, inspect the final served model and artifact, and reconcile allowance before switching or naming capability degradation.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad decline is proven. A narrow Gemini 3.8 tool-selection lead joins confirmed Claude surface incidents and Astra/Codex cost or transport signals; the system can be different, blocked, or expensive without being broadly less capable."
+    "text": "No broad core-capability decline is proven. Google support reportedly traced one Gemini research failure to a backend tool-call regression, while a separate Gemini video path and Codex runtime show real surface and usable-window failures."
   },
   "summary": [
-    "A matched Google API report is the strongest new capability-shaped signal: Gemini 3.8 Flash made a self-initiated save_note call 0/8 under a reflective context where Gemini 3.5 Flash made it 8/8; context and prior-reasoning ablations changed the result. This is a narrow, single-source lead, not a broad collapse.",
-    "Google documents Gemini 3.8 as a GA model designed for tool orchestration, but neither the docs nor aggregate Cloud status confirm the report. The next useful test is independent replay with final model and tool traces across API and another surface.",
-    "Claude status confirms a Windows Cowork work-surface failure and records a resolved regional API latency incident. These are real product and availability events, not model-quality measurements.",
-    "Astra/Codex evidence now separates transport, rate-bucket, and cost lanes: one report describes WebSocket credit drain before HTTPS fallback; another describes session-scoped bucket mismatch; OpenAI documents shared allowance and 2.5x Fast-rate mechanics. Account-level attribution remains open.",
-    "Counterweights remain: Bug Hunt Bench is cross-sectional and currently favors Astra and Fable 5.1 over Sol on displayed planted-bug maximums; Beyond Benchmarks shows high but changed rolling field outcomes; Marginlab Codex is nominal and Claude Code is still collecting a baseline.",
-    "Reader move: capture surface, visible and effective model, context, effort, route, transport, tool trace, final artifact, error, allowance, output tokens, and wall clock; check status, replay the same task, and only then call a capability regression or switch."
+    "A Google AI Developers Forum report says Gemini Deep Research Max and standard preview discover a remote MCP tool but never invoke it; the thread quotes GCP Support attributing the failure to a backend change. Max still writes a report without the private data. This is a serious grounding and product failure, not proof of weaker model weights.",
+    "A separate Gemini 3.8 Flash Agentic Video report describes seven of seven full-length files reaching 23 processing calls and 22 results before an internal error, with later attempts returning too-many-tool-calls. It is a repeated tool-loop failure, not a universal 23-call limit or a broad capability test.",
+    "Codex runtime telemetry compares five older and five newer high-reasoning Pro sessions: 0.499M to 0.662M tokens per minute, 3.515 to 4.610 steps per minute, and 3.027 to 4.740 observed allowance points per hour. Matched workloads finished about 43% faster, but no answer-quality measure or server ledger is available.",
+    "Claude’s current status snapshot lists Cowork on Windows in partial outage while claude.ai, Console, Claude API, and Claude Code are operational. That is a surface-availability finding, not a model-quality score.",
+    "Fresh Codex account and Reddit reports describe fast allowance depletion, stuck or slow Astra sessions, and unfinished tasks. They make the usable-window problem worth checking; they do not establish prevalence, server charging, or model decline.",
+    "Reader move: record initialize/list/call/result/final events, visible and effective model, surface, route, runtime, effort, context, task outcome, final artifact, retries, tokens, allowance, time, and cost before switching."
   ],
   "uncertainty": [
-    "The Gemini tool-selection result is one technically detailed Google API report, without independent replication, prevalence, or provider confirmation; consumer surfaces may differ.",
-    "Provider status and model documentation establish declared product state, not capability on a particular task or account.",
-    "Codex, Fable, and quota-cost reports are detailed self-reports with no server-side ledger or representative sample.",
-    "Beyond Benchmarks is a rolling task-mix-dependent field panel, Bug Hunt Bench is cross-sectional, and Marginlab covers narrow surfaces; none is a matched broad time series.",
-    "No public server-side reconciliation joins route, transport, safety, tool execution, quota, and final artifact for the reported workflows.",
-    "Analytics were unavailable, so no first-party retention, conversion, or prevalence signal was used."
+    "The GCP Support acknowledgement is quoted in a community thread with no public fix timeline or incident ID.",
+    "The Agentic Video evidence is one report with changed settings, prior longer successes, and no provider response or usage metadata.",
+    "Codex telemetry and quota reports are local or self-selected; they lack a server ledger and do not measure answer quality.",
+    "Claude status establishes declared component state, not every account experience or model capability.",
+    "No public matched longitudinal, cross-provider capability series or first-party audience analytics is available."
   ],
-  "checked_at": "2026-09-11T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-11T12:00:00Z",
-  "freshness_note": "Fresh public-source check completed 11 September 2026. The report is current for the checked sources; incident and field metrics are snapshots with explicit scope limits."
+  "checked_at": "2026-09-12T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-12T12:00:00Z",
+  "freshness_note": "Fresh public-source check completed 12 September 2026. The report is current for the checked sources; provider status, technical reports, and field signals remain snapshots with explicit scope limits."
 }

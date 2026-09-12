@@ -770,6 +770,126 @@
       "relation": "context",
       "publication_basis": "linked-summary",
       "source_url": "https://swft.io/companies/uber-software-factory"
+    },
+    {
+      "evidence_id": "evidence:gemini-mcp-backend-2026-09-12",
+      "source_type": "technical community report",
+      "source_url": "https://discuss.ai.google.dev/t/regression-gemini-deep-research-max-generates-an-ungrounded-report-after-discovering-but-never-invoking-mcp-tools/180801",
+      "title": "Gemini Deep Research MCP backend regression report",
+      "claim": "A public report says Gemini Deep Research Max and standard preview complete MCP initialize and tools/list but send no tools/call; Max produces a substantive report without retrieving private MCP data, while the MCP-only standard control produces no final output.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gemini-mcp-support-update-2026-09-12",
+      "source_type": "quoted provider-support reply in a technical forum",
+      "source_url": "https://discuss.ai.google.dev/t/regression-gemini-deep-research-max-generates-an-ungrounded-report-after-discovering-but-never-invoking-mcp-tools/180801",
+      "title": "GCP Support update quoted in Gemini MCP thread",
+      "claim": "The same thread quotes a GCP Support response attributing the skipped invocation to a backend change and an unintended CALL_TOOLS flow ablation; no public fix timeline is shown.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:gemini-agentic-video-2026-09-12",
+      "source_type": "technical community report",
+      "source_url": "https://discuss.ai.google.dev/t/gemini-3-8-flash-agentic-video-http-200-then-api-error-after-23-processing-calls/181801",
+      "title": "Gemini 3.8 Flash Agentic Video failure report",
+      "claim": "A report describes seven of seven full-length files reaching 23 processing calls and 22 results before an internal error, with later variants returning too-many-tool-calls and no final usage metadata.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-status-api-2026-09-12",
+      "source_type": "provider status API",
+      "source_url": "https://status.claude.com/api/v2/status.json",
+      "title": "Claude status API snapshot",
+      "claim": "Claude’s official status API reports a minor service outage in the current snapshot.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-status-components-2026-09-12",
+      "source_type": "provider status API",
+      "source_url": "https://status.claude.com/api/v2/components.json",
+      "title": "Claude component status snapshot",
+      "claim": "Claude Cowork is in partial outage while claude.ai, Console, Claude API, and Claude Code are operational.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-cowork-unresolved-2026-09-12",
+      "source_type": "provider status API",
+      "source_url": "https://status.claude.com/api/v2/incidents/unresolved.json",
+      "title": "Claude unresolved incident list",
+      "claim": "An identified Windows Cowork incident remains unresolved; chat and file operations mostly work while the workspace cannot reach the local drive after a Windows update.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-runtime-throughput-2026-09-12",
+      "source_type": "controlled public telemetry report",
+      "source_url": "https://github.com/openai/codex/issues/41541",
+      "title": "Codex runtime throughput comparison",
+      "claim": "A five-versus-five public comparison reports higher tokens per minute, model steps per minute, and observed allowance burn in runtime 0.150, with matched approximately 32.8M-token workloads finishing about 43% faster; it records no answer-quality measure or server ledger.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-same-day-quota-2026-09-12",
+      "source_type": "technical community report",
+      "source_url": "https://github.com/openai/codex/issues/43222",
+      "title": "Codex same-day quota reconciliation report",
+      "claim": "A same-account issue compares local token telemetry with a large weekly allowance movement across Astra and Sol but cannot prove server-side charging or reconcile hidden work, retries, cache, or buckets.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-current-community-2026-09-12",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wdl56p/codex_is_unusable_now/",
+      "title": "Current Codex usable-window thread",
+      "claim": "A current Reddit thread describes a familiar task failing to finish before limits and includes rapid-burn reports plus counterreports; the sample is self-selected.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-post-reset-community-2026-09-12",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wc4aqe/limits_are_absolutely_destroyed/",
+      "title": "Current post-reset Codex limit thread",
+      "claim": "A current Reddit thread describes a high-effort attempt consuming a large share of weekly allowance before completion, alongside mixed replies; task, route, and account controls are absent.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:processraven-agentic-costs-2026-09-12",
+      "source_type": "independent agent-cost report",
+      "source_url": "https://processraven.tech/reports/state-of-agentic-ai-costs-2026/",
+      "title": "The State of Agentic AI Costs 2026",
+      "claim": "ProcessRaven models a median $0.473 per balanced agent outcome and highlights planning, tool calls, retries, context rereads, and cost per successful outcome; estimates are illustrative, not provider bills.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:context-company-agent-observability-2026-09-12",
+      "source_type": "adjacent observability comparison",
+      "source_url": "https://www.thecontextcompany.com/compare/best-llm-observability-tools",
+      "title": "LLM observability versus agent observability",
+      "claim": "The Context Company comparison distinguishes single-call tracing from agent-level recurring-failure, multi-call workflow, and account analytics; this is product positioning, not adoption evidence.",
+      "accessed_at": "2026-09-12T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

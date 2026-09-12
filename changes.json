@@ -138,6 +138,36 @@
       "changed_at": "2026-09-11T12:00:00Z",
       "summary": "Added Bug Hunt Bench, current rolling field metrics, and tracker states as counterweights while preserving their different estimands and limits.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "gemini-mcp-backend-regression-2026-09-12",
+      "changed_at": "2026-09-12T12:00:00Z",
+      "summary": "Added a detailed Gemini Deep Research MCP report with a quoted GCP Support backend explanation; kept the missing tool call and ungrounded final report separate from model-weight decline.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "gemini-agentic-video-failure-2026-09-12",
+      "changed_at": "2026-09-12T12:00:00Z",
+      "summary": "Added a repeated Gemini 3.8 Agentic Video processing-call failure and its tool-loop, structured-output, usage, and prevalence limits.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "codex-runtime-usable-window-2026-09-12",
+      "changed_at": "2026-09-12T12:00:00Z",
+      "summary": "Added matched public Codex runtime telemetry and current account reports to separate faster step throughput and allowance pressure from answer quality.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "outcome-cost-receipt-2026-09-12",
+      "changed_at": "2026-09-12T12:00:00Z",
+      "summary": "Added fresh agent-cost and observability research and made tool lifecycle, final artifact, runtime, and cost per completed outcome explicit reader fields.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-12",
+      "changed_at": "2026-09-12T12:00:00Z",
+      "summary": "Updated the call: real Gemini backend and tool-loop failures plus Claude surface and Codex usable-window signals are current, but broad cross-model core-capability decline remains unproven.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }

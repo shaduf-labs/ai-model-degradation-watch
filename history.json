@@ -66,6 +66,17 @@
       "summary": "A repeated matched-context Gemini report adds the strongest capability-shaped lead yet, while Claude status and new Astra/Codex cost and transport evidence show why usable access and capability must stay separate. Independent replication and server-side attribution remain open.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-11.html",
       "entrypoint": "reports/2026-09-11.html"
+    },
+    {
+      "run_id": "run:f2eb0120-1eb6-4f14-8835-2ab70cba1fd9",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-12T12:00:00Z",
+      "completed_at": "2026-09-12T12:36:00Z",
+      "title": "A tool call can fail without the model getting dumber",
+      "summary": "Fresh reports add a quoted backend explanation for a Gemini Deep Research MCP failure, a repeated Gemini Agentic Video tool-loop failure, and controlled Codex runtime evidence of faster allowance consumption. Claude Cowork remains the current degraded component, while no broad cross-model core-capability decline is proven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-12.html",
+      "entrypoint": "reports/2026-09-12.html"
     }
   ]
 }
