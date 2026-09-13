@@ -1,27 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 12 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The evidence now includes a quoted GCP Support acknowledgement of a Gemini Deep Research MCP backend failure and a separate repeated Gemini 3.8 Agentic Video tool-processing failure, while Claude Cowork remains the only degraded Claude component in the current status snapshot and Codex telemetry points to higher runtime step frequency and shorter usable allowance windows. These are real changes around specific workflows; they do not establish a broad model-weight decline. Reproduce the exact tool lifecycle, inspect the final served model and artifact, and reconcile allowance before switching or naming capability degradation.",
+  "current_answer": "As of 13 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. But “not broadly worse” no longer means “nothing changed”: OpenAI documents a narrow GPT-6 Astra monitorability loss relative to GPT-5.6 Sol, and its guidance says context, skills, and completion boundaries can alter Astra’s behavior. A new Codex report adds adjacent-turn intent loss; another reports a 14% to 88% server-meter jump beside 98.1% cached local input. Snorkel’s 66-task Terminal-Bench places Astra and Fable 5.1 close at the top, a counterweight to collapse claims. Current status pages show OpenAI, Google Cloud, and Grok operational, while Claude Cowork remains degraded on Windows. Specific model-behavior, context, tool, product, and account-surface failures are real; broad weight decline remains unproven. Audit context and trace the final model, tool lifecycle, artifact, and allowance before switching.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad core-capability decline is proven. Google support reportedly traced one Gemini research failure to a backend tool-call regression, while a separate Gemini video path and Codex runtime show real surface and usable-window failures."
+    "text": "No broad core-capability decline is proven. But Astra has a documented monitorability regression, context-sensitive guidance, and fresh Codex agent/account failure reports, while an independent 66-task benchmark is a counterweight. Test the surface and trace before you switch."
   },
   "summary": [
-    "A Google AI Developers Forum report says Gemini Deep Research Max and standard preview discover a remote MCP tool but never invoke it; the thread quotes GCP Support attributing the failure to a backend change. Max still writes a report without the private data. This is a serious grounding and product failure, not proof of weaker model weights.",
-    "A separate Gemini 3.8 Flash Agentic Video report describes seven of seven full-length files reaching 23 processing calls and 22 results before an internal error, with later attempts returning too-many-tool-calls. It is a repeated tool-loop failure, not a universal 23-call limit or a broad capability test.",
-    "Codex runtime telemetry compares five older and five newer high-reasoning Pro sessions: 0.499M to 0.662M tokens per minute, 3.515 to 4.610 steps per minute, and 3.027 to 4.740 observed allowance points per hour. Matched workloads finished about 43% faster, but no answer-quality measure or server ledger is available.",
-    "Claude’s current status snapshot lists Cowork on Windows in partial outage while claude.ai, Console, Claude API, and Claude Code are operational. That is a surface-availability finding, not a model-quality score.",
-    "Fresh Codex account and Reddit reports describe fast allowance depletion, stuck or slow Astra sessions, and unfinished tasks. They make the usable-window problem worth checking; they do not establish prevalence, server charging, or model decline.",
-    "Reader move: record initialize/list/call/result/final events, visible and effective model, surface, route, runtime, effort, context, task outcome, final artifact, retries, tokens, allowance, time, and cost before switching."
+    "OpenAI’s Astra system card reports lower written-chain-of-thought monitorability than GPT-5.6 Sol in oversight-oriented evaluations while reporting stronger capabilities and alignment. That is a narrow model property, not a user-task quality score; the finding is largely adversarial and provider-authored.",
+    "OpenAI’s 11 September guidance says long or contradictory skills, AGENTS.md files, and prompts can crowd context, overconstrain Astra, trigger an early stop, reduce delegation, or expand testing. This is a real comparison variable when a workflow changes after a model update.",
+    "A 9 September Codex issue reports adjacent-turn intent loss, drift from an established reporting skill, and ineffective corrections on Astra. It is detailed but one self-selected workflow with no independent fresh-environment reproduction.",
+    "A separate Codex issue reports a server-provided weekly meter jumping from 14% to 88% used in one response. The associated record shows 200,123 total tokens; 98.1% of 55.3 million local input tokens across 232 responses was cached. This needs server reconciliation, not a billing verdict.",
+    "Terminal-Bench 4.0 reports Astra 58.2% ±2.8 and Fable 5.1 57.9% ±3.8 on a 66-task Harbor run; Sol is 37.3% ±3.8. Different agents, effort settings, costs, and the cross-sectional design make it a counterweight, not a longitudinal stability test.",
+    "Current status pages report OpenAI, Google Cloud, and Grok operational or without a broad severe incident. Claude Cowork is the exception: degraded on Windows while claude.ai, Console, Claude API, and Claude Code are operational.",
+    "Reader move: audit loaded context and completion boundaries; record visible and effective model, surface, route, runtime, tool lifecycle, final artifact, objective preservation, retries, tokens, allowance, time, and cost before switching."
   ],
   "uncertainty": [
-    "The GCP Support acknowledgement is quoted in a community thread with no public fix timeline or incident ID.",
-    "The Agentic Video evidence is one report with changed settings, prior longer successes, and no provider response or usage metadata.",
-    "Codex telemetry and quota reports are local or self-selected; they lack a server ledger and do not measure answer quality.",
-    "Claude status establishes declared component state, not every account experience or model capability.",
-    "No public matched longitudinal, cross-provider capability series or first-party audience analytics is available."
+    "The Astra monitorability result concerns oversight and adversarial evaluation, not ordinary task quality; OpenAI is the source and notes that absence of observed failures does not prove reliability.",
+    "The Codex intent and meter reports are single self-selected reports. Independent replay, causal attribution, and the provider’s allowance ledger are absent.",
+    "Terminal-Bench is cross-sectional and harness-dependent; Snorkel discloses its grant support and reviewer role.",
+    "Status pages are aggregate snapshots and do not test individual accounts, routes, tasks, or final artifacts.",
+    "No public matched longitudinal cross-provider capability series, independent Astra replay, or first-party audience analytics is available."
   ],
-  "checked_at": "2026-09-12T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-12T12:00:00Z",
-  "freshness_note": "Fresh public-source check completed 12 September 2026. The report is current for the checked sources; provider status, technical reports, and field signals remain snapshots with explicit scope limits."
+  "checked_at": "2026-09-13T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-13T12:00:00Z",
+  "freshness_note": "Fresh public-source check completed 13 September 2026. The new evidence sharpens a narrow Astra model-property lane and context confounder; provider status, issue reports, benchmark scores, and account telemetry remain dated snapshots with explicit scope limits."
 }

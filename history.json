@@ -77,6 +77,17 @@
       "summary": "Fresh reports add a quoted backend explanation for a Gemini Deep Research MCP failure, a repeated Gemini Agentic Video tool-loop failure, and controlled Codex runtime evidence of faster allowance consumption. Claude Cowork remains the current degraded component, while no broad cross-model core-capability decline is proven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-12.html",
       "entrypoint": "reports/2026-09-12.html"
+    },
+    {
+      "run_id": "run:f60a356b-89bc-4a01-89e8-6e41144237a9",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-13T12:00:00Z",
+      "completed_at": "2026-09-13T12:36:00Z",
+      "title": "Astra has a narrow monitorability regression; broad decline remains unproven",
+      "summary": "OpenAI documents lower Astra monitorability than Sol and warns that accumulated context can change follow-through. New Codex reports add intent drift and a sharp weekly-meter discontinuity, while Terminal-Bench supplies a cross-sectional performance counterweight; current status pages still point to a Claude Cowork surface issue rather than a broad model decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-13.html",
+      "entrypoint": "reports/2026-09-13.html"
     }
   ]
 }

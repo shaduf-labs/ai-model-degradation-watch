@@ -168,6 +168,42 @@
       "changed_at": "2026-09-12T12:00:00Z",
       "summary": "Updated the call: real Gemini backend and tool-loop failures plus Claude surface and Codex usable-window signals are current, but broad cross-model core-capability decline remains unproven.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-13",
+      "changed_at": "2026-09-13T12:00:00Z",
+      "summary": "Updated the call: no broad cross-model core-capability decline is proven, but Astra monitorability, context sensitivity, Codex intent drift, and account-meter discontinuity are now explicit narrow lanes.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "astra-monitorability-lane-2026-09-13",
+      "changed_at": "2026-09-13T12:00:00Z",
+      "summary": "Added OpenAI’s provider-documented Astra monitorability regression and separated oversight visibility from ordinary task quality.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "context-audit-method-2026-09-13",
+      "changed_at": "2026-09-13T12:00:00Z",
+      "summary": "Added a context-audit method for skills, AGENTS.md, prompt pressure, and completion boundaries before attributing early stops or correction failure to model weights.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "codex-intent-and-meter-leads-2026-09-13",
+      "changed_at": "2026-09-13T12:00:00Z",
+      "summary": "Added fresh Codex intent-drift and weekly-meter discontinuity reports with explicit independent-replay and server-ledger limits.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "terminal-bench-counterweight-2026-09-13",
+      "changed_at": "2026-09-13T12:00:00Z",
+      "summary": "Added Terminal-Bench 4.0 as a disclosed cross-sectional counterweight, keeping model-agent-effort and task-set limits visible.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "outcome-observability-demand-2026-09-13",
+      "changed_at": "2026-09-13T12:00:00Z",
+      "summary": "Updated the audience signal: trajectory, user intent, completed outcome, and persistent allowance visibility are the useful unit, not a satisfaction score or token total alone.",
+      "path": "/p/ai-model-degradation-watch/research/"
     }
   ]
 }

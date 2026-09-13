@@ -890,6 +890,106 @@
       "accessed_at": "2026-09-12T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-astra-monitorability-2026-09-13",
+      "source_type": "provider system card",
+      "source_url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "title": "GPT-6 Astra system card",
+      "claim": "OpenAI reports lower written-chain-of-thought monitorability for Astra than GPT-5.6 Sol in oversight-oriented evaluations while reporting stronger capabilities and alignment; the result is a narrow model property, not ordinary task-quality evidence.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-astra-context-guidance-2026-09-13",
+      "source_type": "provider guidance",
+      "source_url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+      "title": "Rethinking skills and prompts for GPT-6 Astra",
+      "claim": "OpenAI says bloated or contradictory skills and AGENTS.md files can crowd context and steer the wrong workflow, while Astra may stop for review, delegate less, or over-test; context is a live confounder for early-stop and drift reports.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-context-intent-2026-09-13",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/44136",
+      "title": "Codex adjacent-turn intent regression",
+      "claim": "An open issue reports Astra losing conversational intent across adjacent turns, drifting from an established reporting skill, and failing to apply corrections; independent reproduction is not established.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-meter-discontinuity-2026-09-13",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/44213",
+      "title": "Codex weekly meter discontinuity",
+      "claim": "An open issue reports a server-provided weekly meter moving from 14% to 88% used in one response beside 200,123 total tokens and 98.1% cached local input across the recorded workload; it is a reconciliation lead, not proof of a bad charge.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:terminal-bench-counterweight-2026-09-13",
+      "source_type": "independent benchmark",
+      "source_url": "https://snorkel.ai/leaderboard/terminal-bench-4-0/",
+      "title": "Terminal-Bench 4.0",
+      "claim": "The 66-task Harbor leaderboard reports Astra 58.2% ±2.8, Fable 5.1 57.9% ±3.8, Sol 37.3% ±3.8, and Gemini 3.8 Flash 19.1% ±3.4; the model-agent-effort tuple and cross-sectional design limit inference.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:provider-status-current-2026-09-13",
+      "source_type": "provider status pages",
+      "source_url": "https://status.openai.com/",
+      "title": "Provider status snapshot",
+      "claim": "OpenAI, Google Cloud, and Grok Web report operational service or no broad severe incident in the current check; these records describe availability, not capability.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-status-current-2026-09-13",
+      "source_type": "provider status API",
+      "source_url": "https://status.claude.com/api/v2/components.json",
+      "title": "Claude component status",
+      "claim": "Claude Cowork is degraded while claude.ai, Console, Claude API, and Claude Code are operational; an identified Windows Cowork incident remains unresolved.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:monitrllm-outcome-eval-2026-09-13",
+      "source_type": "research paper",
+      "source_url": "https://arxiv.org/abs/2608.02409",
+      "title": "MonitrLLM",
+      "claim": "A community-centered evaluation paper links conversation trajectories to user intent and outcomes; its 26-student feasibility pilot is a design signal, not an audience estimate.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:inngest-eval-observability-2026-09-13",
+      "source_type": "industry survey",
+      "source_url": "https://www.inngest.com/assets/reports/2026-benchmark/2026-durable-execution-benchmark-report.pdf",
+      "title": "2026 Durable Execution Benchmark Report",
+      "claim": "A 143-respondent survey reports hard-to-write evaluations, judge cost, disconnected results, and no action after failed evaluation as category gaps; this supports outcome-linked observability demand, not market size.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-statusline-demand-2026-09-13",
+      "source_type": "official repository feature request",
+      "source_url": "https://github.com/openai/codex/issues/44800",
+      "title": "Codex global usage status line request",
+      "claim": "A MacOS Codex App user asks for an always-visible seven-day allowance, reset, and burn-rate indicator across concurrent chats; one feature request is audience discovery, not prevalence.",
+      "accessed_at": "2026-09-13T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
