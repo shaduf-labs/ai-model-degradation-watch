@@ -990,6 +990,146 @@
       "accessed_at": "2026-09-13T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:artificial-analysis-astra-mixed-2026-09-14",
+      "source_type": "independent benchmark",
+      "source_url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
+      "title": "Artificial Analysis GPT-6 Astra benchmark",
+      "claim": "Artificial Analysis reports Astra strong on several intelligence and coding measures but about 45 Elo below GPT-5.6 Sol on GDPval-AA v2 and lower on presentation quality.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra26-tool-stack-sensitivity-2026-09-14",
+      "source_type": "independent evaluation",
+      "source_url": "https://research.site/astra-26",
+      "title": "Astra-26 deep-research arena",
+      "claim": "The same broad Astra setup is reported at 42.3% to 23.1% accuracy across search backends, with a 30-call ceiling and 10 of 26 tasks unsolved by all backends.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-model-capacity-2026-09-14",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/45368",
+      "title": "Codex capacity despite displayed quota",
+      "claim": "A current Windows issue reports model-capacity errors despite a displayed 100% allowance; this is access evidence, not a model-quality measure.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-browser-session-2026-09-14",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/45366",
+      "title": "Codex browser session failure",
+      "claim": "A current issue reports browser/computer use failing within a session after initialization while a new thread succeeds; root cause and prevalence are unresolved.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-tool-output-race-2026-09-14",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/44604",
+      "title": "Codex missing tool output race",
+      "claim": "A detailed issue reports a tool-output ordering race that triggers a missing-output rejection and can wedge a thread until restart.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-premium-limit-2026-09-14",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/44234",
+      "title": "Codex premium limit anomaly",
+      "claim": "An issue reports usage-limit errors with displayed allowance remaining and inconsistent bucket/reset metadata; server reconciliation is absent.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-quota-observatory-2026-09-14",
+      "source_type": "independent observatory",
+      "source_url": "https://codex-quota.manetli.com/",
+      "title": "Codex quota observatory",
+      "claim": "A one-account observatory estimates higher Astra quota cost per task despite fewer tokens; it does not measure answer quality or expose the provider ledger.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ai-user-experience-index-2026-09-14",
+      "source_type": "direct competitor tracker",
+      "source_url": "https://isaidumber.today/",
+      "title": "AI user-experience index",
+      "claim": "A live alternative displays 1,002 recent opinions and model-baseline issue labels; denominator and task ground truth are not shown.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-codex-codemap-2026-09-14",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/OpenaiCodex/comments/1wftb4d/five-days-improving-a-codesearch-mcp-with-codex/",
+      "title": "Codex code-search MCP project report",
+      "claim": "A detailed project report describes 2.5–3 weekly allowances, heavy cache, repeated correction of evaluation criteria, and reluctance to delegate without verification.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-perplexity-astra-case-2026-09-14",
+      "source_type": "provider customer story",
+      "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
+      "title": "OpenAI Perplexity Astra case study",
+      "claim": "OpenAI quotes Perplexity using Astra for end-to-end work with less frequent checking; this is provider-authored positive context, not independent generalization.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-model-release-perceptions-2026-09-14",
+      "source_type": "research paper",
+      "source_url": "https://arxiv.org/abs/2608.24654",
+      "title": "Long-run Reddit model-release perceptions",
+      "claim": "A research paper reports that model-release perceptions shift dynamically across provider communities; the finding is audience context, not a quality or market-size measure.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-current-2026-09-14",
+      "source_type": "provider status history",
+      "source_url": "https://status.openai.com/history",
+      "title": "OpenAI status history",
+      "claim": "OpenAI’s history lists recent resolved incidents affecting work surfaces, API requests, Projects, and usage-limit behavior; status establishes availability events, not capability.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-status-current-2026-09-14",
+      "source_type": "provider status",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude current status",
+      "claim": "Claude’s status still identifies degraded Windows Cowork while core web, API, Console, and Code surfaces are operational.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:xai-status-current-2026-09-14",
+      "source_type": "provider status",
+      "source_url": "https://status.x.ai/grok-com",
+      "title": "Grok Web current status",
+      "claim": "Grok Web reports no active issue in the checked snapshot; this is availability context, not a model evaluation.",
+      "accessed_at": "2026-09-14T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

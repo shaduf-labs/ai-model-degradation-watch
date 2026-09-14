@@ -1,28 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 13 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. But “not broadly worse” no longer means “nothing changed”: OpenAI documents a narrow GPT-6 Astra monitorability loss relative to GPT-5.6 Sol, and its guidance says context, skills, and completion boundaries can alter Astra’s behavior. A new Codex report adds adjacent-turn intent loss; another reports a 14% to 88% server-meter jump beside 98.1% cached local input. Snorkel’s 66-task Terminal-Bench places Astra and Fable 5.1 close at the top, a counterweight to collapse claims. Current status pages show OpenAI, Google Cloud, and Grok operational, while Claude Cowork remains degraded on Windows. Specific model-behavior, context, tool, product, and account-surface failures are real; broad weight decline remains unproven. Audit context and trace the final model, tool lifecycle, artifact, and allowance before switching.",
+  "current_answer": "As of 14 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The new independent evidence is mixed rather than exculpatory: Artificial Analysis reports Astra materially ahead of GPT-5.6 Sol on several intelligence and coding measures but about 45 Elo lower on GDPval-AA v2 and lower presentation-quality Elo; a same-model Astra-26 study shows tool stack and call budget can swing results. Current Codex reports add capacity errors despite displayed quota, session-persistent browser failures, and tool-output races; an independent one-account observatory estimates Astra consumes more quota per task despite fewer tokens. Specific capability slices, context/tool behavior, product, access, and economics can move separately. Audit context, served model, tool lifecycle, artifact, and allowance before switching.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad core-capability decline is proven. But Astra has a documented monitorability regression, context-sensitive guidance, and fresh Codex agent/account failure reports, while an independent 66-task benchmark is a counterweight. Test the surface and trace before you switch."
+    "text": "No broad decline is proven, but “not worse” is too simple: Astra leads several independent tests while trailing Sol on one work benchmark, and Codex users still report capacity, tool, and quota failures. Trace the surface before you switch."
   },
   "summary": [
-    "OpenAI’s Astra system card reports lower written-chain-of-thought monitorability than GPT-5.6 Sol in oversight-oriented evaluations while reporting stronger capabilities and alignment. That is a narrow model property, not a user-task quality score; the finding is largely adversarial and provider-authored.",
-    "OpenAI’s 11 September guidance says long or contradictory skills, AGENTS.md files, and prompts can crowd context, overconstrain Astra, trigger an early stop, reduce delegation, or expand testing. This is a real comparison variable when a workflow changes after a model update.",
-    "A 9 September Codex issue reports adjacent-turn intent loss, drift from an established reporting skill, and ineffective corrections on Astra. It is detailed but one self-selected workflow with no independent fresh-environment reproduction.",
-    "A separate Codex issue reports a server-provided weekly meter jumping from 14% to 88% used in one response. The associated record shows 200,123 total tokens; 98.1% of 55.3 million local input tokens across 232 responses was cached. This needs server reconciliation, not a billing verdict.",
-    "Terminal-Bench 4.0 reports Astra 58.2% ±2.8 and Fable 5.1 57.9% ±3.8 on a 66-task Harbor run; Sol is 37.3% ±3.8. Different agents, effort settings, costs, and the cross-sectional design make it a counterweight, not a longitudinal stability test.",
-    "Current status pages report OpenAI, Google Cloud, and Grok operational or without a broad severe incident. Claude Cowork is the exception: degraded on Windows while claude.ai, Console, Claude API, and Claude Code are operational.",
-    "Reader move: audit loaded context and completion boundaries; record visible and effective model, surface, route, runtime, tool lifecycle, final artifact, objective preservation, retries, tokens, allowance, time, and cost before switching."
+    "No broad cross-model core-capability decline is proven, but the new evidence is mixed rather than cleanly reassuring.",
+    "Artificial Analysis reports Astra ahead of Sol on several intelligence and coding measures while about 45 Elo lower on GDPval-AA v2 and lower on presentation quality; this is cross-sectional, not a temporal decline test.",
+    "Astra-26 holds the model and broad task setup constant while search backends produce 42.3% to 23.1% reported accuracy, showing why tool stack and call budget belong in the comparison.",
+    "Fresh Codex reports describe capacity errors despite displayed allowance, session-persistent browser failure, and a tool-output race that can wedge a thread. These are product, access, and transport leads.",
+    "A one-account quota observatory estimates Astra uses more quota per task despite fewer tokens; it measures no answer quality and has no provider ledger.",
+    "OpenAI, Google Cloud, and Grok status records do not show a broad active incident in the checked snapshot; Claude Cowork remains degraded on Windows. Status is availability evidence, not quality evidence.",
+    "Reader move: audit context, record the served model and tool lifecycle, verify the artifact, and reconcile allowance before switching."
   ],
   "uncertainty": [
-    "The Astra monitorability result concerns oversight and adversarial evaluation, not ordinary task quality; OpenAI is the source and notes that absence of observed failures does not prove reliability.",
-    "The Codex intent and meter reports are single self-selected reports. Independent replay, causal attribution, and the provider’s allowance ledger are absent.",
-    "Terminal-Bench is cross-sectional and harness-dependent; Snorkel discloses its grant support and reviewer role.",
-    "Status pages are aggregate snapshots and do not test individual accounts, routes, tasks, or final artifacts.",
-    "No public matched longitudinal cross-provider capability series, independent Astra replay, or first-party audience analytics is available."
+    "Artificial Analysis and Astra-26 are cross-sectional or harness-specific and do not establish a temporal weights decline.",
+    "Fresh Codex incidents are self-selected issue reports with no prevalence or independent reproduction.",
+    "The quota observatory covers one account and no task-quality outcome; provider allowance weighting is unknown.",
+    "Status pages are aggregate snapshots; no public matched longitudinal cross-provider capability series or first-party audience analytics is available."
   ],
-  "checked_at": "2026-09-13T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-13T12:00:00Z",
-  "freshness_note": "Fresh public-source check completed 13 September 2026. The new evidence sharpens a narrow Astra model-property lane and context confounder; provider status, issue reports, benchmark scores, and account telemetry remain dated snapshots with explicit scope limits."
+  "checked_at": "2026-09-14T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-14T12:00:00Z",
+  "freshness_note": "Fresh public-source check completed 14 September 2026. Independent benchmark results now show a real mixed task-slice picture; current access, tool, and quota reports show why capability, availability, affordability, and verifiability must remain separate."
 }

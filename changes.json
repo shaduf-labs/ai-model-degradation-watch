@@ -204,6 +204,36 @@
       "changed_at": "2026-09-13T12:00:00Z",
       "summary": "Updated the audience signal: trajectory, user intent, completed outcome, and persistent allowance visibility are the useful unit, not a satisfaction score or token total alone.",
       "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "mixed-independent-benchmark-2026-09-14",
+      "changed_at": "2026-09-14T12:00:00Z",
+      "summary": "Added Artificial Analysis’s mixed Astra-versus-Sol result: broad gains alongside a lower GDPval-AA v2 and presentation-quality slice.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-14.html"
+    },
+    {
+      "change_id": "tool-stack-harness-sensitivity-2026-09-14",
+      "changed_at": "2026-09-14T12:00:00Z",
+      "summary": "Added Astra-26 evidence that search backend and call budget can swing same-model research outcomes.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-14.html"
+    },
+    {
+      "change_id": "codex-surface-failures-2026-09-14",
+      "changed_at": "2026-09-14T12:00:00Z",
+      "summary": "Added current Codex capacity, session, and tool-output failure leads and kept them separate from capability claims.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-14.html"
+    },
+    {
+      "change_id": "quota-economics-observatory-2026-09-14",
+      "changed_at": "2026-09-14T12:00:00Z",
+      "summary": "Added a preliminary one-account quota-per-task observatory and the explicit limit that it measures no answer quality.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-14.html"
+    },
+    {
+      "change_id": "audience-baseline-index-2026-09-14",
+      "changed_at": "2026-09-14T12:00:00Z",
+      "summary": "Added a direct competitor’s live better/worse index and reframed the product as a fast check-in opening into a source-separated receipt.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-14.html"
     }
   ]
 }

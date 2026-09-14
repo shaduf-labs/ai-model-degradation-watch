@@ -88,6 +88,17 @@
       "summary": "OpenAI documents lower Astra monitorability than Sol and warns that accumulated context can change follow-through. New Codex reports add intent drift and a sharp weekly-meter discontinuity, while Terminal-Bench supplies a cross-sectional performance counterweight; current status pages still point to a Claude Cowork surface issue rather than a broad model decline.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-13.html",
       "entrypoint": "reports/2026-09-13.html"
+    },
+    {
+      "run_id": "run:2e6e71fd-ea4f-496f-9bc3-0404fdf5fe3f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-14T12:00:00Z",
+      "completed_at": "2026-09-14T12:30:00Z",
+      "title": "Astra is mixed on benchmarks; the work system still breaks around it",
+      "summary": "Artificial Analysis adds a real negative work slice beside Astra’s benchmark gains, Astra-26 shows tool-stack sensitivity, and current Codex reports add capacity, session, tool, and allowance failures. No broad cross-model core-capability decline is proven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-14.html",
+      "entrypoint": "reports/2026-09-14.html"
     }
   ]
 }
