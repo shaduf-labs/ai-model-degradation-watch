@@ -234,6 +234,36 @@
       "changed_at": "2026-09-14T12:00:00Z",
       "summary": "Added a direct competitor’s live better/worse index and reframed the product as a fast check-in opening into a source-separated receipt.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-14.html"
+    },
+    {
+      "change_id": "usable-window-control-2026-09-15",
+      "changed_at": "2026-09-15T12:00:00Z",
+      "summary": "Added a detailed GPT-5.6 Sol control report showing two exhausted five-hour windows on one unfinished task, separating usable-window economics from an Astra-only capability story.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-15.html"
+    },
+    {
+      "change_id": "provider-status-work-mode-2026-09-15",
+      "changed_at": "2026-09-15T12:00:00Z",
+      "summary": "Added resolved OpenAI Work Mode and GPT-5.6 paid-plan incidents as current availability evidence, explicitly separate from model-quality decline.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-15.html"
+    },
+    {
+      "change_id": "allowance-attribution-guide-2026-09-15",
+      "changed_at": "2026-09-15T12:00:00Z",
+      "summary": "Added provider guidance that model, task, context, effort, Fast mode, and multistep work change allowance use; higher effort is not a quality guarantee.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "evidence-receipt-competitor-scan-2026-09-15",
+      "changed_at": "2026-09-15T12:00:00Z",
+      "summary": "Added fresh community-hub and competitor evidence showing demand for structured incident receipts while keeping sparse participation and attention metrics out of the verdict.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-15",
+      "changed_at": "2026-09-15T12:00:00Z",
+      "summary": "Updated the call: a broken or expensive assembled work system is now better supported than a broad weight decline, while Astra’s mixed benchmark lane remains open.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }

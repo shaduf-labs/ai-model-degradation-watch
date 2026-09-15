@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 14 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The new independent evidence is mixed rather than exculpatory: Artificial Analysis reports Astra materially ahead of GPT-5.6 Sol on several intelligence and coding measures but about 45 Elo lower on GDPval-AA v2 and lower presentation-quality Elo; a same-model Astra-26 study shows tool stack and call budget can swing results. Current Codex reports add capacity errors despite displayed quota, session-persistent browser failures, and tool-output races; an independent one-account observatory estimates Astra consumes more quota per task despite fewer tokens. Specific capability slices, context/tool behavior, product, access, and economics can move separately. Audit context, served model, tool lifecycle, artifact, and allowance before switching.",
+  "current_answer": "As of 15 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The new signal is sharper on usable access: OpenAI's status history records resolved Work Mode and GPT-5.6 paid-plan errors on 15 September, while a fresh Sol High report says one bounded task exhausted two five-hour windows with 10.7M cached input tokens and remained incomplete. Official guidance says model, task, context, reasoning, Fast mode, and multistep work all change allowance use. Astra still has a real mixed benchmark picture—strong gains beside a GDPval/presentation slice loss—but current evidence points to a broken or expensive assembled work system more confidently than to broad weight decline. Audit surface, context, served model, tool trace, artifact, and allowance before switching.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad decline is proven, but “not worse” is too simple: Astra leads several independent tests while trailing Sol on one work benchmark, and Codex users still report capacity, tool, and quota failures. Trace the surface before you switch."
+    "text": "No broad decline is proven—but today’s answer is worse as a work-system diagnosis: OpenAI logged fresh Work Mode/GPT-5.6 errors, and a Sol control burned two five-hour windows on one unfinished task. Check the lane before blaming the weights."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven, but the new evidence is mixed rather than cleanly reassuring.",
-    "Artificial Analysis reports Astra ahead of Sol on several intelligence and coding measures while about 45 Elo lower on GDPval-AA v2 and lower on presentation quality; this is cross-sectional, not a temporal decline test.",
-    "Astra-26 holds the model and broad task setup constant while search backends produce 42.3% to 23.1% reported accuracy, showing why tool stack and call budget belong in the comparison.",
-    "Fresh Codex reports describe capacity errors despite displayed allowance, session-persistent browser failure, and a tool-output race that can wedge a thread. These are product, access, and transport leads.",
-    "A one-account quota observatory estimates Astra uses more quota per task despite fewer tokens; it measures no answer quality and has no provider ledger.",
-    "OpenAI, Google Cloud, and Grok status records do not show a broad active incident in the checked snapshot; Claude Cowork remains degraded on Windows. Status is availability evidence, not quality evidence.",
-    "Reader move: audit context, record the served model and tool lifecycle, verify the artifact, and reconcile allowance before switching."
+    "No broad cross-model core-capability decline is proven, but the usable-work system has a sharper current failure signal.",
+    "OpenAI status records list resolved Work Mode errors and GPT-5.6/GPT-5.6 Instant paid-plan errors on 15 September; that is availability evidence, not a weight-change finding.",
+    "A fresh GPT-5.6 Sol High issue reports two exhausted five-hour windows on one incomplete task, with 10.7M cached input tokens and weekly allowance moving from 53% to 37%.",
+    "A separate Plus issue reports an idle weekly-meter jump and reset-date change before a limit rejection; account reconciliation is still missing.",
+    "OpenAI’s usage guide says model, task, context, output, reasoning effort, Fast mode, and multistep work change allowance use; higher effort does not always improve results.",
+    "Astra’s independent benchmark picture remains mixed: strong intelligence/coding slices alongside a GDPval-AA v2 and presentation-quality loss, with no temporal decline test.",
+    "Reader move: record surface, route, context, effort, cached input, tool trace, artifact, allowance, and provider status; replay with a control before switching."
   ],
   "uncertainty": [
-    "Artificial Analysis and Astra-26 are cross-sectional or harness-specific and do not establish a temporal weights decline.",
-    "Fresh Codex incidents are self-selected issue reports with no prevalence or independent reproduction.",
-    "The quota observatory covers one account and no task-quality outcome; provider allowance weighting is unknown.",
-    "Status pages are aggregate snapshots; no public matched longitudinal cross-provider capability series or first-party audience analytics is available."
+    "Fresh status incidents establish availability failures, not a model-weight change or prevalence estimate.",
+    "The Sol quota report is one uncontrolled account report without server-ledger reconciliation or a matched Astra task.",
+    "Astra benchmark results remain cross-sectional or harness-specific; no public matched longitudinal cross-provider capability series is available.",
+    "No first-party audience analytics, representative prevalence sample, or willingness-to-pay evidence is available."
   ],
-  "checked_at": "2026-09-14T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-14T12:00:00Z",
-  "freshness_note": "Fresh public-source check completed 14 September 2026. Independent benchmark results now show a real mixed task-slice picture; current access, tool, and quota reports show why capability, availability, affordability, and verifiability must remain separate."
+  "checked_at": "2026-09-15T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-15T12:00:00Z",
+  "freshness_note": "Fresh public-source check completed 15 September 2026. Official incidents and a non-Astra Sol control materially sharpen the usable-access diagnosis while leaving broad capability decline unproven."
 }

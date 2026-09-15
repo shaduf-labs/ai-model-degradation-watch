@@ -99,6 +99,17 @@
       "summary": "Artificial Analysis adds a real negative work slice beside Astra’s benchmark gains, Astra-26 shows tool-stack sensitivity, and current Codex reports add capacity, session, tool, and allowance failures. No broad cross-model core-capability decline is proven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-14.html",
       "entrypoint": "reports/2026-09-14.html"
+    },
+    {
+      "run_id": "run:ff5d820e-119f-4fa2-8225-bc1eaedef829",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-15T12:00:00Z",
+      "completed_at": "2026-09-15T12:30:00Z",
+      "title": "The quota problem is not Astra-only",
+      "summary": "Fresh OpenAI status incidents and a Sol control show a broken or expensive work system more clearly than a broad capability decline; model-quality evidence remains mixed and scoped.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-15.html",
+      "entrypoint": "reports/2026-09-15.html"
     }
   ]
 }

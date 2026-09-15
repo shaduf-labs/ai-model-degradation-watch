@@ -1130,6 +1130,116 @@
       "accessed_at": "2026-09-14T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-history-2026-09-15",
+      "source_url": "https://status.openai.com/history",
+      "claim": "OpenAI’s history listed resolved GPT-5.6 paid-plan errors and Work Mode errors on 15 September; this is availability evidence, not a capability test.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "title": "OpenAI status history",
+      "source_type": "provider status history"
+    },
+    {
+      "evidence_id": "evidence:openai-gpt56-paid-2026-09-15",
+      "source_url": "https://status.openai.com/incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
+      "claim": "The GPT-5.6/GPT-5.6 Instant paid-plan error incident was resolved after mitigation within the recorded window.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Elevated errors from GPT-5.6 and GPT-5.6 Instant",
+      "source_type": "provider status incident"
+    },
+    {
+      "evidence_id": "evidence:openai-work-mode-2026-09-15",
+      "source_url": "https://status.openai.com/incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
+      "claim": "The Work Mode incident records errors starting or resuming tasks and limited workspace tools/files for some Plus users before recovery.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "title": "Elevated errors affecting Work Mode in ChatGPT",
+      "source_type": "provider status incident"
+    },
+    {
+      "evidence_id": "evidence:openai-codex-sol-quota-2026-09-15",
+      "source_url": "https://github.com/openai/codex/issues/45411",
+      "claim": "A Sol High report describes two exhausted five-hour windows on one incomplete task, including 10.7M cached input tokens and weekly allowance moving from 53% to 37%; it asks for server reconciliation.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "title": "Codex Sol High two-window report",
+      "source_type": "official repository issue"
+    },
+    {
+      "evidence_id": "evidence:openai-codex-idle-meter-2026-09-15",
+      "source_url": "https://github.com/openai/codex/issues/44233",
+      "claim": "A Windows Plus report describes weekly allowance disappearing while idle, a reset-date change, and a later usage-limit rejection.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "title": "Codex idle meter and reset report",
+      "source_type": "official repository issue"
+    },
+    {
+      "evidence_id": "evidence:openai-usage-guide-2026-09-15",
+      "source_url": "https://help.openai.com/pt-br/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex",
+      "claim": "OpenAI says shared allowance depends on plan, workspace, model, task, inputs, outputs, effort, Fast mode, and multistep work; higher effort can use more without always improving results.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "title": "Managing usage with GPT-6 Astra in Work and Codex",
+      "source_type": "provider usage guide"
+    },
+    {
+      "evidence_id": "evidence:reddit-claude-performance-hub-2026-09-15",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wguzo8/performance_and_bugs_discussion_hub_updated_on_15/",
+      "claim": "A current Claude community hub describes high traffic, asks for prompts, responses, platform, time, and screenshots, and publishes report logs.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Claude performance and bugs discussion hub",
+      "source_type": "community hub"
+    },
+    {
+      "evidence_id": "evidence:polairity-sparse-signals-2026-09-15",
+      "source_url": "https://www.polairity.io/",
+      "claim": "Polairity exposes provider/model/harness signal context but its current page shows four signals from one person in the last 30 days.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "title": "Polairity AI signals",
+      "source_type": "direct competitor tracker"
+    },
+    {
+      "evidence_id": "evidence:hypebench-attention-2026-09-15",
+      "source_url": "https://hypebench.buzz/",
+      "claim": "HypeBench ranks attention and explicitly separates hype from quality.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "title": "HypeBench AI attention tracker",
+      "source_type": "direct competitor tracker"
+    },
+    {
+      "evidence_id": "evidence:nerfedornot-crowd-signal-2026-09-15",
+      "source_url": "https://nerfedornot.com/",
+      "claim": "NerfedOrNot frames anonymous crowd votes and issue labels as a signal, not proof.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "title": "NerfedOrNot crowd signal",
+      "source_type": "direct competitor tracker"
+    },
+    {
+      "evidence_id": "evidence:benchmark-radar-evaluation-limits-2026-09-15",
+      "source_url": "https://benchmark-radar.org/blog/2026-09-14/",
+      "claim": "Benchmark Radar warns that keyword-filtered sightings do not establish validity, representativeness, stable versions, or deployed value, and calls for reproduction and production validation.",
+      "accessed_at": "2026-09-15T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Benchmark Radar evaluation limits",
+      "source_type": "benchmark monitor"
     }
   ]
 }
