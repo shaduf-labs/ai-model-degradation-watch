@@ -1240,6 +1240,176 @@
       "publication_basis": "linked-summary",
       "title": "Benchmark Radar evaluation limits",
       "source_type": "benchmark monitor"
+    },
+    {
+      "evidence_id": "evidence:openai-status-history-2026-09-16",
+      "source_url": "https://status.openai.com/history",
+      "claim": "OpenAI’s status history records a resolved gpt-image-2.5-flare elevated-error incident on 16 September alongside earlier model and Work incidents; status history is availability evidence, not a capability test.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "OpenAI status history",
+      "source_type": "provider status history"
+    },
+    {
+      "evidence_id": "evidence:openai-image-flare-2026-09-16",
+      "source_url": "https://status.openai.com/incidents/01M2KQNE5C42NEZPX6V01NHH5W",
+      "claim": "OpenAI’s incident record says elevated image-generation/editing errors for gpt-image-2.5-flare were resolved at 00:30 UTC on 16 September after investigation late on 15 September.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "OpenAI gpt-image-2.5-flare incident",
+      "source_type": "provider incident record"
+    },
+    {
+      "evidence_id": "evidence:astra-capacity-quality-2026-09-16",
+      "source_url": "https://github.com/openai/codex/issues/44851",
+      "claim": "An open Codex report compares the same requested Astra task before and after a reported account-capacity throttle: 14.4 KB with browser checks versus 5.8 KB CSS-only, with six post-event runs below the earlier result. It is one account report and the served model is unknown.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary",
+      "title": "Codex issue #44851: Astra capacity and output quality",
+      "source_type": "official repository issue"
+    },
+    {
+      "evidence_id": "evidence:codex-model-provenance-2026-09-16",
+      "source_url": "https://github.com/openai/codex/issues/44598",
+      "claim": "A Codex report finds requested Sol, assistant identity, and inspected client records do not expose a provider-returned effective model; client-visible identity is not serving provenance.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "title": "Codex issue #44598: serving-model provenance",
+      "source_type": "official repository issue"
+    },
+    {
+      "evidence_id": "evidence:codex-context-amplification-2026-09-16",
+      "source_url": "https://github.com/openai/codex/issues/44884",
+      "claim": "A separate Codex issue reports long tool-heavy cached-context amplification in Astra, Sol, Terra, and Luna and no meter discontinuity in its analyzed window; it does not measure quality or disclose server quota rules.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "title": "Codex issue #44884: cached-context amplification",
+      "source_type": "official repository issue"
+    },
+    {
+      "evidence_id": "evidence:codex-sol-frontend-quality-2026-09-16",
+      "source_url": "https://github.com/openai/codex/issues/45801",
+      "claim": "A separate Sol issue reports recurring frontend, design, and project-execution quality problems but supplies no controlled baseline or independent reproduction.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Codex issue #45801: Sol frontend quality complaint",
+      "source_type": "official repository issue"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-2026-09-16",
+      "source_url": "https://anthropic.statuspage.io/",
+      "claim": "Anthropic’s public status page was operational with no incident reported on 16 September at the check time.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Anthropic status",
+      "source_type": "provider status page"
+    },
+    {
+      "evidence_id": "evidence:anthropic-model-error-2026-09-16",
+      "source_url": "https://anthropic.statuspage.io/incidents/6304r9jjhj34",
+      "claim": "Anthropic’s incident record reports intermittent Fable 5.1 and Mythos 5.1 errors across claude.ai, API, Code, and Cowork on 15 September, resolved at 11:14 UTC.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Anthropic Fable and Mythos error incident",
+      "source_type": "provider incident record"
+    },
+    {
+      "evidence_id": "evidence:xai-status-2026-09-16",
+      "source_url": "https://status.x.ai/",
+      "claim": "xAI’s public status page showed its listed services available at the check time; this is an availability snapshot, not a quality comparison.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "xAI status",
+      "source_type": "provider status page"
+    },
+    {
+      "evidence_id": "evidence:reddit-chatgpt-work-quality-2026-09-16",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1wfctez/my_chatgpt_work_quality_has_degraded_massively/",
+      "claim": "A 13 September ChatGPT post describes slower simple work, repeated corrections, red errors, plan limits, and lost context; it is a self-selected work-friction report.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "ChatGPT work-quality complaint",
+      "source_type": "community report"
+    },
+    {
+      "evidence_id": "evidence:reddit-chatgpt-complaints-2026-09-16",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1wdbye8/did_anyone_else_notice_chatgpt_getting_way_worse/",
+      "claim": "A ChatGPT complaints thread mixes reports about quality, limits, memory, and routing with counterreports; it shows audience language, not prevalence.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "title": "ChatGPT complaints discussion",
+      "source_type": "community discussion"
+    },
+    {
+      "evidence_id": "evidence:reddit-codex-reproduction-demand-2026-09-16",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wg7g9r/codex_usage_and_operation_discussion_last_updated/",
+      "claim": "A Codex usage megathread asks for recurring usage and model-performance reports with enough evidence to inspect.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Codex usage discussion",
+      "source_type": "community megathread"
+    },
+    {
+      "evidence_id": "evidence:reddit-astra-sol-50pr-method-2026-09-16",
+      "source_url": "https://www.reddit.com/r/ChatGPTCoding/comments/1wcjhow/gpt6-astra-vs-gpt56-sol-benchmark-on-50-real-prs/",
+      "claim": "A discussion of a 50-real-PR Astra/Sol benchmark asks for repeated PRs with identical settings, illustrating demand for reproducibility without independently validating the benchmark.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary",
+      "title": "Astra versus Sol 50-PR benchmark discussion",
+      "source_type": "community benchmark discussion"
+    },
+    {
+      "evidence_id": "evidence:o11ybench-observability-2026-09-16",
+      "source_url": "https://o11ybench.ai/",
+      "claim": "O11yBench publishes task consistency, coverage, token, cost, and cache-incident fields, including a Pass^3 view; it does not provide a representative degradation estimate.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "O11yBench",
+      "source_type": "observability benchmark"
+    },
+    {
+      "evidence_id": "evidence:ai-eval-observatory-2026-09-16",
+      "source_url": "https://observatory.srmdn.com/observatory/",
+      "claim": "AI Eval Observatory publishes long-horizon coding scores, an adjacent evaluation surface rather than a service-causality study.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "AI Eval Observatory",
+      "source_type": "public evaluation observatory"
+    },
+    {
+      "evidence_id": "evidence:weave-agent-observability-2026-09-16",
+      "source_url": "https://www.weaveresearch.ai/ai-agent-observability",
+      "claim": "Weave describes observability joining runtime events to accepted work, failure, cost, and business outcome; product positioning is not independent degradation evidence.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Weave agent observability",
+      "source_type": "agent observability product"
+    },
+    {
+      "evidence_id": "evidence:route-receipt-method-2026-09-16",
+      "source_url": "https://arxiv.org/abs/2605.01710",
+      "claim": "A 2026 arXiv paper proposes route receipts for aliases, service tiers, tools, regions, fallbacks, and safety paths; it is a method proposal, not a current regression finding.",
+      "accessed_at": "2026-09-16T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "title": "Route receipts for adaptive AI systems",
+      "source_type": "research paper"
     }
   ]
 }

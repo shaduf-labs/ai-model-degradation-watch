@@ -110,6 +110,17 @@
       "summary": "Fresh OpenAI status incidents and a Sol control show a broken or expensive work system more clearly than a broad capability decline; model-quality evidence remains mixed and scoped.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-15.html",
       "entrypoint": "reports/2026-09-15.html"
+    },
+    {
+      "run_id": "run:a40abd0b-fadd-4509-876c-39e19cd8f985",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-16T12:00:00Z",
+      "completed_at": "2026-09-16T12:30:00Z",
+      "title": "A capacity-conditioned Astra drop is a lead, not a weight verdict",
+      "summary": "An open same-task Codex report sharpens a narrow Astra capacity/serving-quality lead, while missing served-model provenance and cross-model cached-context telemetry keep broad capability decline unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-16.html",
+      "entrypoint": "reports/2026-09-16.html"
     }
   ]
 }

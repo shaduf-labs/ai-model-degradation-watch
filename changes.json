@@ -264,6 +264,48 @@
       "changed_at": "2026-09-15T12:00:00Z",
       "summary": "Updated the call: a broken or expensive assembled work system is now better supported than a broad weight decline, while Astra’s mixed benchmark lane remains open.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "astra-capacity-quality-lead-2026-09-16",
+      "changed_at": "2026-09-16T12:00:00Z",
+      "summary": "Added a same-task Astra before/after report after a reported account-capacity throttle, keeping the missing served-model field and small sample beside the sharp output delta.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-16.html"
+    },
+    {
+      "change_id": "cross-model-context-control-2026-09-16",
+      "changed_at": "2026-09-16T12:00:00Z",
+      "summary": "Added a Codex context-amplification control showing long cached-context behavior across Astra and Sol without turning local telemetry into a quality or quota verdict.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-16.html"
+    },
+    {
+      "change_id": "serving-provenance-receipt-2026-09-16",
+      "changed_at": "2026-09-16T12:00:00Z",
+      "summary": "Made requested model, provider-served model, route, capacity state, context, and artifact delta explicit decision-receipt fields.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "provider-availability-lanes-2026-09-16",
+      "changed_at": "2026-09-16T12:00:00Z",
+      "summary": "Updated the status lane with the resolved OpenAI image incident and Anthropic Fable/Mythos incident, separate from quality evidence.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "audience-observability-scan-2026-09-16",
+      "changed_at": "2026-09-16T12:00:00Z",
+      "summary": "Added fresh community, benchmark, and observability-product research showing demand for reproducible outcome and cost receipts without a prevalence denominator.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-16",
+      "changed_at": "2026-09-16T12:00:00Z",
+      "summary": "Updated the call: a narrow account-capacity-conditioned Astra quality lead is credible enough to investigate, while broad cross-model weight decline remains unproven.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "research-report-2026-09-16",
+      "changed_at": "2026-09-16T12:00:00Z",
+      "summary": "Published the complete 16 September report with the new Astra lead, cross-model context control, status lanes, audience demand, and resolution test.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-16.html"
     }
   ]
 }

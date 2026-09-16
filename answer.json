@@ -1,27 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 15 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The new signal is sharper on usable access: OpenAI's status history records resolved Work Mode and GPT-5.6 paid-plan errors on 15 September, while a fresh Sol High report says one bounded task exhausted two five-hour windows with 10.7M cached input tokens and remained incomplete. Official guidance says model, task, context, reasoning, Fast mode, and multistep work all change allowance use. Astra still has a real mixed benchmark picture—strong gains beside a GDPval/presentation slice loss—but current evidence points to a broken or expensive assembled work system more confidently than to broad weight decline. Audit surface, context, served model, tool trace, artifact, and allowance before switching.",
+  "current_answer": "As of 16 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The strongest new lead is narrower: an open Codex report says the same requested GPT-6 Astra prompt and effort produced much shallower output on one Pro account after an account-level capacity throttle, but the client could not verify which model actually served the requests. That is a credible, narrow user-facing capacity/serving regression lead, not proof that Astra’s weights degraded. A separate Codex issue reports extreme cached-context amplification in both Astra and Sol, while fresh OpenAI and Claude status records show resolved product incidents. Audit requested and served model, capacity state, context, tool trace, artifact, and allowance before switching.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad decline is proven—but today’s answer is worse as a work-system diagnosis: OpenAI logged fresh Work Mode/GPT-5.6 errors, and a Sol control burned two five-hour windows on one unfinished task. Check the lane before blaming the weights."
+    "text": "No broad model collapse is proven. One Pro account reports the same requested Astra task falling from a self-checked 14.4 KB result to 5.8 KB after a capacity throttle; six post-event runs stayed below the earlier result. The served model is unknown, so call it a capacity/route lead—not a weight verdict."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven, but the usable-work system has a sharper current failure signal.",
-    "OpenAI status records list resolved Work Mode errors and GPT-5.6/GPT-5.6 Instant paid-plan errors on 15 September; that is availability evidence, not a weight-change finding.",
-    "A fresh GPT-5.6 Sol High issue reports two exhausted five-hour windows on one incomplete task, with 10.7M cached input tokens and weekly allowance moving from 53% to 37%.",
-    "A separate Plus issue reports an idle weekly-meter jump and reset-date change before a limit rejection; account reconciliation is still missing.",
-    "OpenAI’s usage guide says model, task, context, output, reasoning effort, Fast mode, and multistep work change allowance use; higher effort does not always improve results.",
-    "Astra’s independent benchmark picture remains mixed: strong intelligence/coding slices alongside a GDPval-AA v2 and presentation-quality loss, with no temporal decline test.",
-    "Reader move: record surface, route, context, effort, cached input, tool trace, artifact, allowance, and provider status; replay with a control before switching."
+    "No broad cross-model core-capability decline is proven, but a narrow account-conditioned Codex quality lead is now strong enough to investigate.",
+    "Open issue #44851 reports the same requested GPT-6 Astra task and effort producing a 14.4 KB browser-checked result before a reported capacity throttle and a 5.8 KB CSS-only result after it; two pre-event and six post-event runs were reported.",
+    "A separate Codex issue shows the serving-provenance gap: requested labels, client identity, and assistant identity do not expose a provider-returned effective model.",
+    "Another Codex issue reports extreme cached-context amplification across Astra and Sol and no meter discontinuity in its analyzed window; context and orchestration remain cross-model cost confounders.",
+    "OpenAI’s gpt-image-2.5-flare incident and Anthropic’s Fable/Mythos error incident were resolved; xAI’s status page showed services available. Status is an availability lane, not a quality score.",
+    "Astra benchmark evidence remains cross-sectional or harness-specific, while a separate Sol work-quality complaint keeps field reliability separate from the Astra lead.",
+    "Community reports and adjacent observability products show demand for reproducible task, artifact, context, cost, and outcome fields, but not a representative denominator.",
+    "Reader move: record requested and served model, route, capacity state, context, effort, tool trace, artifact, self-check, allowance, and control outcome before switching."
   ],
   "uncertainty": [
-    "Fresh status incidents establish availability failures, not a model-weight change or prevalence estimate.",
-    "The Sol quota report is one uncontrolled account report without server-ledger reconciliation or a matched Astra task.",
+    "The Astra capacity report covers one account, two pre-event and six post-event runs, a small and noisy SVG task sample, and no provider-reported served-model field or backend logs.",
+    "The context-amplification report uses local telemetry from one public issue, reports no meter discontinuity in its analyzed window, and does not measure task quality or disclose the server quota formula.",
+    "Provider status pages establish declared availability events, not silent routing, individual account prevalence, or core capability.",
     "Astra benchmark results remain cross-sectional or harness-specific; no public matched longitudinal cross-provider capability series is available.",
-    "No first-party audience analytics, representative prevalence sample, or willingness-to-pay evidence is available."
+    "No first-party audience analytics, representative prevalence sample, recovered-time measure, or willingness-to-pay evidence is available."
   ],
-  "checked_at": "2026-09-15T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-15T12:00:00Z",
-  "freshness_note": "Fresh public-source check completed 15 September 2026. Official incidents and a non-Astra Sol control materially sharpen the usable-access diagnosis while leaving broad capability decline unproven."
+  "checked_at": "2026-09-16T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-16T12:00:00Z",
+  "freshness_note": "Fresh public-source check completed 16 September 2026. A detailed account-level Astra before/after report materially sharpens the narrow serving/capacity lane while missing model provenance and independent replication keep broad capability decline unproven."
 }
