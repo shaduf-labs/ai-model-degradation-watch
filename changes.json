@@ -306,6 +306,42 @@
       "changed_at": "2026-09-16T12:00:00Z",
       "summary": "Published the complete 16 September report with the new Astra lead, cross-model context control, status lanes, audience demand, and resolution test.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-16.html"
+    },
+    {
+      "change_id": "usable-window-allowance-lead-2026-09-17",
+      "changed_at": "2026-09-17T12:00:00Z",
+      "summary": "Added a quantified three-message allowance-drain report and shifted the current lead toward usable-window economics without calling it model degradation.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "provider-limit-and-fallback-lane-2026-09-17",
+      "changed_at": "2026-09-17T12:00:00Z",
+      "summary": "Added current provider guidance on plan-, model-, workspace-, and fallback-dependent limits as a context lane for account reports.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "surface-failure-boundaries-2026-09-17",
+      "changed_at": "2026-09-17T12:00:00Z",
+      "summary": "Added Windows Guardian and sandbox failures as product and execution evidence that can block work before capability is tested.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "safety-and-benchmark-separation-2026-09-17",
+      "changed_at": "2026-09-17T12:00:00Z",
+      "summary": "Kept individual safety disclosures and cross-sectional benchmark boards separate from the standing production-capability question.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "audience-work-window-scan-2026-09-17",
+      "changed_at": "2026-09-17T12:00:00Z",
+      "summary": "Added current community language about capacity shock, usage drain, switching pressure, and the need for a usable-work receipt.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "research-report-2026-09-17",
+      "changed_at": "2026-09-17T12:00:00Z",
+      "summary": "Published the complete 17 September report with the allowance lead, provider rules, surface boundaries, safety and benchmark lanes, and next diagnostic.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-17.html"
     }
   ]
 }

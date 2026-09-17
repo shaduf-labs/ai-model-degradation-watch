@@ -1410,6 +1410,146 @@
       "publication_basis": "linked-summary",
       "title": "Route receipts for adaptive AI systems",
       "source_type": "research paper"
+    },
+    {
+      "evidence_id": "evidence:codex-usage-drain-2026-09-17",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/45510",
+      "title": "Codex usage drain after three travel-search messages",
+      "claim": "The issue author reports about 73% of a five-hour Plus window used by three ordinary travel-search messages; no provider ledger or complete trace is supplied.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-usage-limits-2026-09-17",
+      "source_type": "provider usage guidance",
+      "source_url": "https://help.openai.com/en/articles/20001354-gpt-5-6",
+      "title": "GPT-5.6 usage limits and fallback guidance",
+      "claim": "OpenAI documents plan-, model-, and workspace-dependent limits, separate Work and Codex allowances, and possible continuation with another model after a cap.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-work-incident-2026-09-17",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/fw15p58m",
+      "title": "ChatGPT Work elevated errors",
+      "claim": "OpenAI marked a 16 September ChatGPT Work elevated-error incident resolved; status is an availability lane, not a capability score.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-2026-09-17",
+      "source_type": "provider status page",
+      "source_url": "https://anthropic.statuspage.io/",
+      "title": "Anthropic status",
+      "claim": "Anthropic showed no active incident at the check after earlier Fable/Mythos errors were resolved.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:xai-status-2026-09-17",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/",
+      "title": "xAI status",
+      "claim": "xAI reported no declared incident at the check.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:windows-guardian-2026-09-17",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/45591",
+      "title": "Windows Guardian checkpoint compatibility failure",
+      "claim": "A Windows task is blocked by a Guardian checkpoint compatibility error before ordinary project work can run.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:windows-sandbox-2026-09-17",
+      "source_type": "official repository issue",
+      "source_url": "https://github.com/openai/codex/issues/45498",
+      "title": "Windows sandbox ACL failure",
+      "claim": "Windows sandbox apply-deny-read ACL failures can stop read-only work before command execution.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:safety-framework-2026-09-17",
+      "source_type": "provider safety framework",
+      "source_url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "title": "Model misalignment reporting framework",
+      "claim": "OpenAI presents six individual evaluation or training cases and does not present them as a prevalence estimate.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:benchmark-boards-2026-09-17",
+      "source_type": "independent benchmark indexes",
+      "source_url": "https://modelgrep.com/benchmarks",
+      "title": "Live model benchmark boards",
+      "claim": "Live boards show different model families leading on different task slices; the view is cross-sectional rather than a matched longitudinal deployment test.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:benchlm-2026-09-17",
+      "source_type": "independent benchmark index",
+      "source_url": "https://benchlm.ai/",
+      "title": "BenchLM verified model board",
+      "claim": "BenchLM publishes current verified comparisons and release history, but not a representative service-quality or allowance series.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-codex-allowance-2026-09-17",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wi14lt/what_is_going_on_with_openai/",
+      "title": "Codex capacity and usage discussion",
+      "claim": "Community reports mention capacity errors, usage drain, and account downgrade or switching pressure.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-codex-switching-2026-09-17",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/OpenaiCodex/comments/1whyk99/crazy_usage_drain_on_codex_had_me_go_back_to/",
+      "title": "Codex usage drain and switching discussion",
+      "claim": "Community replies describe usage draining quickly and comparing other providers for usable work.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-claude-counterreport-2026-09-17",
+      "source_type": "community discussion",
+      "source_url": "https://www.reddit.com/r/claude/comments/1wiftwt/its_real_claudes_models_have_gotten_substantially/",
+      "title": "Claude quality counterreports",
+      "claim": "A current thread contains hallucination and instruction-following complaints across model variants, keeping field reliability separate from the Astra lane.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-chatgpt-quota-2026-09-17",
+      "source_type": "community discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1wha5d9/did_codex_usage_limits_tighten_this_week_sept_12/",
+      "title": "ChatGPT quota discussion",
+      "claim": "A discussion reports a simple CRM query using about 8% of a five-hour window, without enough task or account detail for causal comparison.",
+      "accessed_at": "2026-09-17T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

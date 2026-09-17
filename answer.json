@@ -1,29 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 16 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The strongest new lead is narrower: an open Codex report says the same requested GPT-6 Astra prompt and effort produced much shallower output on one Pro account after an account-level capacity throttle, but the client could not verify which model actually served the requests. That is a credible, narrow user-facing capacity/serving regression lead, not proof that Astra’s weights degraded. A separate Codex issue reports extreme cached-context amplification in both Astra and Sol, while fresh OpenAI and Claude status records show resolved product incidents. Audit requested and served model, capacity state, context, tool trace, artifact, and allowance before switching.",
+  "current_answer": "As of 17 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The strongest fresh movement is in usable access and allowance economics: an open Codex report says three ordinary travel-search messages used about 73% of a five-hour Plus window, while OpenAI documents plan-, model-, and workspace-dependent limits and possible fallback. That is a credible user-facing access/economics lead, not proof that model weights declined. The earlier account-capacity-conditioned Astra quality lead remains credible but its served model is unknown; fresh context, product, safety-disclosure, and benchmark evidence keep the lanes separate.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad model collapse is proven. One Pro account reports the same requested Astra task falling from a self-checked 14.4 KB result to 5.8 KB after a capacity throttle; six post-event runs stayed below the earlier result. The served model is unknown, so call it a capacity/route lead—not a weight verdict."
+    "text": "No broad model collapse is proven. Three ordinary travel-search messages reportedly used about 73% of a five-hour Plus window; call that an access/economics lead, not a weight verdict."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven, but a narrow account-conditioned Codex quality lead is now strong enough to investigate.",
-    "Open issue #44851 reports the same requested GPT-6 Astra task and effort producing a 14.4 KB browser-checked result before a reported capacity throttle and a 5.8 KB CSS-only result after it; two pre-event and six post-event runs were reported.",
-    "A separate Codex issue shows the serving-provenance gap: requested labels, client identity, and assistant identity do not expose a provider-returned effective model.",
-    "Another Codex issue reports extreme cached-context amplification across Astra and Sol and no meter discontinuity in its analyzed window; context and orchestration remain cross-model cost confounders.",
-    "OpenAI’s gpt-image-2.5-flare incident and Anthropic’s Fable/Mythos error incident were resolved; xAI’s status page showed services available. Status is an availability lane, not a quality score.",
-    "Astra benchmark evidence remains cross-sectional or harness-specific, while a separate Sol work-quality complaint keeps field reliability separate from the Astra lead.",
-    "Community reports and adjacent observability products show demand for reproducible task, artifact, context, cost, and outcome fields, but not a representative denominator.",
-    "Reader move: record requested and served model, route, capacity state, context, effort, tool trace, artifact, self-check, allowance, and control outcome before switching."
+    "No broad cross-model core-capability decline is proven; the fresh lead is a usable-access and allowance-economics problem.",
+    "Open Codex issue #45510 reports about 73% of a five-hour Plus window consumed by three ordinary travel-search messages, without a provider ledger or full trace.",
+    "OpenAI documents plan-, model-, and workspace-dependent limits, separate Work and Codex allowances, and possible fallback; this explains why allowance pressure is not a weight verdict.",
+    "Windows Guardian and sandbox issues show product or execution failures before work runs, while provider status pages show resolved or absent incidents in separate availability lanes.",
+    "OpenAI’s safety disclosure and live benchmark boards answer different questions; individual safety cases and cross-sectional scores do not establish broad production decline.",
+    "Community reports make capacity shock, switching pressure, and lost work salient, but remain self-selected; the reader still needs a route-and-outcome receipt.",
+    "Reader move: record requested and served model, route, capacity, context, effort, tool trace, artifact, self-check, allowance movement, and recovered work before switching."
   ],
   "uncertainty": [
-    "The Astra capacity report covers one account, two pre-event and six post-event runs, a small and noisy SVG task sample, and no provider-reported served-model field or backend logs.",
-    "The context-amplification report uses local telemetry from one public issue, reports no meter discontinuity in its analyzed window, and does not measure task quality or disclose the server quota formula.",
-    "Provider status pages establish declared availability events, not silent routing, individual account prevalence, or core capability.",
-    "Astra benchmark results remain cross-sectional or harness-specific; no public matched longitudinal cross-provider capability series is available.",
-    "No first-party audience analytics, representative prevalence sample, recovered-time measure, or willingness-to-pay evidence is available."
+    "The 73% allowance report is one self-selected issue with three ordinary messages, no provider ledger, no complete tool trace, and no completed-task quality measure.",
+    "OpenAI guidance documents limit and fallback rules but does not reveal an individual account route, effective model, or capacity state.",
+    "The Astra capacity-quality report remains one account with two pre-event and six post-event runs, a noisy SVG task, and unknown served model.",
+    "Status pages and the safety framework are provider records with different estimands; they do not establish silent routing, production prevalence, or ordinary task quality.",
+    "Benchmark boards are cross-sectional or harness-specific, community threads are self-selected, and no representative denominator, recovered-time measure, or willingness-to-pay evidence is available."
   ],
-  "checked_at": "2026-09-16T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-16T12:00:00Z",
-  "freshness_note": "Fresh public-source check completed 16 September 2026. A detailed account-level Astra before/after report materially sharpens the narrow serving/capacity lane while missing model provenance and independent replication keep broad capability decline unproven."
+  "checked_at": "2026-09-17T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-17T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 17 September 2026. The center of gravity moved from the prior narrow Astra capacity-quality lead toward a more general usable-window and allowance-economics lead, while missing ledgers, route provenance, controls, and prevalence keep broad capability decline unproven."
 }
