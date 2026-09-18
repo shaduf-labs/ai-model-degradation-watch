@@ -1,28 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 17 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The strongest fresh movement is in usable access and allowance economics: an open Codex report says three ordinary travel-search messages used about 73% of a five-hour Plus window, while OpenAI documents plan-, model-, and workspace-dependent limits and possible fallback. That is a credible user-facing access/economics lead, not proof that model weights declined. The earlier account-capacity-conditioned Astra quality lead remains credible but its served model is unknown; fresh context, product, safety-disclosure, and benchmark evidence keep the lanes separate.",
+  "current_answer": "As of 18 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. Current provider status pages are calm, but they measure declared availability rather than silent routing or task quality. A historical Anthropic postmortem shows that routing and infrastructure bugs can produce real response degradation without a model-weight change. The practical upgrade is an alert contract: define a user-visible task symptom, baseline, threshold, evidence receipt, and reversible action before calling a model worse. The active allowance, capacity, and surface leads remain real user-facing problems, not broad weight evidence.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad model collapse is proven. Three ordinary travel-search messages reportedly used about 73% of a five-hour Plus window; call that an access/economics lead, not a weight verdict."
+    "text": "No broad model decline is proven. The useful upgrade is an alert contract: name the task symptom, baseline, receipt, and action before calling a model worse."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven; the fresh lead is a usable-access and allowance-economics problem.",
-    "Open Codex issue #45510 reports about 73% of a five-hour Plus window consumed by three ordinary travel-search messages, without a provider ledger or full trace.",
-    "OpenAI documents plan-, model-, and workspace-dependent limits, separate Work and Codex allowances, and possible fallback; this explains why allowance pressure is not a weight verdict.",
-    "Windows Guardian and sandbox issues show product or execution failures before work runs, while provider status pages show resolved or absent incidents in separate availability lanes.",
-    "OpenAI’s safety disclosure and live benchmark boards answer different questions; individual safety cases and cross-sectional scores do not establish broad production decline.",
-    "Community reports make capacity shock, switching pressure, and lost work salient, but remain self-selected; the reader still needs a route-and-outcome receipt.",
-    "Reader move: record requested and served model, route, capacity, context, effort, tool trace, artifact, self-check, allowance movement, and recovered work before switching."
+    "No broad cross-model core-capability decline is proven; current provider status is calm but status is not task quality.",
+    "Anthropic’s historical postmortem shows that routing and infrastructure bugs can create real degraded responses without proving a weight change.",
+    "NIST’s TEVV-Athlon draft puts objectives, events, tools, and real-world outcomes around the evaluation.",
+    "Google SRE says alerts should cover user-facing symptoms, not internal causes, and must be actionable.",
+    "A current Claude community hub asks for prompts, responses, platform, time, and screenshots, showing demand for a structured evidence receipt without supplying a prevalence denominator.",
+    "The 73% allowance report and Astra capacity lead remain real user-facing leads, but not broad weight evidence.",
+    "Reader move: define the task threshold and reversible action, then record requested and served model, route, context, tools, artifact, correction burden, and allowance."
   ],
   "uncertainty": [
-    "The 73% allowance report is one self-selected issue with three ordinary messages, no provider ledger, no complete tool trace, and no completed-task quality measure.",
-    "OpenAI guidance documents limit and fallback rules but does not reveal an individual account route, effective model, or capacity state.",
-    "The Astra capacity-quality report remains one account with two pre-event and six post-event runs, a noisy SVG task, and unknown served model.",
-    "Status pages and the safety framework are provider records with different estimands; they do not establish silent routing, production prevalence, or ordinary task quality.",
-    "Benchmark boards are cross-sectional or harness-specific, community threads are self-selected, and no representative denominator, recovered-time measure, or willingness-to-pay evidence is available."
+    "No matched longitudinal task series, provider-served-model receipt, provider ledger, representative denominator, recovered-time measure, or willingness-to-pay evidence is available.",
+    "Status pages answer declared availability; the historical postmortem answers a past provider investigation; NIST and SRE provide methods rather than current degradation data.",
+    "Community reports and trackers reveal audience language and reproducibility leads but remain self-selected.",
+    "The current alert contract has not been tested with a human operator or an independent live baseline."
   ],
-  "checked_at": "2026-09-17T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-17T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 17 September 2026. The center of gravity moved from the prior narrow Astra capacity-quality lead toward a more general usable-window and allowance-economics lead, while missing ledgers, route provenance, controls, and prevalence keep broad capability decline unproven."
+  "checked_at": "2026-09-18T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-18T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 18 September 2026. The call remains no broad capability decline proven, but the product and method now require an alert contract that starts with a user-visible task symptom, baseline, threshold, evidence receipt, and reversible action."
 }

@@ -342,6 +342,30 @@
       "changed_at": "2026-09-17T12:00:00Z",
       "summary": "Published the complete 17 September report with the allowance lead, provider rules, surface boundaries, safety and benchmark lanes, and next diagnostic.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-17.html"
+    },
+    {
+      "change_id": "current-verdict-2026-09-18",
+      "changed_at": "2026-09-18T12:00:00Z",
+      "summary": "Updated the verdict: calm declared status does not clear silent route or task-quality problems; no broad cross-model core-capability decline is proven.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "alert-contract-2026-09-18",
+      "changed_at": "2026-09-18T12:00:00Z",
+      "summary": "Added an alert contract requiring a user-visible task symptom, baseline, threshold, evidence receipt, and reversible action before a degradation headline.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "serving-quality-precedent-2026-09-18",
+      "changed_at": "2026-09-18T12:00:00Z",
+      "summary": "Added Anthropic’s historical routing and infrastructure postmortem as a causal precedent that separates real response degradation from a model-weight verdict.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "audience-evidence-intake-2026-09-18",
+      "changed_at": "2026-09-18T12:00:00Z",
+      "summary": "Added current community evidence-intake language and a problem-log baseline pattern while preserving selection and denominator limits.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }

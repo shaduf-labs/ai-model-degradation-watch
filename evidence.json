@@ -1550,6 +1550,86 @@
       "accessed_at": "2026-09-17T12:00:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-2026-09-18",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI status on 18 September 2026",
+      "claim": "OpenAI says it is fully operational and notes that aggregate availability may vary by tier, model, and API feature; this is an availability snapshot, not a capability score.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-2026-09-18",
+      "source_type": "provider status page",
+      "source_url": "https://anthropic.statuspage.io/",
+      "title": "Anthropic status on 18 September 2026",
+      "claim": "Anthropic lists no incidents today after resolving earlier Fable/Mythos errors; the page does not reveal silent route or task quality.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:xai-status-2026-09-18",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/",
+      "title": "xAI status on 18 September 2026",
+      "claim": "xAI says no incidents are declared; this narrows the declared outage lane but not individual task quality.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-quality-postmortem-2026-09-18",
+      "source_type": "provider postmortem",
+      "source_url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+      "title": "Anthropic infrastructure postmortem",
+      "claim": "Anthropic attributes historical response degradation to routing, output-corruption, and compiler/infrastructure bugs; the report is a historical causal precedent, not current prevalence evidence.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:nist-tevv-athlon-2026-09-18",
+      "source_type": "evaluation framework",
+      "source_url": "https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems",
+      "title": "NIST TEVV-Athlon Framework",
+      "claim": "NIST proposes customizable assessments tied to objectives, Events, Tools, Blocks, and real-world outcomes; it is method guidance rather than a current regression dataset.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-sre-alert-contract-2026-09-18",
+      "source_type": "reliability method",
+      "source_url": "https://sre.google/resources/practices-and-processes/incident-management-guide/",
+      "title": "Google SRE Incident Management Guide",
+      "claim": "Google recommends user-facing, end-to-end, symptom-based, actionable alerts; this supports the pool’s alert contract but is not model evidence.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-hub-intake-2026-09-18",
+      "source_type": "community evidence-intake hub",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wjkyvs/performance_and_bugs_discussion_hub_updated_on_18/",
+      "title": "Claude performance and bugs hub",
+      "claim": "A volunteer hub asks for prompts, responses, platform, time, and screenshots and separates performance from usage-limit reports; it shows evidence demand, not prevalence.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-problem-log-2026-09-18",
+      "source_type": "community tracker",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1t33k25/rclaudeai_user_problem_report_log_and_surge/",
+      "title": "Claude community problem log",
+      "claim": "The linked log compares hourly category volume with a recent four-week average and uses heat levels; its community coverage is not representative service telemetry.",
+      "accessed_at": "2026-09-18T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

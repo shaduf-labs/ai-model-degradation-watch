@@ -132,6 +132,17 @@
       "summary": "A quantified allowance-drain report makes usable access and economics the freshest lead; provider rules, surface failures, safety disclosures, benchmarks, and community counterreports keep broad capability decline unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-17.html",
       "entrypoint": "reports/2026-09-17.html"
+    },
+    {
+      "run_id": "run:d57087d9-e8ae-491b-a7ea-ce95065b4b23",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-18T12:00:00Z",
+      "completed_at": "2026-09-18T12:30:00Z",
+      "title": "The watch needs an alert contract",
+      "summary": "Current provider status pages are calm, but a historical Anthropic postmortem, NIST evaluation guidance, Google SRE alert rules, and fresh community intake language sharpen the distinction between user-visible symptoms, serving causes, and broad capability decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-18.html",
+      "entrypoint": "reports/2026-09-18.html"
     }
   ]
 }
