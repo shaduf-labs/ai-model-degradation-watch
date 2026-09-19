@@ -366,6 +366,36 @@
       "changed_at": "2026-09-18T12:00:00Z",
       "summary": "Added current community evidence-intake language and a problem-log baseline pattern while preserving selection and denominator limits.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "watch-task-budget-receipt-2026-09-19",
+      "changed_at": "2026-09-19T12:00:00Z",
+      "summary": "Added the 242.3-million-token Codex task as a usable-window and safeguard lead, not a core-capability verdict.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "watch-access-entitlement-2026-09-19",
+      "changed_at": "2026-09-19T12:00:00Z",
+      "summary": "Added fresh managed-surface, non-response, and entitlement evidence showing that access can fail before quality can be tested.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "watch-recovered-backend-lane-2026-09-19",
+      "changed_at": "2026-09-19T12:00:00Z",
+      "summary": "Added the recovered Gemini external-URL file-input path as a narrow backend or permission lane.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "watch-observability-pressure-2026-09-19",
+      "changed_at": "2026-09-19T12:00:00Z",
+      "summary": "Added Langfuse and Braintrust as adjacent observability positioning while preserving the distinction between traces and capability evidence.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "watch-report-2026-09-19",
+      "changed_at": "2026-09-19T12:00:00Z",
+      "summary": "Published the 19 September report and expanded the decision receipt with task budget, warning, stop, entitlement, and descendant-work fields.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-19.html"
     }
   ]
 }

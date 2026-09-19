@@ -1630,6 +1630,116 @@
       "accessed_at": "2026-09-18T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-status-snapshot-2026-09-19",
+      "source_type": "provider status pages",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI status",
+      "claim": "OpenAI reported fully operational at the check; declared availability does not measure silent routing, account state, or task quality.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-claude-status-2026-09-19",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude status",
+      "claim": "Claude reported operational systems at the check; this narrows declared outages without clearing every account or task.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-xai-status-2026-09-19",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/",
+      "title": "xAI status",
+      "claim": "xAI declared no incident at the check; the page does not measure model quality.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-codex-task-budget-2026-09-19",
+      "source_type": "official issue",
+      "source_url": "https://github.com/openai/codex/issues/46023",
+      "title": "Codex multiagent token and allowance report",
+      "claim": "One Windows Codex Desktop task was reported at 1,545 responses and 242.3 million tokens, moving weekly usage by 11 points without a task-wide aggregate warning, projected-cost notice, or automatic stop.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-codex-work-auth-2026-09-19",
+      "source_type": "official issue",
+      "source_url": "https://github.com/openai/codex/issues/46627",
+      "title": "Work Cloud remote Git 401",
+      "claim": "A managed Work Cloud remote Git operation returned HTTP/2 401 while local Git and network checks remained healthy; this is a surface access lead.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-codex-down-2026-09-19",
+      "source_type": "official issue",
+      "source_url": "https://github.com/openai/codex/issues/46626",
+      "title": "Codex unresponsive report",
+      "claim": "A Pro user reported no Codex response for more than 1.5 days; the report blocks a quality judgment until access and recovery are understood.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-gemini-url-recovery-2026-09-19",
+      "source_type": "official forum",
+      "source_url": "https://discuss.ai.google.dev/t/external-url-file-inputs-still-fail-on-gemini-3-5-now-403-permission_denied-was-429-after-the-sep-4-fixed-post/181749",
+      "title": "Gemini external URL input recovery thread",
+      "claim": "External URL file input was reported failing while inline or base64 worked; after a provider reply, the reporter later said thorough testing worked in every case.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-google-entitlement-2026-09-19",
+      "source_type": "official forum",
+      "source_url": "https://discuss.ai.google.dev/t/ineligible-for-higher-antigravity-rate-limits-although-account-is-eligible-for-google-ai-pro/183071",
+      "title": "Google higher-limit entitlement thread",
+      "claim": "Users reported checking plan, country, account, version, and quota before purchase, with a second user describing the same ineligibility state.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-claude-community-mixed-2026-09-19",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1whzlzz/claude_46_was_peak_and_its_downhill_since_then/",
+      "title": "Claude quality complaint and counterreport thread",
+      "claim": "The thread mixes coding, verbosity, instruction, task-fit, skill, context, and cost complaints with counterreports and requests for statistics; it is a discovery lead, not a prevalence estimate.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-langfuse-2026-09-19",
+      "source_type": "vendor product page",
+      "source_url": "https://langfuse.com/",
+      "title": "Langfuse AI observability",
+      "claim": "Langfuse publicly positions traces, evaluations, datasets, human annotation, cost and latency dashboards, and alerts.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-braintrust-2026-09-19",
+      "source_type": "vendor product page",
+      "source_url": "https://www.braintrust.dev/learn/ai-observability/v0",
+      "title": "Braintrust AI observability",
+      "claim": "Braintrust publicly positions production traces, live scoring, thresholds, alerts, and turning failing traces into evaluation datasets.",
+      "accessed_at": "2026-09-19T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

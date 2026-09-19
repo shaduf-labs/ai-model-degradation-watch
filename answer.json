@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 18 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. Current provider status pages are calm, but they measure declared availability rather than silent routing or task quality. A historical Anthropic postmortem shows that routing and infrastructure bugs can produce real response degradation without a model-weight change. The practical upgrade is an alert contract: define a user-visible task symptom, baseline, threshold, evidence receipt, and reversible action before calling a model worse. The active allowance, capacity, and surface leads remain real user-facing problems, not broad weight evidence.",
+  "current_answer": "As of 19 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. OpenAI, Claude, and xAI status pages are calm, but fresh public evidence is concentrated in the system around the models: one Codex Desktop task processed 242.3 million tokens and moved the weekly allowance by 11 percentage points without a task-wide warning; new access and entitlement reports blocked work before model quality could be judged; and a Gemini external-URL file-input path recovered after a provider response. These are real user-facing changes, not broad weight evidence. Record a fixed task symptom, baseline, route or entitlement receipt, context, outcome, and reversible action before switching or calling degradation.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad model decline is proven. The useful upgrade is an alert contract: name the task symptom, baseline, receipt, and action before calling a model worse."
+    "text": "No broad model decline is proven. A large Codex task-budget failure and fresh access or entitlement leads make the system around the model the urgent watch lane."
   },
   "summary": [
     "No broad cross-model core-capability decline is proven; current provider status is calm but status is not task quality.",
-    "Anthropic’s historical postmortem shows that routing and infrastructure bugs can create real degraded responses without proving a weight change.",
-    "NIST’s TEVV-Athlon draft puts objectives, events, tools, and real-world outcomes around the evaluation.",
-    "Google SRE says alerts should cover user-facing symptoms, not internal causes, and must be actionable.",
-    "A current Claude community hub asks for prompts, responses, platform, time, and screenshots, showing demand for a structured evidence receipt without supplying a prevalence denominator.",
-    "The 73% allowance report and Astra capacity lead remain real user-facing leads, but not broad weight evidence.",
-    "Reader move: define the task threshold and reversible action, then record requested and served model, route, context, tools, artifact, correction burden, and allowance."
+    "A Codex Desktop report says one task processed 242.3 million tokens and moved weekly usage by 11 points without a task-wide warning, projected-cost notice, or automatic stop.",
+    "Fresh Codex reports show managed Work Cloud authentication failure, prolonged non-response, and Windows context or session trouble before quality could be tested.",
+    "A Gemini external-URL file-input path appears to have recovered after provider discussion; this is a narrow backend or permission lane, not model evidence.",
+    "Claude complaints and counterreports plus Google entitlement friction show demand for a structured task, plan, platform, time, and receipt intake.",
+    "Langfuse and Braintrust show private observability pressure around traces, evals, scoring, cost, thresholds, alerts, and regression datasets.",
+    "Reader move: define the symptom, baseline, budget, threshold, receipt, and reversible action, then record requested and served model, route, context, outcome, and allowance."
   ],
   "uncertainty": [
-    "No matched longitudinal task series, provider-served-model receipt, provider ledger, representative denominator, recovered-time measure, or willingness-to-pay evidence is available.",
-    "Status pages answer declared availability; the historical postmortem answers a past provider investigation; NIST and SRE provide methods rather than current degradation data.",
-    "Community reports and trackers reveal audience language and reproducibility leads but remain self-selected.",
-    "The current alert contract has not been tested with a human operator or an independent live baseline."
+    "No matched longitudinal task series, provider-served-model receipt, provider ledger, representative denominator, recovered-time measure, human pilot, or willingness-to-pay evidence is available.",
+    "Status pages constrain declared availability; issue and forum reports identify narrow access or backend paths; community reports remain self-selected.",
+    "The 242.3 million-token event is a detailed allowance and orchestration report, not a core capability test.",
+    "The alert contract is still untested with an independent live baseline or a real operator decision."
   ],
-  "checked_at": "2026-09-18T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-18T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 18 September 2026. The call remains no broad capability decline proven, but the product and method now require an alert contract that starts with a user-visible task symptom, baseline, threshold, evidence receipt, and reversible action."
+  "checked_at": "2026-09-19T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-19T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 19 September 2026. The broad call remains no capability decline proven, while task-budget safeguards, managed access, entitlement, and recovered backend paths are now explicit evidence lanes."
 }

@@ -143,6 +143,17 @@
       "summary": "Current provider status pages are calm, but a historical Anthropic postmortem, NIST evaluation guidance, Google SRE alert rules, and fresh community intake language sharpen the distinction between user-visible symptoms, serving causes, and broad capability decline.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-18.html",
       "entrypoint": "reports/2026-09-18.html"
+    },
+    {
+      "run_id": "run:fa49138e-3a7c-4b70-ac6f-ef3aa8542b4a",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-19T12:00:00Z",
+      "completed_at": "2026-09-19T12:30:00Z",
+      "title": "The budget is part of the truth",
+      "summary": "A detailed Codex task exposes a missing task-wide budget and stop receipt; fresh access and entitlement reports block quality judgment, a Gemini URL-input path recovers, and community and observability signals sharpen the decision receipt without proving broad capability decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-19.html",
+      "entrypoint": "reports/2026-09-19.html"
     }
   ]
 }
