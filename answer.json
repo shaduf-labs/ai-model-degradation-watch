@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 19 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. OpenAI, Claude, and xAI status pages are calm, but fresh public evidence is concentrated in the system around the models: one Codex Desktop task processed 242.3 million tokens and moved the weekly allowance by 11 percentage points without a task-wide warning; new access and entitlement reports blocked work before model quality could be judged; and a Gemini external-URL file-input path recovered after a provider response. These are real user-facing changes, not broad weight evidence. Record a fixed task symptom, baseline, route or entitlement receipt, context, outcome, and reversible action before switching or calling degradation.",
+  "current_answer": "As of 20 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The fresh change is that the surrounding system is visibly moving: OpenAI’s status history records recent GPT-5.6 paid-plan and API errors, managed-agent delays, and an Agent API container-overbilling incident; Google’s Antigravity 09-2026 release changes local tool and file-operation contracts. A provider-authored Anthropic retrospective reports rising internal coding-session success, while public drift monitors disagree or measure different tasks. Users are switching because quota, capacity, access, and task fit change before a model-quality test can run. Record the requested and served model, route, tool contract, task budget, warning/stop state, outcome, and allowance before calling degradation.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad model decline is proven. A large Codex task-budget failure and fresh access or entitlement leads make the system around the model the urgent watch lane."
+    "text": "No broad model decline is proven. The surrounding system changed: incidents, tool contracts, drift estimands, quota, and task fit now need one receipt."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven; current provider status is calm but status is not task quality.",
-    "A Codex Desktop report says one task processed 242.3 million tokens and moved weekly usage by 11 points without a task-wide warning, projected-cost notice, or automatic stop.",
-    "Fresh Codex reports show managed Work Cloud authentication failure, prolonged non-response, and Windows context or session trouble before quality could be tested.",
-    "A Gemini external-URL file-input path appears to have recovered after provider discussion; this is a narrow backend or permission lane, not model evidence.",
-    "Claude complaints and counterreports plus Google entitlement friction show demand for a structured task, plan, platform, time, and receipt intake.",
-    "Langfuse and Braintrust show private observability pressure around traces, evals, scoring, cost, thresholds, alerts, and regression datasets.",
-    "Reader move: define the symptom, baseline, budget, threshold, receipt, and reversible action, then record requested and served model, route, context, outcome, and allowance."
+    "No broad cross-model core-capability decline is proven; calm current status pages narrow declared outages but do not measure task quality.",
+    "OpenAI’s recent history records resolved paid-plan GPT-5.6 and API errors, managed-agent delays, and an Agent API container-overbilling incident.",
+    "Google’s Antigravity 09-2026 release changes local tool and file-operation contracts; migration failure can look like model degradation without a weight change.",
+    "Anthropic reports rising internal Claude Code session success, while AI Drift Detector flags broad movement on a fixed coding board and Pondral reports stable AI-search visibility; these are different estimands.",
+    "Current Codex users describe quota pressure, capacity or task-fit variability, and switching; self-selected threads are valuable intake, not prevalence or capability evidence.",
+    "NextReset and Codex Pulse reinforce a symptom-first fixed-task receipt; the public edge is causal explanation and a reversible action, not another generic score.",
+    "Reader move: record task, requested and served model, route, tool-contract version, budget, warning/stop state, outcome, allowance, and switching reason before switching or calling degradation."
   ],
   "uncertainty": [
-    "No matched longitudinal task series, provider-served-model receipt, provider ledger, representative denominator, recovered-time measure, human pilot, or willingness-to-pay evidence is available.",
-    "Status pages constrain declared availability; issue and forum reports identify narrow access or backend paths; community reports remain self-selected.",
-    "The 242.3 million-token event is a detailed allowance and orchestration report, not a core capability test.",
-    "The alert contract is still untested with an independent live baseline or a real operator decision."
+    "No matched longitudinal cross-provider task series, provider-served-model receipt, provider ledger, representative denominator, human pilot, or willingness-to-pay evidence is available.",
+    "Official status histories and release notes establish declared events and contracts, not the prevalence or task-quality effect for a reader’s account.",
+    "AI Drift Detector, Pondral, and Anthropic’s internal series use different tasks, operators, samples, and estimands; their disagreement is informative but not a common verdict.",
+    "Community switching reports are self-selected and may reflect quota, routing, capacity, plan, context, or task-fit changes rather than core capability."
   ],
-  "checked_at": "2026-09-19T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-19T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 19 September 2026. The broad call remains no capability decline proven, while task-budget safeguards, managed access, entitlement, and recovered backend paths are now explicit evidence lanes."
+  "checked_at": "2026-09-20T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-20T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 20 September 2026. The broad call remains no capability decline proven, while provider incidents, tool-contract migration, public-monitor disagreement, and quota-driven switching are now explicit evidence lanes."
 }

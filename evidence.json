@@ -1740,6 +1740,76 @@
       "accessed_at": "2026-09-19T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-history-2026-09-20",
+      "source_type": "provider status history",
+      "source_url": "https://status.openai.com/history",
+      "title": "OpenAI incident history",
+      "claim": "OpenAI’s recent resolved history includes paid-plan GPT-5.6 and API model errors, managed Agents API delays, and an Agent API container-overbilling incident; these are service, product, and economic lanes rather than proof of capability decline.",
+      "accessed_at": "2026-09-20T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-antigravity-contract-2026-09-20",
+      "source_type": "provider release notes",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog?authuser=6",
+      "title": "Antigravity 09-2026 tool contract",
+      "claim": "Google’s release notes document changed local tool parameter casing and file-operation contracts, plus a scheduled shutdown for the older agent version; integration behavior can change without a model-weight change.",
+      "accessed_at": "2026-09-20T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-internal-counterweight-2026-09-20",
+      "source_type": "provider retrospective",
+      "source_url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "title": "Anthropic internal success series",
+      "claim": "Anthropic reports rising internal Claude Code session success through September, a provider-authored counterweight with judge, workload, and sample limits.",
+      "accessed_at": "2026-09-20T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ai-drift-board-2026-09-20",
+      "source_type": "public drift monitor",
+      "source_url": "https://aidriftdetector.com/",
+      "title": "AI Drift Detector board",
+      "claim": "The latest board snapshot reports 28 alerts and 2 warnings across 30 models; the signal is one week old and scoped to the monitor’s own suite.",
+      "accessed_at": "2026-09-20T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:pondral-stability-2026-09-20",
+      "source_type": "public benchmark methodology",
+      "source_url": "https://pondral.com/methodology/status",
+      "title": "Pondral frozen-suite status",
+      "claim": "Pondral reports maximum engine-level change of 0.9 percentage points in its latest monthly AI-search visibility comparison; this is a different estimand from coding drift.",
+      "accessed_at": "2026-09-20T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-switching-2026-09-20",
+      "source_type": "community reports",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wks70s/reset_coming_tuesday/",
+      "title": "Codex quota and switching threads",
+      "claim": "Current threads describe quota pressure, variability, and cross-provider switching; they are audience signals without a fixed task or ledger.",
+      "accessed_at": "2026-09-20T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:quality-guides-2026-09-20",
+      "source_type": "competitor quality guides",
+      "source_url": "https://nextreset.ai/guide/ai-quality/",
+      "title": "Symptom-first quality guides",
+      "claim": "NextReset and Codex Pulse separate latency, limits, tool failure, context, runtime, and task outcome and recommend fixed-task receipts.",
+      "accessed_at": "2026-09-20T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

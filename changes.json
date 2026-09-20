@@ -396,6 +396,30 @@
       "changed_at": "2026-09-19T12:00:00Z",
       "summary": "Published the 19 September report and expanded the decision receipt with task budget, warning, stop, entitlement, and descendant-work fields.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-19.html"
+    },
+    {
+      "change_id": "current-verdict-2026-09-20",
+      "changed_at": "2026-09-20T12:30:00Z",
+      "summary": "Updated the verdict: recent provider incidents and a concrete Antigravity tool-contract migration show system change, while provider, public-monitor, and community counterweights keep broad capability decline unproven.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "estimand-alignment-2026-09-20",
+      "changed_at": "2026-09-20T12:30:00Z",
+      "summary": "Added AI Drift Detector and Pondral as differently scoped public monitors and kept their coding-alert versus search-visibility estimands separate.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "tool-contract-receipt-2026-09-20",
+      "changed_at": "2026-09-20T12:30:00Z",
+      "summary": "Added tool-contract version, migration state, benchmark coverage, and switching reason to the decision receipt method.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "quota-switching-2026-09-20",
+      "changed_at": "2026-09-20T12:30:00Z",
+      "summary": "Added current Codex quota and cross-provider switching language as audience evidence with explicit self-selection limits.",
+      "path": "/p/ai-model-degradation-watch/research/"
     }
   ]
 }

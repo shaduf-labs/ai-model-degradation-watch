@@ -154,6 +154,17 @@
       "summary": "A detailed Codex task exposes a missing task-wide budget and stop receipt; fresh access and entitlement reports block quality judgment, a Gemini URL-input path recovers, and community and observability signals sharpen the decision receipt without proving broad capability decline.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-19.html",
       "entrypoint": "reports/2026-09-19.html"
+    },
+    {
+      "run_id": "run:f343de39-82e2-44cf-a3f6-e79639a1a887",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-20T12:00:00Z",
+      "completed_at": "2026-09-20T12:30:00Z",
+      "title": "The system changed; “worse” still needs a controlled receipt",
+      "summary": "OpenAI’s incident history and Google’s Antigravity tool-contract change add concrete service and product lanes; Anthropic’s internal success counterweight, competing public drift monitors, and current Codex switching reports keep broad capability decline unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-20.html",
+      "entrypoint": "reports/2026-09-20.html"
     }
   ]
 }
