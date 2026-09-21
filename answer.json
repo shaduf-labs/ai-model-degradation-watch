@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 20 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The fresh change is that the surrounding system is visibly moving: OpenAI’s status history records recent GPT-5.6 paid-plan and API errors, managed-agent delays, and an Agent API container-overbilling incident; Google’s Antigravity 09-2026 release changes local tool and file-operation contracts. A provider-authored Anthropic retrospective reports rising internal coding-session success, while public drift monitors disagree or measure different tasks. Users are switching because quota, capacity, access, and task fit change before a model-quality test can run. Record the requested and served model, route, tool contract, task budget, warning/stop state, outcome, and allowance before calling degradation.",
+  "current_answer": "As of 21 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. Current OpenAI, Claude, and xAI status pages report operational service, while OpenAI history records recent resolved GPT-5.6, API, agent, and billing lanes. A fresh longitudinal monitor reports 31,352 repeated score observations across 49 model identifiers with between-day movement larger than within-day variation, but its own limits leave model, serving, infrastructure, task mix, judge, and measurement causes unresolved. A new GPT-5.6 Sol user report describes slowdown, mistakes, and rollback; it is a narrow lead without a fixed replay or served-model receipt. Treat “worse” as an alert to capture a task, route, model, context, budget, judge or harness, outcome, and control—not a license to accuse the weights.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad model decline is proven. The surrounding system changed: incidents, tool contracts, drift estimands, quota, and task fit now need one receipt."
+    "text": "Repeated measurements now show movement. The cause still needs a receipt."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven; calm current status pages narrow declared outages but do not measure task quality.",
-    "OpenAI’s recent history records resolved paid-plan GPT-5.6 and API errors, managed-agent delays, and an Agent API container-overbilling incident.",
-    "Google’s Antigravity 09-2026 release changes local tool and file-operation contracts; migration failure can look like model degradation without a weight change.",
-    "Anthropic reports rising internal Claude Code session success, while AI Drift Detector flags broad movement on a fixed coding board and Pondral reports stable AI-search visibility; these are different estimands.",
-    "Current Codex users describe quota pressure, capacity or task-fit variability, and switching; self-selected threads are valuable intake, not prevalence or capability evidence.",
-    "NextReset and Codex Pulse reinforce a symptom-first fixed-task receipt; the public edge is causal explanation and a reversible action, not another generic score.",
-    "Reader move: record task, requested and served model, route, tool-contract version, budget, warning/stop state, outcome, allowance, and switching reason before switching or calling degradation."
+    "No broad cross-model core-capability decline is proven; current status pages narrow declared outages but do not measure task quality.",
+    "OpenAI history records recent resolved GPT-5.6 paid-plan and API errors, managed-agent delays, and an Agent API container-overbilling incident.",
+    "A longitudinal monitor reports 31,352 observations across 49 model identifiers, with between-day movement larger than within-day variation; this is a measurement signal, not causal proof.",
+    "A GPT-5.6 Sol community report adds a narrow session-quality lead—slowdown, mistakes, rollback, and forgetting—but lacks a fixed replay, served-model receipt, and control.",
+    "Judge or harness variance can itself move a score; a small public reliability repository makes repeatability part of the receipt.",
+    "Community reports about Gemini and Sol turn “worse” into a session, context, limit, and route question, not a prevalence estimate.",
+    "Reader move: capture task, requested and served model, route, context, task budget, warning/stop state, configuration, judge or harness, outcome, allowance, and control before switching or calling degradation."
   ],
   "uncertainty": [
     "No matched longitudinal cross-provider task series, provider-served-model receipt, provider ledger, representative denominator, human pilot, or willingness-to-pay evidence is available.",
-    "Official status histories and release notes establish declared events and contracts, not the prevalence or task-quality effect for a reader’s account.",
-    "AI Drift Detector, Pondral, and Anthropic’s internal series use different tasks, operators, samples, and estimands; their disagreement is informative but not a common verdict.",
-    "Community switching reports are self-selected and may reflect quota, routing, capacity, plan, context, or task-fit changes rather than core capability."
+    "Official status pages and incident histories establish declared events, not account-level task quality or prevalence.",
+    "The repeated-measurement source is self-published with private tasks; task mix, missingness, availability, judge, configuration, and provider attribution remain open.",
+    "Community session reports are self-selected and may reflect quota, routing, capacity, context, product, tool, or task-fit changes rather than core capability."
   ],
-  "checked_at": "2026-09-20T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-20T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 20 September 2026. The broad call remains no capability decline proven, while provider incidents, tool-contract migration, public-monitor disagreement, and quota-driven switching are now explicit evidence lanes."
+  "checked_at": "2026-09-21T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-21T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 21 September 2026. The broad call remains no capability decline proven, while repeated temporal movement, judge stability, session continuity, and provider-status blind spots are now explicit evidence lanes."
 }

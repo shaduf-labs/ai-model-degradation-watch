@@ -1810,6 +1810,76 @@
       "accessed_at": "2026-09-20T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-status-operational-2026-09-21",
+      "source_type": "provider status pages",
+      "source_url": "https://status.openai.com/",
+      "title": "Current OpenAI status",
+      "claim": "OpenAI, Claude, and xAI status pages were operational when checked; status pages describe declared service state, not cross-account task quality.",
+      "accessed_at": "2026-09-21T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-openai-history-2026-09-21",
+      "source_type": "provider incident history",
+      "source_url": "https://status.openai.com/history",
+      "title": "OpenAI incident history",
+      "claim": "Recent history records resolved GPT-5.6 paid-plan and API errors, managed-agent delays, and an Agent API container-overbilling incident.",
+      "accessed_at": "2026-09-21T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-longitudinal-drift-2026-09-21",
+      "source_type": "independent longitudinal monitor discussion",
+      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1w9llr4/measuring_llm_performance_drift_observations_and/",
+      "title": "Measuring LLM performance drift",
+      "claim": "A founder-reported historical analysis has 31,352 repeated score observations across 49 model identifiers, with within-day SD 2.80 and between-day daily-median SD 8.43; the source itself says this is not proof of provider change.",
+      "accessed_at": "2026-09-21T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-sol-session-2026-09-21",
+      "source_type": "community report",
+      "source_url": "https://community.openai.com/t/gpt-5-6-sol-has-seriously-deteriorated-the-past-week-or-so/1399353",
+      "title": "GPT-5.6 Sol session report",
+      "claim": "A user reports recent slowdown, mistakes, rollback, and forgetting in a GPT-5.6 Sol workflow; the report is a narrow replay lead without a fixed task or served-model receipt.",
+      "accessed_at": "2026-09-21T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-judge-stability-2026-09-21",
+      "source_type": "evaluation reliability repository",
+      "source_url": "https://github.com/danielgshea/jev-as-a-judge",
+      "title": "JEV as a judge",
+      "claim": "Repeated judgments on five frozen runs vary materially across tested judges; the small corpus limits generalization but supports exposing judge and harness stability.",
+      "accessed_at": "2026-09-21T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-gemini-quality-language-2026-09-21",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/GeminiFeedback/comments/1wdbp21/has_anyone_else_noticed_a_major_change_in_geminis/",
+      "title": "Gemini feedback thread",
+      "claim": "A self-selected thread mixes recent quality, context, speed, limit, and possible mode-change reports with counterreports; it is intake, not prevalence evidence.",
+      "accessed_at": "2026-09-21T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:public-monitor-business-2026-09-21",
+      "source_type": "competitor positioning",
+      "source_url": "https://aistupidlevel.info/about",
+      "title": "AI Stupid Level about page",
+      "claim": "AI Stupid Level presents an independent monitoring position with user-key verification and Pro/API/data licensing; this is market positioning, not audited demand or verdict evidence.",
+      "accessed_at": "2026-09-21T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

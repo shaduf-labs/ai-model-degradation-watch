@@ -420,6 +420,36 @@
       "changed_at": "2026-09-20T12:30:00Z",
       "summary": "Added current Codex quota and cross-provider switching language as audience evidence with explicit self-selection limits.",
       "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-21",
+      "changed_at": "2026-09-21T12:00:00Z",
+      "summary": "Kept the broad call at no proven cross-model capability decline while adding current operational status, resolved incident, and causal-attribution limits.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "longitudinal-variance-2026-09-21",
+      "changed_at": "2026-09-21T12:00:00Z",
+      "summary": "Added a repeated-measurement lane: 31,352 observations across 49 model identifiers show between-day movement larger than within-day variation, without proving a weight change.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-21.html"
+    },
+    {
+      "change_id": "session-continuity-lead-2026-09-21",
+      "changed_at": "2026-09-21T12:00:00Z",
+      "summary": "Added a narrow GPT-5.6 Sol slowdown, rollback, and mistake report as a replay lead rather than prevalence or capability proof.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "receipt-repeatability-2026-09-21",
+      "changed_at": "2026-09-21T12:00:00Z",
+      "summary": "Expanded the decision receipt with within-day and between-day variance, configuration, judge or harness, availability coverage, and session continuity.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "watch-report-2026-09-21",
+      "changed_at": "2026-09-21T12:00:00Z",
+      "summary": "Published the 21 September report: drift is measurable, but the cause still needs a receipt.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-21.html"
     }
   ]
 }

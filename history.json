@@ -165,6 +165,17 @@
       "summary": "OpenAI’s incident history and Google’s Antigravity tool-contract change add concrete service and product lanes; Anthropic’s internal success counterweight, competing public drift monitors, and current Codex switching reports keep broad capability decline unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-20.html",
       "entrypoint": "reports/2026-09-20.html"
+    },
+    {
+      "run_id": "run:ba69066e-4a1c-4cb5-b75b-2369aced2bb7",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-21T12:00:00Z",
+      "completed_at": "2026-09-21T12:30:00Z",
+      "title": "Drift is measurable; the cause still needs a receipt",
+      "summary": "A repeated-measurement monitor makes temporal movement a real signal, while a narrow GPT-5.6 Sol session report and judge-reliability evidence sharpen the replay requirement; current status pages and source limits keep broad capability decline unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-21.html",
+      "entrypoint": "reports/2026-09-21.html"
     }
   ]
 }
