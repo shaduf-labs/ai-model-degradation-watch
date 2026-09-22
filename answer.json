@@ -1,27 +1,26 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 21 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. Current OpenAI, Claude, and xAI status pages report operational service, while OpenAI history records recent resolved GPT-5.6, API, agent, and billing lanes. A fresh longitudinal monitor reports 31,352 repeated score observations across 49 model identifiers with between-day movement larger than within-day variation, but its own limits leave model, serving, infrastructure, task mix, judge, and measurement causes unresolved. A new GPT-5.6 Sol user report describes slowdown, mistakes, and rollback; it is a narrow lead without a fixed replay or served-model receipt. Treat “worse” as an alert to capture a task, route, model, context, budget, judge or harness, outcome, and control—not a license to accuse the weights.",
+  "current_answer": "As of 22 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. Anthropic recorded elevated errors across multiple Claude models and surfaces from 00:50 to 02:10 UTC and marked the incident resolved at 02:35 UTC; that is availability evidence, not a weight verdict. OpenAI says its GPT-5.6 Sol update changed ChatGPT while the Work/Codex version was not changing, so a model label is not a complete test identity. New community reports still describe fast or shallow Chat responses, file and tool failures, and Chat-versus-Work differences, while account restrictions can affect paid access. Keep the drift signal open, but capture task, surface, requested and served model, route, context, judge or harness, availability, budget, artifact, and control before calling degradation.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "Repeated measurements now show movement. The cause still needs a receipt."
+    "text": "Claude had a same-day outage. OpenAI has a surface split. Neither proves the weights got worse."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven; current status pages narrow declared outages but do not measure task quality.",
-    "OpenAI history records recent resolved GPT-5.6 paid-plan and API errors, managed-agent delays, and an Agent API container-overbilling incident.",
-    "A longitudinal monitor reports 31,352 observations across 49 model identifiers, with between-day movement larger than within-day variation; this is a measurement signal, not causal proof.",
-    "A GPT-5.6 Sol community report adds a narrow session-quality lead—slowdown, mistakes, rollback, and forgetting—but lacks a fixed replay, served-model receipt, and control.",
-    "Judge or harness variance can itself move a score; a small public reliability repository makes repeatability part of the receipt.",
-    "Community reports about Gemini and Sol turn “worse” into a session, context, limit, and route question, not a prevalence estimate.",
-    "Reader move: capture task, requested and served model, route, context, task budget, warning/stop state, configuration, judge or harness, outcome, allowance, and control before switching or calling degradation."
+    "No broad cross-model core-capability decline is proven; a resolved Claude incident narrows availability, not capability.",
+    "Anthropic recorded elevated errors for Fable 5/5.1, Mythos 5/5.1, and Opus 5 across Claude surfaces from 00:50 to 02:10 UTC on 22 September, resolved at 02:35 UTC.",
+    "OpenAI says its 6 August GPT-5.6 Sol update applied to Chat, while the version powering Work and Codex was not changing in that release.",
+    "Fresh community reports describe fast or shallow Chat responses, file/tool failures, and Chat-versus-Work differences; they are a narrow system lead, not a prevalence sample.",
+    "OpenAI Support says paid accounts can temporarily lose access to models or features based on account activity; this is an access lane, not proof of weaker weights.",
+    "Judge version and severity can move evaluation scores, and the visible AI Drift Detector board is dated 13 September when checked on 22 September.",
+    "Reader move: record the task, surface, requested and served model, route, context, judge or harness, availability, budget, artifact, and control before retrying, waiting, pinning, stopping, or switching."
   ],
   "uncertainty": [
-    "No matched longitudinal cross-provider task series, provider-served-model receipt, provider ledger, representative denominator, human pilot, or willingness-to-pay evidence is available.",
-    "Official status pages and incident histories establish declared events, not account-level task quality or prevalence.",
-    "The repeated-measurement source is self-published with private tasks; task mix, missingness, availability, judge, configuration, and provider attribution remain open.",
-    "Community session reports are self-selected and may reflect quota, routing, capacity, context, product, tool, or task-fit changes rather than core capability."
+    "No matched Chat-versus-Work or cross-provider fixed-task series with served-model and route receipts, representative denominator, provider ledger, human pilot, or willingness-to-pay evidence is available.",
+    "Provider status pages establish declared service conditions, not account-level task quality or prevalence.",
+    "Community reports and public monitors are self-selected or self-published; judge version, task configuration, route, context, access, and product execution can all move a measured or perceived result."
   ],
-  "checked_at": "2026-09-21T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-21T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 21 September 2026. The broad call remains no capability decline proven, while repeated temporal movement, judge stability, session continuity, and provider-status blind spots are now explicit evidence lanes."
+  "checked_at": "2026-09-22T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-22T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 22 September 2026. The broad call remains no capability decline proven; a resolved Claude incident, an explicit Chat-versus-Work product boundary, and current access and judge evidence sharpen the next replay."
 }

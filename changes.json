@@ -450,6 +450,36 @@
       "changed_at": "2026-09-21T12:00:00Z",
       "summary": "Published the 21 September report: drift is measurable, but the cause still needs a receipt.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-21.html"
+    },
+    {
+      "change_id": "claude-multi-model-incident-2026-09-22",
+      "changed_at": "2026-09-22T12:00:00Z",
+      "summary": "Added Anthropic’s resolved same-day multi-model error incident across Claude surfaces as availability evidence, separate from capability decline.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "surface-specific-model-identity-2026-09-22",
+      "changed_at": "2026-09-22T12:00:00Z",
+      "summary": "Added OpenAI’s explicit Chat-only GPT-5.6 Sol update boundary and made product surface part of the comparison identity.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "chat-work-access-lead-2026-09-22",
+      "changed_at": "2026-09-22T12:00:00Z",
+      "summary": "Added current Chat-versus-Work community reports and official paid-account access restrictions as a narrow system-quality and entitlement lane.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "judge-and-monitor-freshness-2026-09-22",
+      "changed_at": "2026-09-22T12:00:00Z",
+      "summary": "Added judge version instability and public-monitor snapshot age to the drift receipt and signal table.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "research-report-2026-09-22",
+      "changed_at": "2026-09-22T12:00:00Z",
+      "summary": "Published the 22 September report: an outage and a surface split sharpen the test, but do not prove broad model decline.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-22.html"
     }
   ]
 }

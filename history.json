@@ -176,6 +176,17 @@
       "summary": "A repeated-measurement monitor makes temporal movement a real signal, while a narrow GPT-5.6 Sol session report and judge-reliability evidence sharpen the replay requirement; current status pages and source limits keep broad capability decline unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-21.html",
       "entrypoint": "reports/2026-09-21.html"
+    },
+    {
+      "run_id": "run:89ea6473-c187-4ddc-b364-0158658f751c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-22T12:00:00Z",
+      "completed_at": "2026-09-22T12:30:00Z",
+      "title": "An outage and a surface split; broad decline still needs a test",
+      "summary": "A resolved Claude multi-model incident adds current availability evidence. OpenAI’s Chat-only Sol update makes surface identity explicit, while community access and Chat-versus-Work reports and judge-instability research sharpen the next replay without proving broad capability decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-22.html",
+      "entrypoint": "reports/2026-09-22.html"
     }
   ]
 }

@@ -1880,6 +1880,146 @@
       "accessed_at": "2026-09-21T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-multiple-model-incident-sep22-2026",
+      "source_type": "provider status incident",
+      "source_url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "title": "Claude Status — Elevated errors for multiple models",
+      "claim": "Anthropic reported elevated errors across multiple Claude models and four surfaces from 00:50 to 02:10 UTC on 22 September 2026 and marked the incident resolved at 02:35 UTC; this is availability evidence, not a capability verdict.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-sep22-2026",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "OpenAI reported no active declared issue when checked; its status page also warns that aggregate availability may differ by tier, model, and feature.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:claude-status-sep22-2026",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "Claude’s status page showed all systems operational after the resolved 22 September incident.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:xai-status-sep22-2026",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/",
+      "title": "SpaceXAI Status",
+      "claim": "xAI reported no incidents declared and its listed services available when checked.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-sol-chat-update-aug6-2026",
+      "source_type": "provider product update",
+      "source_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "title": "Improving GPT-5.6 Sol in ChatGPT",
+      "claim": "OpenAI says its GPT-5.6 Sol update applied to the Chat experience while the version powering Work and Codex was not changing in that release.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-support-access-sep14-2026",
+      "source_type": "official support response",
+      "source_url": "https://community.openai.com/t/selected-model-is-at-capacity-please-try-a-different-model-mac/1395650/10",
+      "title": "Selected model is at capacity — OpenAI Support",
+      "claim": "OpenAI Support says paid accounts can have temporary model or feature access limits based on account activity, with automatic reassessment.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-model-access-help-sep22-2026",
+      "source_type": "provider help documentation",
+      "source_url": "https://help.openai.com/en/articles/10258669-troubleshooting-model-feature-access-issues",
+      "title": "Troubleshooting Model Feature Access Issues",
+      "claim": "OpenAI’s help guidance lists temporary model access limits and downgrades among possible access problems.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-chat-work-report-sep22-2026",
+      "source_type": "community workflow report",
+      "source_url": "https://community.openai.com/t/chatgpt-is-breaking-across-multiple-systems/1394915",
+      "title": "ChatGPT Is Breaking Across Multiple Systems",
+      "claim": "A detailed community report describes fast or shallow Chat responses, file and tool failures, and a regular-Chat versus Work difference, with later replies reporting both continued issues and partial recovery.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-community-5-6-tag-sep22-2026",
+      "source_type": "community issue index",
+      "source_url": "https://community.openai.com/tag/5-6/1169",
+      "title": "OpenAI Community 5.6 tag",
+      "claim": "The current issue index lists recent reports about 5.6 execution stops, malformed output, memory/context behavior, and long tasks; activity is not prevalence.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ai-drift-detector-board-sep22-2026",
+      "source_type": "public drift monitor",
+      "source_url": "https://aidriftdetector.com/",
+      "title": "AI Drift Detector",
+      "claim": "The visible board snapshot is dated 13 September and shows 30 models, 28 alerts, and two warnings when checked on 22 September.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ai-drift-detector-methodology-sep22-2026",
+      "source_type": "public drift monitor methodology",
+      "source_url": "https://aidriftdetector.com/methodology/",
+      "title": "AI Drift Detector methodology",
+      "claim": "The monitor describes weekly snapshots, golden baselines, coverage, availability signals, and a separate fixed suite with executable grading.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:llm-judge-raters-aug30-2026",
+      "source_type": "evaluation reliability preprint",
+      "source_url": "https://arxiv.org/abs/2608.29517",
+      "title": "LLM Judges as Raters",
+      "claim": "A pre-registered audit across 2,377 essays, 12 judges, four providers, and five version contrasts reports large judge severity differences and version shifts, while also reporting limits and nulls.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:llm-judge-system-attribution-jun13-2026",
+      "source_type": "evaluation attribution preprint",
+      "source_url": "https://arxiv.org/abs/2606.15474",
+      "title": "Who Drifted: the System or the Judge?",
+      "claim": "The paper frames a drift alarm as ambiguous when the judge is an API-backed model that can change independently of the evaluated system.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:iclr-imperfect-judge-2026",
+      "source_type": "peer-reviewed evaluation methodology",
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/08a67eb74bfb9ded9e949dd52973e997-Abstract-Conference.html",
+      "title": "Noisy but Valid",
+      "claim": "The ICLR paper derives conditions for evaluation with imperfect judges and highlights the cost of unknown judge quality and certification.",
+      "accessed_at": "2026-09-22T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
