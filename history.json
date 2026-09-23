@@ -187,6 +187,17 @@
       "summary": "A resolved Claude multi-model incident adds current availability evidence. OpenAI’s Chat-only Sol update makes surface identity explicit, while community access and Chat-versus-Work reports and judge-instability research sharpen the next replay without proving broad capability decline.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-22.html",
       "entrypoint": "reports/2026-09-22.html"
+    },
+    {
+      "run_id": "run:bc654e96-864b-4a77-ad3b-83d5cc5414a4",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-23T12:00:00Z",
+      "completed_at": "2026-09-23T12:30:00Z",
+      "title": "A resolved outage, a route lead, and no broad decline",
+      "summary": "OpenAI had a resolved ChatGPT Conversations incident. A detailed same-account Chat-versus-Work report supplies a narrow execution-class lead, while routing and capacity reports remain unverified and RoboDojo provides a positive cross-sectional counterweight.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-23.html",
+      "entrypoint": "reports/2026-09-23.html"
     }
   ]
 }

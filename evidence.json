@@ -2020,6 +2020,166 @@
       "accessed_at": "2026-09-22T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-chatgpt-conversations-sep23",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/thedr16r",
+      "title": "Elevated Error Rates for ChatGPT Conversations",
+      "claim": "OpenAI recorded elevated ChatGPT Conversations errors across Plus and Pro from 09:13 to 09:54 UTC on 23 September and marked the incident resolved; this is availability evidence, not a model-quality verdict.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-sep23",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "Claude showed all systems operational and no active incident at the 23 September check.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:xai-status-sep23",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/",
+      "title": "xAI Status",
+      "claim": "xAI showed no incidents declared at the 23 September check.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-sol-surface-boundary",
+      "source_type": "provider product update",
+      "source_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "title": "Improving GPT-5.6 Sol in ChatGPT",
+      "claim": "OpenAI says the Sol update applied to Chat, while the version powering Work and Codex was not changing in that release.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:chat-work-execution-sep23",
+      "source_type": "community technical report",
+      "source_url": "https://community.openai.com/t/gpt-5-6-high-execution-regression-ordinary-chat-went-102m26s-repeated-25-26m-stops-on-same-plus-account-work-still-gets-long-run-handoff/1391943",
+      "title": "GPT-5.6 high-execution regression report",
+      "claim": "A detailed community report claims a same-account Chat-versus-Work execution-class difference, with ordinary Chat around 25–26 minutes and current Work retaining worker handoff; the report is a narrow unverified lead.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:chat-work-longterm-sep23",
+      "source_type": "community longitudinal report",
+      "source_url": "https://community.openai.com/t/long-term-user-feedback-on-the-recent-reasoning-capability-differences-between-chatgpt-regular-chat-and-work-mode-chatgpt/1400061",
+      "title": "Long-term Chat versus Work feedback",
+      "claim": "A Pro user reports regular Chat as fast and shallow across devices and Work as more stable for large code and multi-step reasoning; this is self-selected evidence.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:pro20x-capacity-sep23",
+      "source_type": "community account report",
+      "source_url": "https://community.openai.com/t/request-for-account-review-pro20x-subscription-experiencing-capacity-errors-and-significant-performance-degradation/1400068",
+      "title": "Pro20x capacity and performance report",
+      "claim": "A Pro20x user reports capacity errors, automatic model switching, slower tasks, and weaker perceived responses despite reporting low seven-day usage; this is an account/access lead.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:astra-luna-routing-sep23",
+      "source_type": "community routing report",
+      "source_url": "https://community.openai.com/t/requested-gpt-6-astra-but-possibly-routed-to-gpt-5-6-luna-paying-users-deserve-transparency-and-accountability/1399076",
+      "title": "Requested Astra, possible Luna routing",
+      "claim": "A community thread reports requested Astra alongside Luna response model IDs; the rate and support statement are not independently verified.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:tool-call-ui-sep23",
+      "source_type": "community product report",
+      "source_url": "https://community.openai.com/t/tool-calls-are-being-dumped-outside-the-worked-for-section/1399987",
+      "title": "Tool-call presentation report",
+      "claim": "A Firefox/Windows report says tool calls render outside the Worked-for section without a generation error, which belongs to UI execution rather than core capability.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:robodojo-astra-sep23",
+      "source_type": "independent evaluation preprint",
+      "source_url": "https://arxiv.org/abs/2609.24170",
+      "title": "An Unexpected Robot Policy",
+      "claim": "RoboDojo reports positive GPT-6 Astra performance over 2,100 trials relative to 40 public policies; it is cross-sectional and task-specific, not a deployed-route time series.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:task-quota-receipt-sep23",
+      "source_type": "community feature request",
+      "source_url": "https://community.openai.com/t/feature-request-show-token-and-credit-usage/1400017",
+      "title": "Show token and credit usage",
+      "claim": "A user asks for per-task token, credit, and percentage usage because quota consumption is described as variable and unpredictable.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-scope-receipt-sep23",
+      "source_type": "community workflow report",
+      "source_url": "https://community.openai.com/t/repeated-scope-failures-in-real-codex-projects/1399757",
+      "title": "Repeated scope failures in real Codex projects",
+      "claim": "A detailed workflow report asks for acceptance boundaries, completed-artifact proof, and review-cost accounting.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-community-latest-sep23",
+      "source_type": "community issue index",
+      "source_url": "https://community.openai.com/latest?page=1",
+      "title": "OpenAI Community latest topics",
+      "claim": "The current index shows active discussion of rate limits, Chat/Work execution, routing, tool presentation, capacity, and reasoning differences; activity is demand language, not prevalence.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ai-drift-detector-current-sep23",
+      "source_type": "independent public monitor",
+      "source_url": "https://aidriftdetector.com/",
+      "title": "AI Drift Detector",
+      "claim": "AI Drift Detector presents a public weekly degradation-monitoring product with baselines, alerts, and independent positioning; current dynamic scores were not validated in this run.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:currai-observability-sep23",
+      "source_type": "observability market guide",
+      "source_url": "https://www.currai.app/blog/best-ai-observability-tools-2026",
+      "title": "Best AI observability tools in 2026",
+      "claim": "Currai frames observability around traces, evaluation, quality-aware alerts, drift detection, cost, and production-to-eval loops.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:langchain-observability-sep23",
+      "source_type": "observability market guide",
+      "source_url": "https://www.langchain.com/resources/llm-observability-tools",
+      "title": "LLM observability tools for production agents",
+      "claim": "LangChain frames observability around traces, evals, debugging, cost, human review, and turning failures into regression tests.",
+      "accessed_at": "2026-09-23T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

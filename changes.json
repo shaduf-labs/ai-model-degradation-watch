@@ -480,6 +480,30 @@
       "changed_at": "2026-09-22T12:00:00Z",
       "summary": "Published the 22 September report: an outage and a surface split sharpen the test, but do not prove broad model decline.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-22.html"
+    },
+    {
+      "change_id": "change:2026-09-23-verdict",
+      "changed_at": "2026-09-23T12:30:00Z",
+      "summary": "Updated the dated verdict with an OpenAI ChatGPT availability incident, a narrow Chat-versus-Work execution lead, and a positive Astra cross-sectional counterweight.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "change:2026-09-23-receipt",
+      "changed_at": "2026-09-23T12:30:00Z",
+      "summary": "Added execution class, served-model provenance, task budget, completed artifact, and post-action outcome to the public decision receipt.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "change:2026-09-23-audience",
+      "changed_at": "2026-09-23T12:30:00Z",
+      "summary": "Added fresh audience evidence on Chat/Work execution, quota receipts, scope boundaries, model routing, and observability vocabulary.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "change:2026-09-23-report",
+      "changed_at": "2026-09-23T12:30:00Z",
+      "summary": "Published the 23 September report with linked provider, community, evaluation, and observability sources.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-23.html"
     }
   ]
 }

@@ -1,26 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 22 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. Anthropic recorded elevated errors across multiple Claude models and surfaces from 00:50 to 02:10 UTC and marked the incident resolved at 02:35 UTC; that is availability evidence, not a weight verdict. OpenAI says its GPT-5.6 Sol update changed ChatGPT while the Work/Codex version was not changing, so a model label is not a complete test identity. New community reports still describe fast or shallow Chat responses, file and tool failures, and Chat-versus-Work differences, while account restrictions can affect paid access. Keep the drift signal open, but capture task, surface, requested and served model, route, context, judge or harness, availability, budget, artifact, and control before calling degradation.",
+  "current_answer": "As of 23 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. OpenAI recorded resolved ChatGPT Conversations errors from 09:13 to 09:54 UTC, while Claude and xAI status pages showed no active incident at the check. A detailed same-account report supplies a stronger Chat-versus-Work execution-class lead—ordinary Chat foreground turns around 25–26 minutes versus historical Chat and current Work worker handoff—but the route predicate and prevalence are not provider-confirmed. Capacity, automatic-switching, and requested-Astra/returned-Luna reports are access and provenance leads, not broad weight evidence. An independent RoboDojo paper is a positive cross-sectional counterweight. Replay one fixed task with requested and served model, surface, route, context, effort, budget, artifact, and control before calling degradation.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "Claude had a same-day outage. OpenAI has a surface split. Neither proves the weights got worse."
+    "text": "OpenAI had a short ChatGPT outage. The stronger new lead is a Chat-versus-Work execution split, but it still does not prove the models got worse."
   },
   "summary": [
-    "No broad cross-model core-capability decline is proven; a resolved Claude incident narrows availability, not capability.",
-    "Anthropic recorded elevated errors for Fable 5/5.1, Mythos 5/5.1, and Opus 5 across Claude surfaces from 00:50 to 02:10 UTC on 22 September, resolved at 02:35 UTC.",
-    "OpenAI says its 6 August GPT-5.6 Sol update applied to Chat, while the version powering Work and Codex was not changing in that release.",
-    "Fresh community reports describe fast or shallow Chat responses, file/tool failures, and Chat-versus-Work differences; they are a narrow system lead, not a prevalence sample.",
-    "OpenAI Support says paid accounts can temporarily lose access to models or features based on account activity; this is an access lane, not proof of weaker weights.",
-    "Judge version and severity can move evaluation scores, and the visible AI Drift Detector board is dated 13 September when checked on 22 September.",
-    "Reader move: record the task, surface, requested and served model, route, context, judge or harness, availability, budget, artifact, and control before retrying, waiting, pinning, stopping, or switching."
+    "No broad cross-model core-capability decline is proven.",
+    "OpenAI recorded resolved ChatGPT Conversations errors from 09:13 to 09:54 UTC on 23 September; that is availability evidence.",
+    "Claude and xAI status pages showed no active incident at the check.",
+    "A detailed same-account report gives a narrow Chat-versus-Work execution-class lead, but it is not provider-confirmed or a prevalence estimate.",
+    "Capacity, automatic switching, and requested-Astra/returned-Luna reports make served-model and route receipts necessary before judging quality.",
+    "An independent RoboDojo paper is a positive cross-sectional Astra counterweight, not a temporal production test.",
+    "Reader move: record task, surface, requested and served model, execution class, route, context, budget, artifact, correction burden, and control before retrying, waiting, stopping, switching, or replaying."
   ],
   "uncertainty": [
-    "No matched Chat-versus-Work or cross-provider fixed-task series with served-model and route receipts, representative denominator, provider ledger, human pilot, or willingness-to-pay evidence is available.",
+    "No matched Chat-versus-Work or cross-provider fixed-task series with provider-served model, route receipts, representative denominator, human pilot, provider ledger, or willingness-to-pay evidence is available.",
     "Provider status pages establish declared service conditions, not account-level task quality or prevalence.",
-    "Community reports and public monitors are self-selected or self-published; judge version, task configuration, route, context, access, and product execution can all move a measured or perceived result."
+    "Community route, capacity, and model-ID reports are self-selected and not independently verified.",
+    "The RoboDojo result is cross-sectional and task-specific; it does not test temporal production-route degradation.",
+    "Judge or harness version, task configuration, context, safety behavior, access, and product execution can all move a measured or perceived result."
   ],
-  "checked_at": "2026-09-22T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-22T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 22 September 2026. The broad call remains no capability decline proven; a resolved Claude incident, an explicit Chat-versus-Work product boundary, and current access and judge evidence sharpen the next replay."
+  "checked_at": "2026-09-23T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-23T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 23 September 2026. The broad call remains no capability decline proven; a resolved OpenAI availability incident, a narrow Chat-versus-Work execution lead, provenance reports, and a positive independent counterweight sharpen the next replay."
 }
