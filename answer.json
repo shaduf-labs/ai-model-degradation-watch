@@ -1,28 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 23 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. OpenAI recorded resolved ChatGPT Conversations errors from 09:13 to 09:54 UTC, while Claude and xAI status pages showed no active incident at the check. A detailed same-account report supplies a stronger Chat-versus-Work execution-class lead—ordinary Chat foreground turns around 25–26 minutes versus historical Chat and current Work worker handoff—but the route predicate and prevalence are not provider-confirmed. Capacity, automatic-switching, and requested-Astra/returned-Luna reports are access and provenance leads, not broad weight evidence. An independent RoboDojo paper is a positive cross-sectional counterweight. Replay one fixed task with requested and served model, surface, route, context, effort, budget, artifact, and control before calling degradation.",
+  "current_answer": "As of 24 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The clearest new movement is surface-scoped: OpenAI released GPT-6 Sol and Luna to Work, Codex, and the API but not ordinary Chat, while Work also had a resolved declared error incident; Claude recorded a resolved multi-model incident and then launched Opus 5.5. A community trace reports client and server model-attribution fields disagreeing, and conversation-capacity and allowance reports show real usable-work risk. These findings strengthen a surface, rollout, provenance, and budget diagnosis; they do not prove weaker model weights. Replay one fixed task with release boundary, requested and served model, request/server/native/client attribution, route, tools, context, budget, artifact, judge, and control before calling degradation.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "OpenAI had a short ChatGPT outage. The stronger new lead is a Chat-versus-Work execution split, but it still does not prove the models got worse."
+    "text": "OpenAI changed Work before Chat. The new rollout, a resolved Work incident, and a model-label mismatch point to surface and provenance—not proof that popular model weights got worse."
   },
   "summary": [
     "No broad cross-model core-capability decline is proven.",
-    "OpenAI recorded resolved ChatGPT Conversations errors from 09:13 to 09:54 UTC on 23 September; that is availability evidence.",
-    "Claude and xAI status pages showed no active incident at the check.",
-    "A detailed same-account report gives a narrow Chat-versus-Work execution-class lead, but it is not provider-confirmed or a prevalence estimate.",
-    "Capacity, automatic switching, and requested-Astra/returned-Luna reports make served-model and route receipts necessary before judging quality.",
-    "An independent RoboDojo paper is a positive cross-sectional Astra counterweight, not a temporal production test.",
-    "Reader move: record task, surface, requested and served model, execution class, route, context, budget, artifact, correction burden, and control before retrying, waiting, stopping, switching, or replaying."
+    "OpenAI says GPT-6 Sol and Luna entered Work, Codex, and the API but not ordinary Chat at launch; its release also warns that production Chat can differ from API or research evaluation.",
+    "OpenAI recorded a resolved ChatGPT Work error incident, while Claude recorded a resolved multi-model incident and current OpenAI, Claude, and xAI status pages were calm at the check.",
+    "A self-reported ChatGPT trace shows client and server model-attribution fields disagreeing; it is a provenance or display lead, not proof of fallback.",
+    "Early conversation-capacity and allowance reports show real usable-work risk around hidden tool/file work, but not weaker model weights.",
+    "Anthropic’s Opus 5.5 launch is a positive counterweight, although provider claims and mixed early user reports are not an independent time series.",
+    "Reader move: replay a fixed task across surfaces with release boundary, request/server/native/client/final model identity, route, tools, context, budget, artifact, judge, and control."
   ],
   "uncertainty": [
-    "No matched Chat-versus-Work or cross-provider fixed-task series with provider-served model, route receipts, representative denominator, human pilot, provider ledger, or willingness-to-pay evidence is available.",
-    "Provider status pages establish declared service conditions, not account-level task quality or prevalence.",
-    "Community route, capacity, and model-ID reports are self-selected and not independently verified.",
-    "The RoboDojo result is cross-sectional and task-specific; it does not test temporal production-route degradation.",
-    "Judge or harness version, task configuration, context, safety behavior, access, and product execution can all move a measured or perceived result."
+    "No matched fixed-task series across Chat, Work, Codex, API, and Claude with provider-served identity, route, tools, context, budget, artifact, judge, and representative denominator is available.",
+    "Provider status and release pages establish declared events and intended scope, not every account’s task quality or route.",
+    "The model-attribution mismatch is one self-reported client investigation and may be a UI or metadata defect.",
+    "Provider launch evaluations, community reports, and early counterreports use different tasks, plans, effort, and baselines.",
+    "Analytics, a human pilot, a provider ledger, a recovered-work measure, and willingness-to-pay evidence remain unavailable."
   ],
-  "checked_at": "2026-09-23T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-23T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 23 September 2026. The broad call remains no capability decline proven; a resolved OpenAI availability incident, a narrow Chat-versus-Work execution lead, provenance reports, and a positive independent counterweight sharpen the next replay."
+  "checked_at": "2026-09-24T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-24T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 24 September 2026. The broad call remains no capability decline proven; an official surface-scoped GPT-6 rollout, resolved Work and Claude incidents, a model-attribution mismatch, hidden capacity reports, and a positive Opus 5.5 counterweight sharpen the next replay."
 }

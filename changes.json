@@ -504,6 +504,36 @@
       "changed_at": "2026-09-23T12:30:00Z",
       "summary": "Published the 23 September report with linked provider, community, evaluation, and observability sources.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-23.html"
+    },
+    {
+      "change_id": "change:2026-09-24-surface-rollout",
+      "changed_at": "2026-09-24T12:30:00Z",
+      "summary": "Updated the verdict with OpenAI’s official GPT-6 Sol/Luna rollout boundary: Work, Codex, and API changed before ordinary Chat.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "change:2026-09-24-attribution-receipt",
+      "changed_at": "2026-09-24T12:30:00Z",
+      "summary": "Added request, server, native, client, and final model-attribution agreement to the replay receipt after a detailed ChatGPT Web mismatch report.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "change:2026-09-24-capacity-budget",
+      "changed_at": "2026-09-24T12:30:00Z",
+      "summary": "Added hidden tool/file payload, conversation-capacity, and per-task allowance evidence as usable-work lanes separate from capability decline.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "change:2026-09-24-counterweights",
+      "changed_at": "2026-09-24T12:30:00Z",
+      "summary": "Added Anthropic Opus 5.5, Prompt Drift Lab, and DriftBench as positive or methodological counterweights with explicit scope limits.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "change:2026-09-24-report",
+      "changed_at": "2026-09-24T12:30:00Z",
+      "summary": "Published the 24 September report: the rollout moved before the verdict did.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-24.html"
     }
   ]
 }

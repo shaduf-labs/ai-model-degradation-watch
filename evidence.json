@@ -2180,6 +2180,186 @@
       "accessed_at": "2026-09-23T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-work-incident-sep22",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/xqj8tm81",
+      "title": "Elevated Error Rates for ChatGPT Work",
+      "claim": "OpenAI listed a resolved ChatGPT Work incident across paid and education plans; this is availability evidence, not a model-quality result.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-gpt6-work-chat-boundary-sep24",
+      "source_type": "provider product release",
+      "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "claim": "OpenAI says GPT-6 Sol and Luna rolled into Work and Codex and the API, but not ordinary Chat at launch; the release warns that production Chat can differ from API or research evaluation.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-model-docs-sep24",
+      "source_type": "provider model documentation",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "title": "OpenAI model catalog",
+      "claim": "OpenAI documents distinct GPT-6 Astra, Sol, and Luna API IDs and roles; the catalog does not reveal ChatGPT account routing.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:provider-status-openai-sep24",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "OpenAI showed fully operational at the check and says aggregate availability may vary by tier, model, and feature.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:provider-status-claude-sep24",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "Claude showed all systems operational; its history records a resolved 22 September multi-model incident.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:provider-status-xai-sep24",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/",
+      "title": "xAI Status",
+      "claim": "xAI showed no incidents declared at the check.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:chatgpt-model-attribution-sep24",
+      "source_type": "community technical report",
+      "source_url": "https://community.openai.com/t/chatgpt-web-abnormal-responses-correlated-with-resolved-model-slug/1399698",
+      "title": "ChatGPT Web model-attribution report",
+      "claim": "A self-reported test describes a post-completion client model-slug change while server and native attribution remain GPT-5.6; this is a provenance or UI lead, not proof of fallback.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:chatgpt-conversation-capacity-sep24",
+      "source_type": "community workflow report",
+      "source_url": "https://community.openai.com/t/chatgpt-plus-conversations-reaching-maximum-length-unusually-fast-across-multiple-new-chats/1396609",
+      "title": "ChatGPT conversation-capacity reports",
+      "claim": "Community reports describe early permanent conversation limits, especially after file, search, or tool work; hidden accounting remains unresolved.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:codex-allowance-sep24",
+      "source_type": "community allowance report",
+      "source_url": "https://community.openai.com/t/codex-rate-limits-discussion-thread/1378553/893",
+      "title": "Codex rate-limit discussion",
+      "claim": "One Work account reports similar tasks consuming several times more allowance and asks for per-run token or credit receipts.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:binary-payload-demand-sep24",
+      "source_type": "community feature request",
+      "source_url": "https://community.openai.com/t/feature-request-protect-chatgpt-work-conversations-from-oversized-tool-output-and-binary-payloads/1399114",
+      "title": "Work context protection request",
+      "claim": "A feature request treats oversized tool output and binary payloads as a hidden conversation-capacity cost.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:conversation-meter-demand-sep24",
+      "source_type": "community feature request",
+      "source_url": "https://community.openai.com/t/feature-request-add-a-conversation-capacity-meter-and-automatic-handover-warning-to-every-chat/1398772",
+      "title": "Conversation-capacity meter request",
+      "claim": "A user asks for a capacity meter and structured handover before a long project becomes unusable.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-opus55-counterweight-sep24",
+      "source_type": "provider product release",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "title": "Introducing Claude Opus 5.5",
+      "claim": "Anthropic reports broad Opus 5.5 gains and lower cost versus Opus 5; this positive release is provider-authored and not a temporal cross-provider control.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-opus55-mixed-sep24",
+      "source_type": "community counterreports",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wo9lbs/opus_55_is_the_new_46/",
+      "title": "Early Opus 5.5 reactions",
+      "claim": "Early users report both major improvements and losses in judgment or prompt following, showing why task-level baselines beat sentiment totals.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:prompt-drift-lab-sep24",
+      "source_type": "official research artifact",
+      "source_url": "https://github.com/yuchenzhu-research/iclr2026-cao-prompt-drift-lab",
+      "title": "Prompt Drift Lab",
+      "claim": "An ICLR artifact reports large score movement from harmless prompt variations and preserves raw outputs and judge versions for audit.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:driftbench-sep24",
+      "source_type": "peer-reviewed systems research",
+      "source_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/ea0b5818ae9255ee1fb1e3b4442d2ffe-Abstract-Conference.html",
+      "title": "DriftBench",
+      "claim": "A large serving study reports measurable infrastructure drift across hardware, precision, framework, and model configurations; serving identity belongs in a regression test.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:audience-fr-release-notes-sep24",
+      "source_type": "French provider release notes",
+      "source_url": "https://openai.com/fr-CA/products/release-notes/",
+      "title": "Notes de version OpenAI",
+      "claim": "French release notes surfaced model retirement, access tests, and Work/Codex changes; this is discovery and rollout evidence, not independent quality evidence.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:audience-es-release-notes-sep24",
+      "source_type": "Spanish provider release notes",
+      "source_url": "https://support.claude.com/es/articles/12138966-notas-de-la-versión",
+      "title": "Notas de versión Claude",
+      "claim": "Spanish release notes surfaced the Opus 5.5 launch, extending release-boundary discovery beyond English.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:audience-zh-allowance-sep24",
+      "source_type": "Chinese community allowance report",
+      "source_url": "https://linux.do/t/topic/2941544?tl=en%EF%BC%8C%E7%81%B5%E6%84%9F%E4%B8%80%E9%97%AA%EF%BC%8C%E8%BF%98%E6%83%B3%E7%9D%80%E5%B9%B2%E5%98%9B%EF%BC%8C%E6%88%91%E6%90%9Ewindsurf",
+      "title": "中文 Claude usage thread",
+      "claim": "A Chinese-language thread reports conflicting allowance observations after Opus 5.5; it is an intake lead, not a denominator.",
+      "accessed_at": "2026-09-24T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
     }
   ]
 }
