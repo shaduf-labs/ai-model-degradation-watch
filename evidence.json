@@ -2360,6 +2360,136 @@
       "accessed_at": "2026-09-24T12:00:00Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-sep25",
+      "source_type": "provider status history",
+      "source_url": "https://status.openai.com/history",
+      "title": "provider status history",
+      "claim": "OpenAI history lists resolved GPT-6 Astra Pro, ChatGPT, and Work error events from 22–24 September; status evidence is operational, not capability evidence.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-sep25",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "provider status page",
+      "claim": "Claude is operational at the check after a resolved 22 September incident affecting multiple models.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:xai-status-sep25",
+      "source_type": "provider status page",
+      "source_url": "https://status.x.ai/",
+      "title": "provider status page",
+      "claim": "xAI declares no incidents at the check; this is a calm cross-provider availability counterweight.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:sonar-sol-eval",
+      "source_type": "independent evaluation",
+      "source_url": "https://www.sonarsource.com/blog/open-ai-gpt-6-sol-evaluation/",
+      "title": "independent evaluation",
+      "claim": "Sonar reports GPT-6 Sol at 83.09% on 544 executable Java tests, above GPT-5.6 Sol at 81.99% and GPT-5.5 at 78.66%, below Astra at 85.85%; the suite is task and effort specific.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:policybench-sol-board",
+      "source_type": "independent evaluation leaderboard",
+      "source_url": "https://policybench.org/notes/2026-09-22-gpt-6-sol-debuts-first",
+      "title": "independent evaluation leaderboard",
+      "claim": "PolicyBench places GPT-6 Sol above GPT-5.6 Sol but flags serving shape, tool choice, and a corrected reference.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:luna-matched-ab",
+      "source_type": "community matched comparison",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wp7ckc/i_ab_tested_gpt56_luna_and_gpt6_luna_on_the_same/",
+      "title": "community matched comparison",
+      "claim": "A ten-task same-codebase comparison reports GPT-6 Luna faster while GPT-5.6 Luna wins more first-pass and review-quality judgments; small sample and same-family judge.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:luna-effort-mismatch",
+      "source_type": "community technical comparison",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wptlvk/gpt6-luna-in-codex-does-zero-reasoning-high/",
+      "title": "community technical comparison",
+      "claim": "A report shows different reasoning-token counts and timing between Codex subscription and an API/OpenCode path; route and configuration are unresolved.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:luna-reporting-ab",
+      "source_type": "community A/B report",
+      "source_url": "https://www.reddit.com/r/OpenAI/comments/1wnxg0n/luna_6_is_a_massive_downgrade_over_luna_56_misses/",
+      "title": "community A/B report",
+      "claim": "A reporting-tool maintainer reports repeated omissions on GPT-6 Luna where GPT-5.6 Luna did not omit them; this is a narrow self-report.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:luna-positive-counterreport",
+      "source_type": "community counterreport",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wo11fj/gpt6-luna-review-after-3-hours-coding-on-a-big/",
+      "title": "community counterreport",
+      "claim": "A separate user reports strong GPT-6 Luna performance on a large project; no matched baseline or ledger is provided.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-pricing-allowance",
+      "source_type": "provider pricing and allowance documentation",
+      "source_url": "https://help.openai.com/en/articles/20001415-chatgpt-rate-card-enterprise-token-based-pricing",
+      "title": "provider pricing and allowance documentation",
+      "claim": "OpenAI separates API token rates from included Work/Codex usage windows and limits; lower token prices do not establish more included work.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-model-guidance",
+      "source_type": "provider model guidance",
+      "source_url": "https://developers.openai.com/api/docs/guides/latest-model",
+      "title": "provider model guidance",
+      "claim": "OpenAI documents effort, clarification, context, and tool-calling differences that can change perceived follow-through; guidance is not a regression result.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:drift-detector-method",
+      "source_type": "competitor methodology",
+      "source_url": "https://aidriftdetector.com/methodology/",
+      "title": "competitor methodology",
+      "claim": "AI Drift Detector publishes a weekly method with fixed objective evaluations, hidden tests, versioned suites, and coverage rules.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:drift-detector-evals",
+      "source_type": "competitor evaluation suite",
+      "source_url": "https://aidriftdetector.com/drift-evals/",
+      "title": "competitor evaluation suite",
+      "claim": "Its 50-task executable coding suite treats infrastructure failures as coverage loss; this is a different estimand from a deployed route watch.",
+      "accessed_at": "2026-09-25T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

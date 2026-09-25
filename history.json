@@ -209,6 +209,17 @@
       "summary": "OpenAI placed GPT-6 Sol and Luna in Work, Codex, and the API but not ordinary Chat, while Work and Claude recorded resolved incidents. A client/server model-attribution mismatch, hidden conversation-capacity reports, and a positive Opus 5.5 counterweight sharpen the surface and provenance diagnosis without proving broad capability decline.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-24.html",
       "entrypoint": "reports/2026-09-24.html"
+    },
+    {
+      "run_id": "run:55eb3fc5-6ef0-46b1-bc55-1fa03de1123b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-25T12:00:00Z",
+      "completed_at": "2026-09-25T12:30:00Z",
+      "title": "Independent tests disagree on the GPT-6 verdict",
+      "summary": "Sonar and PolicyBench put GPT-6 Sol above GPT-5.6 Sol on their suites, while a matched ten-task Luna comparison gives the older model better quality judgments. A Codex/API effort mismatch and recent status and pricing records keep route, budget, and access explanations live.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-25.html",
+      "entrypoint": "reports/2026-09-25.html"
     }
   ]
 }

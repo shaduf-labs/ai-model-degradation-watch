@@ -534,6 +534,42 @@
       "changed_at": "2026-09-24T12:30:00Z",
       "summary": "Published the 24 September report: the rollout moved before the verdict did.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-24.html"
+    },
+    {
+      "change_id": "mixed-gpt6-independent-evidence-2026-09-25",
+      "changed_at": "2026-09-25T12:30:00Z",
+      "summary": "Added Sonar and PolicyBench counterweights: GPT-6 Sol is above GPT-5.6 Sol on their current suites, with task, effort, serving, and judge limits.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "luna-speed-quality-tradeoff-2026-09-25",
+      "changed_at": "2026-09-25T12:30:00Z",
+      "summary": "Added a ten-task matched Luna comparison that separates speed from first-pass and review quality instead of treating them as one score.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "codex-api-effort-receipt-2026-09-25",
+      "changed_at": "2026-09-25T12:30:00Z",
+      "summary": "Added a Codex subscription versus API effort mismatch lead and made route, effort, and served identity part of the next replay.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "pricing-and-allowance-split-2026-09-25",
+      "changed_at": "2026-09-25T12:30:00Z",
+      "summary": "Separated API token prices from included subscription work, limits, and usable-window value.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "drift-monitor-method-2026-09-25",
+      "changed_at": "2026-09-25T12:30:00Z",
+      "summary": "Added AI Drift Detector’s fixed weekly evaluator as competitive context and kept its estimand separate from this pool’s surface and action receipt.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-25",
+      "changed_at": "2026-09-25T12:30:00Z",
+      "summary": "Updated the call: independent and matched evidence disagree by task, so no broad decline is proven and a deployed replay is the next test.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }
