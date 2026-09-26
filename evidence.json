@@ -2490,6 +2490,96 @@
       "accessed_at": "2026-09-25T12:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-codex-outage-sep25",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+      "title": "Issues with Codex",
+      "claim": "OpenAI recorded a full Codex outage affecting Web, API, CLI, and VS Code extension from 22:58 to 23:54 UTC on 25 September 2026.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bug-hunt-bench-sep26",
+      "source_type": "independent agentic coding benchmark",
+      "source_url": "https://github.com/phuryn/bug-hunt-bench",
+      "title": "Bug Hunt Bench",
+      "claim": "The latest board reports GPT-6 Sol at 29.3/105 versus GPT-5.6 Sol at 43.5/105 on maximum means, with a separate GPT-6 Astra mean at 45/105.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bug-hunt-method-sep26",
+      "source_type": "benchmark methodology",
+      "source_url": "https://bughunt.productcompass.pm/method",
+      "title": "Bug Hunt Bench method and raw-run limits",
+      "claim": "The benchmark uses two production repositories and native agentic CLIs; most rows have one run, run spread is material, cost kinds differ, and context accounting has limits.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:braintrust-gpt6-sep26",
+      "source_type": "independent cross-task evaluation",
+      "source_url": "https://model-provider-updates.preview.braintrust.dev/evals/opus-55-vs-gpt-6",
+      "title": "Braintrust GPT-6 comparison",
+      "claim": "Across 175 examples in seven task families, Braintrust reports GPT-6 Sol 76.8%, GPT-5.6 Sol 77.2%, and GPT-6 Luna 78.0%, with non-significant top differences.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-gpt6-production-boundary-sep26",
+      "source_type": "provider product release",
+      "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "claim": "OpenAI distinguishes API or research evaluations from production ChatGPT behavior because system prompts and tools can differ, and the rollout scope is surface-specific.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-allowance-sep26",
+      "source_type": "provider pricing and allowance documentation",
+      "source_url": "https://help.openai.com/en/articles/20001415-chatgpt-rate-card-enterprise-token-based-pricing",
+      "title": "ChatGPT rate card and included use",
+      "claim": "OpenAI documents API prices separately from included Work/Codex use and five-hour or weekly limits; lower token price is not the same as more accepted subscription work.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-subscription-value-sep26",
+      "source_type": "community audience report",
+      "source_url": "https://www.reddit.com/r/codex/comments/1wptixf/gpt6_feels_like_a_downgrade_for_codex_subscribers/",
+      "title": "GPT6 feels like a downgrade for Codex subscribers",
+      "claim": "A high-engagement community thread frames quality, API price, subscription allowance, and usable work as one decision while relying on self-reported benchmark and allowance calculations.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:drift-monitor-method-sep26",
+      "source_type": "competitor methodology",
+      "source_url": "https://aidriftdetector.com/methodology/",
+      "title": "AI Drift Detector methodology",
+      "claim": "AI Drift Detector publishes a recurring fixed-suite monitor with versioned evaluations and explicit coverage treatment, showing the audience appeal of repeatable monitoring.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:trustible-monitoring-sep26",
+      "source_type": "competitor monitoring positioning",
+      "source_url": "https://trustible.ai/ai-monitoring-after-deployment/",
+      "title": "AI monitoring after deployment",
+      "claim": "Trustible frames monitoring around use case, owner, cadence, external provider changes, incidents, and action controls; this is market language, not adoption evidence.",
+      "accessed_at": "2026-09-26T12:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

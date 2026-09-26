@@ -1,29 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 25 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. Fresh independent evidence is mixed and task-specific: Sonar’s same Java suite puts GPT-6 Sol above GPT-5.6 Sol but below GPT-6 Astra; PolicyBench also puts Sol above GPT-5.6 Sol, with serving and tool-choice caveats; and a ten-task matched comparison finds GPT-6 Luna faster while GPT-5.6 Luna wins more first-pass and review-quality judgments. Reports of omitted items, looping, and different reasoning effort between Codex subscription and an API path are real system leads. Recent provider incidents and unchanged subscription limits keep availability, routing, configuration, pricing, and access separate from capability. Replay a fixed task with release boundary, served identity, route, effort, tools, context, budget, artifact, and control before switching.",
+  "current_answer": "As of 26 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The fresh evidence splits by task and system: Bug Hunt Bench's agentic coding board puts GPT-6 Sol below GPT-5.6 Sol on its latest planted-bug slice, while Braintrust's 175-task API evaluation puts them nearly tied and GPT-6 Luna slightly ahead; both have different task, harness, effort, judge, and repeat limits. OpenAI also recorded a resolved Codex outage affecting Web, API, CLI, and VS Code. Treat the negative coding result as a task-specific lead, not a universal downgrade; retry after incidents and replay a fixed task with surface, release boundary, served identity, route, effort, tools, context, budget, artifact, and control before switching.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "GPT-6 is not one verdict. Independent tests put Sol above its predecessor on one Java suite, while a matched ten-task comparison finds Luna 6 faster but weaker on quality. Consumer/API effort and route differences remain unresolved."
+    "text": "Not one verdict: Bug Hunt shows a negative GPT-6 Sol coding slice, Braintrust finds a near-tie, and OpenAI had a resolved Codex outage. Replay your task before calling it a downgrade."
   },
   "summary": [
     "No broad cross-model core-capability decline is proven.",
-    "Sonar's same Java suite puts GPT-6 Sol above GPT-5.6 Sol and GPT-5.5, but below GPT-6 Astra.",
-    "PolicyBench also puts GPT-6 Sol above GPT-5.6 Sol, with serving shape, tool-choice, and reference-correction limits.",
-    "A ten-task matched comparison finds GPT-6 Luna faster while GPT-5.6 Luna wins more first-pass and review-quality judgments.",
-    "Reports of omitted items, looping, and different Codex/API reasoning effort are real system leads, not a universal downgrade proof.",
-    "Recent provider incidents and unchanged subscription limits keep availability, access, routing, configuration, pricing, and capability separate.",
-    "AI Drift Detector shows the market value of a fixed weekly evaluator; this pool differentiates with a surface, route, budget, and action receipt.",
-    "Reader move: replay one fixed task with served identity, release boundary, effort, route, tools, context, budget, artifact, and control before switching."
+    "Bug Hunt's latest board reports GPT-6 Sol at 29.3/105 versus GPT-5.6 Sol at 43.5/105 on its planted-bug means, with small n and wide-spread caveats.",
+    "Braintrust's 175-task API suite reports GPT-6 Sol at 76.8%, GPT-5.6 Sol at 77.2%, and GPT-6 Luna at 78.0%; top differences are not statistically significant.",
+    "OpenAI recorded a resolved 25 September Codex outage affecting Web, API, CLI, and VS Code; an outage is not capability evidence.",
+    "API price, subscription allowance, effort, route, and production surface remain separate variables.",
+    "Community demand is for a quality, speed, effort, route, allowance, and artifact receipt, not one score.",
+    "Reader move: retry after a declared incident; then replay one fixed task with a served identity, route, effort, tools, context, budget, artifact, and control."
   ],
   "uncertainty": [
-    "No representative fixed-task series spans Chat, Work, Codex, API, and competing providers with provider-served identity, route, effort, tools, context, budget, artifact, judge, and denominator.",
-    "Sonar and PolicyBench are cross-sectional task suites; the matched Luna report is small and uses one codebase and a same-family judge.",
-    "Community reports are self-selected and often lack served-model, route, effort, account, or allowance receipts.",
-    "Provider status and pricing records establish declared operational and commercial terms, not account-level task quality or value.",
+    "Bug Hunt is a cross-sectional agent benchmark: most configurations have one run, the GPT-6 Sol and GPT-5.6 Sol comparisons have small n, run spread is wide, cost kinds differ, and context accounting is not fully verified for the Sol control.",
+    "Braintrust reports 175 API examples across seven task families; the top differences have overlapping confidence intervals and its harness, effort, judge, and production transfer are not the same as a user surface.",
+    "The Codex status incident establishes a declared availability failure, not account-level task quality or a lasting post-recovery effect.",
+    "Community reports are self-selected and often lack served identity, route, effort, account, allowance, or acceptance receipts.",
+    "No representative fixed-task series spans Chat, Work, Codex, API, and competing providers with served identity, route, effort, tools, context, budget, artifact, judge, and denominator.",
     "Analytics, a human pilot, a provider ledger, a recovered-work measure, and willingness-to-pay evidence remain unavailable."
   ],
-  "checked_at": "2026-09-25T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-25T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 25 September 2026. Independent and matched evidence is mixed; the next decision is a deployed replay with effort and route receipts, not a universal downgrade claim."
+  "checked_at": "2026-09-26T12:00:00Z",
+  "meaningfully_updated_at": "2026-09-26T12:00:00Z",
+  "freshness_note": "Fresh public-source research completed 26 September 2026. A negative coding slice and a near-tied API evaluation are different estimands; the current action is incident-aware replay, not a universal downgrade claim."
 }

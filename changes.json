@@ -570,6 +570,12 @@
       "changed_at": "2026-09-25T12:30:00Z",
       "summary": "Updated the call: independent and matched evidence disagree by task, so no broad decline is proven and a deployed replay is the next test.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-26",
+      "changed_at": "2026-09-26T12:00:00Z",
+      "summary": "Added a negative Bug Hunt coding slice, a near-tied Braintrust API counterweight, and a resolved Codex outage; kept the broad-decline call unproven and made replay fields explicit.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }
