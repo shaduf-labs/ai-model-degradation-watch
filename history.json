@@ -231,6 +231,17 @@
       "summary": "Bug Hunt's fresh coding slice is negative for GPT-6 Sol, Braintrust's 175-task API suite is nearly tied, and OpenAI records a resolved Codex outage; the mixed estimands keep broad decline unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-26.html",
       "entrypoint": "reports/2026-09-26.html"
+    },
+    {
+      "run_id": "run:f25371d4-ff1b-43a6-a3ff-9ba2f37be4e3",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-27T12:00:00Z",
+      "completed_at": "2026-09-27T12:28:03Z",
+      "title": "RoboHarm reports a safety gap; it does not show model degradation",
+      "summary": "RoboHarm compares safety refusals and task completion across embodied robot policies, not model versions over time. A negative coding slice, a near-tied API result, and the resolved Codex outage keep the broad-decline verdict unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-27.html",
+      "entrypoint": "reports/2026-09-27.html"
     }
   ]
 }

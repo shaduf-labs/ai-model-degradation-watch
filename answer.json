@@ -1,29 +1,31 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 26 September 2026 at 12:00 UTC, no broad cross-model core-capability decline is proven. The fresh evidence splits by task and system: Bug Hunt Bench's agentic coding board puts GPT-6 Sol below GPT-5.6 Sol on its latest planted-bug slice, while Braintrust's 175-task API evaluation puts them nearly tied and GPT-6 Luna slightly ahead; both have different task, harness, effort, judge, and repeat limits. OpenAI also recorded a resolved Codex outage affecting Web, API, CLI, and VS Code. Treat the negative coding result as a task-specific lead, not a universal downgrade; retry after incidents and replay a fixed task with surface, release boundary, served identity, route, effort, tools, context, budget, artifact, and control before switching.",
+  "current_answer": "As of 27 September 2026, public evidence still does not establish a broad decline in popular models’ core capability. GPT-6 Sol has a negative Bug Hunt coding slice, but Braintrust’s separate 175-example API evaluation is nearly tied; both are cross-sectional tests with different tasks and setups. OpenAI’s 25 September Codex outage was a declared availability event, not a quality test. RoboHarm’s results page reports different refusal and task-completion rates for GPT-6 Astra and Claude Fable 5.1 robot-agent policies, but its public repository does not include raw rollouts or a frozen results dataset for independent recalculation. The robot-policy comparison does not test either model over time or ordinary chat. Retry after a declared incident, then replay the same task on the same surface with model identity, route, settings, tools, context, budget, and final artifact recorded.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "Not one verdict: Bug Hunt shows a negative GPT-6 Sol coding slice, Braintrust finds a near-tie, and OpenAI had a resolved Codex outage. Replay your task before calling it a downgrade."
+    "text": "No broad decline is proven. A negative coding slice and a near-tied API test disagree; a new robot-safety result measures another system, not model change over time."
   },
   "summary": [
     "No broad cross-model core-capability decline is proven.",
-    "Bug Hunt's latest board reports GPT-6 Sol at 29.3/105 versus GPT-5.6 Sol at 43.5/105 on its planted-bug means, with small n and wide-spread caveats.",
-    "Braintrust's 175-task API suite reports GPT-6 Sol at 76.8%, GPT-5.6 Sol at 77.2%, and GPT-6 Luna at 78.0%; top differences are not statistically significant.",
-    "OpenAI recorded a resolved 25 September Codex outage affecting Web, API, CLI, and VS Code; an outage is not capability evidence.",
-    "API price, subscription allowance, effort, route, and production surface remain separate variables.",
-    "Community demand is for a quality, speed, effort, route, allowance, and artifact receipt, not one score.",
-    "Reader move: retry after a declared incident; then replay one fixed task with a served identity, route, effort, tools, context, budget, artifact, and control."
+    "Bug Hunt reports GPT-6 Sol at 29.3/105 versus GPT-5.6 Sol at 43.5/105 on a small, cross-sectional coding slice.",
+    "Braintrust reports a near-tie for GPT-6 Sol and GPT-5.6 Sol across 175 API examples; its task and setup differ from Bug Hunt and production surfaces.",
+    "RoboHarm’s results page reports 2 safety refusals, 97 purposeful attempts, and 60 task completions for its GPT-6 Astra robot policy across 100 trials; its public repository does not include raw rollouts or a frozen results dataset for independent recalculation.",
+    "OpenAI’s 25 September Codex outage was a service-availability event and was marked recovered.",
+    "The 27 September r/ClaudeAI hub requests task receipts, but its traffic claim is unquantified and its linked report summary is dated 21 September.",
+    "After a declared incident, retry or wait. Then replay one fixed task on the same surface and inspect the artifact before switching."
   ],
   "uncertainty": [
-    "Bug Hunt is a cross-sectional agent benchmark: most configurations have one run, the GPT-6 Sol and GPT-5.6 Sol comparisons have small n, run spread is wide, cost kinds differ, and context accounting is not fully verified for the Sol control.",
-    "Braintrust reports 175 API examples across seven task families; the top differences have overlapping confidence intervals and its harness, effort, judge, and production transfer are not the same as a user surface.",
-    "The Codex status incident establishes a declared availability failure, not account-level task quality or a lasting post-recovery effect.",
-    "Community reports are self-selected and often lack served identity, route, effort, account, allowance, or acceptance receipts.",
-    "No representative fixed-task series spans Chat, Work, Codex, API, and competing providers with served identity, route, effort, tools, context, budget, artifact, judge, and denominator.",
+    "Bug Hunt is cross-sectional; the GPT-6 Sol and GPT-5.6 Sol comparison has small run counts, wide spread, different cost kinds, and an unverified context-accounting detail for the Sol control.",
+    "Braintrust reports 175 API examples across seven task families; top score differences overlap and the API harness, effort, judge, and task mix do not represent Work, Codex, or consumer Chat.",
+    "RoboHarm used five fixed unsafe instructions, one wording per instruction, 20 trials per policy-task cell, and one robot setup; its cross-sectional policy comparison cannot establish that a model changed over time or transfer to chat surfaces.",
+    "Robocurve’s public repository says raw rollouts and a frozen results dataset are not bundled, which prevents independent recalculation from that package; independent replication was not located in this run.",
+    "The Codex status record establishes a declared outage and provider recovery, not account-level task quality or post-recovery performance.",
+    "Community problem reports are self-selected. The current r/ClaudeAI hub claims high traffic but publishes no traffic count; its linked category summary was last dated 21 September, not 27 September.",
+    "There is no representative fixed-task series across Chat, Work, Codex, API, and competing providers with served identity, route, settings, tools, context, budget, artifact, judge, and denominator.",
     "Analytics, a human pilot, a provider ledger, a recovered-work measure, and willingness-to-pay evidence remain unavailable."
   ],
-  "checked_at": "2026-09-26T12:00:00Z",
-  "meaningfully_updated_at": "2026-09-26T12:00:00Z",
-  "freshness_note": "Fresh public-source research completed 26 September 2026. A negative coding slice and a near-tied API evaluation are different estimands; the current action is incident-aware replay, not a universal downgrade claim."
+  "checked_at": "2026-09-27T12:24:45Z",
+  "meaningfully_updated_at": "2026-09-27T12:24:45Z",
+  "freshness_note": "Fresh public-source research completed 27 September 2026. RoboHarm adds a reported embodied safety result, but the repository does not provide raw results for independent recalculation and the policy comparison is cross-sectional; the broad-decline verdict is unchanged."
 }

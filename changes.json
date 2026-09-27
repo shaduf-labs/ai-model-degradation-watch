@@ -576,6 +576,30 @@
       "changed_at": "2026-09-26T12:00:00Z",
       "summary": "Added a negative Bug Hunt coding slice, a near-tied Braintrust API counterweight, and a resolved Codex outage; kept the broad-decline call unproven and made replay fields explicit.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "current-verdict-2026-09-27",
+      "changed_at": "2026-09-27T12:26:11Z",
+      "summary": "Added RoboHarm’s embodied robot-policy safety result while keeping safety outcomes separate from temporal model degradation; broad decline remains unproven.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "roboharm-safety-scope-2026-09-27",
+      "changed_at": "2026-09-27T12:26:11Z",
+      "summary": "Added trial counts, the single-bench and fixed-wording limits, and the distinction between robot-agent safety behavior and consumer chat quality.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "community-intake-freshness-2026-09-27",
+      "changed_at": "2026-09-27T12:26:11Z",
+      "summary": "Added a current community reporting hub and marked that its linked category summary is dated 21 September, not current prevalence evidence.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "research-report-2026-09-27",
+      "changed_at": "2026-09-27T12:26:11Z",
+      "summary": "Published the 27 September report on RoboHarm safety outcomes, cross-sectional limits, mixed GPT-6 Sol evidence, and proportionate replay steps.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-27.html"
     }
   ]
 }
