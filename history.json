@@ -242,6 +242,17 @@
       "summary": "RoboHarm compares safety refusals and task completion across embodied robot policies, not model versions over time. A negative coding slice, a near-tied API result, and the resolved Codex outage keep the broad-decline verdict unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-27.html",
       "entrypoint": "reports/2026-09-27.html"
+    },
+    {
+      "run_id": "run:6275b061-f649-4b71-b64e-acf2558c94fe",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-28T12:03:44Z",
+      "completed_at": "2026-09-28T12:26:43Z",
+      "title": "Opus 5.5 drew “Claude is back” reports. That is not a recovery test.",
+      "summary": "Opus 5.5 adds positive provider, selected-task, and user-reaction evidence after a version change; none is a test of decline and recovery, and broad model degradation remains unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-28.html",
+      "entrypoint": "reports/2026-09-28.html"
     }
   ]
 }

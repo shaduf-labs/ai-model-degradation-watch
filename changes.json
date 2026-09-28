@@ -600,6 +600,24 @@
       "changed_at": "2026-09-27T12:26:11Z",
       "summary": "Published the 27 September report on RoboHarm safety outcomes, cross-sectional limits, mixed GPT-6 Sol evidence, and proportionate replay steps.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-27.html"
+    },
+    {
+      "change_id": "current-verdict-2026-09-28",
+      "changed_at": "2026-09-28T12:11:07Z",
+      "summary": "Added Opus 5.5 provider and METR evidence plus attributed user reports; broad-decline call remains unproven because the version transition is not a recovery test.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "opus55-version-transition-2026-09-28",
+      "changed_at": "2026-09-28T12:11:07Z",
+      "summary": "Separated preliminary selected-task improvement, “Claude is back” sentiment, task-fit testing, and a resolved same-day outage.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "research-report-2026-09-28",
+      "changed_at": "2026-09-28T12:11:07Z",
+      "summary": "Published the 28 September report on Opus 5.5, METR’s preliminary evaluation, user reports, and why a version transition does not prove recovery.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-28.html"
     }
   ]
 }

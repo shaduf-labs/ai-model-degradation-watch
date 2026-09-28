@@ -1,31 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 27 September 2026, public evidence still does not establish a broad decline in popular models’ core capability. GPT-6 Sol has a negative Bug Hunt coding slice, but Braintrust’s separate 175-example API evaluation is nearly tied; both are cross-sectional tests with different tasks and setups. OpenAI’s 25 September Codex outage was a declared availability event, not a quality test. RoboHarm’s results page reports different refusal and task-completion rates for GPT-6 Astra and Claude Fable 5.1 robot-agent policies, but its public repository does not include raw rollouts or a frozen results dataset for independent recalculation. The robot-policy comparison does not test either model over time or ordinary chat. Retry after a declared incident, then replay the same task on the same surface with model identity, route, settings, tools, context, budget, and final artifact recorded.",
+  "current_answer": "As of 28 September 2026, public evidence does not establish a broad decline in popular models’ core capability. Anthropic’s new Opus 5.5 release claims selected gains and changes to speed, communication, price, and plan limits; METR’s preliminary five-task predeployment evaluation finds a likely modest improvement over Fable 5.1, not a large general jump. A popular Reddit thread and one creator’s blind test report improved feel or task-specific preferences, but do not measure whether an unchanged version declined and recovered or whether users returned. Anthropic’s 22 September availability incident was resolved; status pages were operational at the latest check. GPT-6 Sol’s negative Bug Hunt coding slice and near-tied Braintrust API result remain cross-sectional and method-specific. After a poor run, check status and replay the same task with version, surface, route, effort, tools, context, budget, cost/access, and final artifact recorded.",
   "catalogue_card": {
-    "question": "Are popular AI models getting worse right now?",
-    "text": "No broad decline is proven. A negative coding slice and a near-tied API test disagree; a new robot-safety result measures another system, not model change over time."
+    "question": "Are AI models getting worse—or did the product change?",
+    "text": "No broad decline is proven. Opus 5.5 has positive selected-task evidence and “Claude is back” reports, but neither is a recovery test."
   },
   "summary": [
     "No broad cross-model core-capability decline is proven.",
-    "Bug Hunt reports GPT-6 Sol at 29.3/105 versus GPT-5.6 Sol at 43.5/105 on a small, cross-sectional coding slice.",
-    "Braintrust reports a near-tie for GPT-6 Sol and GPT-5.6 Sol across 175 API examples; its task and setup differ from Bug Hunt and production surfaces.",
-    "RoboHarm’s results page reports 2 safety refusals, 97 purposeful attempts, and 60 task completions for its GPT-6 Astra robot policy across 100 trials; its public repository does not include raw rollouts or a frozen results dataset for independent recalculation.",
-    "OpenAI’s 25 September Codex outage was a service-availability event and was marked recovered.",
-    "The 27 September r/ClaudeAI hub requests task receipts, but its traffic claim is unquantified and its linked report summary is dated 21 September.",
-    "After a declared incident, retry or wait. Then replay one fixed task on the same surface and inspect the artifact before switching."
+    "Anthropic reports selected Opus 5.5 gains and lower typical task costs, faster output, clearer communication, and higher plan limits; these are provider claims about a new release.",
+    "METR’s unpaid preliminary assessment uses API access over ten business days and five selected AI-R&D tasks, and finds a likely modest gain over Fable 5.1; it does not test ordinary production or consumer workflows.",
+    "A Reddit “Claude is back” post and a creator’s blind task comparison are positive but self-selected signals, not evidence of recovery, representative demand, or repeat use.",
+    "Anthropic records a resolved 80-minute 22 September incident affecting requests to Opus 5, Fable 5/5.1, and Mythos 5/5.1; the page showed no 27–28 September incidents at check.",
+    "GPT-6 Sol evidence remains mixed by task: Bug Hunt has a negative coding slice, while Braintrust’s separate 175-example API test is nearly tied.",
+    "Check incident status, then replay the same task on the same surface with release, route, effort, tools, context, budget, cost/access, and final artifact recorded."
   ],
   "uncertainty": [
-    "Bug Hunt is cross-sectional; the GPT-6 Sol and GPT-5.6 Sol comparison has small run counts, wide spread, different cost kinds, and an unverified context-accounting detail for the Sol control.",
-    "Braintrust reports 175 API examples across seven task families; top score differences overlap and the API harness, effort, judge, and task mix do not represent Work, Codex, or consumer Chat.",
-    "RoboHarm used five fixed unsafe instructions, one wording per instruction, 20 trials per policy-task cell, and one robot setup; its cross-sectional policy comparison cannot establish that a model changed over time or transfer to chat surfaces.",
-    "Robocurve’s public repository says raw rollouts and a frozen results dataset are not bundled, which prevents independent recalculation from that package; independent replication was not located in this run.",
-    "The Codex status record establishes a declared outage and provider recovery, not account-level task quality or post-recovery performance.",
-    "Community problem reports are self-selected. The current r/ClaudeAI hub claims high traffic but publishes no traffic count; its linked category summary was last dated 21 September, not 27 September.",
-    "There is no representative fixed-task series across Chat, Work, Codex, API, and competing providers with served identity, route, settings, tools, context, budget, artifact, judge, and denominator.",
-    "Analytics, a human pilot, a provider ledger, a recovered-work measure, and willingness-to-pay evidence remain unavailable."
+    "Anthropic’s benchmark and efficiency claims are provider-authored and do not estimate experience on every surface.",
+    "METR’s preliminary evaluation is limited to five AI-R&D tasks; Anthropic had an opportunity to review and edit the public summary.",
+    "Reddit and practitioner reports are not representative; no return-use, switch, or payment denominator is available.",
+    "The 22 September availability incident and positive release reports are on the same date, but no causal link is shown.",
+    "Bug Hunt has few runs and Braintrust uses another API task suite; neither is a fixed production time series.",
+    "Provider status is aggregate and cannot diagnose every account. Analytics, a user pilot, provider routing receipt, recovered-work measure, and payment evidence remain unavailable."
   ],
-  "checked_at": "2026-09-27T12:24:45Z",
-  "meaningfully_updated_at": "2026-09-27T12:24:45Z",
-  "freshness_note": "Fresh public-source research completed 27 September 2026. RoboHarm adds a reported embodied safety result, but the repository does not provide raw results for independent recalculation and the policy comparison is cross-sectional; the broad-decline verdict is unchanged."
+  "checked_at": "2026-09-28T12:11:07Z",
+  "meaningfully_updated_at": "2026-09-28T12:11:07Z",
+  "freshness_note": "Fresh public-source research completed 28 September 2026. Opus 5.5 adds positive provider, preliminary selected-task, and user-reaction evidence after a version change. It does not establish recovery from model degradation; the broad-decline call remains unproven."
 }

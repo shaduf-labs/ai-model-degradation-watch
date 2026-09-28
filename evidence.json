@@ -2620,6 +2620,66 @@
       "accessed_at": "2026-09-27T12:24:45Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-opus55-launch",
+      "source_type": "provider model release and benchmark claims",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "title": "Claude Opus 5.5",
+      "claim": "Anthropic announced Opus 5.5 on 22 September and reports selected benchmark gains, communication changes, faster output, lower prices and typical task cost, and higher plan limits.",
+      "accessed_at": "2026-09-28T12:11:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:metr-opus55-predeployment",
+      "source_type": "external predeployment evaluation summary",
+      "source_url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+      "title": "Claude Opus 5.5 — METR evaluation summary",
+      "claim": "METR’s unpaid, preliminary evaluation used API access over ten business days and five AI-R&D tasks; its summary says Opus 5.5 likely improved modestly over Fable 5.1 on these tasks, not by a large amount.",
+      "accessed_at": "2026-09-28T12:11:07Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-opus55-return-thread",
+      "source_type": "community version-transition report",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wnpit2/claude_is_back/",
+      "title": "“Claude is back” discussion",
+      "claim": "A 22 September post and comments describe a positive experience with Opus 5.5 after dissatisfaction with earlier releases. This is one self-selected discussion, not a controlled recovery or return-use measure.",
+      "accessed_at": "2026-09-28T12:11:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:howiai-blind-test",
+      "source_type": "practitioner blind task comparison",
+      "source_url": "https://podcasts.apple.com/ua/podcast/opus-5-5-vs-gpt-6-sol-which-model-won-my-blind-taste-test/id1809663079?i=1000791189481&l=uk",
+      "title": "Opus 5.5 vs GPT-6 Sol: Which Model Won My Blind Taste Test?",
+      "claim": "How I AI host Claire Vo describes a task-diverse blind comparison in which preferences varied by task and differed from an LLM judge; this is one creator’s sample, not a representative or longitudinal study.",
+      "accessed_at": "2026-09-28T12:11:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-sep28",
+      "source_type": "provider status history and current snapshot",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "At the 28 September check, Claude showed operational status and no incidents for 27–28 September; status history lists a resolved 80-minute 22 September incident affecting requests to several model families.",
+      "accessed_at": "2026-09-28T12:11:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-sep28",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "OpenAI showed operational service at the 28 September check; aggregate status cannot establish every account’s access or task quality.",
+      "accessed_at": "2026-09-28T12:11:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
