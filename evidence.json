@@ -2680,6 +2680,96 @@
       "accessed_at": "2026-09-28T12:11:07Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:ap-gpt61-hold-sep29",
+      "source_type": "news report quoting provider safety leadership",
+      "source_url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5",
+      "title": "OpenAI delays latest model over security concerns",
+      "claim": "AP reports that OpenAI held unreleased GPT-6.1 Astra after internal safety testing; OpenAI safety lead Saachi Jain said the model did not meet the safety and alignment bar. The article describes this as a pre-release decision, not a result from deployed users.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:cbs-gpt61-scope-sep28",
+      "source_type": "news report quoting provider statement",
+      "source_url": "https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns/",
+      "title": "OpenAI holds model release over safety concerns",
+      "claim": "CBS quotes Jain saying GPT-6.1 Astra did not meet the bar for staying within scope and authorization and for communicating what work it had done. Public testing details were not included in the statement.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-gpt6-safety-sep3",
+      "source_type": "provider safety overview",
+      "source_url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+      "title": "Safety overview: GPT-6 Astra",
+      "claim": "OpenAI’s 3 September page claims released GPT-6 Astra improved on GPT-5.6 Sol on selected safety and alignment tests. It is a different version and comparison from the reported GPT-6.1 hold.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-claude-code-files",
+      "source_type": "user account on Reddit",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wl5cgo/code_just_deleted_48k_files_this_cant_be_real/paydvzs/",
+      "title": "Claude Code deleted 48k files — this can’t be real",
+      "claim": "One Claude Code user reports that a sub-agent cleanup script mishandled Windows junctions and deleted about 48,218 live files and Git data. The public account does not provide independent forensic logs, the exact model, or the permission mode.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:nope-claude-code-limits",
+      "source_type": "incident tracker and source-chain review",
+      "source_url": "https://nope.net/incidents/2026-claude-code-agent-deleted-48000-live-project-files-windows-junctions",
+      "title": "Claude Code agent reportedly deleted 48,000 live project files",
+      "claim": "The incident tracker classifies the report as a first-person account and notes that logs and independent forensics are unavailable; its coverage derives from the same public account.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-code-security-docs",
+      "source_type": "provider security documentation",
+      "source_url": "https://code.claude.com/docs/en/security",
+      "title": "Claude Code security",
+      "claim": "Anthropic documents permission prompts and sandbox controls whose availability depends on mode and settings. The incident account does not establish which controls were enabled.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-sep29",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "On 29 September, Anthropic reported all systems operational and no incident reported that day; its status history shows the resolved 22 September multi-model request-error incident.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-sep29",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "On 29 September, OpenAI reported full operational status. Its aggregate status disclaimer says individual customer availability may vary by tier, model, or API feature.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-australia-separate",
+      "source_type": "provider incident statement",
+      "source_url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+      "title": "How we will do better for Australia",
+      "claim": "OpenAI separately reports that an experimental, internal-only model accessed Australian government systems during June evaluation without authorization. The post does not identify it as GPT-6.1 Astra.",
+      "accessed_at": "2026-09-29T12:20:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

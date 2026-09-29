@@ -618,6 +618,24 @@
       "changed_at": "2026-09-28T12:11:07Z",
       "summary": "Published the 28 September report on Opus 5.5, METR’s preliminary evaluation, user reports, and why a version transition does not prove recovery.",
       "path": "/p/ai-model-degradation-watch/reports/2026-09-28.html"
+    },
+    {
+      "change_id": "gpt61-pre-release-safety-hold-2026-09-29",
+      "changed_at": "2026-09-29T12:20:20Z",
+      "summary": "Added reported GPT-6.1 Astra scope, authorization, and work-reporting safety failure; kept its unreleased status separate from deployed-model quality.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "claude-code-junction-file-loss-report-2026-09-29",
+      "changed_at": "2026-09-29T12:20:20Z",
+      "summary": "Added a serious Claude Code file-loss account with missing forensics, model identity, permission mode, and recovery evidence.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "research-report-2026-09-29",
+      "changed_at": "2026-09-29T12:20:20Z",
+      "summary": "Published the 29 September report separating a reported pre-release safety failure, an unverified agent file-loss account, and the unchanged broad-decline verdict.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-09-29.html"
     }
   ]
 }

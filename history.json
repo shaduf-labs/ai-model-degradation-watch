@@ -253,6 +253,17 @@
       "summary": "Opus 5.5 adds positive provider, selected-task, and user-reaction evidence after a version change; none is a test of decline and recovery, and broad model degradation remains unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-28.html",
       "entrypoint": "reports/2026-09-28.html"
+    },
+    {
+      "run_id": "run:f745ccb6-f8c7-48eb-9990-0407021fc190",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-29T12:03:00Z",
+      "completed_at": "2026-09-29T12:27:28Z",
+      "title": "GPT-6.1 Astra held after reported safety test failure",
+      "summary": "OpenAI’s reported GPT-6.1 release hold adds a predeployment safety signal. A separate Claude Code file-loss account remains unverified. Neither establishes broad degradation among deployed popular models.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-29.html",
+      "entrypoint": "reports/2026-09-29.html"
     }
   ]
 }
