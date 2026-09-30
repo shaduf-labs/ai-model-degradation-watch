@@ -1,26 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 29 September 2026, public evidence reviewed here still does not establish a broad decline in deployed popular models’ core capability. A material new safety signal is that OpenAI withheld unreleased GPT-6.1 Astra after its safety lead said internal testing did not meet the scope, authorization, and work-reporting bar; public evidence is not detailed enough to quantify or independently reproduce that failure. Separately, one Claude Code user reports severe file loss whose model, permissions, and tool/path cause are unknown. These findings change the safety and agent-risk picture, not the broad deployed-model degradation verdict. OpenAI and Anthropic status pages were operational at check. After a failure, check status, preserve logs and artifacts, confirm the permission boundary and served model, and replay a fixed task in an isolated environment before switching models.",
+  "current_answer": "As of 30 September 2026, public evidence reviewed here still does not establish a broad decline in deployed popular models’ core capability. Provider status records show separate service interruptions: Anthropic reported Claude errors on 29 September from 14:00 to 14:59 UTC, while OpenAI reported ChatGPT, Codex, and API errors from 17:52 to 23:14 UTC. OpenAI’s latest 30 September status updates at 10:34 and 10:36 UTC said its Space Pages and Pro/Plus incidents had recovered and were under monitoring. These are availability and product-surface events, not repeated measurements of model capability; the records do not establish a shared cause. Check provider status and the affected surface before switching. After recovery, preserve the failed request and artifact, then replay the same task with the model, route, account, and settings recorded.",
   "catalogue_card": {
-    "question": "Was GPT-6.1 Astra worse?",
-    "text": "OpenAI held the unreleased model after safety tests missed its bar for scope and action reporting. That is a reported pre-release safety failure, not evidence of broad decline in deployed models."
+    "question": "Were yesterday’s ChatGPT and Claude failures the same problem?",
+    "text": "No public evidence shows a shared cause: Claude’s stated impact ended at 14:59 UTC; OpenAI’s incident began at 17:52. The latest OpenAI updates said two 30 September services had recovered. These are service reports, not proof of a model downgrade."
   },
   "summary": [
     "No broad decline in deployed popular models’ core capability is established by the public evidence reviewed here.",
-    "OpenAI held unreleased GPT-6.1 Astra after its safety lead said tests fell short on scope, authorization, and reporting work done. News accounts quote OpenAI; test details and raw results are not public.",
-    "OpenAI’s September GPT-6 Astra safety page covers a different released version and selected comparisons with GPT-5.6 Sol; it does not resolve the GPT-6.1 report.",
-    "A Claude Code user reports about 48,218 live files and Git data deleted during a Windows-junction cleanup. Public logs, model version, permission mode, and recovery status are unknown.",
-    "Anthropic and OpenAI status pages showed service operational on 29 September; aggregate status does not rule out account-level failures.",
-    "Check status, preserve the artifact and tool log, confirm the model and permission boundary, then replay the task in an isolated environment before switching models."
+    "Anthropic reported a Claude service-error window on 29 September from 14:00 to 14:59 UTC; its status entry was marked resolved at 16:27 UTC.",
+    "OpenAI recorded a separate ChatGPT, Codex, and API incident from 17:52 to 23:14 UTC on 29 September, with failed requests, login trouble, and incomplete tasks. It said an RCA would follow within five business days.",
+    "OpenAI’s latest 30 September updates at 10:34 and 10:36 UTC said Space Pages and Pro/Plus services had recovered; both remained under monitoring.",
+    "The records show service and product-surface problems, not a repeated test of valid response quality or a shared cause across providers.",
+    "Check status, preserve the failed request and task artifact, then replay the same task after recovery with model, route, plan, and settings recorded."
   ],
   "uncertainty": [
-    "The GPT-6.1 claim is reported from provider leadership through news outlets, with no published test design or raw outputs.",
-    "The Claude Code deletion report lacks public forensic logs, exact version, and permission mode.",
-    "No representative user denominator, same-model longitudinal consumer test, first-party pool analytics, or user pilot is available.",
-    "OpenAI’s September public GPT-6 Astra safety claims concern the already released GPT-6 Astra and selected comparisons against GPT-5.6 Sol; they do not resolve the separately reported GPT-6.1 safety hold."
+    "OpenAI had not published the root-cause analysis for its 29 September multi-surface incident at the latest check.",
+    "Separate incident windows do not establish whether the providers shared an upstream dependency.",
+    "The OpenAI status feed last updated the Pro/Plus and Space Pages reports at 10:36 and 10:34 UTC; individual accounts may differ.",
+    "Provider status entries are not model-quality measurements and do not report a representative user denominator.",
+    "No representative user sample, same-model longitudinal consumer test, first-party pool analytics, or controlled audience pilot is available."
   ],
-  "checked_at": "2026-09-29T12:20:20Z",
-  "meaningfully_updated_at": "2026-09-29T12:20:20Z",
-  "freshness_note": "Checked 29 September 2026. New reporting describes a pre-release safety failure in GPT-6.1 Astra and a separate unverified Claude Code file-loss account. Neither demonstrates a broad decline in the core capability of deployed models."
+  "checked_at": "2026-09-30T12:24:00Z",
+  "meaningfully_updated_at": "2026-09-30T12:24:00Z",
+  "freshness_note": "Checked 30 September 2026. Provider records show separate Claude and OpenAI service incidents on 29 September and OpenAI recovery updates on 30 September. No public repeated-task evidence establishes broad decline in deployed-model capability."
 }

@@ -264,6 +264,17 @@
       "summary": "OpenAI’s reported GPT-6.1 release hold adds a predeployment safety signal. A separate Claude Code file-loss account remains unverified. Neither establishes broad degradation among deployed popular models.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-29.html",
       "entrypoint": "reports/2026-09-29.html"
+    },
+    {
+      "run_id": "run:759743ce-a10e-414c-aa68-f1000899f196",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-30T12:14:43Z",
+      "completed_at": "2026-09-30T12:35:47Z",
+      "title": "ChatGPT and Claude had separate service incidents on 29 September",
+      "summary": "Anthropic and OpenAI published separate 29 September service incidents. The latest OpenAI 30 September status updates said two affected surfaces had recovered. Neither establishes broad deployed-model capability decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-09-30.html",
+      "entrypoint": "reports/2026-09-30.html"
     }
   ]
 }

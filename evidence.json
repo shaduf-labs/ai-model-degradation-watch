@@ -2770,6 +2770,66 @@
       "accessed_at": "2026-09-29T12:20:20Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-sep29-service-record",
+      "source_type": "provider status incident",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status and 29 September incident history",
+      "claim": "Anthropic reported elevated errors across Claude.ai, Claude Code, Cowork, and some API requests. Its stated impact window was 14:00–14:59 UTC; the incident entry was resolved at 16:27 UTC and noted that some messages may not have been saved.",
+      "accessed_at": "2026-09-30T12:24:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-sep29-service-record",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including Agents API",
+      "claim": "OpenAI recorded errors, login difficulty, and incomplete tasks from 17:52 to 23:14 UTC on 29 September. It marked the incident resolved and said a detailed RCA would follow within five business days.",
+      "accessed_at": "2026-09-30T12:24:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-sep30-proplus-status",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
+      "title": "Elevated error rates for ChatGPT Pro and Plus users",
+      "claim": "OpenAI’s 10:36 UTC update on 30 September said impacted services had recovered and it was monitoring for recurrence.",
+      "accessed_at": "2026-09-30T12:24:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-sep30-pages-status",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M3R1T4FCR1337FBBYY9K2RPB",
+      "title": "Elevated errors in ChatGPT Space Pages",
+      "claim": "OpenAI’s 10:34 UTC update on 30 September said impacted services had recovered and it was monitoring for recurrence.",
+      "accessed_at": "2026-09-30T12:24:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:google-ai-plus-plan-sep30",
+      "source_type": "provider plan page",
+      "source_url": "https://one.google.com/about/plans",
+      "title": "Google One plans and pricing",
+      "claim": "The inspected US comparison lists Flash Thinking and doubled Gemini usage with AI Plus, and Pro-model access with AI Pro. This describes plan access, not a model-quality change.",
+      "accessed_at": "2026-09-30T12:24:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-gemini-plus-access-sep29",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/GeminiAI/comments/1wscvps/psa-google-ai-plus-will-no-longer-have-access-to/",
+      "title": "Google AI Plus Pro-model access discussion",
+      "claim": "A community thread reports conflicting model menus and opinions about plan value; comments do not verify each account’s plan, region, rollout, or served model.",
+      "accessed_at": "2026-09-30T12:24:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
     }
   ]
 }
