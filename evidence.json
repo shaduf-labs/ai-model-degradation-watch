@@ -2830,6 +2830,76 @@
       "accessed_at": "2026-09-30T12:24:00Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-spacepages-current-oct01",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M3R1T4FCR1337FBBYY9K2RPB",
+      "title": "Elevated errors in ChatGPT Space Pages",
+      "claim": "At the 1 October check the incident page remained Monitoring / Degraded performance. A 30 September update at 10:34 said impacted services had recovered; a later update at 15:00 said mitigation was applied and recovery was being monitored. The page does not establish whether symptoms persisted or recurred.",
+      "accessed_at": "2026-10-01T12:24:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-oct01",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "At the 1 October check the page displayed all systems operational and no incidents reported for that day.",
+      "accessed_at": "2026-10-01T12:24:27Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-status-oct01",
+      "source_type": "independent longitudinal benchmark",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf: Benchmark for tracking model capability after release",
+      "claim": "The repository reported seven of 30 daily collections through 30 September and a still-collecting baseline, with no post-baseline result. The series measures Opus 5.5 served through headless Claude Code on a subscription; the first possible call is around 24 October.",
+      "accessed_at": "2026-10-01T12:24:27Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-prereg-oct01",
+      "source_type": "benchmark preregistration",
+      "source_url": "https://github.com/ninjahawk/livenerf/blob/main/PREREGISTRATION.md",
+      "title": "LiveNerf preregistration",
+      "claim": "The preregistration specifies a calibrated 78-item panel, an Opus 5 control on GPQA items, and a decision rule requiring two consecutive 10-day windows, an effect of at least three points, and no matching control movement.",
+      "accessed_at": "2026-10-01T12:24:27Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-nerfbench-oct01",
+      "source_type": "commercial benchmark board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench",
+      "title": "Nerf Bench — Model power over time",
+      "claim": "The latest displayed test was 27 September: Opus 5.5 at 99.2% and GPT-6 Astra at 102.8% relative to each model’s launch baseline; both were within the displayed 90–110% band. Two models were tracked.",
+      "accessed_at": "2026-10-01T12:24:27Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-method-oct01",
+      "source_type": "competitor methodology page",
+      "source_url": "https://www.bridgebench.ai/blog/how-nerf-bench-works",
+      "title": "How Nerf Bench Detects When AI Models Get Nerfed",
+      "claim": "BridgeBench says Nerf Bench combines performance, tokens, and cost into a launch-relative score, treats 90–110% as normal variance, and keeps tasks and weights private. Sample sizes and sufficient details for independent recomputation were not visible on the inspected page.",
+      "accessed_at": "2026-10-01T12:24:27Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-space-pages-error-oct01",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/chatgptplus/comments/1wu1dhd/chatgpt_space_error/",
+      "title": "ChatGPT Space: Error",
+      "claim": "One user reported a Space error before and after refresh on 1 October. This is consistent with the provider’s current Space Pages incident but does not establish prevalence or cause.",
+      "accessed_at": "2026-10-01T12:24:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

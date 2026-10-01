@@ -275,6 +275,17 @@
       "summary": "Anthropic and OpenAI published separate 29 September service incidents. The latest OpenAI 30 September status updates said two affected surfaces had recovered. Neither establishes broad deployed-model capability decline.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-09-30.html",
       "entrypoint": "reports/2026-09-30.html"
+    },
+    {
+      "run_id": "run:a2af6c40-cac2-4954-b5bb-e092b9517c93",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-01T12:20:03Z",
+      "completed_at": "2026-10-01T12:40:59Z",
+      "title": "Space Pages still showed degraded status after a recovery notice. Model decline is separate.",
+      "summary": "OpenAI’s Space Pages incident remained degraded/monitoring after a later 30 September mitigation update; Anthropic reported no incident. An Opus 5.5 longitudinal suite was still collecting baseline, so broad deployed-model decline remains unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-01.html",
+      "entrypoint": "reports/2026-10-01.html"
     }
   ]
 }

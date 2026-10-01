@@ -660,6 +660,30 @@
       "changed_at": "2026-09-30T12:24:00Z",
       "summary": "Clarified that provider status records measure availability; capability comparisons require valid completed tasks and a saved baseline.",
       "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "current-verdict-spacepages-monitoring-2026-10-01",
+      "changed_at": "2026-10-01T12:24:27Z",
+      "summary": "Updated the current verdict after OpenAI’s Space Pages status moved from an earlier recovery notice to a later mitigation update and remained degraded/monitoring at the 1 October check.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "research-report-live-baseline-2026-10-01",
+      "changed_at": "2026-10-01T12:24:27Z",
+      "summary": "Published the 1 October status sequence, early LiveNerf baseline, and a scoped comparison with BridgeBench Nerf Bench.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-01.html"
+    },
+    {
+      "change_id": "method-public-monitor-maturity-2026-10-01",
+      "changed_at": "2026-10-01T12:24:27Z",
+      "summary": "Added monitor maturity, baseline state, sample disclosure, and freshness checks to the public method comparison.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "signals-openai-spaces-current-state-2026-10-01",
+      "changed_at": "2026-10-01T12:24:27Z",
+      "summary": "Updated the service ledger with OpenAI Space Pages’ later mitigation/monitoring state while keeping its quality boundary explicit.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }
