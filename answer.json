@@ -1,27 +1,25 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 1 October 2026, reviewed public sources still do not establish a broad decline in deployed popular models’ core capability. OpenAI’s ChatGPT Space Pages incident remained in Monitoring / Degraded performance at the 12:24 UTC check: an earlier 30 September update said services had recovered, but a later update said mitigation was applied and recovery was being monitored. The record does not explain whether errors persisted or returned. Anthropic reported no incidents for 1 October. A public Opus 5.5 time series had completed seven of 30 collection days as of 30 September, but was still establishing its baseline and had posted no comparison result. Check the status of the affected product surface before retrying; after recovery, compare the same completed task against a saved baseline with the model, route, account, and settings recorded.",
+  "current_answer": "As of 2 October 2026, reviewed public sources do not establish a broad decline in deployed popular models’ core capability. OpenAI marked ChatGPT Space Pages recovered at 23:44 UTC on 1 October. LiveNerf remained in its Opus 5.5 launch-baseline phase, with 8 of 10 baseline days reported complete and no comparison result. Fresh Reddit sentiment reports show a sharp daily opinion decline, but the site’s rolling seven-day opinion index remained above neutral; neither is task-quality evidence. Check service status before retrying a surface failure, and use the same task and a saved baseline to test capability.",
   "catalogue_card": {
-    "question": "Did ChatGPT Space Pages recover—or not?",
-    "text": "OpenAI said Space Pages had recovered at 10:34 UTC on 30 September, then posted a later mitigation update at 15:00. Its status still showed degraded monitoring at the 1 October check. That is a product-service issue, not proof the model got worse."
+    "question": "Did Opus 5.5 get worse this week?",
+    "text": "No public task test says so yet. Reddit opinion fell in one daily snapshot, but the seven-day index is positive and LiveNerf is still collecting its baseline. OpenAI marked Space Pages recovered."
   },
   "summary": [
     "No reviewed public evidence establishes a broad decline in deployed popular models’ core capability.",
-    "OpenAI’s ChatGPT Space Pages incident remained Monitoring / Degraded performance on 1 October, after a 30 September 10:34 recovery update and a later 15:00 mitigation update. The provider does not say whether errors continued or returned.",
-    "Anthropic’s status page reported no incidents for 1 October; this is a provider-level snapshot, not proof every account is unaffected.",
-    "LiveNerf reported seven of 30 daily Opus 5.5 collections through 30 September. Its launch baseline was still collecting and no post-baseline comparison result was posted; the first possible call was around 24 October.",
-    "BridgeBench’s latest displayed Nerf Bench check was 27 September: Opus 5.5 at 99.2% and GPT-6 Astra at 102.8% of launch baselines, within its stated ±10% band. Its tasks and score weights are private, so it is not directly comparable to LiveNerf.",
-    "Check the provider status and affected surface before retrying. After recovery, replay the same task and compare only valid completed outputs against a saved baseline."
+    "OpenAI marked the ChatGPT Space Pages incident resolved at 23:44 UTC on 1 October; this is provider-declared service recovery, not proof for every account.",
+    "LiveNerf reported 8/30 daily runs and 8/10 baseline days as of 1 October, with no post-baseline comparison.",
+    "A Reddit monitor author reports an early daily Opus 5.5 opinion score of 55 so far on 2 October, down from 71–73 on 25–28 September; the monitor’s separate seven-day index is 67 (95% interval 65–70). Neither measures task performance.",
+    "Fresh Reddit posts show both downgrade reports and counterreports without matched task traces. Save a task, route, settings, and artifact; replay after service recovery before switching."
   ],
   "uncertainty": [
-    "The OpenAI incident page does not distinguish persistent impact from a recurrence after the earlier recovery statement.",
-    "Provider status is aggregate and does not prove what each account can access or how completed answers perform.",
-    "LiveNerf has no post-baseline comparison posted; its planned series is narrow to Opus 5.5 on a Claude Code subscription path.",
-    "The BridgeBench board is a publisher-described two-model snapshot with no visible sample sizes or task set; its result is four days old at this check.",
+    "Provider recovery is a status statement, not account-level proof or a completed-answer quality test.",
+    "LiveNerf has no post-baseline comparison yet; its narrow panel cannot settle broader user workflows.",
+    "The reported daily sentiment snapshot and the seven-day index are different time windows; both measure Reddit opinion, not model output.",
     "No representative user denominator, broad repeated consumer-task time series, first-party pool analytics, or controlled audience pilot is available."
   ],
-  "checked_at": "2026-10-01T12:24:27Z",
-  "meaningfully_updated_at": "2026-10-01T12:24:27Z",
-  "freshness_note": "Checked 1 October 2026 at 12:24 UTC. OpenAI’s Space Pages page remained degraded/monitoring after a later mitigation update, while Anthropic reported no incident. Public capability evidence remains too early or too narrow to establish broad decline."
+  "checked_at": "2026-10-02T12:04:27Z",
+  "meaningfully_updated_at": "2026-10-02T12:34:05Z",
+  "freshness_note": "Checked 2 October 2026 at 12:04 UTC. Space Pages moved to Resolved; Opus 5.5 sentiment reports moved sharply, but no comparable task result is ready."
 }

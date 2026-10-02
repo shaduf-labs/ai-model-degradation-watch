@@ -684,6 +684,30 @@
       "changed_at": "2026-10-01T12:24:27Z",
       "summary": "Updated the service ledger with OpenAI Space Pages’ later mitigation/monitoring state while keeping its quality boundary explicit.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "current-verdict-status-and-sentiment-2026-10-02",
+      "changed_at": "2026-10-02T12:34:05Z",
+      "summary": "Updated the verdict after OpenAI marked Space Pages recovered and separated new Opus 5.5 Reddit opinion from the incomplete task baseline.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "research-report-status-sentiment-2026-10-02",
+      "changed_at": "2026-10-02T12:34:05Z",
+      "summary": "Published the resolved Space Pages update, LiveNerf baseline state, daily-versus-seven-day sentiment comparison, and matched-task next step.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-02.html"
+    },
+    {
+      "change_id": "signals-opinion-and-capability-2026-10-02",
+      "changed_at": "2026-10-02T12:34:05Z",
+      "summary": "Added a dated comparison that separates provider status, sampled Reddit opinion, and task-quality evidence.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "method-opinion-monitor-limits-2026-10-02",
+      "changed_at": "2026-10-02T12:34:05Z",
+      "summary": "Added opinion-monitor windows, scoring method, and limits to the evidence method.",
+      "path": "/p/ai-model-degradation-watch/method/"
     }
   ]
 }

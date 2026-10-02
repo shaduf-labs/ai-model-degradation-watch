@@ -2900,6 +2900,96 @@
       "accessed_at": "2026-10-01T12:24:27Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-spacepages-resolved-oct01",
+      "source_type": "provider incident status",
+      "source_url": "https://status.openai.com/incidents/01M3R1T4FCR1337FBBYY9K2RPB",
+      "title": "Elevated errors in ChatGPT Space Pages",
+      "claim": "OpenAI marked the Space Pages incident resolved at 23:44 UTC on 1 October 2026 and said all impacted services had recovered. Its 16:51 update had warned some users could see slow or timed-out page or space creation. This is a service statement, not task-quality or account-level proof.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-oct01-progress",
+      "source_type": "independent longitudinal benchmark repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf benchmark progress",
+      "claim": "The repository reports 8/30 daily collections as of 1 October, including 8/10 baseline days, and no post-baseline comparison. The series measures Opus 5.5 through headless Claude Code on a subscription.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-preregistration",
+      "source_type": "benchmark preregistration",
+      "source_url": "https://github.com/ninjahawk/livenerf/blob/main/PREREGISTRATION.md",
+      "title": "LiveNerf preregistration",
+      "claim": "The protocol sets a ten-day baseline followed by two ten-day decision windows. It requires a 99% interval excluding zero in both windows, an effect of at least three points, unchanged harness, and no matching control movement.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-opus55-sentiment-snapshot",
+      "source_type": "community monitor author's report",
+      "source_url": "https://www.reddit.com/r/ClaudeCode/comments/1wuw9ft/ive_been_tracking-reddits-opinion-of-opus-55/",
+      "title": "Daily Reddit opinion scores for Opus 5.5",
+      "claim": "The monitor author reported daily scores of 71-73 on 25-28 September, 69 on 29 September, 58 on 30 September, and 55 so far on 2 October, while saying the metric measures what people say rather than model output.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:modelsentiment-seven-day-index",
+      "source_type": "community sentiment monitor",
+      "source_url": "https://modelsentiment.com/m/claude-opus-5.5",
+      "title": "Claude Opus 5.5 on Reddit",
+      "claim": "The site displayed a seven-day opinion index of 67 from 4,637 opinions in 1,366 threads with a 95% interval of 65-70. The index measures Reddit opinion, not capability.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:modelsentiment-method",
+      "source_type": "community sentiment monitor methodology",
+      "source_url": "https://modelsentiment.com/about",
+      "title": "How the numbers are made",
+      "claim": "The monitor describes recent-feed sampling across 25 AI subreddits and model-based opinion scoring. Its reported manual audit found 124 of 157 scorable items were the author's own opinion; the scoring-model change on 27 September moved historical series by up to 6.5 points.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-opus55-community-complaint",
+      "source_type": "community discussion",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wvdt9p/is-opus-55-nerfed-now-livenerf-day-8-update/",
+      "title": "Is Opus 5.5 Nerfed Now? LiveNerf Day 8 Update",
+      "claim": "A 2 October Reddit discussion contains Opus 5.5 downgrade reports alongside discussion of a test still collecting baseline. These posts are unverified user accounts, not a prevalence estimate or capability test.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-opus55-counterreport",
+      "source_type": "community counterreport",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wvm3wp/nothing-gets-nerfed/",
+      "title": "Nothing gets nerfed",
+      "claim": "An October 2 Reddit author reports no decline in their own use and proposes increasing task complexity as a possible explanation; no matched, independently verified baseline is supplied.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-livenerf-audience-interest",
+      "source_type": "technical community discussion",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wvdt9p/is-opus-55-nerfed-now-livenerf-day-8-update/",
+      "title": "LiveNerf discussion and method questions",
+      "claim": "The project author says the series drew more attention and method scrutiny than expected, including questions about contamination, task choice, statistics, and implementation. This is a self-selected qualitative discussion signal, not market size or purchase evidence.",
+      "accessed_at": "2026-10-02T12:04:27Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

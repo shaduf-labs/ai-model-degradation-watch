@@ -286,6 +286,17 @@
       "summary": "OpenAI’s Space Pages incident remained degraded/monitoring after a later 30 September mitigation update; Anthropic reported no incident. An Opus 5.5 longitudinal suite was still collecting baseline, so broad deployed-model decline remains unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-01.html",
       "entrypoint": "reports/2026-10-01.html"
+    },
+    {
+      "run_id": "run:de6cd6c1-56ed-4382-b257-124cbaac04f8",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-02T12:00:00Z",
+      "completed_at": "2026-10-02T12:40:23Z",
+      "title": "Space Pages recovered; Opus 5.5 sentiment fell, but no task verdict is ready",
+      "summary": "OpenAI marked Space Pages recovered while the Opus 5.5 task series remains in baseline. Reddit sentiment and opposing user accounts do not establish a model-quality decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-02.html",
+      "entrypoint": "reports/2026-10-02.html"
     }
   ]
 }
