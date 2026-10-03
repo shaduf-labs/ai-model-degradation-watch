@@ -1,25 +1,26 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 2 October 2026, reviewed public sources do not establish a broad decline in deployed popular models’ core capability. OpenAI marked ChatGPT Space Pages recovered at 23:44 UTC on 1 October. LiveNerf remained in its Opus 5.5 launch-baseline phase, with 8 of 10 baseline days reported complete and no comparison result. Fresh Reddit sentiment reports show a sharp daily opinion decline, but the site’s rolling seven-day opinion index remained above neutral; neither is task-quality evidence. Check service status before retrying a surface failure, and use the same task and a saved baseline to test capability.",
+  "current_answer": "As of 3 October 2026, reviewed public evidence does not establish a broad capability decline across popular deployed models or a confirmed Opus 5.5 capability regression. BridgeBench’s latest Opus 5.5 score is 94.2% of its launch “power” (−5.8% versus launch), inside its stated 90–110% normal-variance band; the composite includes task score, tokens, and cost and lacks published sample counts or uncertainty. LiveNerf’s latest visible progress remains a baseline-in-progress note dated 1 October, with no post-baseline comparison and an earliest possible call around 24 October. OpenAI and Anthropic reported operational status at the current check. If a familiar task fails, check its surface and status, then save and replay the same task after recovery before switching.",
   "catalogue_card": {
-    "question": "Did Opus 5.5 get worse this week?",
-    "text": "No public task test says so yet. Reddit opinion fell in one daily snapshot, but the seven-day index is positive and LiveNerf is still collecting its baseline. OpenAI marked Space Pages recovered."
+    "question": "Does Opus 5.5’s 94.2% score prove a decline?",
+    "text": "No. BridgeBench’s latest score is inside its stated 90–110% range and combines task score, token use, and cost. Its test set and sample details are private; LiveNerf has no post-baseline comparison yet."
   },
   "summary": [
-    "No reviewed public evidence establishes a broad decline in deployed popular models’ core capability.",
-    "OpenAI marked the ChatGPT Space Pages incident resolved at 23:44 UTC on 1 October; this is provider-declared service recovery, not proof for every account.",
-    "LiveNerf reported 8/30 daily runs and 8/10 baseline days as of 1 October, with no post-baseline comparison.",
-    "A Reddit monitor author reports an early daily Opus 5.5 opinion score of 55 so far on 2 October, down from 71–73 on 25–28 September; the monitor’s separate seven-day index is 67 (95% interval 65–70). Neither measures task performance.",
-    "Fresh Reddit posts show both downgrade reports and counterreports without matched task traces. Save a task, route, settings, and artifact; replay after service recovery before switching."
+    "No reviewed public evidence establishes a broad decline in popular deployed models or a confirmed Opus 5.5 capability regression.",
+    "BridgeBench’s latest Opus 5.5 test, dated 2 October, is 94.2% of its launch “power” (−5.8% from launch; −9.6% from 1 October). Its board calls 90–110% normal variance and displays four tests.",
+    "BridgeBench defines power using task score, tokens, and cost. It does not disclose the actual task set, weights, sample count, or uncertainty for this result.",
+    "LiveNerf’s latest visible progress note is dated 1 October and reports 8/10 baseline days complete, with no post-baseline result. Its first possible call is around 24 October.",
+    "OpenAI and Anthropic status pages showed operational systems at the 3 October check. Status is aggregate, not a measure of answer quality.",
+    "If a familiar task fails, check its surface and status, save the task, settings, route, and output, then replay against the same baseline after recovery."
   ],
   "uncertainty": [
-    "Provider recovery is a status statement, not account-level proof or a completed-answer quality test.",
-    "LiveNerf has no post-baseline comparison yet; its narrow panel cannot settle broader user workflows.",
-    "The reported daily sentiment snapshot and the seven-day index are different time windows; both measure Reddit opinion, not model output.",
-    "No representative user denominator, broad repeated consumer-task time series, first-party pool analytics, or controlled audience pilot is available."
+    "BridgeBench’s composite is not a capability-only measure; the board does not publish sample counts, uncertainty, or the tasks for the latest test.",
+    "LiveNerf has no post-baseline comparison and covers a limited Claude Code subscription path and frozen panel.",
+    "Provider status reports do not establish account-level access or completed-task quality.",
+    "No representative user denominator, broad repeated consumer-task series, first-party pool analytics, controlled audience pilot, or purchase evidence is available."
   ],
-  "checked_at": "2026-10-02T12:04:27Z",
-  "meaningfully_updated_at": "2026-10-02T12:34:05Z",
-  "freshness_note": "Checked 2 October 2026 at 12:04 UTC. Space Pages moved to Resolved; Opus 5.5 sentiment reports moved sharply, but no comparable task result is ready."
+  "checked_at": "2026-10-03T12:10:19Z",
+  "meaningfully_updated_at": "2026-10-03T12:10:19Z",
+  "freshness_note": "Checked 3 October 2026 at 12:10 UTC. BridgeBench posted a 2 October launch-relative Opus 5.5 score inside its stated variance band; no task-level longitudinal result is ready."
 }

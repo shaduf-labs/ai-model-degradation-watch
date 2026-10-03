@@ -708,6 +708,24 @@
       "changed_at": "2026-10-02T12:34:05Z",
       "summary": "Added opinion-monitor windows, scoring method, and limits to the evidence method.",
       "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "current-verdict-bridgebench-2026-10-03",
+      "changed_at": "2026-10-03T12:10:19Z",
+      "summary": "Updated the verdict with BridgeBench’s 2 October Opus 5.5 composite score, its own variance band, and limits on attribution to capability.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "report-bridgebench-livenerf-status-2026-10-03",
+      "changed_at": "2026-10-03T12:10:19Z",
+      "summary": "Published the BridgeBench score, LiveNerf’s latest visible preregistered-test state, and current provider-status checks.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-03.html"
+    },
+    {
+      "change_id": "signals-score-method-boundary-2026-10-03",
+      "changed_at": "2026-10-03T12:10:19Z",
+      "summary": "Separated the commercial board’s score movement from its task, token, and cost components and from the unfinished fixed-panel comparison.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }

@@ -2990,6 +2990,66 @@
       "accessed_at": "2026-10-02T12:04:27Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-opus55-oct02-2026",
+      "source_type": "commercial launch-relative benchmark board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/claude-opus-5-5",
+      "title": "Claude Opus 5.5 — Nerf Bench",
+      "claim": "At the 3 October check, BridgeBench’s latest displayed Opus 5.5 test was dated 2 October: 94.2% of its launch power, −5.8% versus launch, and −9.6% versus the 1 October test. The board labels 90–110% as normal variance and shows four tests since launch.",
+      "accessed_at": "2026-10-03T12:10:19Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-power-method-oct03-2026",
+      "source_type": "commercial benchmark methodology",
+      "source_url": "https://www.bridgebench.ai/blog/how-nerf-bench-works",
+      "title": "How Nerf Bench Detects When AI Models Get Nerfed",
+      "claim": "BridgeBench describes its power score as combining task score, token use, and cost. Its method page says the actual task set and weights are private; the inspected result does not state its sample count or confidence interval.",
+      "accessed_at": "2026-10-03T12:10:19Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-latest-progress-oct03-2026",
+      "source_type": "public longitudinal benchmark repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf repository and results table",
+      "claim": "The latest dated progress note visible at the 3 October check is 1 October and says 8/30 days and 8/10 baseline days are collected. The table remains baseline-collecting with no comparison result.",
+      "accessed_at": "2026-10-03T12:10:19Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-prereg-oct03-2026",
+      "source_type": "benchmark preregistration",
+      "source_url": "https://github.com/ninjahawk/livenerf/blob/main/PREREGISTRATION.md",
+      "title": "LiveNerf pre-registration",
+      "claim": "The preregistered Opus 5.5 series uses a fixed panel and control arm, two 10-day post-baseline decision windows, and a rule requiring a 99% interval excluding zero in both windows and a change of at least three points. The first possible call is around 24 October.",
+      "accessed_at": "2026-10-03T12:10:19Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-oct03-2026",
+      "source_type": "provider service status",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "At the 3 October check, OpenAI’s status page said its systems were fully operational; its availability metrics are aggregate and individual account experience may vary.",
+      "accessed_at": "2026-10-03T12:10:19Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-oct03-2026",
+      "source_type": "provider status and incident history",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "At the 3 October check, Anthropic’s status page showed its listed systems operational and reported no incidents for 2 or 3 October.",
+      "accessed_at": "2026-10-03T12:10:19Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
