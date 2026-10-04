@@ -3050,6 +3050,86 @@
       "accessed_at": "2026-10-03T12:10:19Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-opus55-board-oct04",
+      "source_type": "commercial public model-monitor board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/claude-opus-5-5",
+      "title": "Claude Opus 5.5 — Nerf Bench",
+      "claim": "At the 4 October check, the latest posted Opus 5.5 test was still dated 2 October: 94.2% of launch power, within BridgeBench’s stated 90–110% normal-variance range; the board showed four tests since 22 September.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-method-oct04",
+      "source_type": "commercial benchmark methodology",
+      "source_url": "https://www.bridgebench.ai/blog/how-nerf-bench-works",
+      "title": "How Nerf Bench Detects When AI Models Get Nerfed",
+      "claim": "BridgeBench defines “power” as a composite of task performance, token use, and cost; its real benchmark tasks and weights are private.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-baseline-complete-oct04",
+      "source_type": "independent public longitudinal benchmark repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf progress and results",
+      "claim": "The 3 October progress note reports all 10 baseline days complete out of 30 collections on a fixed Opus 5.5 Claude Code subscription test; the results table still has no post-baseline comparison.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-sensitivity-oct04",
+      "source_type": "independent public longitudinal benchmark methodology",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf calibration and validation",
+      "claim": "LiveNerf estimates sensitivity near 7.5 percentage points per 10-day window and reports that its validation could not distinguish Opus 5 from Opus 5.5 at 99%; its panel and serving path are limited.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-opus55-tracker-oct04",
+      "source_type": "commercial public model-monitor tracker",
+      "source_url": "https://marginlab.ai/trackers/claude-code/",
+      "title": "Claude Code Opus 5.5 Performance Tracker",
+      "claim": "Marginlab says its new Opus 5.5/high baseline began on 24 September and that degradation detection is paused until established. The page also displays daily and rolling pass rates and a statistically significant +8.5% 30-day label, without explaining how this summary relates to the unestablished baseline. Its method uses daily 50-case Claude Code CLI tests with the latest CLI release.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-oct04",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "OpenAI reported its systems fully operational at the 4 October check and describes availability metrics as aggregate across tiers, models, and error types.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-oct04",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "Anthropic reported all systems operational and no incidents for 4 October at the check; a status page does not measure answer quality or every individual account.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-preregistered-rule-oct04",
+      "source_type": "independent benchmark pre-registration",
+      "source_url": "https://github.com/ninjahawk/livenerf/blob/main/PREREGISTRATION.md",
+      "title": "LiveNerf pre-registration",
+      "claim": "The pre-registered decision requires two consecutive same-direction 10-day windows whose 99% intervals exclude zero and whose changes are at least three percentage points, an unchanged sample-shaping harness, and less than 5% sample error; the Opus 5 control is used to identify shared harness or platform shifts.",
+      "accessed_at": "2026-10-04T12:06:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

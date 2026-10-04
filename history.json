@@ -308,6 +308,17 @@
       "summary": "BridgeBench’s 2 October composite score is inside its stated variance band and combines task score, tokens, and cost. LiveNerf has no post-baseline result, and current status pages show no declared service incident.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-03.html",
       "entrypoint": "reports/2026-10-03.html"
+    },
+    {
+      "run_id": "run:f81f6317-35a9-4c85-a952-87174dc3e237",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-04T12:00:00Z",
+      "completed_at": "2026-10-04T12:30:03Z",
+      "title": "LiveNerf has completed its baseline; no comparison result is ready",
+      "summary": "The 10-day baseline is complete, but its post-baseline series has no result yet. Marginlab also says Opus 5.5 detection is paused during baseline collection; the broad decline verdict remains unestablished.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-04.html",
+      "entrypoint": "reports/2026-10-04.html"
     }
   ]
 }

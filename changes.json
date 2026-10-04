@@ -726,6 +726,12 @@
       "changed_at": "2026-10-03T12:10:19Z",
       "summary": "Separated the commercial board’s score movement from its task, token, and cost components and from the unfinished fixed-panel comparison.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "change:2026-10-04-live-baseline",
+      "changed_at": "2026-10-04T12:06:51Z",
+      "summary": "Updated the verdict with the completed LiveNerf baseline and current limits from two Opus 5.5 monitors; no post-baseline decline result is available.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-04.html"
     }
   ]
 }

@@ -1,26 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 3 October 2026, reviewed public evidence does not establish a broad capability decline across popular deployed models or a confirmed Opus 5.5 capability regression. BridgeBench’s latest Opus 5.5 score is 94.2% of its launch “power” (−5.8% versus launch), inside its stated 90–110% normal-variance band; the composite includes task score, tokens, and cost and lacks published sample counts or uncertainty. LiveNerf’s latest visible progress remains a baseline-in-progress note dated 1 October, with no post-baseline comparison and an earliest possible call around 24 October. OpenAI and Anthropic reported operational status at the current check. If a familiar task fails, check its surface and status, then save and replay the same task after recovery before switching.",
+  "current_answer": "As of 4 October 2026, reviewed public evidence does not establish a broad decline across popular deployed models or a confirmed Opus 5.5 capability regression. BridgeBench still shows its latest Opus 5.5 test, dated 2 October, at 94.2% of launch “power,” inside its stated 90–110% range; the composite combines task score, tokens, and cost, and its actual tasks and weights remain private. LiveNerf reports that its 10-day baseline is complete (10 of 30 daily collections as of 3 October), but no post-baseline comparison is available; the first possible call is around 24 October and its 78-item Claude Code subscription test has limited sensitivity. Marginlab also says its new Opus 5.5/high baseline is still being collected and degradation detection is paused, so its displayed rates are not a validated Opus 5.5 before/after comparison. OpenAI and Anthropic reported all systems operational at the 4 October status check. If a familiar task fails, check its product surface and status, save the task and settings, then replay it after recovery against your own baseline before switching.",
   "catalogue_card": {
-    "question": "Does Opus 5.5’s 94.2% score prove a decline?",
-    "text": "No. BridgeBench’s latest score is inside its stated 90–110% range and combines task score, token use, and cost. Its test set and sample details are private; LiveNerf has no post-baseline comparison yet."
+    "question": "Does Opus 5.5 have a confirmed decline?",
+    "text": "Not from the evidence checked. LiveNerf has finished its baseline but has no post-baseline comparison; its first possible decision is around 24 October. Its test covers one Claude Code subscription path, not every model or user task."
   },
   "summary": [
-    "No reviewed public evidence establishes a broad decline in popular deployed models or a confirmed Opus 5.5 capability regression.",
-    "BridgeBench’s latest Opus 5.5 test, dated 2 October, is 94.2% of its launch “power” (−5.8% from launch; −9.6% from 1 October). Its board calls 90–110% normal variance and displays four tests.",
-    "BridgeBench defines power using task score, tokens, and cost. It does not disclose the actual task set, weights, sample count, or uncertainty for this result.",
-    "LiveNerf’s latest visible progress note is dated 1 October and reports 8/10 baseline days complete, with no post-baseline result. Its first possible call is around 24 October.",
-    "OpenAI and Anthropic status pages showed operational systems at the 3 October check. Status is aggregate, not a measure of answer quality.",
-    "If a familiar task fails, check its surface and status, save the task, settings, route, and output, then replay against the same baseline after recovery."
+    "No reviewed public evidence establishes broad capability decline across popular deployed models or a confirmed Opus 5.5 regression.",
+    "BridgeBench still shows a 2 October Opus 5.5 result of 94.2% of launch “power,” inside its stated 90–110% range. The score combines performance, tokens, and cost; its task set and weights are private.",
+    "LiveNerf reports its 10-day baseline complete after 10/30 daily collections; no post-baseline result is available. The first possible decision is around 24 October.",
+    "LiveNerf estimates it can detect about a 7.5 percentage-point shift over a 10-day window. Its validation could not distinguish Opus 5 from Opus 5.5 at 99%.",
+    "Marginlab says its new Opus 5.5/high baseline is still collecting and degradation detection is paused. Its page also displays daily and rolling rates plus a +8.5% 30-day label but does not explain their relation to the baseline; do not read these as a clean Opus 5.5 comparison.",
+    "OpenAI and Anthropic reported their listed systems operational at the 4 October check. Status does not measure answer quality.",
+    "If a familiar task fails, check the product surface and status, save the task and settings, and replay it after recovery against a saved baseline before switching."
   ],
   "uncertainty": [
-    "BridgeBench’s composite is not a capability-only measure; the board does not publish sample counts, uncertainty, or the tasks for the latest test.",
-    "LiveNerf has no post-baseline comparison and covers a limited Claude Code subscription path and frozen panel.",
-    "Provider status reports do not establish account-level access or completed-task quality.",
-    "No representative user denominator, broad repeated consumer-task series, first-party pool analytics, controlled audience pilot, or purchase evidence is available."
+    "BridgeBench’s 94.2% is a composite, not a capability-only score; its actual task set, weights, sample count, and uncertainty are not public.",
+    "LiveNerf has completed only the baseline window. Its fixed 78-item panel targets about a 7.5 percentage-point accuracy change per 10-day window; its validation did not distinguish an Opus 5 replacement from Opus 5.5 at 99%, so smaller or different changes may escape detection.",
+    "Marginlab says its Opus 5.5/high baseline is still collecting and that degradation detection is paused. The page also reports rates, but does not supply a post-baseline Opus 5.5 comparison.",
+    "Provider status is aggregate. It does not establish account-level availability or answer quality.",
+    "There is no broad, repeated, representative user-task series across popular models, no first-party pool analytics, and no controlled audience or purchase evidence."
   ],
-  "checked_at": "2026-10-03T12:10:19Z",
-  "meaningfully_updated_at": "2026-10-03T12:10:19Z",
-  "freshness_note": "Checked 3 October 2026 at 12:10 UTC. BridgeBench posted a 2 October launch-relative Opus 5.5 score inside its stated variance band; no task-level longitudinal result is ready."
+  "checked_at": "2026-10-04T12:06:51Z",
+  "meaningfully_updated_at": "2026-10-04T12:06:51Z",
+  "freshness_note": "Checked 4 October 2026 at 12:06 UTC. LiveNerf completed its 10-day baseline but has no post-baseline comparison; BridgeBench’s latest displayed Opus 5.5 test remains dated 2 October."
 }
