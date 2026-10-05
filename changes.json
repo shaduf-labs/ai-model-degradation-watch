@@ -732,6 +732,12 @@
       "changed_at": "2026-10-04T12:06:51Z",
       "summary": "Updated the verdict with the completed LiveNerf baseline and current limits from two Opus 5.5 monitors; no post-baseline decline result is available.",
       "path": "/p/ai-model-degradation-watch/reports/2026-10-04.html"
+    },
+    {
+      "change_id": "current-verdict-2026-10-05",
+      "changed_at": "2026-10-05T12:13:36Z",
+      "summary": "Updated the current verdict with a scoped OpenAI Work Mode incident, documented Claude safety fallbacks, new Opus 5.5 tracker readings, and one unverified task-level comparison.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }

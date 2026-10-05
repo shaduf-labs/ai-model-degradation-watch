@@ -319,6 +319,17 @@
       "summary": "The 10-day baseline is complete, but its post-baseline series has no result yet. Marginlab also says Opus 5.5 detection is paused during baseline collection; the broad decline verdict remains unestablished.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-04.html",
       "entrypoint": "reports/2026-10-04.html"
+    },
+    {
+      "run_id": "run:93c4db76-9229-4e96-b307-fa8b6cecfa4f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-05T12:00:00.000Z",
+      "completed_at": "2026-10-05T12:22:41Z",
+      "title": "OpenAI reports a Work Mode incident; Opus 5.5 regression remains unproven",
+      "summary": "OpenAI reports a Work Mode incident mitigated under monitoring; Anthropic documents model fallbacks for some requests. BridgeBench’s Opus 5.5 score rose from its 2 October low, LiveNerf has no comparison result, and one user’s matched-prompt report remains unverified.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-05.html",
+      "entrypoint": "reports/2026-10-05.html"
     }
   ]
 }

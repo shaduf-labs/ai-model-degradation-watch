@@ -1,28 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 4 October 2026, reviewed public evidence does not establish a broad decline across popular deployed models or a confirmed Opus 5.5 capability regression. BridgeBench still shows its latest Opus 5.5 test, dated 2 October, at 94.2% of launch “power,” inside its stated 90–110% range; the composite combines task score, tokens, and cost, and its actual tasks and weights remain private. LiveNerf reports that its 10-day baseline is complete (10 of 30 daily collections as of 3 October), but no post-baseline comparison is available; the first possible call is around 24 October and its 78-item Claude Code subscription test has limited sensitivity. Marginlab also says its new Opus 5.5/high baseline is still being collected and degradation detection is paused, so its displayed rates are not a validated Opus 5.5 before/after comparison. OpenAI and Anthropic reported all systems operational at the 4 October status check. If a familiar task fails, check its product surface and status, save the task and settings, then replay it after recovery against your own baseline before switching.",
+  "current_answer": "As of 5 October 2026, reviewed public evidence does not establish a broad capability decline across popular deployed models or a confirmed Claude Opus 5.5 regression. OpenAI reports elevated Work Mode errors beginning at 07:03 UTC; its 09:50 update says the issue was mitigated and recovery is being monitored for ChatGPT Work and Codex in ChatGPT Desktop. That is service evidence, not a model-quality result. Anthropic documents safety fallbacks that can change the responding Claude model on some requests; check the per-response model label and fallback notice before comparing outputs. BridgeBench’s Opus 5.5 launch-power score rose to 96.5% on 4 October from 94.2% on 2 October, within its stated 90–110% band, but combines task performance, tokens, and cost. LiveNerf reports two follow-up days after its baseline and no comparison result yet. A user’s same-prompt Godot comparison is a task-specific lead, not proof without inspected outputs and served-model records.",
   "catalogue_card": {
-    "question": "Does Opus 5.5 have a confirmed decline?",
-    "text": "Not from the evidence checked. LiveNerf has finished its baseline but has no post-baseline comparison; its first possible decision is around 24 October. Its test covers one Claude Code subscription path, not every model or user task."
+    "question": "Is there proof Claude Opus 5.5 was downgraded?",
+    "text": "No confirmed regression. BridgeBench’s launch-power score rose to 96.5% after an October 2 low, still within its own 90–110% band. The score also mixes task results, token use, and cost."
   },
   "summary": [
-    "No reviewed public evidence establishes broad capability decline across popular deployed models or a confirmed Opus 5.5 regression.",
-    "BridgeBench still shows a 2 October Opus 5.5 result of 94.2% of launch “power,” inside its stated 90–110% range. The score combines performance, tokens, and cost; its task set and weights are private.",
-    "LiveNerf reports its 10-day baseline complete after 10/30 daily collections; no post-baseline result is available. The first possible decision is around 24 October.",
-    "LiveNerf estimates it can detect about a 7.5 percentage-point shift over a 10-day window. Its validation could not distinguish Opus 5 from Opus 5.5 at 99%.",
-    "Marginlab says its new Opus 5.5/high baseline is still collecting and degradation detection is paused. Its page also displays daily and rolling rates plus a +8.5% 30-day label but does not explain their relation to the baseline; do not read these as a clean Opus 5.5 comparison.",
-    "OpenAI and Anthropic reported their listed systems operational at the 4 October check. Status does not measure answer quality.",
-    "If a familiar task fails, check the product surface and status, save the task and settings, and replay it after recovery against a saved baseline before switching."
+    "OpenAI reports elevated Work Mode errors beginning 07:03 UTC on 5 October. Its 09:50 update said the issue was mitigated and recovery was being monitored; ChatGPT Work and Codex in ChatGPT Desktop were listed as affected.",
+    "Anthropic says some safety-flagged Opus 5.5 requests can be answered by an earlier model. The product displays a switch notice and labels the model that answered; record that label before comparing output.",
+    "BridgeBench’s 4 October Opus 5.5 launch-power score is 96.5%, up 2.3 percentage points from its 2 October low and within the board’s own 90–110% band. It combines task performance, tokens, and cost; tasks and weights are private.",
+    "LiveNerf reports 12 of 30 collections by 5 October, including two days in its first follow-up window. It has not published a post-baseline comparison; the first possible decision is around 24 October.",
+    "A user reports that a same-prompt Godot task produced a worse artifact on 2 October than on 23 September. The files, run logs, and responding-model identity were not independently checked.",
+    "Marginlab’s Opus 5.5 page is marked last updated 29 September and continues to say the baseline is collecting and degradation detection is paused; its rates are not a current before-and-after result.",
+    "If a familiar task fails, check the exact surface and status, capture the response-model label, prompt, files, settings, output, and correction work, then replay after recovery against your baseline."
   ],
   "uncertainty": [
-    "BridgeBench’s 94.2% is a composite, not a capability-only score; its actual task set, weights, sample count, and uncertainty are not public.",
-    "LiveNerf has completed only the baseline window. Its fixed 78-item panel targets about a 7.5 percentage-point accuracy change per 10-day window; its validation did not distinguish an Opus 5 replacement from Opus 5.5 at 99%, so smaller or different changes may escape detection.",
-    "Marginlab says its Opus 5.5/high baseline is still collecting and that degradation detection is paused. The page also reports rates, but does not supply a post-baseline Opus 5.5 comparison.",
-    "Provider status is aggregate. It does not establish account-level availability or answer quality.",
-    "There is no broad, repeated, representative user-task series across popular models, no first-party pool analytics, and no controlled audience or purchase evidence."
+    "BridgeBench’s launch-power score is a composite, not a capability-only measure; tasks and weights are private and its result page shows no sample uncertainty.",
+    "LiveNerf’s result will cover a fixed panel through one headless Claude Code subscription path, not all Claude surfaces or ordinary user tasks.",
+    "The Godot report is one self-reported task comparison; its output artifacts and exact served models, routes, and settings were not independently verified.",
+    "OpenAI status is aggregate and does not establish which accounts were affected or measure answer quality. The 5 October incident was mitigated and recovery was being monitored, not reported as fully resolved at the last inspected update.",
+    "No representative repeated task series across providers, first-party analytics, controlled audience pilot, or purchase evidence was available."
   ],
-  "checked_at": "2026-10-04T12:06:51Z",
-  "meaningfully_updated_at": "2026-10-04T12:06:51Z",
-  "freshness_note": "Checked 4 October 2026 at 12:06 UTC. LiveNerf completed its 10-day baseline but has no post-baseline comparison; BridgeBench’s latest displayed Opus 5.5 test remains dated 2 October."
+  "checked_at": "2026-10-05T12:13:36Z",
+  "meaningfully_updated_at": "2026-10-05T12:13:36Z",
+  "freshness_note": "Checked 5 October 2026 at 12:13 UTC. OpenAI had mitigated a Work Mode incident and was monitoring recovery; BridgeBench’s latest Opus 5.5 test was dated 4 October; LiveNerf had two follow-up days and no comparison result."
 }

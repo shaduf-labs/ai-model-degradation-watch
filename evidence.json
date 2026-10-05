@@ -3130,6 +3130,76 @@
       "accessed_at": "2026-10-04T12:06:51Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-work-mode-oct05",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z",
+      "title": "OpenAI: Elevated Work Mode errors",
+      "claim": "OpenAI lists elevated Work Mode errors from 07:03 UTC on 5 October. It said the issue was mitigated and recovery monitored at 09:50 UTC; ChatGPT Work and Codex in ChatGPT Desktop were affected components.",
+      "accessed_at": "2026-10-05T12:13:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-opus55-fallback-oct05",
+      "source_type": "provider help-center documentation",
+      "source_url": "https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5",
+      "title": "Why Claude switched models in your conversation with Opus 5 or Opus 5.5",
+      "claim": "Anthropic says safety fallback can route some requests to another model and the product labels the model that responds. This is documented product behavior, not a measurement of how often it occurs.",
+      "accessed_at": "2026-10-05T12:13:36Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-opus55-oct04",
+      "source_type": "commercial public monitor",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/claude-opus-5-5",
+      "title": "BridgeBench: Claude Opus 5.5",
+      "claim": "BridgeBench lists a 4 October score of 96.5% of launch power, up from 94.2% on 2 October and within its 90–110% band. Its metric combines task performance, tokens, and cost.",
+      "accessed_at": "2026-10-05T12:13:36Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-followup-progress-oct05",
+      "source_type": "independent public longitudinal tracker",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf status",
+      "claim": "LiveNerf reports 12 of 30 daily collections by 5 October, with its ten-day baseline complete and two follow-up days; it has not published a comparison result.",
+      "accessed_at": "2026-10-05T12:13:36Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:godot-same-prompt-oct02",
+      "source_type": "community task report",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1wvwipe/evidence_opus_55_today_vs_launch_regression_with/",
+      "title": "Opus 5.5 today versus launch: Godot task report",
+      "claim": "A poster describes a worse result in a same-prompt Godot rerun, but the artifacts and responding-model records were not independently checked.",
+      "accessed_at": "2026-10-05T12:13:36Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-oct05",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "Anthropic status displayed all systems operational and no incidents reported on 5 October at the check. Provider status does not test output quality.",
+      "accessed_at": "2026-10-05T12:13:36Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:marginlab-stale-oct05",
+      "source_type": "commercial public tracker",
+      "source_url": "https://marginlab.ai/trackers/claude-code/",
+      "title": "Marginlab Opus 5.5 tracker",
+      "claim": "The page is marked last updated 29 September and says its Opus 5.5 baseline is still collecting and degradation detection is paused; displayed rates are not a fresh comparison.",
+      "accessed_at": "2026-10-05T12:13:36Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
