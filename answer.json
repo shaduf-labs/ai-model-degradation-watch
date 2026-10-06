@@ -1,28 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 5 October 2026, reviewed public evidence does not establish a broad capability decline across popular deployed models or a confirmed Claude Opus 5.5 regression. OpenAI reports elevated Work Mode errors beginning at 07:03 UTC; its 09:50 update says the issue was mitigated and recovery is being monitored for ChatGPT Work and Codex in ChatGPT Desktop. That is service evidence, not a model-quality result. Anthropic documents safety fallbacks that can change the responding Claude model on some requests; check the per-response model label and fallback notice before comparing outputs. BridgeBench’s Opus 5.5 launch-power score rose to 96.5% on 4 October from 94.2% on 2 October, within its stated 90–110% band, but combines task performance, tokens, and cost. LiveNerf reports two follow-up days after its baseline and no comparison result yet. A user’s same-prompt Godot comparison is a task-specific lead, not proof without inspected outputs and served-model records.",
+  "current_answer": "As of 6 October 2026, reviewed public evidence does not establish a broad capability decline across popular deployed models or a confirmed Claude Opus 5.5 regression. OpenAI marked its 5 October Work Mode incident recovered at 02:10 UTC on 6 October, a separate ChatGPT-conversation incident recovered at 00:01, and a multi-product incident recovered at 03:17; its live status page showed all systems operational at the 13:12 check. A same-day Reddit user says ChatGPT on a selected GPT-5.6 Sol High setting felt weaker than two days earlier, with context and reasoning symptoms, but supplied no task trace, exact client, route, or output comparison. This is one report of possible problems after service recoveries, not a confirmed model or account regression. BridgeBench still displays 96.5% launch power on 4 October within its stated 90–110% band; LiveNerf last reports 12/30 collections on 5 October with no post-baseline comparison. Check the exact surface and status, save the task, settings, and response, then replay after recovery against a dated baseline before switching.",
   "catalogue_card": {
-    "question": "Is there proof Claude Opus 5.5 was downgraded?",
-    "text": "No confirmed regression. BridgeBench’s launch-power score rose to 96.5% after an October 2 low, still within its own 90–110% band. The score also mixes task results, token use, and cost."
+    "question": "Are popular AI models getting worse right now?",
+    "text": "No broad decline is established. Recent OpenAI incidents are marked recovered, while a new user complaint still needs a matched replay."
   },
   "summary": [
-    "OpenAI reports elevated Work Mode errors beginning 07:03 UTC on 5 October. Its 09:50 update said the issue was mitigated and recovery was being monitored; ChatGPT Work and Codex in ChatGPT Desktop were listed as affected.",
-    "Anthropic says some safety-flagged Opus 5.5 requests can be answered by an earlier model. The product displays a switch notice and labels the model that answered; record that label before comparing output.",
-    "BridgeBench’s 4 October Opus 5.5 launch-power score is 96.5%, up 2.3 percentage points from its 2 October low and within the board’s own 90–110% band. It combines task performance, tokens, and cost; tasks and weights are private.",
-    "LiveNerf reports 12 of 30 collections by 5 October, including two days in its first follow-up window. It has not published a post-baseline comparison; the first possible decision is around 24 October.",
-    "A user reports that a same-prompt Godot task produced a worse artifact on 2 October than on 23 September. The files, run logs, and responding-model identity were not independently checked.",
-    "Marginlab’s Opus 5.5 page is marked last updated 29 September and continues to say the baseline is collecting and degradation detection is paused; its rates are not a current before-and-after result.",
-    "If a familiar task fails, check the exact surface and status, capture the response-model label, prompt, files, settings, output, and correction work, then replay after recovery against your baseline."
+    "OpenAI marked a 5 October Work Mode incident recovered at 02:10 UTC on 6 October, a separate conversation incident at 00:01, and a multi-product incident at 03:17. Its status dashboard showed all systems operational at the 13:12 check; these are service records, not quality measurements.",
+    "A same-day user reports context and reasoning symptoms on a selected GPT-5.6 Sol High setting. The post includes no prompt, transcript, task artifact, route, exact client, or independently verified served model; replies include counterreports.",
+    "Timing makes this a possible post-incident persistence lead, but not evidence that an outage caused a model regression or affected this user’s account.",
+    "BridgeBench continues to display a 96.5% Opus 5.5 launch-power score on 4 October, inside its own 90–110% band; the composite includes task performance, tokens, and cost.",
+    "LiveNerf last displayed 12/30 collections by 5 October and no post-baseline comparison. Neither Claude tracker tests the GPT-5.6 report.",
+    "If a familiar task fails, check the exact surface and status, save the task/settings/response and any displayed model label, then replay after recovery against a dated baseline before switching."
   ],
   "uncertainty": [
-    "BridgeBench’s launch-power score is a composite, not a capability-only measure; tasks and weights are private and its result page shows no sample uncertainty.",
-    "LiveNerf’s result will cover a fixed panel through one headless Claude Code subscription path, not all Claude surfaces or ordinary user tasks.",
-    "The Godot report is one self-reported task comparison; its output artifacts and exact served models, routes, and settings were not independently verified.",
-    "OpenAI status is aggregate and does not establish which accounts were affected or measure answer quality. The 5 October incident was mitigated and recovery was being monitored, not reported as fully resolved at the last inspected update.",
-    "No representative repeated task series across providers, first-party analytics, controlled audience pilot, or purchase evidence was available."
+    "The same-day ChatGPT complaint is one self-reported experience; exact task, surface, account, effective model, route, and output are not independently verifiable.",
+    "Provider status is aggregate; a recovered incident and green dashboard do not prove account-level or task-level recovery.",
+    "Timing overlap between the complaint and service incidents does not establish cause.",
+    "A wider OpenAI status item marked recovered at 08:26 UTC displays earlier 29 September timeline entries, so its start and relation to 6 October activity remain unclear.",
+    "BridgeBench combines task performance, tokens, and cost; LiveNerf has no post-baseline comparison result in its latest inspected progress.",
+    "Analytics are unavailable; reader visits, return use, sharing, and funding outcomes are unobserved."
   ],
-  "checked_at": "2026-10-05T12:13:36Z",
-  "meaningfully_updated_at": "2026-10-05T12:13:36Z",
-  "freshness_note": "Checked 5 October 2026 at 12:13 UTC. OpenAI had mitigated a Work Mode incident and was monitoring recovery; BridgeBench’s latest Opus 5.5 test was dated 4 October; LiveNerf had two follow-up days and no comparison result."
+  "checked_at": "2026-10-06T13:12:10Z",
+  "meaningfully_updated_at": "2026-10-06T13:12:10Z",
+  "freshness_note": "Checked 6 October 2026 at 13:12 UTC. Several OpenAI service incidents had been marked recovered; a same-day quality complaint has no task replay receipt. Service availability, user reports, and capability tests remain separate."
 }

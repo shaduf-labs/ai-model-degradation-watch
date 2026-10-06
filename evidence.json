@@ -3200,6 +3200,76 @@
       "accessed_at": "2026-10-05T12:13:36Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-workmode-recovered-oct06",
+      "source_type": "provider incident record",
+      "source_url": "https://status.openai.com/incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z",
+      "title": "OpenAI Work Mode incident",
+      "claim": "OpenAI lists elevated errors from 5 October 07:03 UTC affecting ChatGPT Work and Codex in ChatGPT Desktop and marks recovery at 02:10 UTC on 6 October.",
+      "accessed_at": "2026-10-06T13:12:10Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-conversations-recovered-oct06",
+      "source_type": "provider incident record",
+      "source_url": "https://status.openai.com/incidents/01M46G248GGHV9RSAJE82BZY1X",
+      "title": "OpenAI ChatGPT conversation incident",
+      "claim": "OpenAI reports some ChatGPT conversations had elevated errors on 5 October and marks full recovery at 00:01 UTC on 6 October; this is not an answer-quality measure.",
+      "accessed_at": "2026-10-06T13:12:10Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-multisurface-recovered-oct06",
+      "source_type": "provider incident record",
+      "source_url": "https://status.openai.com/incidents/01M47HC9SGHGFPBN44KGC6SKAQ",
+      "title": "OpenAI multi-product incident",
+      "claim": "OpenAI lists ChatGPT conversations, ChatGPT Work, Image Generation, dots, and Space as affected in a 6 October incident and marks recovery at 03:17 UTC.",
+      "accessed_at": "2026-10-06T13:12:10Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-status-green-oct06",
+      "source_type": "provider status dashboard",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI current status dashboard",
+      "claim": "The dashboard showed all systems operational when checked at 13:12 UTC on 6 October; aggregate status does not establish every account’s experience.",
+      "accessed_at": "2026-10-06T13:12:10Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-chatgpt-high-oct06",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1wyvouj/what_the_hell_happened_to_chatgpt/",
+      "title": "6 October ChatGPT quality complaint",
+      "claim": "A user reports perceived context and reasoning decline on a selected GPT-5.6 Sol High setting, but supplies no matched task, output, route, exact client, or verified served-model receipt; replies include counterreports.",
+      "accessed_at": "2026-10-06T13:12:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-opus55-oct04-refresh",
+      "source_type": "commercial public tracker",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/claude-opus-5-5",
+      "title": "BridgeBench Opus 5.5 tracker",
+      "claim": "The page continues to display 96.5% launch power on 4 October within its stated 90–110% band; its score combines task performance, tokens, and cost.",
+      "accessed_at": "2026-10-06T13:12:10Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-opus55-oct05-refresh",
+      "source_type": "public test repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf Opus 5.5 progress",
+      "claim": "Latest visible progress is 12/30 daily collections by 5 October, with no published post-baseline comparison result.",
+      "accessed_at": "2026-10-06T13:12:10Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

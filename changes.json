@@ -738,6 +738,18 @@
       "changed_at": "2026-10-05T12:13:36Z",
       "summary": "Updated the current verdict with a scoped OpenAI Work Mode incident, documented Claude safety fallbacks, new Opus 5.5 tracker readings, and one unverified task-level comparison.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "current-verdict-2026-10-06",
+      "changed_at": "2026-10-06T13:12:10Z",
+      "summary": "Updated the verdict with OpenAI’s recovered service incidents, a same-day but unverified GPT-5.6 quality report, unchanged Opus tracker limits, and a task-replay action.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "report-service-recovery-replay-2026-10-06",
+      "changed_at": "2026-10-06T13:12:10Z",
+      "summary": "Published the dated incident timeline and separated service recovery from model-quality evidence; added a privacy-safe replay checklist.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-06.html"
     }
   ]
 }
