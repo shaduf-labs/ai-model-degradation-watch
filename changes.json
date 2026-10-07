@@ -750,6 +750,18 @@
       "changed_at": "2026-10-06T13:12:10Z",
       "summary": "Published the dated incident timeline and separated service recovery from model-quality evidence; added a privacy-safe replay checklist.",
       "path": "/p/ai-model-degradation-watch/reports/2026-10-06.html"
+    },
+    {
+      "change_id": "oct07-openai-work-app-and-agent-incident-update",
+      "changed_at": "2026-10-07T12:17:00Z",
+      "summary": "Added OpenAI's resolved, version-specific Work desktop thread issue and separate Workspace Agent response issue. Kept both in the availability lane, not the model-quality verdict.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "oct07-livenerf-window-validation-caveat",
+      "changed_at": "2026-10-07T12:17:00Z",
+      "summary": "Updated the method and research pages with LiveNerf's 13/30 progress and a closed issue's unverified window-boundary concern; no result is treated as a null until a fix and valid comparison are confirmed.",
+      "path": "/p/ai-model-degradation-watch/method/"
     }
   ]
 }

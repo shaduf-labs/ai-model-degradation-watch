@@ -1,28 +1,30 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 6 October 2026, reviewed public evidence does not establish a broad capability decline across popular deployed models or a confirmed Claude Opus 5.5 regression. OpenAI marked its 5 October Work Mode incident recovered at 02:10 UTC on 6 October, a separate ChatGPT-conversation incident recovered at 00:01, and a multi-product incident recovered at 03:17; its live status page showed all systems operational at the 13:12 check. A same-day Reddit user says ChatGPT on a selected GPT-5.6 Sol High setting felt weaker than two days earlier, with context and reasoning symptoms, but supplied no task trace, exact client, route, or output comparison. This is one report of possible problems after service recoveries, not a confirmed model or account regression. BridgeBench still displays 96.5% launch power on 4 October within its stated 90–110% band; LiveNerf last reports 12/30 collections on 5 October with no post-baseline comparison. Check the exact surface and status, save the task, settings, and response, then replay after recovery against a dated baseline before switching.",
+  "current_answer": "As of 7 October 2026, public evidence does not establish a broad capability decline across popular AI models or a confirmed Claude Opus 5.5 decline. OpenAI reported two separate product issues: a ChatGPT Work desktop-app version prevented creation of new Work threads, and Workspace Agents had degraded responses. Both were marked resolved; OpenAI said affected Work users should update the app. These are availability and product-path findings, not model-quality measurements. The 6 October GPT-5.6 Sol High complaint remains one unverified user report without a task replay or served-model receipt, and no link to either incident has been shown. BridgeBench's latest displayed Opus 5.5 result remains 96.5% of launch power on 4 October, within its own 90–110% band; it combines task performance, tokens, and cost. LiveNerf has 13/30 daily collections and no post-baseline comparison, while a closed issue reports a window-boundary problem that may prevent its preregistered decision rule from firing. Suggested next step: update the affected Work app if relevant; for a completed answer that seems weaker, preserve the task, settings, surface, and displayed model, then replay it against a dated baseline after service recovery.",
   "catalogue_card": {
     "question": "Are popular AI models getting worse right now?",
-    "text": "No broad decline is established. Recent OpenAI incidents are marked recovered, while a new user complaint still needs a matched replay."
+    "text": "No broad model decline is established. Two specific OpenAI product issues were resolved; neither is a quality test."
   },
   "summary": [
-    "OpenAI marked a 5 October Work Mode incident recovered at 02:10 UTC on 6 October, a separate conversation incident at 00:01, and a multi-product incident at 03:17. Its status dashboard showed all systems operational at the 13:12 check; these are service records, not quality measurements.",
-    "A same-day user reports context and reasoning symptoms on a selected GPT-5.6 Sol High setting. The post includes no prompt, transcript, task artifact, route, exact client, or independently verified served model; replies include counterreports.",
-    "Timing makes this a possible post-incident persistence lead, but not evidence that an outage caused a model regression or affected this user’s account.",
-    "BridgeBench continues to display a 96.5% Opus 5.5 launch-power score on 4 October, inside its own 90–110% band; the composite includes task performance, tokens, and cost.",
-    "LiveNerf last displayed 12/30 collections by 5 October and no post-baseline comparison. Neither Claude tracker tests the GPT-5.6 report.",
-    "If a familiar task fails, check the exact surface and status, save the task/settings/response and any displayed model label, then replay after recovery against a dated baseline before switching."
+    "No broad capability decline across popular models is established by the reviewed public evidence.",
+    "OpenAI marked a version-specific ChatGPT Work desktop issue resolved after releasing an app fix; affected users should update. The issue blocked creation of new Work threads.",
+    "A separate Workspace Agents issue affected whether users saw agent responses and was marked recovered. Neither incident measures model quality or connects to the 6 October Reddit complaint.",
+    "The GPT-5.6 Sol High complaint remains a single unverified report without a task receipt, exact client, route, verified served model, or replay.",
+    "BridgeBench's latest Opus 5.5 result is 96.5% of launch power on 4 October, within its stated 90–110% band; the measure combines task score, tokens, and cost.",
+    "LiveNerf shows 13/30 days and no comparison result. A closed issue reports a window-boundary flaw that may block its preregistered two-window decision rule; no linked fix or resolution note was visible.",
+    "Suggested: update the affected Work app; for a weaker completed answer, save the task, settings, surface, and displayed model, then replay against a dated baseline after recovery."
   ],
   "uncertainty": [
-    "The same-day ChatGPT complaint is one self-reported experience; exact task, surface, account, effective model, route, and output are not independently verifiable.",
-    "Provider status is aggregate; a recovered incident and green dashboard do not prove account-level or task-level recovery.",
-    "Timing overlap between the complaint and service incidents does not establish cause.",
-    "A wider OpenAI status item marked recovered at 08:26 UTC displays earlier 29 September timeline entries, so its start and relation to 6 October activity remain unclear.",
-    "BridgeBench combines task performance, tokens, and cost; LiveNerf has no post-baseline comparison result in its latest inspected progress.",
-    "Analytics are unavailable; reader visits, return use, sharing, and funding outcomes are unobserved."
+    "The 6 October ChatGPT complaint is self-reported and includes no prompt, task result, exact client, route, or independently verified served model.",
+    "The two OpenAI product incidents concern Work thread creation and Workspace Agent responses; no evidence links them to the separate ChatGPT conversation complaint.",
+    "Provider status pages report aggregate service state, not individual account impact or answer quality.",
+    "BridgeBench's 96.5% is a vendor-defined composite within its stated variance band and is not a capability-only estimate.",
+    "LiveNerf's latest status has no post-baseline result. Issue #9 is closed, but the repository page showed no linked pull request or resolution note for the reported window-boundary bug.",
+    "The search found no new independently checkable task receipt in Spanish or Chinese; a small discovery search cannot measure audience prevalence.",
+    "Analytics are unavailable, so reader visits, return use, sharing, and funding outcomes are unobserved."
   ],
-  "checked_at": "2026-10-06T13:12:10Z",
-  "meaningfully_updated_at": "2026-10-06T13:12:10Z",
-  "freshness_note": "Checked 6 October 2026 at 13:12 UTC. Several OpenAI service incidents had been marked recovered; a same-day quality complaint has no task replay receipt. Service availability, user reports, and capability tests remain separate."
+  "checked_at": "2026-10-07T12:17:00Z",
+  "meaningfully_updated_at": "2026-10-07T12:17:00Z",
+  "freshness_note": "Checked 7 October 2026. Two provider-reported product issues are marked resolved. They do not establish model capability change; the latest user quality report has no matched replay. A public tracker also has an unverified windowing correction concern."
 }

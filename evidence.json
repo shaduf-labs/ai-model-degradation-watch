@@ -3270,6 +3270,76 @@
       "accessed_at": "2026-10-06T13:12:10Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-work-desktop-thread-oct07",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M4ADHMMBK7K92NJFJ0DXRYJM",
+      "title": "Unable to create new ChatGPT Work threads in latest version of desktop app",
+      "claim": "OpenAI says version 26.1002.51308 was affected, marks the desktop Work thread-creation issue resolved after releasing an updated app for Linux, macOS, and Windows, and advises affected users to update.",
+      "accessed_at": "2026-10-07T12:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:openai-workspace-agent-oct07",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M49YQE6WZT02WYF0KBXVMQ5G",
+      "title": "Workspace Agents Degraded and Responses Impacted",
+      "claim": "OpenAI says some Workspace Agent users might not see responses during the incident and marks impacted services recovered on 7 October; this is service evidence, not answer-quality evidence.",
+      "accessed_at": "2026-10-07T12:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-chatgpt-high-revisited-oct07",
+      "source_type": "community report",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1wyvouj/what_the_hell_happened_to_chatgpt/",
+      "title": "6 October GPT-5.6 Sol High complaint (revisited)",
+      "claim": "A user reports context and reasoning trouble on a selected GPT-5.6 Sol High setting; the post contains no task, output, exact client, route, verified served-model record, or matched replay, and comments include both complaints and counterreports.",
+      "accessed_at": "2026-10-07T12:17:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:bridgebench-opus55-oct07",
+      "source_type": "vendor benchmark board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/claude-opus-5-5",
+      "title": "Claude Opus 5.5 — Nerf Bench",
+      "claim": "The latest displayed Opus 5.5 test is dated 4 October at 96.5% of launch power, inside the vendor's 90–110% band; the displayed measure includes task performance, tokens, and cost.",
+      "accessed_at": "2026-10-07T12:17:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-progress-oct07",
+      "source_type": "open-source benchmark repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf progress as of 6 October",
+      "claim": "The repository reports 13 of 30 daily collections, a complete baseline, and no post-baseline comparison result.",
+      "accessed_at": "2026-10-07T12:17:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-issue9-oct07",
+      "source_type": "closed public code-review issue",
+      "source_url": "https://github.com/ninjahawk/livenerf/issues/9",
+      "title": "Days 11–20 are treated as baseline, so the decision rule cannot fire within the 30 days",
+      "claim": "A closed issue describes a mismatch between a 10-day baseline cutoff and midnight-anchored windows that could label days 11–20 as baseline and leave only one post-baseline window; the issue page showed no linked branch, pull request, or resolution note at this check.",
+      "accessed_at": "2026-10-07T12:17:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-analysis-windowing-oct07",
+      "source_type": "benchmark analysis code page",
+      "source_url": "https://github.com/ninjahawk/livenerf/blob/main/livenerf/analysis/__init__.py",
+      "title": "LiveNerf analysis code",
+      "claim": "The rendered code page displays a baseline cutoff based on first run plus 240 hours and windows anchored to UTC midnight; its browser crawl was five days old, so a commit-pinned current code check is still needed.",
+      "accessed_at": "2026-10-07T12:17:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
