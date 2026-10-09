@@ -352,6 +352,17 @@
       "summary": "Two reported product issues were marked resolved. No broad model decline is established; the GPT-5.6 complaint lacks a matched replay, and LiveNerf's pending comparison needs a windowing fix check.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-07.html",
       "entrypoint": "reports/2026-10-07.html"
+    },
+    {
+      "run_id": "run:4a518453-6792-497c-87d2-6f57fe939bb6",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-08T12:00:00Z",
+      "completed_at": "2026-10-08T12:14:05Z",
+      "title": "One Opus 5.5 report shows higher token use; cause unresolved",
+      "summary": "A single-user issue reports increased Opus 5.5 thinking and output tokens after 1 October, when Claude Code also changed version. Recent OpenAI error incidents were marked recovered; LiveNerf has no comparison result.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-08.html",
+      "entrypoint": "reports/2026-10-08.html"
     }
   ]
 }

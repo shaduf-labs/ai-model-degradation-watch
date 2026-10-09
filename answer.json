@@ -1,30 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 7 October 2026, public evidence does not establish a broad capability decline across popular AI models or a confirmed Claude Opus 5.5 decline. OpenAI reported two separate product issues: a ChatGPT Work desktop-app version prevented creation of new Work threads, and Workspace Agents had degraded responses. Both were marked resolved; OpenAI said affected Work users should update the app. These are availability and product-path findings, not model-quality measurements. The 6 October GPT-5.6 Sol High complaint remains one unverified user report without a task replay or served-model receipt, and no link to either incident has been shown. BridgeBench's latest displayed Opus 5.5 result remains 96.5% of launch power on 4 October, within its own 90–110% band; it combines task performance, tokens, and cost. LiveNerf has 13/30 daily collections and no post-baseline comparison, while a closed issue reports a window-boundary problem that may prevent its preregistered decision rule from firing. Suggested next step: update the affected Work app if relevant; for a completed answer that seems weaker, preserve the task, settings, surface, and displayed model, then replay it against a dated baseline after service recovery.",
+  "current_answer": "As of 8 October 2026, public evidence still does not establish a broad capability decline across popular AI models or a confirmed Claude Opus 5.5 regression. One 1 October GitHub issue in Anthropic's Claude Code repository reports higher Opus 5.5 High thinking tokens (67 to 126 median per request) and output tokens (447 to 711) between 29 earlier sessions and 8 sessions on 1 October. The author reports worse judgment and a same-day issue in claude.ai, but the CLI changed from 2.1.282–2.1.285 to 2.1.286 on the comparison date, tasks were not matched, and outputs or a controlled replay are not available in the issue. Treat it as a testable one-account signal, not a model-side or broad decline finding. OpenAI separately marked Dot/Work errors, APAC service errors, and GPT-5.6 Instant errors in FedRAMP workspaces recovered; those are service or execution records, not quality tests. LiveNerf reports 15/30 daily collections and no post-baseline comparison. Suggested: save the task, exact client/CLI, effort, context, output, and token receipt, then compare matched runs with client changes controlled before switching.",
   "catalogue_card": {
-    "question": "Are popular AI models getting worse right now?",
-    "text": "No broad model decline is established. Two specific OpenAI product issues were resolved; neither is a quality test."
+    "question": "Did Claude Opus 5.5 change on 1 October?",
+    "text": "One user reports higher thinking and output tokens, but the CLI changed on the same date. No model decline is confirmed."
   },
   "summary": [
-    "No broad capability decline across popular models is established by the reviewed public evidence.",
-    "OpenAI marked a version-specific ChatGPT Work desktop issue resolved after releasing an app fix; affected users should update. The issue blocked creation of new Work threads.",
-    "A separate Workspace Agents issue affected whether users saw agent responses and was marked recovered. Neither incident measures model quality or connects to the 6 October Reddit complaint.",
-    "The GPT-5.6 Sol High complaint remains a single unverified report without a task receipt, exact client, route, verified served model, or replay.",
-    "BridgeBench's latest Opus 5.5 result is 96.5% of launch power on 4 October, within its stated 90–110% band; the measure combines task score, tokens, and cost.",
-    "LiveNerf shows 13/30 days and no comparison result. A closed issue reports a window-boundary flaw that may block its preregistered two-window decision rule; no linked fix or resolution note was visible.",
-    "Suggested: update the affected Work app; for a weaker completed answer, save the task, settings, surface, and displayed model, then replay against a dated baseline after recovery."
+    "No broad capability decline across popular AI models or confirmed Claude Opus 5.5 regression is established by the reviewed public evidence.",
+    "A 1 October issue reports higher Opus 5.5 High thinking-token and output-token medians in one user’s sessions. The comparison is not task-matched, and Claude Code CLI 2.1.286 appears only on the post-change date.",
+    "The author reports worse task judgment and similar same-day claude.ai symptoms, but the issue has no quality rubric, visible output set, provider confirmation, or independent replication.",
+    "OpenAI marked Dot errors in Codex/Work, an APAC issue across Work/conversations/GPTs, and GPT-5.6 Instant errors in FedRAMP workspaces recovered. These are service or execution records, not answer-quality tests.",
+    "LiveNerf reports 15/30 collections and no post-baseline comparison. Its pre-registration describes a corrected cutoff and regression test; the available code snapshot is too old to verify the current implementation.",
+    "Suggested: check service and region for errors; for a completed answer that seems worse, record the task, effort, context, client/CLI version, output, correction work, and token receipt. Compare matched runs with the client held constant before switching."
   ],
   "uncertainty": [
-    "The 6 October ChatGPT complaint is self-reported and includes no prompt, task result, exact client, route, or independently verified served model.",
-    "The two OpenAI product incidents concern Work thread creation and Workspace Agent responses; no evidence links them to the separate ChatGPT conversation complaint.",
-    "Provider status pages report aggregate service state, not individual account impact or answer quality.",
-    "BridgeBench's 96.5% is a vendor-defined composite within its stated variance band and is not a capability-only estimate.",
-    "LiveNerf's latest status has no post-baseline result. Issue #9 is closed, but the repository page showed no linked pull request or resolution note for the reported window-boundary bug.",
-    "The search found no new independently checkable task receipt in Spanish or Chinese; a small discovery search cannot measure audience prevalence.",
-    "Analytics are unavailable, so reader visits, return use, sharing, and funding outcomes are unobserved."
+    "The Opus 5.5 token comparison is one author’s local session analysis (29 earlier sessions versus 8 on 1 October); CLI version and date changed together, task mix was not matched, and the linked session-metrics gist could not be fetched in this check.",
+    "The issue reports worse judgment and same-day claude.ai symptoms, but provides no controlled task-quality baseline or independent reproduction; the stated p-values do not isolate a model-side cause.",
+    "OpenAI status entries are aggregate provider records. They do not establish individual account impact, completed-answer quality, or connection to the Opus 5.5 report.",
+    "LiveNerf reports 15 of 30 daily runs and no comparison result. Its pre-registration says the cutoff was corrected and tested, but the available analysis-code page was crawled six days before this check, so current code execution is not independently verified.",
+    "LiveNerf measures one Claude Code subscription path and a fixed academic panel, not consumer chat or all user workflows; a first two-window decision is not expected before about 24 October.",
+    "Analytics and reader outcomes are unavailable, so the report’s suggested action is not a verified reader action."
   ],
-  "checked_at": "2026-10-07T12:17:00Z",
-  "meaningfully_updated_at": "2026-10-07T12:17:00Z",
-  "freshness_note": "Checked 7 October 2026. Two provider-reported product issues are marked resolved. They do not establish model capability change; the latest user quality report has no matched replay. A public tracker also has an unverified windowing correction concern."
+  "checked_at": "2026-10-08T12:07:51Z",
+  "meaningfully_updated_at": "2026-10-08T12:07:51Z",
+  "freshness_note": "Checked 8 October 2026. A detailed but uncontrolled Opus 5.5 token-use report and separate recovered OpenAI service events are new signals; neither establishes broad capability decline. LiveNerf has no comparison result."
 }

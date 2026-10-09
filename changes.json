@@ -762,6 +762,18 @@
       "changed_at": "2026-10-07T12:17:00Z",
       "summary": "Updated the method and research pages with LiveNerf's 13/30 progress and a closed issue's unverified window-boundary concern; no result is treated as a null until a fix and valid comparison are confirmed.",
       "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "oct08-opus55-token-shift-and-client-confounder",
+      "changed_at": "2026-10-08T12:07:51Z",
+      "summary": "Added a detailed single-account Opus 5.5 token-use report and explained why the simultaneous CLI change and unmatched tasks prevent a model-cause conclusion.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-08.html"
+    },
+    {
+      "change_id": "oct08-provider-incidents-and-livenerf-progress",
+      "changed_at": "2026-10-08T12:07:51Z",
+      "summary": "Updated service and monitor status: OpenAI marked distinct Dot/Work, APAC, and FedRAMP errors recovered; LiveNerf reports 15/30 runs and no comparison.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }
