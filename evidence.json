@@ -70,6 +70,66 @@
       "accessed_at": "2026-10-08T12:07:51Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:opus55-exposure-paths-2026-10-09",
+      "source_type": "user issue in provider-owned code repository",
+      "source_url": "https://github.com/anthropics/claude-code/issues/98679",
+      "title": "Opus 5.5 issue comments describe different client and prompt histories",
+      "claim": "The original issue reports a token-use shift with CLI version changed and unmatched sessions. Later comments report higher token means alongside a server-delivered prompt section on constant CLI, and a perceived quality/tool-use shift on constant CLI with unchanged prompt snapshots. These are self-reports, not a controlled task-quality comparison or provider-confirmed change.",
+      "accessed_at": "2026-10-09T12:07:11Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-opus55-status-oct06",
+      "source_type": "provider status incident",
+      "source_url": "https://status.claude.com/incidents/ch27pb90bn85",
+      "title": "Anthropic marked Opus 5.5 request errors resolved",
+      "claim": "Anthropic investigated elevated Opus 5.5 request errors at 12:24 UTC and marked the incident resolved at 12:43 UTC on 6 October. It listed claude.ai, the API, Claude Code, and Claude Cowork as affected. This is an availability record, not a quality result.",
+      "accessed_at": "2026-10-09T12:07:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-spend-limits-oct07",
+      "source_type": "provider status incident",
+      "source_url": "https://status.claude.com/incidents/vmys9qn874h4",
+      "title": "Incorrect organization spend-limit pauses resolved",
+      "claim": "Anthropic says some organizations were incorrectly paused, causing refused requests on Claude services and API; the incident was marked resolved at 21:23 UTC on 7 October. This is an access record, not a completed-answer quality result.",
+      "accessed_at": "2026-10-09T12:07:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:modelsentiment-opus55-oct09",
+      "source_type": "sampled Reddit opinion tracker",
+      "source_url": "https://modelsentiment.com/m/claude-opus-5.5",
+      "title": "Sampled Opus 5.5 Reddit opinion index is stable week over week",
+      "claim": "As of 11:55 UTC on 9 October, ModelSentiment reported an index of 66 from 1,974 opinions in 799 threads for the latest 7-day window, unchanged from the previous window. Its data are a Reddit sample and measure opinion, not model capability.",
+      "accessed_at": "2026-10-09T12:07:11Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-correction-cost-oct09",
+      "source_type": "community user report",
+      "source_url": "https://www.reddit.com/r/Claudeopus/comments/1wzu9rc/opus-degradation-is-costing-users-more-than-tokens/",
+      "title": "One coding report describes the cost of repeated corrections",
+      "claim": "One user describes a coding task that followed an unrelated API path despite correction and reports costs in time, tokens, and context. The account has no before/after baseline, independent reproduction, or verified served-model receipt.",
+      "accessed_at": "2026-10-09T12:07:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-progress-oct09",
+      "source_type": "open-source benchmark repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf still has no post-baseline comparison",
+      "claim": "The latest README remains dated 8 October and reports 15/30 collections, a completed baseline, and no post-baseline comparison. A missing comparison is not a result of no change.",
+      "accessed_at": "2026-10-09T12:07:11Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

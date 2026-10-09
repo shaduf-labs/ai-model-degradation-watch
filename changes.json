@@ -774,6 +774,30 @@
       "changed_at": "2026-10-08T12:07:51Z",
       "summary": "Updated service and monitor status: OpenAI marked distinct Dot/Work, APAC, and FedRAMP errors recovered; LiveNerf reports 15/30 runs and no comparison.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "oct09-opus55-prompt-exposure-paths",
+      "changed_at": "2026-10-09T12:07:11Z",
+      "summary": "Updated the verdict and community report with account-level claims about a server-delivered prompt experiment, an unchanged-prompt report, and the original CLI-version confounder; no model-side cause is established.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "oct09-local-prompt-configuration-receipt",
+      "changed_at": "2026-10-09T12:07:11Z",
+      "summary": "Added prompt snapshots, experiment indicators, tool schemas, and correction cost to the local replay receipt; advised users not to upload proprietary prompts or code without consent.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "oct09-anthropic-service-and-access-status",
+      "changed_at": "2026-10-09T12:07:11Z",
+      "summary": "Added Anthropic's resolved Opus 5.5 request-error and incorrect spend-limit incidents, separated from completed-answer quality.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "oct09-opus55-evidence-report",
+      "changed_at": "2026-10-09T12:07:11Z",
+      "summary": "Published the 9 October account-level Opus 5.5 report and its client, server-prompt, task-mix, service, sentiment, and monitor limits.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-09.html"
     }
   ]
 }

@@ -363,6 +363,17 @@
       "summary": "A single-user issue reports increased Opus 5.5 thinking and output tokens after 1 October, when Claude Code also changed version. Recent OpenAI error incidents were marked recovered; LiveNerf has no comparison result.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-08.html",
       "entrypoint": "reports/2026-10-08.html"
+    },
+    {
+      "run_id": "run:ca6c2553-527d-4d8c-ad52-46a57e58da23",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-09T12:00:00Z",
+      "completed_at": "2026-10-09T12:10:51Z",
+      "title": "Opus 5.5 reports now include a server-delivered prompt change",
+      "summary": "Issue comments describe different 1 October client and prompt histories, including a reported server-delivered prompt experiment. These reports remain uncontrolled; no broad capability decline or confirmed core-model regression is established.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-09.html",
+      "entrypoint": "reports/2026-10-09.html"
     }
   ]
 }
