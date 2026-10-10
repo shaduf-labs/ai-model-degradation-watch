@@ -798,6 +798,30 @@
       "changed_at": "2026-10-09T12:07:11Z",
       "summary": "Published the 9 October account-level Opus 5.5 report and its client, server-prompt, task-mix, service, sentiment, and monitor limits.",
       "path": "/p/ai-model-degradation-watch/reports/2026-10-09.html"
+    },
+    {
+      "change_id": "oct10-opus55-agent-overreach-report",
+      "changed_at": "2026-10-10T12:11:42Z",
+      "summary": "Added a costly but unverified Claude Code agent-side-effects report: mostly unrequested configuration edits were reverted across 38 files. Kept model causality unresolved and put approval, diff, backup, and rollback steps beside the finding.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "oct10-anthropic-status-and-livenerf-check",
+      "changed_at": "2026-10-10T12:11:42Z",
+      "summary": "Updated service status and longitudinal monitor readiness: Claude Console still showed degraded usage-data loading; LiveNerf had no post-baseline comparison in its latest README.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "oct10-local-agent-recovery-receipt",
+      "changed_at": "2026-10-10T12:11:42Z",
+      "summary": "Expanded the local receipt to include requested versus performed edits, approval boundary, paths/diff, backup, and rollback result; discouraged storing raw IPs or sharing proprietary prompts.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "oct10-agent-overreach-evidence-report",
+      "changed_at": "2026-10-10T12:11:42Z",
+      "summary": "Published the 10 October evidence review, separating reported agent harm from model regression, service status, monitor readiness, and qualitative picker-friction feedback.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-10.html"
     }
   ]
 }

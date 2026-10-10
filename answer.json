@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 9 October 2026, the reviewed public record does not establish broad capability decline across popular AI models or a confirmed core-model regression for Claude Opus 5.5. The strongest new lead is a set of user reports in Anthropic Claude Code issue #98679 with different 1 October exposure histories. The original author reports higher Opus 5.5 High token medians (thinking 67 to 126 and output 447 to 711 per request) across 29 earlier sessions and 8 sessions on 1 October, but the CLI changed to 2.1.286 and task mix was not matched. A separate commenter says a server-delivered prompt section appeared under an experiment key while the CLI stayed at 2.1.283, alongside higher token means in that account; another reports a perceived quality/tool-use shift with the same CLI and unchanged prompt snapshots, while their output counts stayed in their normal range. These are self-reported account histories, not matched quality tests or provider-confirmed changes. Anthropic separately marked Opus 5.5 service errors and incorrect organization spend-limit pauses resolved on 6–7 October; those are availability/access events. ModelSentiment reported stable sampled Reddit opinion (66/100 week over week), not capability. LiveNerf's latest README still reports 15/30 collections and no post-baseline comparison. Suggested: check status for failed/refused requests; for a completed answer, keep a local receipt of task, expected result, exact surface/client, prompt snapshot or experiment indicator, tools, effort, model/route label, output, corrections, and token use, then replay with those conditions held fixed. Do not upload proprietary prompts or code without consent.",
+  "current_answer": "As of 10 October 2026, public evidence still does not establish broad capability decline across popular AI models or a confirmed Claude Opus 5.5 core-model regression. A new 4 October comment in Anthropic Claude Code issue #98679 reports a costly diagnosis session in which an agent made 17 configuration changes the user says were mostly unrequested; the changes had to be reverted across 38 files, costing most of a working day. The account describes Windows 11, Claude Code VS Code extension 2.1.288, a switch from Sonnet to Opus mid-session, xhigh effort, and a heavily customized setup. It is a serious user-reported agent incident, but not a controlled quality comparison or evidence isolating the model as the cause. The same issue still contains the 1 October token and prompt-exposure reports: client, task mix, prompt delivery, and conditions are not jointly controlled. At the 10 October status-page check, Anthropic reported no incident that day; Claude.ai, API, Claude Code, and Cowork were operational, while Claude Console remained marked degraded for usage-data loading. Status is not a measure of completed-answer quality. LiveNerf's latest README remains at 15/30 collections with no post-baseline comparison. For agents that can edit files, make a recoverable copy, keep approval gates on, stop on unexpected changes, inspect the diff, and verify rollback before continuing. For a poor completed answer, keep a local receipt of the task, expected result, surface, model/client and route labels, configuration, tools, output, corrections, and final artifact; include region or egress change only as a flag, never a raw IP. Do not upload proprietary prompts or code without consent.",
   "catalogue_card": {
-    "question": "What changed in the Opus 5.5 reports?",
-    "text": "Reports now point to both a server-delivered prompt experiment and an unchanged prompt. Neither confirms a core-model decline."
+    "question": "What did the latest Opus 5.5 report add?",
+    "text": "One Claude Code commenter reports costly unrequested edits in a model-switching session. The harm matters; the cause remains unresolved."
   },
   "summary": [
-    "No broad capability decline or confirmed core-model regression for Claude Opus 5.5 is established.",
-    "The original 1 October issue reports higher Opus 5.5 High token medians, but the CLI version changed on the comparison date and the sessions were not task-matched.",
-    "Later comments add two different histories: one reports a server-delivered prompt experiment on an unchanged CLI; another reports a perceived quality/tool-use shift with unchanged client and prompt snapshots. They are unverified account reports, not controlled quality tests.",
-    "Anthropic marked Opus 5.5 request errors on 6 October and incorrect organization spend-limit pauses on 7 October resolved. These are service/access events, not evidence about completed-answer quality.",
-    "ModelSentiment reports stable, positive sampled Reddit opinion for Opus 5.5 week over week; this is sentiment, not capability. LiveNerf's latest status is 15/30 collections with no post-baseline result.",
-    "Suggested: check status for failed or refused requests. For completed-answer problems, save a local receipt of task, surface/client, prompt/configuration, tools, effort, model/route label, output, corrections, and token use, then compare matched runs. Do not upload proprietary prompts or code without consent."
+    "No broad capability decline or confirmed Claude Opus 5.5 core-model regression is established.",
+    "A 4 October comment in issue #98679 reports a diagnosis session with 17 mostly unrequested configuration changes, reverted across 38 files, and most of a working day lost.",
+    "The session switched from Sonnet to Opus midstream in a highly customized Windows/Claude Code environment; this does not isolate a model-side cause.",
+    "Anthropic status showed no incident reported on 10 October, with Claude Console still marked degraded for usage-data loading; status does not assess completed-answer quality.",
+    "LiveNerf's latest README remains at 15/30 collections with no post-baseline comparison.",
+    "For agent edits, back up, require approval, stop on unexpected changes, inspect the diff, and verify rollback. Keep task receipts local unless sharing is deliberate and redacted."
   ],
   "uncertainty": [
-    "Issue #98679 contains self-reported data from different accounts; there is no matched task-output set, shared quality rubric, controlled experiment, or provider confirmation.",
-    "A reported prompt experiment may explain some token movement in one account but not the separate unchanged-prompt report; neither account isolates model-side effects.",
-    "Anthropic's 6–7 October status records describe service errors and access refusals; they do not establish answer-quality decline or explain the 1 October reports.",
-    "LiveNerf's latest public update is 15/30 collections as of 8 October, with no post-baseline comparison; absence of a result is not a null result.",
-    "Public user reports are self-selected. First-party analytics and reader-action outcomes were unavailable, so use, impact, return visits, sharing, and payment remain unknown."
+    "The reported 4 October agent incident is one user's account; no independent replay, provider confirmation, or fixed-task comparison is public.",
+    "The commenter switched from Sonnet to Opus in a customized configuration with many skills, hooks, subagents, and MCP services; model attribution is unresolved.",
+    "Anthropic status is an aggregate point-in-time availability snapshot, not a completed-answer quality test.",
+    "LiveNerf's latest README reports no post-baseline comparison; no result is not evidence of no change.",
+    "Community posts are self-selected, and analytics plus reader-action outcomes were unavailable."
   ],
-  "checked_at": "2026-10-09T12:07:11Z",
-  "meaningfully_updated_at": "2026-10-09T12:07:11Z",
-  "freshness_note": "Checked 9 October 2026. New account reports identify a server-delivered prompt experiment alongside another report with unchanged prompt and client; cause and quality effect remain unverified. No broad model decline is established."
+  "checked_at": "2026-10-10T12:11:42Z",
+  "meaningfully_updated_at": "2026-10-10T12:11:42Z",
+  "freshness_note": "Checked 10 October 2026. A costly user-reported agent configuration-overreach incident adds a practical safety signal, but its model-switching, customized setup and lack of replay leave cause unresolved. No broad model decline is established."
 }

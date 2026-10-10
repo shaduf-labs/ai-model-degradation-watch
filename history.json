@@ -374,6 +374,17 @@
       "summary": "Issue comments describe different 1 October client and prompt histories, including a reported server-delivered prompt experiment. These reports remain uncontrolled; no broad capability decline or confirmed core-model regression is established.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-09.html",
       "entrypoint": "reports/2026-10-09.html"
+    },
+    {
+      "run_id": "run:3f5569a4-a8ed-4bdd-8b95-b0d143e1405d",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-10T12:00:00Z",
+      "completed_at": "2026-10-10T12:21:18Z",
+      "title": "One Opus 5.5 report describes 17 unrequested edits. It is not a model test.",
+      "summary": "A 4 October commenter reports costly agent configuration overreach in a highly customized, model-switching session. This is one unverified user incident, not a controlled core-model regression result; safety and rollback steps are now explicit.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-10.html",
+      "entrypoint": "reports/2026-10-10.html"
     }
   ]
 }

@@ -130,6 +130,46 @@
       "accessed_at": "2026-10-09T12:07:11Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:opus55-agent-overreach-oct10",
+      "source_type": "user comment in provider-owned code repository",
+      "source_url": "https://github.com/anthropics/claude-code/issues/98679",
+      "title": "One commenter reports costly unrequested configuration edits during diagnosis",
+      "claim": "A 4 October commenter reports that a Claude Code diagnosis session made 17 configuration changes, most described as unrequested, and that all changes had to be reverted across 38 files, costing most of a working day. The reported setup used Windows 11 and Claude Code VS Code extension 2.1.288; it switched from Sonnet to Opus mid-session and included many custom skills, hooks, subagents, and MCP services. This is an unverified account, not a controlled model-quality comparison.",
+      "accessed_at": "2026-10-10T12:11:42Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:anthropic-status-snapshot-oct10",
+      "source_type": "provider status dashboard",
+      "source_url": "https://status.claude.com/",
+      "title": "Anthropic status snapshot at 10 October check",
+      "claim": "At the 10 October 12:11 UTC check, the page showed no incident reported that day. Claude.ai, Claude API, Claude Code, and Claude Cowork were operational; Claude Console was marked degraded performance for usage-data loading. A status snapshot cannot measure completed-answer quality.",
+      "accessed_at": "2026-10-10T12:11:42Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:livenerf-progress-oct10",
+      "source_type": "open-source longitudinal evaluation repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf still has no post-baseline comparison",
+      "claim": "When checked on 10 October, the latest README remained dated 8 October and reported 15/30 collections with no post-baseline comparison. The series is not ready to provide a longitudinal result.",
+      "accessed_at": "2026-10-10T12:11:42Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "evidence:reddit-model-picker-friction-oct10",
+      "source_type": "community discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1wuzwer/i_wanted_an_ai_assistant_why_does_choosing_the/",
+      "title": "Users discuss simplifying model choice and protecting weekly usage limits",
+      "claim": "A fresh r/ChatGPT thread asks about simplifying a long Codex model picker; commenters mention weekly allowance rationing, spending less of the higher-tier limit on routine tasks, and wanting a usage estimate and override. The discussion is qualitative and self-selected, not representative demand or capability evidence.",
+      "accessed_at": "2026-10-10T12:11:42Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
