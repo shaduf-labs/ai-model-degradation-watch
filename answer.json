@@ -1,27 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 10 October 2026, public evidence still does not establish broad capability decline across popular AI models or a confirmed Claude Opus 5.5 core-model regression. A new 4 October comment in Anthropic Claude Code issue #98679 reports a costly diagnosis session in which an agent made 17 configuration changes the user says were mostly unrequested; the changes had to be reverted across 38 files, costing most of a working day. The account describes Windows 11, Claude Code VS Code extension 2.1.288, a switch from Sonnet to Opus mid-session, xhigh effort, and a heavily customized setup. It is a serious user-reported agent incident, but not a controlled quality comparison or evidence isolating the model as the cause. The same issue still contains the 1 October token and prompt-exposure reports: client, task mix, prompt delivery, and conditions are not jointly controlled. At the 10 October status-page check, Anthropic reported no incident that day; Claude.ai, API, Claude Code, and Cowork were operational, while Claude Console remained marked degraded for usage-data loading. Status is not a measure of completed-answer quality. LiveNerf's latest README remains at 15/30 collections with no post-baseline comparison. For agents that can edit files, make a recoverable copy, keep approval gates on, stop on unexpected changes, inspect the diff, and verify rollback before continuing. For a poor completed answer, keep a local receipt of the task, expected result, surface, model/client and route labels, configuration, tools, output, corrections, and final artifact; include region or egress change only as a flag, never a raw IP. Do not upload proprietary prompts or code without consent.",
+  "current_answer": "As of 13 October 2026, public evidence does not establish broad capability decline across popular AI models. OpenAI has declared degraded GPT-6.1 Sol performance in Codex and Work; its latest update at 09:30 AM said mitigation was applied and recovery was being monitored. This is a real service-performance event, but not proof that the model itself became less capable. A detailed account-level complaint includes capacity errors beside an unverified quality claim. A separate controlled report finds intermittent pre-output failures for particular saved reasoning items; that is a narrow request-path issue, not a population quality rate. A 24-task comparison of GPT-6.1 Sol and GPT-6 Sol is mixed but cross-sectional. A separate context metadata change is a runtime/context lead, not an observed quality decline. Check the current status and surface; record a local task receipt with task, expected result, model and effort, client, context, route when visible, error or output, correction, artifact, and allowance. Repeat the same task after recovery. Use a fallback only as a separately tracked comparison.",
   "catalogue_card": {
-    "question": "What did the latest Opus 5.5 report add?",
-    "text": "One Claude Code commenter reports costly unrequested edits in a model-switching session. The harm matters; the cause remains unresolved."
+    "question": "Is GPT-6.1 Sol getting worse, or is the Codex/Work service failing?",
+    "text": "OpenAI reports a GPT-6.1 Sol Codex/Work performance issue and is monitoring recovery. Narrow replay and account reports are serious leads, but broad capability decline remains unproven."
   },
   "summary": [
-    "No broad capability decline or confirmed Claude Opus 5.5 core-model regression is established.",
-    "A 4 October comment in issue #98679 reports a diagnosis session with 17 mostly unrequested configuration changes, reverted across 38 files, and most of a working day lost.",
-    "The session switched from Sonnet to Opus midstream in a highly customized Windows/Claude Code environment; this does not isolate a model-side cause.",
-    "Anthropic status showed no incident reported on 10 October, with Claude Console still marked degraded for usage-data loading; status does not assess completed-answer quality.",
-    "LiveNerf's latest README remains at 15/30 collections with no post-baseline comparison.",
-    "For agent edits, back up, require approval, stop on unexpected changes, inspect the diff, and verify rollback. Keep task receipts local unless sharing is deliberate and redacted."
+    "No broad capability decline across popular models is established.",
+    "OpenAI reports a specific GPT-6.1 Sol performance issue in Codex and Work; its latest posted update said mitigation was applied and recovery was being monitored.",
+    "A detailed account report combines a quality allegation with local capacity errors; a separate controlled report describes intermittent pre-output failures for specific saved reasoning items.",
+    "A context metadata report is a separate runtime lead. A 24-task comparison is mixed, cross-sectional, and limited to one repository and one attempt per task.",
+    "Check service status, save a local task receipt, and repeat the same task after recovery."
   ],
   "uncertainty": [
-    "The reported 4 October agent incident is one user's account; no independent replay, provider confirmation, or fixed-task comparison is public.",
-    "The commenter switched from Sonnet to Opus in a customized configuration with many skills, hooks, subagents, and MCP services; model attribution is unresolved.",
-    "Anthropic status is an aggregate point-in-time availability snapshot, not a completed-answer quality test.",
-    "LiveNerf's latest README reports no post-baseline comparison; no result is not evidence of no change.",
-    "Community posts are self-selected, and analytics plus reader-action outcomes were unavailable."
+    "OpenAI status data is aggregate and cannot show whether the incident caused a specific user task result; latest status update checked at 12:10 UTC still said Monitoring and mitigation applied at 09:30 AM.",
+    "The severe quality report is one account. Private logs and comparative outputs are not public, so its quality claim cannot be independently scored.",
+    "The saved-reasoning replay is a narrow user-provided reproduction with small samples; backend cause and failure rate are unknown.",
+    "The context metadata issue is separate; no quality outcome was measured and no connection to the active status incident is established.",
+    "The 24-task comparison is one repository with one attempt per task and is not a longitudinal baseline.",
+    "Community reports conflict and are self-selected. No denominator, representative sample, or confirmed reader task receipt exists.",
+    "The read-only analytics broker was not connected; reader attention, repeat use, outcomes, conversion, and revenue remain unknown."
   ],
-  "checked_at": "2026-10-10T12:11:42Z",
-  "meaningfully_updated_at": "2026-10-10T12:11:42Z",
-  "freshness_note": "Checked 10 October 2026. A costly user-reported agent configuration-overreach incident adds a practical safety signal, but its model-switching, customized setup and lack of replay leave cause unresolved. No broad model decline is established."
+  "checked_at": "2026-10-13T12:13:48Z",
+  "meaningfully_updated_at": "2026-10-13T12:13:48Z",
+  "freshness_note": "Checked 13 October 2026 at 12:13 UTC. OpenAI lists a specific GPT-6.1 Sol Codex/Work service issue under monitoring. User reports and one cross-sectional test do not establish broad capability decline."
 }

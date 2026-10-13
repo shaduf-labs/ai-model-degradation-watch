@@ -385,6 +385,28 @@
       "summary": "A 4 October commenter reports costly agent configuration overreach in a highly customized, model-switching session. This is one unverified user incident, not a controlled core-model regression result; safety and rollback steps are now explicit.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-10.html",
       "entrypoint": "reports/2026-10-10.html"
+    },
+    {
+      "run_id": "run:3953a426-57e5-4896-8359-71ca6b652a9f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-11T21:39:21Z",
+      "completed_at": "2026-10-11T21:44:32Z",
+      "title": "Gemini changed model access; a broad model decline is not established",
+      "summary": "Google documented a staged tier-based access change while separate reports describe an 8 October outage and Pro app failures. Those product and service signals do not establish a core-model decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-11.html",
+      "entrypoint": "reports/2026-10-11.html"
+    },
+    {
+      "run_id": "run:32126389-fe44-4c59-ba68-be17e79a204b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-13T12:00:00Z",
+      "completed_at": "2026-10-13T12:14:25Z",
+      "title": "OpenAI reports GPT-6.1 Sol Codex/Work performance issue; broad decline remains unestablished",
+      "summary": "Provider-declared degraded performance is under monitoring. Public account and replay reports add narrow leads; one cross-sectional comparison is mixed. No broad capability decline is established.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-13.html",
+      "entrypoint": "reports/2026-10-13.html"
     }
   ]
 }
