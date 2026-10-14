@@ -16,7 +16,7 @@
     {
       "change_id": "audience-scan-2026-09-08",
       "changed_at": "2026-09-08T19:31:22Z",
-      "summary": "Added fresh audience language, multilingual discovery, and competitor monitoring notes to the private research record.",
+      "summary": "Multilingual discovery and competitor monitoring remain separate from evidence of changes in model quality.",
       "path": "/p/ai-model-degradation-watch/signals/"
     },
     {
@@ -842,13 +842,13 @@
       "path": "/p/ai-model-degradation-watch/signals/"
     },
     {
-      "change_id": "run:32126389-fe44-4c59-ba68-be17e79a204b:verdict",
+      "change_id": "report-77ff7801a8f2356442993ab8:verdict",
       "changed_at": "2026-10-13T12:13:48Z",
       "summary": "Named the active OpenAI GPT-6.1 Sol Codex/Work service issue, kept capacity and saved-reasoning errors separate from capability evidence, and added a post-recovery replay action.",
       "path": "/p/ai-model-degradation-watch/"
     },
     {
-      "change_id": "run:32126389-fe44-4c59-ba68-be17e79a204b:report",
+      "change_id": "report-77ff7801a8f2356442993ab8:report",
       "changed_at": "2026-10-13T12:13:48Z",
       "summary": "Published the 13 October report with provider status, issue reports, a limited 24-task counterweight, conflicting anecdotes, and the open capability question.",
       "path": "/p/ai-model-degradation-watch/reports/2026-10-13.html"
