@@ -407,6 +407,28 @@
       "summary": "Provider-declared degraded performance is under monitoring. Public account and replay reports add narrow leads; one cross-sectional comparison is mixed. No broad capability decline is established.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-13.html",
       "entrypoint": "reports/2026-10-13.html"
+    },
+    {
+      "run_id": "report-9add1f2201415ff96abfcedf",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-14T12:00:00Z",
+      "completed_at": "2026-10-14T12:11:27Z",
+      "title": "OpenAI marks the Codex/Work incident resolved; a saved GPT-6.1 Sol history still fails in one user test",
+      "summary": "A user-run saved-history replay reports a repeated server error after the provider marks its issue resolved. Same-model and cross-model controls pass. The cause is unknown; broad capability decline remains unestablished.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-14.html",
+      "entrypoint": "reports/2026-10-14.html"
+    },
+    {
+      "run_id": "report-84e6ea757596da9ca6c072dc",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-15T12:00:00Z",
+      "completed_at": "2026-10-15T12:11:03Z",
+      "title": "Codex capacity and saved-history failures are reported after a status closure",
+      "summary": "One account reports cross-model capacity/503 errors, and a separate issue reports a saved-history server error after OpenAI marked the incident resolved. The reports are distinct request failures; broad capability decline is not established.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-15.html",
+      "entrypoint": "reports/2026-10-15.html"
     }
   ]
 }

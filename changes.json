@@ -852,6 +852,30 @@
       "changed_at": "2026-10-13T12:13:48Z",
       "summary": "Published the 13 October report with provider status, issue reports, a limited 24-task counterweight, conflicting anecdotes, and the open capability question.",
       "path": "/p/ai-model-degradation-watch/reports/2026-10-13.html"
+    },
+    {
+      "change_id": "report-9add1f2201415ff96abfcedf:current-verdict",
+      "changed_at": "2026-10-14T12:09:59Z",
+      "summary": "Updated the current verdict after OpenAI marked its GPT-6.1 Sol Codex/Work incident resolved and a user reported a narrowly reproduced saved-history request error after that time.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "report-9add1f2201415ff96abfcedf:report",
+      "changed_at": "2026-10-14T12:09:59Z",
+      "summary": "Added the 14 October review separating the resolved provider incident, a saved-history request failure, a client context update and self-reported throughput signals.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-14.html"
+    },
+    {
+      "change_id": "report-84e6ea757596da9ca6c072dc:current-verdict",
+      "changed_at": "2026-10-15T12:07:08Z",
+      "summary": "Updated the verdict with a post-resolution capacity report across Codex models and a separate saved-history request error; neither establishes broad model decline.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "report-84e6ea757596da9ca6c072dc:report",
+      "changed_at": "2026-10-15T12:07:08Z",
+      "summary": "Added a dated review separating provider status, account-level capacity errors and saved-history request failures.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-15.html"
     }
   ]
 }

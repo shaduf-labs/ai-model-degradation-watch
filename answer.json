@@ -1,28 +1,27 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 13 October 2026, public evidence does not establish broad capability decline across popular AI models. OpenAI has declared degraded GPT-6.1 Sol performance in Codex and Work; its latest update at 09:30 AM said mitigation was applied and recovery was being monitored. This is a real service-performance event, but not proof that the model itself became less capable. A detailed account-level complaint includes capacity errors beside an unverified quality claim. A separate controlled report finds intermittent pre-output failures for particular saved reasoning items; that is a narrow request-path issue, not a population quality rate. A 24-task comparison of GPT-6.1 Sol and GPT-6 Sol is mixed but cross-sectional. A separate context metadata change is a runtime/context lead, not an observed quality decline. Check the current status and surface; record a local task receipt with task, expected result, model and effort, client, context, route when visible, error or output, correction, artifact, and allowance. Repeat the same task after recovery. Use a fallback only as a separately tracked comparison.",
+  "current_answer": "As of 15 October 2026, public evidence does not establish broad capability decline across popular AI models. OpenAI marked its 13 October GPT-6.1 Sol Codex/Work performance incident resolved at 16:36 UTC, but a Windows Pro Codex issue reports account-level capacity/503 errors across seven models through 14 October despite unused allowance, and a separate post-resolution issue reports GPT-6.1 Sol server_error for one saved reasoning item while controls complete. An older issue reports a similar saved-state failure before the status event. These are access or request-processing signals, not wrong completed answers or proof of broad model decline; their relationship and causes are unknown. Check current status, preserve the original task, record model/surface/client/context/error, and test a safe fresh task only when useful.",
   "catalogue_card": {
-    "question": "Is GPT-6.1 Sol getting worse, or is the Codex/Work service failing?",
-    "text": "OpenAI reports a GPT-6.1 Sol Codex/Work performance issue and is monitoring recovery. Narrow replay and account reports are serious leads, but broad capability decline remains unproven."
+    "question": "Did Codex problems continue after OpenAI marked the incident resolved?",
+    "text": "One Windows user reports capacity errors across seven models after the status closure; another reports a GPT-6.1 Sol error tied to one saved history item. These are request failures, not proof of broad model decline."
   },
   "summary": [
-    "No broad capability decline across popular models is established.",
-    "OpenAI reports a specific GPT-6.1 Sol performance issue in Codex and Work; its latest posted update said mitigation was applied and recovery was being monitored.",
-    "A detailed account report combines a quality allegation with local capacity errors; a separate controlled report describes intermittent pre-output failures for specific saved reasoning items.",
-    "A context metadata report is a separate runtime lead. A 24-task comparison is mixed, cross-sectional, and limited to one repository and one attempt per task.",
-    "Check service status, save a local task receipt, and repeat the same task after recovery."
+    "OpenAI marked the declared GPT-6.1 Sol Codex/Work performance event resolved on 13 October at 16:36 UTC; its status page does not show account-level recovery.",
+    "A Windows Pro Codex issue reports capacity/HTTP 503 errors across seven models despite unused allowance, through a 14 October snapshot. The author reports 88 capacity errors and 55 HTTP 503s; one request was said to be confirmed server-overload by Support.",
+    "A separate post-resolution diagnostic reports one GPT-6.1 Sol saved reasoning item failing before output while same-model and GPT-6 Sol controls completed.",
+    "An earlier Codex issue reports a similar saved-reasoning failure before the 13 October status event. Shared cause is unknown.",
+    "Neither capacity errors nor no-output request failures measure completed-answer quality. No broad multi-provider matched before/after series establishes capability decline.",
+    "Check status, preserve the original history, record the surface and exact error, and test a safe fresh task only when useful."
   ],
   "uncertainty": [
-    "OpenAI status data is aggregate and cannot show whether the incident caused a specific user task result; latest status update checked at 12:10 UTC still said Monitoring and mitigation applied at 09:30 AM.",
-    "The severe quality report is one account. Private logs and comparative outputs are not public, so its quality claim cannot be independently scored.",
-    "The saved-reasoning replay is a narrow user-provided reproduction with small samples; backend cause and failure rate are unknown.",
-    "The context metadata issue is separate; no quality outcome was measured and no connection to the active status incident is established.",
-    "The 24-task comparison is one repository with one attempt per task and is not a longitudinal baseline.",
-    "Community reports conflict and are self-selected. No denominator, representative sample, or confirmed reader task receipt exists.",
-    "The read-only analytics broker was not connected; reader attention, repeat use, outcomes, conversion, and revenue remain unknown."
+    "OpenAI's status resolution is aggregate and does not establish each account's recovery.",
+    "The capacity logs are a single account's reported data, with no follow-up checked after 14 October 08:23 UTC.",
+    "The similar saved-history reports are user-defined tests with small samples; provider-side correlation and common cause are absent.",
+    "No multi-provider matched before-and-after task series establishes broad capability decline.",
+    "Analytics were unavailable; reader use, repeat visits, actions and revenue remain unknown, not zero."
   ],
-  "checked_at": "2026-10-13T12:13:48Z",
-  "meaningfully_updated_at": "2026-10-13T12:13:48Z",
-  "freshness_note": "Checked 13 October 2026 at 12:13 UTC. OpenAI lists a specific GPT-6.1 Sol Codex/Work service issue under monitoring. User reports and one cross-sectional test do not establish broad capability decline."
+  "checked_at": "2026-10-15T12:07:08Z",
+  "meaningfully_updated_at": "2026-10-15T12:07:08Z",
+  "freshness_note": "Checked 15 October 2026. OpenAI marked its declared Codex/Work incident resolved, but one account reports cross-model capacity/503 errors through 14 October and a separate user reports one post-resolution saved-history server error. The reports show service/request-path problems, not broad capability decline."
 }

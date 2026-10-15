@@ -80,6 +80,96 @@
       "accessed_at": "2026-10-13T12:13:09Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-codex-work-status-resolved-2026-10-14",
+      "source_type": "OpenAI status incident",
+      "source_url": "https://status.openai.com/incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
+      "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
+      "claim": "OpenAI marked the declared Codex/Work performance issue resolved at 16:36 UTC on 13 October and lists the affected product surfaces. The status page aggregates availability and does not report root cause or individual-account recovery.",
+      "accessed_at": "2026-10-14T12:06:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-saved-reasoning-isolated-error-53807",
+      "source_type": "User-authored diagnostic report in the OpenAI Codex repository",
+      "source_url": "https://github.com/openai/codex/issues/53807",
+      "title": "GPT-6.1 Sol returns server_error when replaying one saved reasoning item",
+      "claim": "The issue author reports a single saved reasoning item failed before output in 4/4 default-tier and 2/2 priority replays. The same model completed without saved reasoning (4/4) and with the other 145 saved items (3/3 default, 1/1 priority); GPT-6 Sol completed the isolated-item control 3/3. This is one bounded reproduction, not a population measure or identified backend cause.",
+      "accessed_at": "2026-10-14T12:06:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-context-window-update-53651",
+      "source_type": "User report in the OpenAI Codex repository",
+      "source_url": "https://github.com/openai/codex/issues/53651",
+      "title": "GPT-6.1 Sol context indicator updated after Windows app change",
+      "claim": "One Windows Codex user says an app update on 14 October changed their effective context indicator to 475,000 tokens, matching 95% of a 500,000-token default. The author closed the issue. This is a single client/context report, not a quality comparison.",
+      "accessed_at": "2026-10-14T12:06:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-gpt61-speed-comparison-2026-10-14",
+      "source_type": "Reddit; user-published token-throughput comparison",
+      "source_url": "https://www.reddit.com/r/codex/comments/1x4yte1/gpt61_sol_is_46x_slower_than_gpt56_sol_are_we/",
+      "title": "GPT-6.1 Sol is 4.6x slower than GPT-5.6 Sol",
+      "claim": "A Reddit author reports xhigh throughput of 22.3 tokens/s Normal and 64.2 Fast for GPT-6.1 Sol versus 102.6 Normal and 168.1 Fast for GPT-5.6 Sol. The author says this was an individual sample, not a controlled scientific study. Token throughput is not task quality.",
+      "accessed_at": "2026-10-14T12:06:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-gpt61-speed-trend-report-2026-10-14",
+      "source_type": "Reddit; user-reported speed dashboard comparison",
+      "source_url": "https://www.reddit.com/r/codex/comments/1x2wjmf/sol_and_astra_speeds_have_doubled_since_release/",
+      "title": "Sol and Astra speeds have doubled since release",
+      "claim": "A separate user reports dashboard observations of GPT-6.1 Sol rising from roughly 22 to 40 tokens/s and GPT-6 Astra from about 25 to 60. Details are not independently audited; replies disagree, and there is no provider attribution.",
+      "accessed_at": "2026-10-14T12:06:11Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-gpt61-speed-guidance-2026-10-14",
+      "source_type": "OpenAI Help Center product guidance",
+      "source_url": "https://help.openai.com/en/articles/20001596-response-speed-and-usage-resets-in-work-and-codex",
+      "title": "Response speed and usage resets in Work and Codex",
+      "claim": "OpenAI says its roughly 50% speed increase refers to default text-generation rate, not all multi-step task duration, and Fast/Ultrafast are separate options. The guidance says Support cannot verify the improvement for a specific account.",
+      "accessed_at": "2026-10-14T12:06:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "anthropic-status-oct14-2026",
+      "source_type": "Anthropic status dashboard",
+      "source_url": "https://status.claude.com/",
+      "title": "Claude Status",
+      "claim": "At this check, the dashboard listed Claude API and Claude Code operational and no incidents reported on 14 October. A status page is an availability record, not a comparison of model capability.",
+      "accessed_at": "2026-10-14T12:06:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-codex-capacity-53559-oct15",
+      "source_type": "User-reported issue with selected local logs in OpenAI Codex repository",
+      "source_url": "https://github.com/openai/codex/issues/53559",
+      "title": "Windows Codex capacity and HTTP 503 report",
+      "claim": "One Windows Pro user reports capacity errors across seven available models while 94% of weekly allowance remained; their 14 October snapshot lists 88 capacity errors and 55 HTTP 503 responses through a latest cited capacity failure at 08:23 UTC. The author says Support confirmed one request as server-overload and not rejected by the usage-limit check. This is account-level service evidence, not a quality result or prevalence estimate.",
+      "accessed_at": "2026-10-15T12:07:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-saved-reasoning-prior-report-53143",
+      "source_type": "User diagnostic issue in OpenAI Codex repository",
+      "source_url": "https://github.com/openai/codex/issues/53143",
+      "title": "Intermittent upstream server_error when GPT-6.1 Sol replays saved encrypted reasoning",
+      "claim": "An 11 October issue reports small controlled saved-reasoning replay failures and successful removal or GPT-6 Sol controls. The report predates the 13 October status event and leaves the backend cause unresolved; it is not a population measure.",
+      "accessed_at": "2026-10-15T12:07:08Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
