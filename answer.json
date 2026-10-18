@@ -1,27 +1,26 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 15 October 2026, public evidence does not establish broad capability decline across popular AI models. OpenAI marked its 13 October GPT-6.1 Sol Codex/Work performance incident resolved at 16:36 UTC, but a Windows Pro Codex issue reports account-level capacity/503 errors across seven models through 14 October despite unused allowance, and a separate post-resolution issue reports GPT-6.1 Sol server_error for one saved reasoning item while controls complete. An older issue reports a similar saved-state failure before the status event. These are access or request-processing signals, not wrong completed answers or proof of broad model decline; their relationship and causes are unknown. Check current status, preserve the original task, record model/surface/client/context/error, and test a safe fresh task only when useful.",
+  "current_answer": "As of 17 October 2026, public evidence does not establish broad capability decline across popular AI models. A BridgeBench result for Claude Opus 5.5 rose from 95.7% on 9 October to 105.8% on 16 October relative to its first tracked session and remains inside the publisher's 90–110% band. That counterevidence covers its private 50-task mix and composite score, not every Opus workflow. A public issue reports an October 1 behavior shift in one user's logs; the first bad day coincides with a Claude Code version change, while another commenter reports similar symptoms with an unchanged client. OpenAI closed its 13 October GPT-6.1 Sol Codex/Work incident at 16:36 UTC; one Windows user's issue adds later stream and remote-compaction failures on 16–17 October. These are access or request failures, not poor completed answers. Check status, preserve the original task, and compare only completed same-surface tasks with model, settings, correction cost, speed, and quota recorded.",
   "catalogue_card": {
-    "question": "Did Codex problems continue after OpenAI marked the incident resolved?",
-    "text": "One Windows user reports capacity errors across seven models after the status closure; another reports a GPT-6.1 Sol error tied to one saved history item. These are request failures, not proof of broad model decline."
+    "question": "Did evidence catch a model getting worse—or a workflow getting harder to use?",
+    "text": "Opus 5.5 rose to 105.8% of its first tracked score in BridgeBench’s 16 October test, within the publisher’s band. A user report says behavior changed; one Windows Codex user still reports late failures after OpenAI closed an incident. Neither establishes broad model decline."
   },
   "summary": [
-    "OpenAI marked the declared GPT-6.1 Sol Codex/Work performance event resolved on 13 October at 16:36 UTC; its status page does not show account-level recovery.",
-    "A Windows Pro Codex issue reports capacity/HTTP 503 errors across seven models despite unused allowance, through a 14 October snapshot. The author reports 88 capacity errors and 55 HTTP 503s; one request was said to be confirmed server-overload by Support.",
-    "A separate post-resolution diagnostic reports one GPT-6.1 Sol saved reasoning item failing before output while same-model and GPT-6 Sol controls completed.",
-    "An earlier Codex issue reports a similar saved-reasoning failure before the 13 October status event. Shared cause is unknown.",
-    "Neither capacity errors nor no-output request failures measure completed-answer quality. No broad multi-provider matched before/after series establishes capability decline.",
-    "Check status, preserve the original history, record the surface and exact error, and test a safe fresh task only when useful."
+    "No broad AI-model capability decline is established by this review.",
+    "BridgeBench reports Claude Opus 5.5 at 105.8% of its first tracked session on 16 October, up from 95.7% on 9 October and still within its stated 90–110% band.",
+    "An Opus 5.5 user report describes changed session-token metrics and task judgment around 1 October; the original comparison coincides with a Claude Code update and lacks a fixed-task replication.",
+    "OpenAI marked the GPT-6.1 Sol Codex/Work incident resolved on 13 October; a separate Windows user reports late stream and remote-compaction failures on 16–17 October.",
+    "A failed request and a completed poor answer are different observations. Check status and preserve work; compare same-task completions under matched settings."
   ],
   "uncertainty": [
-    "OpenAI's status resolution is aggregate and does not establish each account's recovery.",
-    "The capacity logs are a single account's reported data, with no follow-up checked after 14 October 08:23 UTC.",
-    "The similar saved-history reports are user-defined tests with small samples; provider-side correlation and common cause are absent.",
-    "No multi-provider matched before-and-after task series establishes broad capability decline.",
-    "Analytics were unavailable; reader use, repeat visits, actions and revenue remain unknown, not zero."
+    "The Opus 5.5 user issue is account-authored; its one-day post-shift sample is small, task composition is not held constant, and the client update coincides with the reported date change.",
+    "BridgeBench keeps the task prompts and tests private. Its first tracked session is the reference, and its composite includes correctness, output tokens and price; its result does not identify a model-weight change or transfer to every Claude product.",
+    "The reported Codex stream and compaction errors come from one Windows user; they do not estimate prevalence or establish a cause shared with the 13 October status incident.",
+    "No current multi-provider, matched completed-task series establishes broad model decline.",
+    "Analytics were unavailable; readership, return use, reader actions and revenue remain unknown, not zero."
   ],
-  "checked_at": "2026-10-15T12:07:08Z",
-  "meaningfully_updated_at": "2026-10-15T12:07:08Z",
-  "freshness_note": "Checked 15 October 2026. OpenAI marked its declared Codex/Work incident resolved, but one account reports cross-model capacity/503 errors through 14 October and a separate user reports one post-resolution saved-history server error. The reports show service/request-path problems, not broad capability decline."
+  "checked_at": "2026-10-17T22:00:00Z",
+  "meaningfully_updated_at": "2026-10-17T22:00:00Z",
+  "freshness_note": "Checked 17 October 2026. The latest Opus 5.5 benchmark result is inside its publisher-defined band; individual user reports describe a behavior concern on one Opus workflow and later request failures on one Windows Codex account. The causes and wider prevalence are unknown."
 }

@@ -429,6 +429,17 @@
       "summary": "One account reports cross-model capacity/503 errors, and a separate issue reports a saved-history server error after OpenAI marked the incident resolved. The reports are distinct request failures; broad capability decline is not established.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-15.html",
       "entrypoint": "reports/2026-10-15.html"
+    },
+    {
+      "run_id": "report-5c6ad09873d49147af9a7621",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-17T21:59:11Z",
+      "completed_at": "2026-10-17T22:06:35Z",
+      "title": "Opus 5.5 rebounded on one benchmark; a Windows Codex user still reports late failures",
+      "summary": "BridgeBench reports Opus 5.5 at 105.8% of its first tracked session on 16 October, within the publisher’s band. A user-reported behavior shift remains unresolved; one Windows Codex user reports later stream and compaction failures after an OpenAI incident was marked resolved.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-17.html",
+      "entrypoint": "reports/2026-10-17.html"
     }
   ]
 }

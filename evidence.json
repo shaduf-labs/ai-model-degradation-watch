@@ -170,6 +170,56 @@
       "accessed_at": "2026-10-15T12:07:08Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-status-resolution-oct17-2026",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/jwna590w",
+      "title": "OpenAI Status: degraded performance in GPT-6.1 Sol Codex and Work mode",
+      "claim": "OpenAI marks its declared GPT-6.1 Sol Codex/Work performance issue resolved on 13 October at 16:36 UTC. The aggregate status record does not establish account-level recovery.",
+      "accessed_at": "2026-10-17T22:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-issue-53648-followup-oct17-2026",
+      "source_type": "public user issue report",
+      "source_url": "https://github.com/openai/codex/issues/53648",
+      "title": "OpenAI Codex issue #53648: Windows stream and remote-compaction failures",
+      "claim": "One Windows account reports GPT-6.1 Sol stream/capacity errors and additional long-running failures during remote compaction on 16–17 October. This is a request/reliability report, not a completed-answer quality test.",
+      "accessed_at": "2026-10-17T22:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "opus55-issue-98679-followup-oct17-2026",
+      "source_type": "public user issue report",
+      "source_url": "https://github.com/anthropics/claude-code/issues/98679",
+      "title": "Anthropic Claude Code issue #98679: Opus 5.5 behavior-shift report",
+      "claim": "One author reports changed session-token metrics and task judgment around 1 October. The original before/after comparison coincides with a Claude Code version change and does not hold the task set constant.",
+      "accessed_at": "2026-10-17T22:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-opus55-oct16-2026",
+      "source_type": "published repeated benchmark result",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/claude-opus-5-5",
+      "title": "BridgeBench NerfBench: Claude Opus 5.5 results",
+      "claim": "BridgeBench reports Opus 5.5 at 105.8% of its first tracked session on 16 October, up 10.1 points from 9 October and within its stated 90–110% band.",
+      "accessed_at": "2026-10-17T22:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-method-oct17-2026",
+      "source_type": "benchmark methodology page",
+      "source_url": "https://www.bridgebench.ai/blog/the-methodology-of-nerfbench",
+      "title": "BridgeBench: NerfBench methodology",
+      "claim": "BridgeBench describes a private 50-task suite with 150 attempts per session and a correctness/token/cost composite. Its first tracked session becomes reference; the score measures a served system and does not isolate model weights.",
+      "accessed_at": "2026-10-17T22:00:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

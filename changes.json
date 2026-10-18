@@ -876,6 +876,24 @@
       "changed_at": "2026-10-15T12:07:08Z",
       "summary": "Added a dated review separating provider status, account-level capacity errors and saved-history request failures.",
       "path": "/p/ai-model-degradation-watch/reports/2026-10-15.html"
+    },
+    {
+      "change_id": "report-5c6ad09873d49147af9a7621:current-verdict",
+      "changed_at": "2026-10-17T22:00:00Z",
+      "summary": "Updated the call with a new Opus 5.5 benchmark point inside its publisher-defined band, a user-reported behavior lead, and post-closure Codex request failures.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "report-5c6ad09873d49147af9a7621:report",
+      "changed_at": "2026-10-17T22:00:00Z",
+      "summary": "Added a dated evidence review separating the benchmark result, user-reported completed-task concern, provider status and request-failure report.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-17.html"
+    },
+    {
+      "change_id": "report-5c6ad09873d49147af9a7621:method",
+      "changed_at": "2026-10-17T22:00:00Z",
+      "summary": "Expanded the method page with the task, reference, score-component and serving limits of the latest published benchmark.",
+      "path": "/p/ai-model-degradation-watch/method/"
     }
   ]
 }
