@@ -220,6 +220,96 @@
       "accessed_at": "2026-10-17T22:00:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-cli-catalog-access-recovery-2026-10-19",
+      "source_type": "public issue report",
+      "source_url": "https://github.com/openai/codex/issues/55028",
+      "title": "OpenAI Codex issue #55028",
+      "claim": "One Windows Plus user reports GPT-6.1 Sol missing from both Codex CLI 0.153.4 catalogs and an HTTP 400 from the built-in provider; after updating to 0.163.0, the author reports that the model appeared and requests completed. The before and after tests used xhigh and high respectively; no provider-confirmed cause or served model is reported.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-work-codex-access-policy-2026-10-19",
+      "source_type": "provider product-access documentation",
+      "source_url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
+      "title": "ChatGPT Work and Codex",
+      "claim": "OpenAI says GPT-6.1 Sol is for Work and Codex, is rolling out to eligible paid plans, and depends on plan, workspace settings, and rollout. The article does not specify a Sol CLI minimum version.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-opus55-1058-oct16-2026",
+      "source_type": "independent benchmark page",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/claude-opus-5-5",
+      "title": "BridgeBench Opus 5.5 NERF Bench",
+      "claim": "The page reports 105.8% of the first tracked session on 16 October, within the publisher’s 90–110% range. The private task set and composite score do not represent all Claude tasks or surfaces.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "claude-code-issue-98679-oct19-2026",
+      "source_type": "public issue report",
+      "source_url": "https://github.com/anthropics/claude-code/issues/98679",
+      "title": "Claude Code issue #98679",
+      "claim": "One user reports changes in Opus 5.5 session measures around 1 October; the original comparison coincides with a Claude Code client version change and lacks a fixed-task or verified-serving comparison.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-api-snapshot-2026-10-19",
+      "source_type": "provider status API snapshot",
+      "source_url": "https://status.openai.com/api/v2/status.json",
+      "title": "OpenAI Status API",
+      "claim": "The API snapshot displayed “All Systems Operational”; its metadata was last updated 16 October. Aggregate status cannot rule out account, client, or entitlement failures and is not a quality test.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-gpt6-conversation-style-2026-10-19",
+      "source_type": "public forum discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1x8aej5/gpt6_is_awful/",
+      "title": "GPT-6 user discussion",
+      "claim": "One self-selected thread reports unwanted follow-up questions, warmth, and warnings; replies include both agreement and counterreports. It lacks a fixed task and does not estimate prevalence.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-gpt56-correction-cost-2026-10-19",
+      "source_type": "public forum discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1x8a4aw/has-anyone_else_noticed-gpt56-getting/",
+      "title": "GPT-5.6 workflow complaint",
+      "claim": "A user reports instruction corrections, image inconsistency, repeated fixes, and generation-limit use in a loose cross-version comparison without fixed prompts or dated control outputs.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-buenosaires-image-id-2026-10-19",
+      "source_type": "public forum discussion",
+      "source_url": "https://www.reddit.com/r/BuenosAires/comments/1x71ydg/chatgpt_es_la_peor_ia_por_lejos/",
+      "title": "Spanish-language ChatGPT image-identification discussion",
+      "claim": "A wrong person-identification response draws discussion of access, safety restrictions, search tools, and model quality. Account, plan, prompt, and model conditions are not established.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "aistupidlevel-drift-monitor-product-2026-10-19",
+      "source_type": "competitor product page",
+      "source_url": "https://aistupidlevel.info/ai-drift-detection",
+      "title": "AI Stupid Level drift detection",
+      "claim": "The operator advertises coding-suite runs, hourly canaries, suite-specific detectors, routing, and paid alerts. Accuracy, calibration, adoption, and revenue were not independently verified.",
+      "accessed_at": "2026-10-19T12:08:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

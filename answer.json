@@ -1,26 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 17 October 2026, public evidence does not establish broad capability decline across popular AI models. A BridgeBench result for Claude Opus 5.5 rose from 95.7% on 9 October to 105.8% on 16 October relative to its first tracked session and remains inside the publisher's 90–110% band. That counterevidence covers its private 50-task mix and composite score, not every Opus workflow. A public issue reports an October 1 behavior shift in one user's logs; the first bad day coincides with a Claude Code version change, while another commenter reports similar symptoms with an unchanged client. OpenAI closed its 13 October GPT-6.1 Sol Codex/Work incident at 16:36 UTC; one Windows user's issue adds later stream and remote-compaction failures on 16–17 October. These are access or request failures, not poor completed answers. Check status, preserve the original task, and compare only completed same-surface tasks with model, settings, correction cost, speed, and quota recorded.",
+  "current_answer": "As of 19 October 2026, public evidence reviewed here does not establish broad capability decline across popular AI models. OpenAI Codex issue #55028 reports that one Windows Plus user could not find GPT-6.1 Sol in CLI 0.153.4 catalogs and received HTTP 400; after updating to CLI 0.163.0, the user reported that the model appeared and requests completed. The before and after tests used different effort settings (xhigh and high), one account is involved, and the serving model was not independently verified. This is an access/client/catalog report, not evidence that completed answers got worse or that an update fixed all users. OpenAI's help page says access to GPT-6.1 Sol depends on eligible paid plan, workspace settings, product surface, and rollout. BridgeBench's latest Opus 5.5 score remains within its own stated range; a separate Claude Code user report lacks fixed-task replication and coincides with a client-version change. Check status, plan/workspace, client version, and model catalog for failed requests. For a completed answer that seems weaker, compare the same task with model, surface, effort, tools, context, and correction work held or recorded.",
   "catalogue_card": {
-    "question": "Did evidence catch a model getting worse—or a workflow getting harder to use?",
-    "text": "Opus 5.5 rose to 105.8% of its first tracked score in BridgeBench’s 16 October test, within the publisher’s band. A user report says behavior changed; one Windows Codex user still reports late failures after OpenAI closed an incident. Neither establishes broad model decline."
+    "question": "Did the GPT-6.1 Sol problem show model decline or an access failure?",
+    "text": "One Codex user reports a missing catalog entry and HTTP 400 on CLI 0.153.4, followed by access after an update to 0.163.0. Effort also changed, and the serving model was not verified. This is not proof of capability decline."
   },
   "summary": [
-    "No broad AI-model capability decline is established by this review.",
-    "BridgeBench reports Claude Opus 5.5 at 105.8% of its first tracked session on 16 October, up from 95.7% on 9 October and still within its stated 90–110% band.",
-    "An Opus 5.5 user report describes changed session-token metrics and task judgment around 1 October; the original comparison coincides with a Claude Code update and lacks a fixed-task replication.",
-    "OpenAI marked the GPT-6.1 Sol Codex/Work incident resolved on 13 October; a separate Windows user reports late stream and remote-compaction failures on 16–17 October.",
-    "A failed request and a completed poor answer are different observations. Check status and preserve work; compare same-task completions under matched settings."
+    "No broad AI-model capability decline is established by this public-source review.",
+    "A Codex CLI catalog/request failure for one user stopped reproducing after a client update; the before and after effort settings differed.",
+    "OpenAI says GPT-6.1 Sol availability depends on eligible paid plan, workspace settings, product surface, and rollout.",
+    "BridgeBench reports Opus 5.5 at 105.8% of its first tracked score on 16 October, within its own 90–110% range for that private suite.",
+    "A separate Claude Code user report remains a narrow behavior lead with no fixed-task replication or verified serving path.",
+    "Check client version, catalog, plan/workspace, and status for request failures; evaluate completed answer quality with a same-task replay."
   ],
   "uncertainty": [
-    "The Opus 5.5 user issue is account-authored; its one-day post-shift sample is small, task composition is not held constant, and the client update coincides with the reported date change.",
-    "BridgeBench keeps the task prompts and tests private. Its first tracked session is the reference, and its composite includes correctness, output tokens and price; its result does not identify a model-weight change or transfer to every Claude product.",
-    "The reported Codex stream and compaction errors come from one Windows user; they do not estimate prevalence or establish a cause shared with the 13 October status incident.",
-    "No current multi-provider, matched completed-task series establishes broad model decline.",
-    "Analytics were unavailable; readership, return use, reader actions and revenue remain unknown, not zero."
+    "The Codex catalog/access recovery is one user report; the initial and later tests changed client version and effort, and the provider did not verify the served model.",
+    "The OpenAI status API snapshot showed all systems operational, but its metadata was last updated 16 October and aggregate status does not exclude account, client, or entitlement failures.",
+    "BridgeBench uses a private task set and composite score; its within-band result does not generalize to all Claude tasks or surfaces.",
+    "The Claude Code issue is account-level and lacks a fixed task, route attribution, or independent replication.",
+    "Fresh forum posts and competitor product claims are qualitative; they do not establish prevalence, detector accuracy, adoption, or revenue.",
+    "No matched multi-provider before-and-after capability evaluation is established by the sources reviewed here."
   ],
-  "checked_at": "2026-10-17T22:00:00Z",
-  "meaningfully_updated_at": "2026-10-17T22:00:00Z",
-  "freshness_note": "Checked 17 October 2026. The latest Opus 5.5 benchmark result is inside its publisher-defined band; individual user reports describe a behavior concern on one Opus workflow and later request failures on one Windows Codex account. The causes and wider prevalence are unknown."
+  "checked_at": "2026-10-19T12:10:36Z",
+  "meaningfully_updated_at": "2026-10-19T12:08:00Z",
+  "freshness_note": "Reviewed 19 October 2026. This is a public-source watch, not a controlled multi-provider capability test."
 }

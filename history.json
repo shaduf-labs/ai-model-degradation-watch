@@ -440,6 +440,17 @@
       "summary": "BridgeBench reports Opus 5.5 at 105.8% of its first tracked session on 16 October, within the publisher’s band. A user-reported behavior shift remains unresolved; one Windows Codex user reports later stream and compaction failures after an OpenAI incident was marked resolved.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-17.html",
       "entrypoint": "reports/2026-10-17.html"
+    },
+    {
+      "run_id": "report-12a5daad4fb158d392580a2e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-19T12:01:53Z",
+      "completed_at": "2026-10-19T12:10:36Z",
+      "title": "One Codex CLI access failure stopped after a client update",
+      "summary": "A user reports that GPT-6.1 Sol appeared in the catalog and a request completed after updating Codex CLI; different effort settings and no verified served-model identity keep the cause open. Broad capability decline remains unestablished.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-19.html",
+      "entrypoint": "reports/2026-10-19.html"
     }
   ]
 }

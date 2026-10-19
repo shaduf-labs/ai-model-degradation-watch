@@ -894,6 +894,12 @@
       "changed_at": "2026-10-17T22:00:00Z",
       "summary": "Expanded the method page with the task, reference, score-component and serving limits of the latest published benchmark.",
       "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "current-verdict-2026-10-19",
+      "changed_at": "2026-10-19T12:10:36Z",
+      "summary": "Added a dated Codex CLI catalog/access recovery report and clarified how to check client, model access, and effort before judging answer quality.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }
