@@ -310,6 +310,46 @@
       "accessed_at": "2026-10-19T12:08:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-opus55-result-2026-10-20",
+      "source_type": "independent benchmark tracker",
+      "source_url": "https://www.bridgebench.ai/nerf-bench/reports/claude-opus-5-5-2026-10-16",
+      "title": "BridgeBench NerfBench Claude Opus 5.5 session report, 16 October 2026",
+      "claim": "The report lists Opus 5.5 at 105.8 relative to its first tracked session, compared with 95.7 on 9 October; the score remains within the tracker’s stated 90–110 band. The report page does not expose per-task or score-component results.",
+      "accessed_at": "2026-10-20T12:10:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-method-2026-10-20",
+      "source_type": "benchmark methodology",
+      "source_url": "https://www.bridgebench.ai/blog/the-methodology-of-nerfbench",
+      "title": "BridgeBench NerfBench methodology",
+      "claim": "The operator describes a private 50-task suite, three attempts per task, a score weighted across correctness (60%), output tokens (20%), and cost (20%), and publication after two consecutive comparable sessions outside a 90–110 band. The first tracked session is the reference; public results do not show component scores or a launch-day reference.",
+      "accessed_at": "2026-10-20T12:10:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "livenerf-opus55-update-2026-10-20",
+      "source_type": "open evaluation repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf public Opus 5.5 tracker update, checked 17 October 2026",
+      "claim": "The repository reports no change in its first complete 10-day follow-up window on a calibrated 78-item reasoning/math panel (+0.007 ± 0.018 score units, 780 attempts in baseline and window). The second window was five of ten days complete in the dated update.",
+      "accessed_at": "2026-10-20T12:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "livenerf-preregistration-2026-10-20",
+      "source_type": "pre-registration",
+      "source_url": "https://github.com/ninjahawk/livenerf/blob/main/PREREGISTRATION.md",
+      "title": "LiveNerf Opus 5.5 preregistration",
+      "claim": "The project preregisters a two-consecutive-window, 99% interval rule with a 3-point minimum effect and a control arm. The first neutral window alone neither satisfies nor refutes the full decision rule.",
+      "accessed_at": "2026-10-20T12:10:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

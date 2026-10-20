@@ -900,6 +900,12 @@
       "changed_at": "2026-10-19T12:10:36Z",
       "summary": "Added a dated Codex CLI catalog/access recovery report and clarified how to check client, model access, and effort before judging answer quality.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "current-verdict-2026-10-20",
+      "changed_at": "2026-10-20T12:14:12Z",
+      "summary": "Added a second scoped Opus 5.5 tracker and its first neutral follow-up window; clarified that public scores use different tasks, baselines, and components and do not establish broad decline.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }

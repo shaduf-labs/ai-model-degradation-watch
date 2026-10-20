@@ -1,28 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 19 October 2026, public evidence reviewed here does not establish broad capability decline across popular AI models. OpenAI Codex issue #55028 reports that one Windows Plus user could not find GPT-6.1 Sol in CLI 0.153.4 catalogs and received HTTP 400; after updating to CLI 0.163.0, the user reported that the model appeared and requests completed. The before and after tests used different effort settings (xhigh and high), one account is involved, and the serving model was not independently verified. This is an access/client/catalog report, not evidence that completed answers got worse or that an update fixed all users. OpenAI's help page says access to GPT-6.1 Sol depends on eligible paid plan, workspace settings, product surface, and rollout. BridgeBench's latest Opus 5.5 score remains within its own stated range; a separate Claude Code user report lacks fixed-task replication and coincides with a client-version change. Check status, plan/workspace, client version, and model catalog for failed requests. For a completed answer that seems weaker, compare the same task with model, surface, effort, tools, context, and correction work held or recorded.",
+  "current_answer": "As of 20 October 2026, public evidence reviewed here does not establish broad capability decline across popular AI models. BridgeBench reports Claude Opus 5.5 at 105.8 on 16 October relative to its first tracked session, up from 95.7 on 9 October and within its own 90–110 band. Its composite mixes correctness, output tokens, and cost, so an index shift is not a pure accuracy measure; its private task set does not represent all Claude use. LiveNerf reports no change in its first complete 10-day follow-up window on a narrow 78-item reasoning-and-math panel (+0.007 ± 0.018 score units; 780 attempts in both baseline and window). Its 17 October update had only five of ten days in the second window, so the preregistered two-window persistence rule was not yet decided. These scoped results are useful counterweights to anecdotal decline reports, but do not rule out smaller or workflow-specific losses. For a completed answer that seems weaker, replay the same safe task with model, surface, effort, tools, context, and scoring held or recorded; investigate access, routing, product state, and outages separately when no answer arrives.",
   "catalogue_card": {
-    "question": "Did the GPT-6.1 Sol problem show model decline or an access failure?",
-    "text": "One Codex user reports a missing catalog entry and HTTP 400 on CLI 0.153.4, followed by access after an update to 0.163.0. Effort also changed, and the serving model was not verified. This is not proof of capability decline."
+    "question": "Do public Opus 5.5 trackers show the same decline?",
+    "text": "Not on the data checked: BridgeBench is inside its own composite band and LiveNerf reports no change in its first full window. Their panels and baselines differ; neither settles performance on your workflow."
   },
   "summary": [
-    "No broad AI-model capability decline is established by this public-source review.",
-    "A Codex CLI catalog/request failure for one user stopped reproducing after a client update; the before and after effort settings differed.",
-    "OpenAI says GPT-6.1 Sol availability depends on eligible paid plan, workspace settings, product surface, and rollout.",
-    "BridgeBench reports Opus 5.5 at 105.8% of its first tracked score on 16 October, within its own 90–110% range for that private suite.",
-    "A separate Claude Code user report remains a narrow behavior lead with no fixed-task replication or verified serving path.",
-    "Check client version, catalog, plan/workspace, and status for request failures; evaluate completed answer quality with a same-task replay."
+    "No broad capability decline is established by this public-source review.",
+    "BridgeBench reports Opus 5.5 at 105.8 relative to its first tracked session on 16 October, still within its stated 90–110 band.",
+    "BridgeBench’s composite includes correctness, output tokens, and cost; the result page does not expose each component.",
+    "LiveNerf reports no change in its first complete 10-day window on a separate 78-item reasoning/math panel; its second window was incomplete as of 17 October.",
+    "Different trackers do not pool into a universal quality result; small or workflow-specific changes remain possible.",
+    "Replay the same safe task with settings held for completed-answer concerns; check access and route separately for failed requests."
   ],
   "uncertainty": [
-    "The Codex catalog/access recovery is one user report; the initial and later tests changed client version and effort, and the provider did not verify the served model.",
-    "The OpenAI status API snapshot showed all systems operational, but its metadata was last updated 16 October and aggregate status does not exclude account, client, or entitlement failures.",
-    "BridgeBench uses a private task set and composite score; its within-band result does not generalize to all Claude tasks or surfaces.",
-    "The Claude Code issue is account-level and lacks a fixed task, route attribution, or independent replication.",
-    "Fresh forum posts and competitor product claims are qualitative; they do not establish prevalence, detector accuracy, adoption, or revenue.",
-    "No matched multi-provider before-and-after capability evaluation is established by the sources reviewed here."
+    "BridgeBench tests a private 50-task suite with three attempts per task and a composite; its report omits component scores and does not generalize to every task, surface, or account.",
+    "BridgeBench defines its reference as the first tracked session; the public materials reviewed do not establish that it is the provider launch-day state.",
+    "The LiveNerf result covers a calibrated 78-item reasoning/math panel, not consumer workflows; its preregistered second follow-up window was incomplete as of 17 October.",
+    "LiveNerf uses a different task set, score, baseline, and collection method from BridgeBench, so the two series are not a direct replication or pooled estimate.",
+    "The recent community posts are self-selected anecdotes; they do not establish incidence, broad decline, or willingness to pay.",
+    "The read-only analytics broker was unavailable, so reader actions, repeat use, discovery, and commercial outcomes were not measured."
   ],
-  "checked_at": "2026-10-19T12:10:36Z",
-  "meaningfully_updated_at": "2026-10-19T12:08:00Z",
-  "freshness_note": "Reviewed 19 October 2026. This is a public-source watch, not a controlled multi-provider capability test."
+  "checked_at": "2026-10-20T12:10:00Z",
+  "meaningfully_updated_at": "2026-10-20T12:10:00Z",
+  "freshness_note": "Reviewed 20 October 2026. Two distinct Opus 5.5 public trackers provide scoped counterevidence; neither is a controlled test across popular models or all user workflows."
 }
