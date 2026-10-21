@@ -1,28 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 20 October 2026, public evidence reviewed here does not establish broad capability decline across popular AI models. BridgeBench reports Claude Opus 5.5 at 105.8 on 16 October relative to its first tracked session, up from 95.7 on 9 October and within its own 90–110 band. Its composite mixes correctness, output tokens, and cost, so an index shift is not a pure accuracy measure; its private task set does not represent all Claude use. LiveNerf reports no change in its first complete 10-day follow-up window on a narrow 78-item reasoning-and-math panel (+0.007 ± 0.018 score units; 780 attempts in both baseline and window). Its 17 October update had only five of ten days in the second window, so the preregistered two-window persistence rule was not yet decided. These scoped results are useful counterweights to anecdotal decline reports, but do not rule out smaller or workflow-specific losses. For a completed answer that seems weaker, replay the same safe task with model, surface, effort, tools, context, and scoring held or recorded; investigate access, routing, product state, and outages separately when no answer arrives.",
+  "current_answer": "As of 21 October 2026, the public evidence reviewed still does not establish broad capability decline across popular AI models. BridgeBench’s latest listed tests (16 October) place all four displayed series within its 90–110 composite band; Claude Opus 5.5 is 105.8 relative to its first tracked session. That score mixes correctness, output tokens, and cost on a private 50-task suite. A new consumer thread reports memory and generic-response problems, but does not identify a verified model or surface or provide a matched replay. OpenAI’s 7 October release note says GPT-6 rolled into Chat while Work and Codex models were unchanged. This makes the exact surface and selected model a necessary check, not a proven cause. Before calling “GPT got worse” a model-wide change, record surface, model, effort, plan, context, and task, then replay a safe task under matched conditions.",
   "catalogue_card": {
-    "question": "Do public Opus 5.5 trackers show the same decline?",
-    "text": "Not on the data checked: BridgeBench is inside its own composite band and LiveNerf reports no change in its first full window. Their panels and baselines differ; neither settles performance on your workflow."
+    "question": "Did ChatGPT get worse—or did the product surface change?",
+    "text": "OpenAI documents a GPT-6 rollout in Chat on 7 October while Work and Codex models stayed separate. Fresh complaints lack matched tasks or a verified served-model receipt. Check the surface before treating them as one trend."
   },
   "summary": [
-    "No broad capability decline is established by this public-source review.",
-    "BridgeBench reports Opus 5.5 at 105.8 relative to its first tracked session on 16 October, still within its stated 90–110 band.",
-    "BridgeBench’s composite includes correctness, output tokens, and cost; the result page does not expose each component.",
-    "LiveNerf reports no change in its first complete 10-day window on a separate 78-item reasoning/math panel; its second window was incomplete as of 17 October.",
-    "Different trackers do not pool into a universal quality result; small or workflow-specific changes remain possible.",
-    "Replay the same safe task with settings held for completed-answer concerns; check access and route separately for failed requests."
+    "No broad capability decline is established by this review of public evidence.",
+    "A new 21 October Reddit thread reports memory and generic-response problems, but supplies no matched task or verified model/surface. Replies describe both positive and negative experiences on different tasks.",
+    "OpenAI’s 7 October release notes distinguish the Chat rollout from Work and Codex; this is product context, not evidence that it caused any complaint.",
+    "BridgeBench’s latest listed tests are from 16 October; all four displayed series remain within the publisher’s 90–110 composite band. Opus 5.5 is 105.8 versus its first tracked session.",
+    "BridgeBench’s reference is its first tracked session; its composite includes correctness, output tokens, and cost, and public task-level component results are not shown.",
+    "For a completed weak answer, record the exact surface, model, plan, effort, context, and task before a safe matched replay; handle access errors separately."
   ],
   "uncertainty": [
-    "BridgeBench tests a private 50-task suite with three attempts per task and a composite; its report omits component scores and does not generalize to every task, surface, or account.",
-    "BridgeBench defines its reference as the first tracked session; the public materials reviewed do not establish that it is the provider launch-day state.",
-    "The LiveNerf result covers a calibrated 78-item reasoning/math panel, not consumer workflows; its preregistered second follow-up window was incomplete as of 17 October.",
-    "LiveNerf uses a different task set, score, baseline, and collection method from BridgeBench, so the two series are not a direct replication or pooled estimate.",
-    "The recent community posts are self-selected anecdotes; they do not establish incidence, broad decline, or willingness to pay.",
-    "The read-only analytics broker was unavailable, so reader actions, repeat use, discovery, and commercial outcomes were not measured."
+    "The community thread is self-selected and cannot establish prevalence, a broad decline, or a causal link to the GPT-6 rollout.",
+    "The provider release note describes intended product changes; it does not verify which model served any individual user.",
+    "BridgeBench covers four series and a private task set, not every popular model, route, user task, or account.",
+    "BridgeBench’s first-session reference, composite, and stated band are publisher methodology; the public board does not show task-level results, component scores, or model-specific variance intervals.",
+    "The last dated LiveNerf update reviewed in the previous cycle was 17 October; its second window was incomplete then.",
+    "Analytics were unavailable, so pool discovery, reader action, repeat use, switching, and commercial outcomes were not measured."
   ],
-  "checked_at": "2026-10-20T12:10:00Z",
-  "meaningfully_updated_at": "2026-10-20T12:10:00Z",
-  "freshness_note": "Reviewed 20 October 2026. Two distinct Opus 5.5 public trackers provide scoped counterevidence; neither is a controlled test across popular models or all user workflows."
+  "checked_at": "2026-10-21T12:02:55Z",
+  "meaningfully_updated_at": "2026-10-21T12:02:55Z",
+  "freshness_note": "Reviewed 21 October 2026. New user reports make the Chat versus Work/Codex product boundary salient, but no matched task evidence establishes a broad capability decline."
 }

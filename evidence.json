@@ -350,6 +350,46 @@
       "accessed_at": "2026-10-20T12:10:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-board-2026-10-21",
+      "source_type": "repeated benchmark results board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench",
+      "title": "BridgeBench NerfBench board checked 21 October 2026",
+      "claim": "The latest listed test is 16 October. Four tracked series—GPT-6 Astra 97.1%, GPT-6.1 Sol 98.0%, Claude Sonnet 5.5 98.9%, and Claude Opus 5.5 105.8%—are all within the publisher’s 90–110 composite band relative to their first tracked sessions.",
+      "accessed_at": "2026-10-21T12:02:55Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-method-2026-10-21",
+      "source_type": "benchmark methodology page",
+      "source_url": "https://www.bridgebench.ai/blog/the-methodology-of-nerfbench",
+      "title": "BridgeBench NerfBench methodology",
+      "claim": "BridgeBench describes a first-session reference; a 60/20/20 correctness/output-token/cost composite (75/25 when cost is absent); a 90–110 band; an approximate chance-variation example; and two consecutive comparable out-of-band sessions before publication. The method says lower costs can raise power despite lower pass rate and excludes tokens/cost from retried requests. The public page does not show task-level outcomes, component scores, incomplete-session ledger, or model-specific intervals.",
+      "accessed_at": "2026-10-21T12:02:55Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-chatgpt-release-notes-2026-10-21",
+      "source_type": "provider release notes",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT release notes, 7 October 2026",
+      "claim": "OpenAI says GPT-6 began rolling into ChatGPT Chat on 7 October and says Work/Codex models were unchanged in that release. This is provider rollout documentation, not a verified served-model receipt for an individual account.",
+      "accessed_at": "2026-10-21T12:02:55Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-chatgpt-thread-2026-10-21",
+      "source_type": "community discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xbim25/has_anyone_else_noticed_gpt_getting_worse_over/",
+      "title": "r/ChatGPT discussion of memory, response style, and switching limits, 21 October 2026",
+      "claim": "One user reports weaker memory and more generic responses and considers switching to Claude, while saying daily and weekly usage limits make switching hard; comments report different outcomes on different tasks. The thread has no matched test or denominator.",
+      "accessed_at": "2026-10-21T12:02:55Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

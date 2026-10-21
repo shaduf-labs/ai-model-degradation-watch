@@ -906,6 +906,24 @@
       "changed_at": "2026-10-20T12:14:12Z",
       "summary": "Added a second scoped Opus 5.5 tracker and its first neutral follow-up window; clarified that public scores use different tasks, baselines, and components and do not establish broad decline.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "current-verdict-2026-10-21",
+      "changed_at": "2026-10-21T12:02:55Z",
+      "summary": "Added fresh user reports and the documented Chat versus Work/Codex product boundary; clarified that neither the complaints nor the four-series composite establish broad capability decline.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "method-and-signals-2026-10-21",
+      "changed_at": "2026-10-21T12:02:55Z",
+      "summary": "Updated the public evidence method with BridgeBench reference, score-component, variance-band, and product-surface limits; added a matched-task next step.",
+      "path": "/p/ai-model-degradation-watch/method/"
+    },
+    {
+      "change_id": "community-reports-2026-10-21",
+      "changed_at": "2026-10-21T12:02:55Z",
+      "summary": "Added the 21 October ChatGPT user report with its mixed replies, usage-limit constraint, and evidence limits.",
+      "path": "/p/ai-model-degradation-watch/research/"
     }
   ]
 }

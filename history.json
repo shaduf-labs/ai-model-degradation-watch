@@ -462,6 +462,17 @@
       "summary": "BridgeBench reports Opus 5.5 within its composite band; LiveNerf reports no change in its first complete window on a different reasoning/math panel. Their task sets and baselines differ, and the second LiveNerf window was incomplete.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-20.html",
       "entrypoint": "reports/2026-10-20.html"
+    },
+    {
+      "run_id": "report-ea91bf414a710e5df32d571e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-21T12:00:00Z",
+      "completed_at": "2026-10-21T12:11:14Z",
+      "title": "Fresh ChatGPT complaints leave the surface unresolved",
+      "summary": "A new user thread reports memory and generic-response problems without a matched task; OpenAI documents a Chat versus Work/Codex rollout boundary, and BridgeBench’s latest four series remain within its composite band.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-21.html",
+      "entrypoint": "reports/2026-10-21.html"
     }
   ]
 }
