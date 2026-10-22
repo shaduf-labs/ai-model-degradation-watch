@@ -390,6 +390,76 @@
       "accessed_at": "2026-10-21T12:02:55Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "chat-memory-full-community-oct21",
+      "source_type": "OpenAI Developer Community user report",
+      "source_url": "https://community.openai.com/t/chat-memory-full-a-detailed-issue/1408284",
+      "title": "Chat Memory Full: A detailed issue",
+      "claim": "One user reports ChatGPT conversations blocked by a “Chat memory full” notice after roughly 10–14 messages; a reply reports the notice in three software-development chats, including a new chat, and says clearing saved Memory did not restore sending for that account. This is a user-reported continuity problem, not a model-quality test.",
+      "accessed_at": "2026-10-22T12:06:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "chat-memory-full-recovery-reports-oct22",
+      "source_type": "Reddit user reports and follow-up comments",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xbm0zl/real_talk_about_the_whole_chat_memory_full/",
+      "title": "Chat memory full discussion and recovery reports",
+      "claim": "Some users on 21–22 October say the warning disappeared and they could continue previously blocked chats; other users describe ongoing issues. These are account-level reports and do not confirm a global repair.",
+      "accessed_at": "2026-10-22T12:06:15Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "chat-memory-app-version-comparison-oct22",
+      "source_type": "Spanish-language Reddit user report",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xbtfky/chat_memory_full_after_ive_barely_started_the/",
+      "title": "Chat memory full after I have barely started the conversation",
+      "claim": "One user reports no warning in an app left unupdated since July on one phone/account and a warning on a current app on another phone/account. Because app build, device, and account differ, the report does not isolate version as a cause.",
+      "accessed_at": "2026-10-22T12:06:15Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-chatgpt-codex-oct20",
+      "source_type": "OpenAI Status incident record",
+      "source_url": "https://status.openai.com/incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
+      "title": "Degraded performance in ChatGPT, Codex, and APIs",
+      "claim": "OpenAI records degraded performance across ChatGPT, Codex, and APIs on 20 October and marks the affected services recovered. The aggregate incident does not establish individual recovery or a link to the “Chat memory full” notice.",
+      "accessed_at": "2026-10-22T12:06:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-conversations-api-oct22",
+      "source_type": "OpenAI Status incident record",
+      "source_url": "https://status.openai.com/incidents/01M5GPE9C4E19HE461P8JAMYXD",
+      "title": "Elevated ChatGPT conversation and Responses API errors",
+      "claim": "OpenAI records elevated ChatGPT Conversations and Responses API errors affecting India, Japan, and Korea on 21–22 October and marks the services recovered on 22 October. The provider record does not link this event to the memory-full notice or measure answer quality.",
+      "accessed_at": "2026-10-22T12:06:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-memory-help-oct22",
+      "source_type": "OpenAI Help Center documentation",
+      "source_url": "https://help.openai.com/en/articles/8590148-memory-in-chatgpt",
+      "title": "Memory in ChatGPT",
+      "claim": "OpenAI distinguishes saved Memory from information referenced through chat history and says settings vary by plan, region, platform, and workspace. The page does not explain the specific warning that prevented users from sending messages.",
+      "accessed_at": "2026-10-22T12:06:15Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-board-oct22",
+      "source_type": "Publisher-run repeated benchmark board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench",
+      "title": "BridgeBench Nerf Bench",
+      "claim": "At this check the latest listed test remains 16 October; all four displayed composites (97.1–105.8) are within the publisher’s stated 90–110 band. Its score is a private-task composite, not a measure of ChatGPT conversation availability or pure accuracy.",
+      "accessed_at": "2026-10-22T12:06:15Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

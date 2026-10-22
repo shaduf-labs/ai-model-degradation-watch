@@ -473,6 +473,17 @@
       "summary": "A new user thread reports memory and generic-response problems without a matched task; OpenAI documents a Chat versus Work/Codex rollout boundary, and BridgeBench’s latest four series remain within its composite band.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-21.html",
       "entrypoint": "reports/2026-10-21.html"
+    },
+    {
+      "run_id": "report-c93e686c08263a6dadb51a34",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-22T12:00:00Z",
+      "completed_at": "2026-10-22T12:09:44Z",
+      "title": "“Chat memory full” blocked conversations; service incidents are separate",
+      "summary": "Users report blocked ChatGPT conversations and some later recoveries. OpenAI recorded separate service incidents; neither is linked to the warning. Broad model decline remains unproven.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-22.html",
+      "entrypoint": "reports/2026-10-22.html"
     }
   ]
 }

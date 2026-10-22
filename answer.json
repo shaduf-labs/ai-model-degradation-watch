@@ -1,28 +1,32 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 21 October 2026, the public evidence reviewed still does not establish broad capability decline across popular AI models. BridgeBench’s latest listed tests (16 October) place all four displayed series within its 90–110 composite band; Claude Opus 5.5 is 105.8 relative to its first tracked session. That score mixes correctness, output tokens, and cost on a private 50-task suite. A new consumer thread reports memory and generic-response problems, but does not identify a verified model or surface or provide a matched replay. OpenAI’s 7 October release note says GPT-6 rolled into Chat while Work and Codex models were unchanged. This makes the exact surface and selected model a necessary check, not a proven cause. Before calling “GPT got worse” a model-wide change, record surface, model, effort, plan, context, and task, then replay a safe task under matched conditions.",
+  "current_answer": "As of 22 October 2026, public evidence reviewed here still does not establish broad capability decline across popular AI models. A narrower ChatGPT continuity and availability problem is better supported: users reported a ‘Chat memory full’ banner blocking short and older conversations on 20–21 October, and some users later said normal sending returned. Separately, OpenAI status pages document a resolved 20 October degraded-performance event spanning ChatGPT, Codex, and APIs, plus a 21–22 October regional incident affecting ChatGPT Conversations and Responses API in India, Japan, and Korea. The provider records do not link either incident to the ‘Chat memory full’ warning, and the user reports do not include a matched test of completed answers. BridgeBench’s latest listed tests remain the 16 October session: its four displayed composites are inside its stated 90–110 band. If a message is blocked, preserve the work and check the exact surface, region, client, and incident window; assess answer quality only after the same safe task completes under recorded conditions.",
   "catalogue_card": {
-    "question": "Did ChatGPT get worse—or did the product surface change?",
-    "text": "OpenAI documents a GPT-6 rollout in Chat on 7 October while Work and Codex models stayed separate. Fresh complaints lack matched tasks or a verified served-model receipt. Check the surface before treating them as one trend."
+    "question": "Did ChatGPT get worse—or did conversations stop sending?",
+    "text": "Users reported “Chat memory full” locks, while some later said they cleared. OpenAI also logged separate service incidents, but did not connect them to the warning. A blocked send is an access problem, not a model-quality test."
   },
   "summary": [
-    "No broad capability decline is established by this review of public evidence.",
-    "A new 21 October Reddit thread reports memory and generic-response problems, but supplies no matched task or verified model/surface. Replies describe both positive and negative experiences on different tasks.",
-    "OpenAI’s 7 October release notes distinguish the Chat rollout from Work and Codex; this is product context, not evidence that it caused any complaint.",
-    "BridgeBench’s latest listed tests are from 16 October; all four displayed series remain within the publisher’s 90–110 composite band. Opus 5.5 is 105.8 versus its first tracked session.",
-    "BridgeBench’s reference is its first tracked session; its composite includes correctness, output tokens, and cost, and public task-level component results are not shown.",
-    "For a completed weak answer, record the exact surface, model, plan, effort, context, and task before a safe matched replay; handle access errors separately."
-  ],
-  "uncertainty": [
-    "The community thread is self-selected and cannot establish prevalence, a broad decline, or a causal link to the GPT-6 rollout.",
-    "The provider release note describes intended product changes; it does not verify which model served any individual user.",
-    "BridgeBench covers four series and a private task set, not every popular model, route, user task, or account.",
-    "BridgeBench’s first-session reference, composite, and stated band are publisher methodology; the public board does not show task-level results, component scores, or model-specific variance intervals.",
-    "The last dated LiveNerf update reviewed in the previous cycle was 17 October; its second window was incomplete then.",
+    "The reviewed public evidence still does not establish broad capability decline across popular AI models.",
+    "Users on OpenAI Community and Reddit report a “Chat memory full” banner blocking short or existing ChatGPT conversations on 20–21 October; some users later say normal sending returned.",
+    "A Spanish-language app-version comparison changes phone and account as well as app build, so it does not identify the cause.",
+    "OpenAI recorded a 20 October degraded-performance event across ChatGPT, Codex, and APIs, plus a 21–22 October regional ChatGPT Conversations/Responses API incident in India, Japan, and Korea. Both are marked recovered; neither record links to the memory-full banner.",
+    "OpenAI Memory documentation distinguishes saved Memory from chat-history reference but does not explain the send-blocking warning.",
+    "BridgeBench’s latest listed test remains 16 October; its four displayed composites are within the stated 90–110 band. This does not measure chat availability.",
+    "For a blocked send, preserve work and check time, region, surface, client, and status. Test answer quality only after the same safe task completes under recorded conditions.",
     "Analytics were unavailable, so pool discovery, reader action, repeat use, switching, and commercial outcomes were not measured."
   ],
-  "checked_at": "2026-10-21T12:02:55Z",
-  "meaningfully_updated_at": "2026-10-21T12:02:55Z",
-  "freshness_note": "Reviewed 21 October 2026. New user reports make the Chat versus Work/Codex product boundary salient, but no matched task evidence establishes a broad capability decline."
+  "uncertainty": [
+    "The Chat memory full reports are self-selected and have no representative denominator, consistent client/account metadata, or independent account logs.",
+    "One Spanish-language Reddit post compares an app not updated since July with a current app on a different phone and account; the comparison cannot isolate app version from device or account.",
+    "Some Reddit users report that the warning disappeared or normal sending resumed; these are account-level reports, not provider-confirmed global recovery.",
+    "OpenAI status records describe aggregate service events and recovery, but do not link either event to the Chat memory full banner or verify individual account recovery.",
+    "OpenAI Memory documentation describes saved Memory and chat-history reference but does not explain the specific send-blocking warning; it does not promise unlimited conversation context.",
+    "BridgeBench covers four series on a private task set with a mixed correctness/token/cost composite; its latest displayed test is 16 October and it does not represent all models, tasks, routes, or consumer surfaces.",
+    "No matched before/after completed-answer replay was found for the new ChatGPT reports, so they do not measure capability change.",
+    "The read-only analytics broker was unavailable; discovery, reader actions, repeat use, switching, and commercial outcomes were not measured."
+  ],
+  "checked_at": "2026-10-22T12:06:15Z",
+  "meaningfully_updated_at": "2026-10-22T12:06:15Z",
+  "freshness_note": "Reviewed 22 October 2026. New ChatGPT conversation-lock reports and separately confirmed service events sharpen the continuity/access branch; no provider record links the warning to those events or establishes broad capability decline."
 }

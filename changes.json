@@ -924,6 +924,12 @@
       "changed_at": "2026-10-21T12:02:55Z",
       "summary": "Added the 21 October ChatGPT user report with its mixed replies, usage-limit constraint, and evidence limits.",
       "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "chatgpt-conversation-continuity-oct22-2026",
+      "changed_at": "2026-10-22T12:06:15Z",
+      "summary": "Added dated user reports of ChatGPT conversation locks, user-level recovery reports, separate provider status events, and a safe continuity-versus-quality check.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }
