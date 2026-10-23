@@ -460,6 +460,86 @@
       "accessed_at": "2026-10-22T12:06:15Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gpt6-regular-versus-temporary-chat-2026-10-23",
+      "source_type": "User-authored comparison",
+      "source_url": "https://community.openai.com/t/gpt-6-extra-high-stops-without-a-complete-answer-failed-response-remains-incomplete-across-devices/1407969",
+      "title": "GPT-6 Extra High stops without a complete answer",
+      "claim": "One user reports that the same GPT-6 Sol / Extra High prompt stopped early in regular Chat but completed in Temporary Chat on the same account. This is a one-user surface/state comparison, not a provider diagnosis or model-wide test.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "codex-gpt6-refusal-loop-2026-10-23",
+      "source_type": "User issue report",
+      "source_url": "https://github.com/openai/codex/issues/56086",
+      "title": "Codex issue #56086: GPT-6 Astra refusal loop after command rejection",
+      "claim": "One Codex user reports that GPT-6 Astra max refused an explicitly authorized prepared cleanup script after a direct command was rejected by execution policy; the same user says GPT-5.6 Sol then ran the script in the same thread. Cause and prevalence remain unknown.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "community-gpt6-and-gpt56-context-reports-2026-10-23",
+      "source_type": "User-authored OpenAI Community reports",
+      "source_url": "https://community.openai.com/t/severe-regression-in-chatgpt-and-codex-context-loss-ignored-current-prompts-repeated-instruction-failures/1402289/7",
+      "title": "GPT-5.6 and GPT-6 context and instruction complaints",
+      "claim": "Several self-selected OpenAI Community reports describe context, instruction-following, response completion, or correction problems in ChatGPT; they do not provide a representative sample or establish a common cause.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-chatgpt-mixed-quality-thread-2026-10-23",
+      "source_type": "Community discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xaoh8e/whats_going_on_with_chatgpt_today/",
+      "title": "Reddit discussion of ChatGPT quality and service symptoms",
+      "claim": "Comments report repetitive answers, context and instruction misses, incomplete outputs, and usage concerns; other comments report normal performance or improvement for different tasks. Reports are self-selected and conditions vary.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-20-october-recheck-2026",
+      "source_type": "Provider status record",
+      "source_url": "https://status.openai.com/incidents/0vryj72a",
+      "title": "OpenAI Status: 20 October degraded performance",
+      "claim": "OpenAI marks a 20 October degraded-performance incident across ChatGPT, Codex, and APIs recovered. Its status data are aggregate and do not explain the individual answer-quality reports.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-22-october-recheck-2026",
+      "source_type": "Provider status record",
+      "source_url": "https://status.openai.com/incidents/01M5GPE9C4E19HE461P8JAMYXD",
+      "title": "OpenAI Status: regional Conversations and Responses API errors",
+      "claim": "At the 23 October recheck, the page lists a recovered 22 October event affecting ChatGPT Conversations and Responses API in India, Japan, and Korea; it does not attribute the reported completed-answer symptoms to that event.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-board-2026-10-23",
+      "source_type": "Publisher-operated repeated benchmark",
+      "source_url": "https://www.bridgebench.ai/nerf-bench",
+      "title": "Nerf Bench results board",
+      "claim": "The board still lists 16 October as its newest test and displays four model-series composites within its stated 90–110 band. The private task suite and mixed score do not test long-chat continuity or Codex command policy.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-gpt6-chat-rollout-notes-2026-10-23",
+      "source_type": "Provider release notes",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "OpenAI release notes: GPT-6 and Intelligent UI in ChatGPT",
+      "claim": "The 7 October release notes say GPT-6 with Intelligent UI rolled into Chat, while the models powering Work and Codex were unchanged in that release. This establishes a surface boundary, not the model served to any individual account.",
+      "accessed_at": "2026-10-23T12:06:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

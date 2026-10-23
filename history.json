@@ -484,6 +484,17 @@
       "summary": "Users report blocked ChatGPT conversations and some later recoveries. OpenAI recorded separate service incidents; neither is linked to the warning. Broad model decline remains unproven.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-22.html",
       "entrypoint": "reports/2026-10-22.html"
+    },
+    {
+      "run_id": "report-083e9f35f6281b51d52e34cc",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-23T12:03:00Z",
+      "completed_at": "2026-10-23T12:09:54Z",
+      "title": "One GPT-6 prompt failed in regular Chat and passed in Temporary Chat",
+      "summary": "New individual comparisons add a ChatGPT state lead and a Codex refusal-loop report; broad model decline remains unestablished.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-23.html",
+      "entrypoint": "reports/2026-10-23.html"
     }
   ]
 }

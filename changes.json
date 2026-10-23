@@ -930,6 +930,18 @@
       "changed_at": "2026-10-22T12:06:15Z",
       "summary": "Added dated user reports of ChatGPT conversation locks, user-level recovery reports, separate provider status events, and a safe continuity-versus-quality check.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "current-verdict-2026-10-23",
+      "changed_at": "2026-10-23T12:09:54Z",
+      "summary": "Added same-account regular-versus-Temporary Chat and same-thread Codex model-switch reports as narrow task-level leads; broad decline remains unestablished.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "signal-table-2026-10-23",
+      "changed_at": "2026-10-23T12:09:54Z",
+      "summary": "Separated chat state, task behavior, service status and repeated benchmark evidence, with a safe same-prompt comparison for readers.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }
