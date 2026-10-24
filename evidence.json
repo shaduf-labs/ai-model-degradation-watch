@@ -540,6 +540,46 @@
       "accessed_at": "2026-10-23T12:06:35Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "anthropic-code-issue-103996",
+      "source_type": "User-authored issue report",
+      "source_url": "https://github.com/anthropics/claude-code/issues/103996",
+      "title": "Claude Code issue #103996",
+      "claim": "One user reports poor, repetitive advice and a factual error from Fable 5.1 in a long VS Code session with context compaction, and similar concerns with Opus 5.5. The issue has no matched task outputs or independent replication.",
+      "accessed_at": "2026-10-24T12:06:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "anthropic-status-history-oct24",
+      "source_type": "Provider status history",
+      "source_url": "https://status.claude.com/history",
+      "title": "Anthropic Status incident history",
+      "claim": "Anthropic lists separate resolved degraded-performance or elevated-error windows affecting Claude models on 21–24 October; the status entries do not identify a link to the user-reported completed-answer failures.",
+      "accessed_at": "2026-10-24T12:06:22Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-memory-full-oct24",
+      "source_type": "User-authored community report",
+      "source_url": "https://community.openai.com/t/why-is-chatgpt-showing-chat-memory-full-after-just-a-few-messages/1403842/233",
+      "title": "OpenAI Developer Community follow-up on Chat memory full",
+      "claim": "One Free user says the send-blocking warning returned in two new chats after 12 and 28 turns. This is a continuity/access symptom, not a completed-answer quality measurement.",
+      "accessed_at": "2026-10-24T12:06:22Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "benchgecko-index-oct21",
+      "source_type": "Independent public model-drift tracker",
+      "source_url": "https://benchgecko.vercel.app/gecko-tests/model-drift-index",
+      "title": "BenchGecko Model Drift Index",
+      "claim": "The 21 October run reports GPT-6.1 Sol Pro and Claude Sonnet 5.5 as stable on its 22-probe panel. The panel does not test long conversation state, context compaction or agent workflow quality.",
+      "accessed_at": "2026-10-24T12:06:22Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

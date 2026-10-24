@@ -1,32 +1,31 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 23 October 2026, public evidence reviewed here does not establish broad capability decline across popular AI models. Fresh user reports make ChatGPT task quality a more active lead: people describe context and instruction misses, repetitive or incomplete answers, and refusal loops. The most useful narrow comparison is one same-account report in which GPT-6 Sol at Extra High reportedly stopped in regular Chat but completed the same prompt in Temporary Chat; this points to a chat-state or surface variable, not a proven model-wide change. A separate Codex issue reports a GPT-6 Astra max refusal loop after a command-level policy rejection, followed by the same prepared script running under GPT-5.6 Sol in that thread. These are individual reports, not independent replications or a prevalence estimate. OpenAI status pages record separate recovered service events on 20 and 22 October; they do not explain those task reports. BridgeBench's newest listed session is still 16 October, with its four displayed composites inside its stated 90–110 band. Before switching models, preserve the task and compare one safe, non-sensitive prompt in regular and Temporary Chat with model and effort recorded; change one variable at a time.",
+  "current_answer": "As of 24 October 2026, public evidence reviewed here still does not establish broad capability decline across popular AI models. A fresh Claude Code report describes poor, repetitive Fable 5.1 and Opus 5.5 responses in a long VS Code session with context compaction, including bad client-call advice; it is one user account without matched outputs or independent replication. Anthropic status records separate resolved error windows from 21 to 24 October. The 21 October Fable 5 event may overlap the report, but the issue gives no exact UTC time, so causation is unknown. A new 22-probe BenchGecko index marks GPT-6.1 Sol Pro and Claude Sonnet 5.5 stable on its 21 October run; that narrow panel does not test long conversations or agent workflows. Recent ChatGPT state and refusal reports remain separate one-user leads. Before switching, preserve the task and error, check status, then replay a safe synthetic task after recovery with model, client, effort, context, and compaction state recorded.",
   "catalogue_card": {
-    "question": "GPT-6 got worse—or did the chat state change?",
-    "text": "One user reports the same GPT-6 Sol prompt failing in regular Chat and completing in Temporary Chat. A Codex refusal loop reportedly cleared after switching models. Useful leads, not proof of broad decline."
+    "question": "Is a poor AI answer a model problem—or a bad service window?",
+    "text": "A Claude Code user reports costly advice and correction loops, while Anthropic lists several resolved model-error windows. The issue’s test time is unknown, so the overlap is a lead—not a cause."
   },
   "summary": [
-    "Broad capability decline across popular models is not established; new task-level complaints are concentrated on ChatGPT and GPT-6 surfaces.",
-    "One Pro user reports a same-account, same-model, same-effort, same-prompt split: regular Chat stopped early while Temporary Chat completed.",
-    "A separate openai/codex issue reports one GPT-6 Astra max refusal loop after an execution-policy rejection; the user says GPT-5.6 Sol then ran the prepared script in the same thread.",
-    "OpenAI Community and Reddit users also describe context, instruction-following, generic answers, correction burden, and incomplete turns. Reports are self-selected and mixed; they do not establish prevalence or a common cause.",
-    "OpenAI Status lists recovered service events on 20 October and 22 October. Neither is linked to the reported completed-answer and refusal symptoms.",
-    "BridgeBench's latest listed session is 16 October; its four displayed composites are inside its stated 90–110 band. It does not test conversation state or Codex execution policy.",
-    "For a safe, non-sensitive task, compare regular Chat and Temporary Chat once with model and effort recorded, then change one variable at a time. Preserve important work before restarting or switching.",
-    "Analytics were unavailable; discovery, reader action, repeat use, switching, and commercial outcomes remain unmeasured."
+    "Broad capability decline across popular AI models is not established.",
+    "One Claude Code / VS Code issue reports poor and repetitive Fable 5.1 and Opus 5.5 behavior during long sessions with context compaction; it is not independently replicated.",
+    "Anthropic lists separate, resolved service-error windows for selected Claude models between 21 and 24 October. The 21 October Fable 5 incident may overlap the issue date, but the author supplied no UTC time; status is not completed-answer evidence.",
+    "A 24 October OpenAI Community follow-up reports the Chat memory full banner returning in new chats. It blocks sending and is separate from answer quality.",
+    "BenchGecko’s 21 October 22-probe index labels GPT-6.1 Sol Pro and Claude Sonnet 5.5 stable in its narrow test; this does not test multi-turn customer work or context compaction.",
+    "The 23 October GPT-6 regular-versus-Temporary Chat comparison and a separate Codex refusal-loop report remain individual, surface-specific leads.",
+    "Save the output or error, check status, then test a safe synthetic task after recovery. Record model, client, effort, context and compaction; change one variable at a time.",
+    "Analytics were unavailable; reader discovery, actions, repeat use, switching and commercial outcomes remain unmeasured."
   ],
   "uncertainty": [
-    "The new context, instruction, completion, and refusal reports are self-selected user reports; no representative denominator or independently collected account logs are available.",
-    "The regular-versus-Temporary Chat comparison is one account and one reported prompt. It localizes a symptom to a chat state in that case but does not establish the mechanism or generalize to other tasks.",
-    "The Codex refusal-loop report follows a real command-level execution-policy rejection; it does not establish that model weights, rather than tool policy, context, or orchestration, caused the later refusal.",
-    "OpenAI Status records are aggregate; the 20 and 22 October service events are not linked to the user-reported quality or refusal symptoms and do not confirm individual recovery.",
-    "The Reddit discussion contains negative and positive reports across different tasks, plans, models, and surfaces; its comments and votes are not a representative sample.",
-    "BridgeBench tracks four series on a private task set using a composite that combines correctness, output tokens, and cost. Its latest listed session is 16 October and does not measure long-chat state or Codex command policy.",
-    "The OpenAI release note describes the 7 October GPT-6 Chat rollout and says Work/Codex models were unchanged in that release; it does not prove what model any reported user received or explain symptoms.",
-    "The read-only analytics broker was unavailable, so this run does not measure pool discovery, reader action, return use, switching, or commercial outcomes."
+    "The Claude Code issue is one user account with no matched response archive, verified served route, or independent replication.",
+    "The Anthropic status record for 21 October and the issue share a calendar date, but the issue gives no test time or time zone; a causal link is not established.",
+    "Anthropic status windows describe provider-reported errors and recovery; they do not measure completed answer quality or prove every account recovered.",
+    "BenchGecko’s 22-probe monitor is narrow, uses a judge model on some refusal questions, and does not recreate context-compacted conversations or an agent workflow.",
+    "The Chat memory full report is a single user follow-up, not an official diagnosis or model-quality measurement.",
+    "The earlier GPT-6 regular-versus-Temporary Chat and Codex refusal comparisons involve individual reports, not population estimates.",
+    "The read-only analytics broker was unavailable, so readership, repeat use, switching, and revenue remain unknown."
   ],
-  "checked_at": "2026-10-23T12:06:35Z",
-  "meaningfully_updated_at": "2026-10-23T12:06:35Z",
-  "freshness_note": "Reviewed 23 October 2026. Fresh same-account and same-thread comparisons add narrow ChatGPT state and Codex refusal leads to the access/service picture; neither establishes broad or population-level model decline."
+  "checked_at": "2026-10-24T12:06:22Z",
+  "meaningfully_updated_at": "2026-10-24T12:06:22Z",
+  "freshness_note": "Reviewed 24 October 2026. A new Claude Code workflow complaint and multiple resolved provider error windows add a cross-provider test lead; status timing does not identify the cause, and broad decline remains unproven."
 }

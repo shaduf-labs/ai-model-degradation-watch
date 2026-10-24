@@ -495,6 +495,17 @@
       "summary": "New individual comparisons add a ChatGPT state lead and a Codex refusal-loop report; broad model decline remains unestablished.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-23.html",
       "entrypoint": "reports/2026-10-23.html"
+    },
+    {
+      "run_id": "report-803c66fd7ef80f1803495314",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-24T12:00:00Z",
+      "completed_at": "2026-10-24T12:14:15Z",
+      "title": "Claude Code reports meet a week of status errors; cause remains open",
+      "summary": "One Claude Code / VS Code user reports poor and repetitive model behavior in long sessions; Anthropic separately records resolved service-error windows. A narrow public monitor shows stable scores on selected prompts. These signals do not establish broad capability decline.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-24.html",
+      "entrypoint": "reports/2026-10-24.html"
     }
   ]
 }

@@ -942,6 +942,24 @@
       "changed_at": "2026-10-23T12:09:54Z",
       "summary": "Separated chat state, task behavior, service status and repeated benchmark evidence, with a safe same-prompt comparison for readers.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "current-verdict-claude-status-separation-2026-10-24",
+      "changed_at": "2026-10-24T12:06:22Z",
+      "summary": "Added a scoped Claude Code task report, separate resolved Anthropic status windows, a renewed ChatGPT send-blocking report, and a narrow public-monitor counterweight; broad model decline remains unestablished.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "signal-table-and-method-2026-10-24",
+      "changed_at": "2026-10-24T12:06:22Z",
+      "summary": "Separated service errors, context state, completed-answer reports, and repeated benchmark coverage, with a safe post-recovery replay step.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "research-report-2026-10-24",
+      "changed_at": "2026-10-24T12:06:22Z",
+      "summary": "Published the dated Claude Code report, Anthropic status timeline, ChatGPT continuity follow-up, and a scoped BenchGecko counterweight.",
+      "path": "/p/ai-model-degradation-watch/reports/2026-10-24.html"
     }
   ]
 }
