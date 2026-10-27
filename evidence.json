@@ -650,6 +650,86 @@
       "accessed_at": "2026-10-27T08:13:18Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "anthropic-sonnet55-resolved-2026-10-27",
+      "source_type": "provider status history",
+      "source_url": "https://status.claude.com/",
+      "title": "Anthropic Status: elevated Claude Sonnet 5.5 request errors",
+      "claim": "Anthropic lists an incident for elevated Claude Sonnet 5.5 request errors on 27 October: investigating at 09:14 UTC, monitoring a fix at 09:38, and resolved at 09:56. At the 12:12 UTC review, all displayed components were operational. This is an availability record, not an answer-quality evaluation.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-code-review-monitoring-2026-10-27",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M5Y60NQGGN514EB3943V94EN",
+      "title": "OpenAI Status: hosted Code Review and Security Review errors",
+      "claim": "At the 27 October review, OpenAI said mitigation had been applied and it was monitoring recovery for elevated errors in most hosted Code Reviews and Security Reviews on private GitHub repositories. No components were marked affected; the page did not report GPT-6 Chat quality.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-gpt6-switching-limits-2026-10-27",
+      "source_type": "public community discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xbim25/has_anyone_else_noticed_gpt_getting_worse_over/",
+      "title": "r/ChatGPT discussion of quality concerns and switching limits",
+      "claim": "One self-selected thread describes a Plus user considering a switch because of perceived generic answers and memory/context problems, while daily and weekly usage limits on an alternative are a barrier. Replies report mixed task experiences. The thread is not a matched comparison or prevalence estimate.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "modelometer-method-scope-2026-10-27",
+      "source_type": "public monitor methodology",
+      "source_url": "https://modelometer.com/methodology/",
+      "title": "Modelometer methodology and pre-series scope",
+      "claim": "The operator describes daily serving canaries and a weekly behavioral battery but explicitly excludes capability, accuracy, and quality. The page labels the pilot pre-series and figures provisional pending v1.0 validation.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "modelometer-pricing-2026-10-27",
+      "source_type": "public monitor product page",
+      "source_url": "https://modelometer.com/pricing/",
+      "title": "Modelometer product plans and pricing status",
+      "claim": "The page says alert feeds, endpoint audits, and data licensing are in preparation, prices are not set, and no checkout or payment is live. This describes an offer, not verified adoption or revenue.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "abis-home-2026-10-27",
+      "source_type": "public model monitor homepage",
+      "source_url": "https://cijlabs.com/",
+      "title": "ABIS public drift monitor",
+      "claim": "The homepage says the deterministic monitor runs on a fixed schedule and displayed a leaderboard update date of 26 October 2026.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "abis-monitor-page-2026-10-27",
+      "source_type": "public monitor results page",
+      "source_url": "https://cijlabs.com/drift-monitor/",
+      "title": "ABIS detailed drift monitor results",
+      "claim": "The detailed page showed 12 October as its latest published benchmark run and no published runs in its preceding-30-day view at the 27 October check. It says prompt-level details and provider attribution are not published. These dates may refer to different page and measurement updates.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-chat-rollout-fallbacks-2026-10-27",
+      "source_type": "provider help documentation",
+      "source_url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt",
+      "title": "OpenAI Help Center: GPT-6 plan availability, effort levels, usage limits, and fallbacks",
+      "claim": "The Help Center says GPT-6 is rolling out to eligible paid Chat users; Free/Go receive GPT-5.6 Luna and explicit GPT-5.6 Sol remains selectable. Model/effort options depend on plan and workspace. A Thinking limit may continue with another model; Pro $200 users automatically move to GPT-5.6 Thinking at Medium when reaching the GPT-6 Pro weekly limit. Work and Codex allowances are separate. This is product documentation, not an account-level request receipt.",
+      "accessed_at": "2026-10-27T12:12:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

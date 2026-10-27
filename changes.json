@@ -966,6 +966,12 @@
       "changed_at": "2026-10-27T08:13:18Z",
       "summary": "Added OpenAI’s GPT-6 October safety/factuality trade-off, the ChatGPT versus Work/Codex release boundary, current provider-status checks, and recent self-selected conversation reports. Broad capability decline remains unestablished.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "provider-status-recheck-and-monitor-scope-2026-10-27-1200",
+      "changed_at": "2026-10-27T12:12:07Z",
+      "summary": "Added OpenAI’s plan-specific GPT-6 rollout and usage-limit fallback rules, Anthropic’s resolved 27 October Sonnet 5.5 request-error window, and the current OpenAI hosted-review mitigation status. Broad capability decline remains unestablished.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }

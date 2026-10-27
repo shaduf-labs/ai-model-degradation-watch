@@ -1,31 +1,32 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 27 October 2026, public evidence still does not establish broad capability decline across popular AI models. OpenAI’s 7 October system card reports statistically significant regressions for GPT-6 Sol and Luna in selected safety evaluations against GPT-5.6, alongside better factuality on nearly all of its difficult test metrics and less over-refusal. These are narrow provider evaluations, not estimates of typical production behavior; some system safeguards are excluded. OpenAI says the October snapshots replaced GPT-5.6 in ChatGPT while Work and Codex still used September versions, so the surfaces cannot be treated as the same release. Recent English- and Spanish-language community posts report context, memory, style, and correction problems, but provide no matched replay or denominator. OpenAI’s current status page is investigating hosted Code Review/Security Review errors on private GitHub repositories; that is a service issue, not evidence of GPT-6 Chat quality. Before switching, record the exact surface, model label, task, context, and whether the response completed; compare a safe repeatable task and score correctness, safety, completion, and correction cost separately.",
+  "current_answer": "As of 27 October 2026, public evidence still does not establish broad capability decline across popular AI models. OpenAI’s 7 October system card reports statistically significant regressions for GPT-6 Sol and Luna in selected safety evaluations against GPT-5.6, alongside better factuality on nearly all of its difficult test metrics and less over-refusal. These are narrow provider evaluations, not estimates of typical production behavior; some system safeguards are excluded. OpenAI’s current Help Center says GPT-6 is rolling out to eligible paid Chat users, while Free and Go receive GPT-5.6 Luna; explicit GPT-5.6 Sol selections remain on that model. Plan and effort determine available model options, and some usage limits can continue with a different model—including GPT-5.6 Thinking at Medium after the GPT-6 Pro weekly limit on Pro $200. Work and Codex allowances are separate. Record plan, model selection, effort, any quota or fallback, and product surface before comparing tasks. On 27 October Anthropic reported elevated Claude Sonnet 5.5 request errors from 09:14 to 09:56 UTC, now resolved; its displayed components were operational at the 12:12 UTC check. OpenAI said mitigation was applied for hosted Code Review/Security Review errors and it was monitoring recovery, with no components marked affected. These are service events, not evidence that completed answers got worse. Recent community posts about context, memory, style, and correction remain uncontrolled and provide no denominator.",
   "catalogue_card": {
-    "question": "Did GPT-6 get worse, or did one safety measure move?",
-    "text": "OpenAI reports narrow GPT-6 safety regressions beside factuality gains and fewer unnecessary refusals. The card does not show a broad capability decline."
+    "question": "Could a plan or usage limit change the model you get?",
+    "text": "OpenAI says GPT-6 is rolling out to eligible paid Chat accounts; Free/Go use GPT-5.6 Luna, and some limits trigger a fallback. Record plan, effort, and model path before judging quality."
   },
   "summary": [
     "Broad capability decline across popular AI models is not established as of 27 October 2026.",
-    "OpenAI reports statistically significant regressions in selected standard and under-18 safety tests for the GPT-6 October versions.",
-    "The same card reports factuality gains across nearly all of its difficult test metrics and less over-refusal; these tests do not estimate typical production use.",
-    "OpenAI says October GPT-6 versions went to ChatGPT while Work and Codex remained on September versions at publication.",
-    "Recent English- and Spanish-language user posts describe memory/context, tone, correction, and task completion concerns; they are not matched tests.",
-    "An active OpenAI Status investigation concerns hosted Code Reviews and Security Reviews on private GitHub repositories, not a GPT-6 Chat quality evaluation.",
-    "AgentCheck’s latest shown daily 20-prompt monitor covers selected Anthropic models and does not measure GPT-6.",
-    "For a switching decision, compare the same safe task on the actual surface, record completion separately from quality, and count correction cost."
+    "OpenAI reports selected GPT-6 safety regressions alongside factuality gains and less over-refusal; the difficult tests do not estimate everyday frequency.",
+    "OpenAI’s current Help Center says GPT-6 is rolling out to eligible paid Chat users; Free and Go receive GPT-5.6 Luna, and explicit GPT-5.6 Sol selections remain on that model.",
+    "Plan and effort affect model options. Thinking limits can lead to another model; Pro $200 users move from GPT-6 Pro to GPT-5.6 Thinking at Medium after the weekly limit. Work/Codex allowances are separate.",
+    "Anthropic marked elevated Claude Sonnet 5.5 request errors resolved at 09:56 UTC on 27 October; listed components were operational at the 12:12 check.",
+    "OpenAI’s hosted Code Review/Security Review errors remained under monitoring after mitigation; no components were marked affected, and this is not a GPT-6 Chat quality report.",
+    "Public monitors have different scopes and freshness: AgentCheck covers selected Anthropic exact-answer prompts; Modelometer excludes capability and quality; ABIS showed different homepage and detailed-run dates.",
+    "For a switching decision, record plan, surface, model selection, effort, quota/fallback, and whether the same safe task completed; score correctness, safety, and correction cost separately."
   ],
   "uncertainty": [
     "OpenAI’s system card is provider-authored. It reports difficult evaluation results, not prevalence in ordinary ChatGPT use, and its published evaluations do not include some system-level safeguards.",
     "The reported GPT-6 regressions are in specified safety categories. The same card reports factuality and helpfulness gains; neither result proves a broad change in general capability.",
-    "OpenAI states that ChatGPT received October GPT-6 versions while Work and Codex remained on September versions at the time of publication; a current user’s served model and route should be checked rather than inferred from a family label.",
+    "OpenAI’s Help Center describes a gradual rollout and plan/workspace-dependent model options; it does not show what model served an individual request. Usage-limit fallback can change the model path.",
     "Recent Reddit and community posts are self-selected reports without saved matched outputs, verified serving identity, independent replication, or population denominators.",
-    "AgentCheck’s daily 20-prompt exact-golden panel covers selected Anthropic models, not GPT-6 or multi-turn ChatGPT workflows; its stable result does not test the reported complaints.",
-    "OpenAI’s active status investigation concerns hosted Code Reviews and Security Reviews on private GitHub repositories; it does not report a GPT-6 Chat answer-quality issue.",
+    "Anthropic marked the 27 October Sonnet 5.5 request-error event resolved at 09:56 UTC; status recovery does not establish the outcome of any one account’s task.",
+    "OpenAI’s hosted Code Review/Security Review incident remained in monitoring after mitigation at the 12:12 UTC check and had no components marked affected; it does not report GPT-6 Chat quality.",
+    "Public drift monitors have different scopes and freshness; their aggregate results do not test every user workflow or establish broad decline.",
     "First-party pool analytics were unavailable, so discovery, reader actions, repeat use, switching, and revenue remain unknown."
   ],
-  "checked_at": "2026-10-27T08:13:18Z",
-  "meaningfully_updated_at": "2026-10-27T08:13:18Z",
-  "freshness_note": "Reviewed 27 October 2026. OpenAI’s release card adds a narrow, measured safety regression alongside factuality gains and lower over-refusal. The affected test categories and the ChatGPT-versus-Work/Codex release boundary matter; broad model decline remains unestablished."
+  "checked_at": "2026-10-27T12:12:07Z",
+  "meaningfully_updated_at": "2026-10-27T12:12:07Z",
+  "freshness_note": "Rechecked 27 October 2026 at 12:12 UTC. OpenAI Help Center now describes plan-dependent GPT-6 rollout and usage-limit fallbacks; Anthropic marked its Sonnet 5.5 error window resolved at 09:56 UTC, while OpenAI’s hosted-review incident remained under monitoring after mitigation. These product paths and service events are not evidence of broad completed-answer quality decline."
 }
