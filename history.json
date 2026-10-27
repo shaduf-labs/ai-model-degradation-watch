@@ -506,6 +506,17 @@
       "summary": "One Claude Code / VS Code user reports poor and repetitive model behavior in long sessions; Anthropic separately records resolved service-error windows. A narrow public monitor shows stable scores on selected prompts. These signals do not establish broad capability decline.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-24.html",
       "entrypoint": "reports/2026-10-24.html"
+    },
+    {
+      "run_id": "report-ed9a49bfc5d15c6e421f04d2",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-27T08:05:11Z",
+      "completed_at": "2026-10-27T08:15:27Z",
+      "title": "GPT-6’s safety scores shift while factuality improves; broad decline remains unproven",
+      "summary": "OpenAI’s October system card reports selected GPT-6 safety regressions alongside factuality gains and less over-refusal. ChatGPT and Work/Codex used different release snapshots at launch; community reports remain uncontrolled.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-27.html",
+      "entrypoint": "reports/2026-10-27.html"
     }
   ]
 }

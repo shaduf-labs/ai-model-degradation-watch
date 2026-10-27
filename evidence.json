@@ -580,6 +580,76 @@
       "accessed_at": "2026-10-24T12:06:22Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-gpt6-october-safety-card-2026-10-27",
+      "source_type": "provider system card",
+      "source_url": "https://deploymentsafety.openai.com/gpt-6-october/jailbreaks",
+      "title": "OpenAI Deployment Safety Hub: GPT-6 Sol and GPT-6 Luna, October 2026 update",
+      "claim": "Published 7 October. OpenAI reports significant regressions in selected standard and under-18 safety evaluation categories for the October GPT-6 versions, alongside improved factuality on nearly all of its difficult tested metrics, stronger jailbreak resistance, and less over-refusal. The card says the challenges are not production-prevalence estimates and that some system-level safeguards are not included in the underlying-model evaluations.",
+      "accessed_at": "2026-10-27T08:13:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-code-review-errors-2026-10-27",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/01M5Y60NQGGN514EB3943V94EN",
+      "title": "OpenAI Status: elevated errors for hosted Code Reviews and Security Reviews",
+      "claim": "At 04:00 UTC on 27 October, OpenAI was investigating elevated errors for most hosted Code Reviews and Security Reviews on private GitHub repositories. The incident page had not yet marked a component as affected; it does not report a ChatGPT GPT-6 answer-quality issue.",
+      "accessed_at": "2026-10-27T08:13:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "anthropic-current-status-2026-10-27",
+      "source_type": "provider status page",
+      "source_url": "https://status.claude.com/",
+      "title": "Anthropic Status",
+      "claim": "At review time, Anthropic listed all displayed components operational and no incidents reported on 26 or 27 October; its latest listed model request-error windows were earlier resolved events. Status is an availability record, not a completed-answer quality measure.",
+      "accessed_at": "2026-10-27T08:13:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-gpt6-conversation-quality-2026-10-27",
+      "source_type": "public community discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1xfyaz0/gpt6_became_chatgpts_default_on_october_7_but_has/",
+      "title": "r/ChatGPTcomplaints discussion of GPT-6 conversational quality",
+      "claim": "A new thread asks whether ChatGPT conversational quality improved after the stated 7 October default change. Early comments are mixed: several describe unwanted joking or awkward tone, while one says GPT-6 infers imprecise intent better than GPT-5.6. The thread is self-selected and supplies no matched prompt set or denominator.",
+      "accessed_at": "2026-10-27T08:13:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-spanish-gpt6-chat-report-2026-10-27",
+      "source_type": "public community report",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1xeybay/chatgpt_gpt6_est%C3%A1_muy_raro_y_se_salta_las/",
+      "title": "Spanish-language GPT-6 Chat user report",
+      "claim": "One Spanish-language Plus user says ChatGPT moved from GPT-5.6 Sol to GPT-6, then reports context and memory problems, repeated instructions, unwanted familiarity, and an incomplete task in Work before trying Claude. The account includes no saved matched outputs, verified route, or independent replication.",
+      "accessed_at": "2026-10-27T08:13:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-plus-context-friction-2026-10-25",
+      "source_type": "public community report",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1xf1ufu/chatgpt_has_become_frustrating_inconsistent_and/",
+      "title": "r/ChatGPTcomplaints post on ChatGPT conversation burden",
+      "claim": "One reported Plus subscriber describes forgotten context, repeated corrections, excessive caution, and conversational friction. It is an individual account, not a matched model comparison or prevalence estimate.",
+      "accessed_at": "2026-10-27T08:13:18Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "agentcheck-anthropic-drift-index-2026-10-27",
+      "source_type": "public repeated model monitor",
+      "source_url": "https://agentwares-agentcheck.vercel.app/drift",
+      "title": "AgentCheck Model Drift Index",
+      "claim": "The page says it runs 20 fixed prompts daily with deterministic goldens and no LLM judge. Data updated 26 October showed 95–100% pass rates and zero or one changed answer among the displayed Anthropic model series; the page said Google and OpenAI were not yet measured. The suite measures selected prompt consistency, not conversational intelligence or GPT-6 Chat.",
+      "accessed_at": "2026-10-27T08:13:18Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

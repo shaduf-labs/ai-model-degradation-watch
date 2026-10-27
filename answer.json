@@ -1,31 +1,31 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 24 October 2026, public evidence reviewed here still does not establish broad capability decline across popular AI models. A fresh Claude Code report describes poor, repetitive Fable 5.1 and Opus 5.5 responses in a long VS Code session with context compaction, including bad client-call advice; it is one user account without matched outputs or independent replication. Anthropic status records separate resolved error windows from 21 to 24 October. The 21 October Fable 5 event may overlap the report, but the issue gives no exact UTC time, so causation is unknown. A new 22-probe BenchGecko index marks GPT-6.1 Sol Pro and Claude Sonnet 5.5 stable on its 21 October run; that narrow panel does not test long conversations or agent workflows. Recent ChatGPT state and refusal reports remain separate one-user leads. Before switching, preserve the task and error, check status, then replay a safe synthetic task after recovery with model, client, effort, context, and compaction state recorded.",
+  "current_answer": "As of 27 October 2026, public evidence still does not establish broad capability decline across popular AI models. OpenAI’s 7 October system card reports statistically significant regressions for GPT-6 Sol and Luna in selected safety evaluations against GPT-5.6, alongside better factuality on nearly all of its difficult test metrics and less over-refusal. These are narrow provider evaluations, not estimates of typical production behavior; some system safeguards are excluded. OpenAI says the October snapshots replaced GPT-5.6 in ChatGPT while Work and Codex still used September versions, so the surfaces cannot be treated as the same release. Recent English- and Spanish-language community posts report context, memory, style, and correction problems, but provide no matched replay or denominator. OpenAI’s current status page is investigating hosted Code Review/Security Review errors on private GitHub repositories; that is a service issue, not evidence of GPT-6 Chat quality. Before switching, record the exact surface, model label, task, context, and whether the response completed; compare a safe repeatable task and score correctness, safety, completion, and correction cost separately.",
   "catalogue_card": {
-    "question": "Is a poor AI answer a model problem—or a bad service window?",
-    "text": "A Claude Code user reports costly advice and correction loops, while Anthropic lists several resolved model-error windows. The issue’s test time is unknown, so the overlap is a lead—not a cause."
+    "question": "Did GPT-6 get worse, or did one safety measure move?",
+    "text": "OpenAI reports narrow GPT-6 safety regressions beside factuality gains and fewer unnecessary refusals. The card does not show a broad capability decline."
   },
   "summary": [
-    "Broad capability decline across popular AI models is not established.",
-    "One Claude Code / VS Code issue reports poor and repetitive Fable 5.1 and Opus 5.5 behavior during long sessions with context compaction; it is not independently replicated.",
-    "Anthropic lists separate, resolved service-error windows for selected Claude models between 21 and 24 October. The 21 October Fable 5 incident may overlap the issue date, but the author supplied no UTC time; status is not completed-answer evidence.",
-    "A 24 October OpenAI Community follow-up reports the Chat memory full banner returning in new chats. It blocks sending and is separate from answer quality.",
-    "BenchGecko’s 21 October 22-probe index labels GPT-6.1 Sol Pro and Claude Sonnet 5.5 stable in its narrow test; this does not test multi-turn customer work or context compaction.",
-    "The 23 October GPT-6 regular-versus-Temporary Chat comparison and a separate Codex refusal-loop report remain individual, surface-specific leads.",
-    "Save the output or error, check status, then test a safe synthetic task after recovery. Record model, client, effort, context and compaction; change one variable at a time.",
-    "Analytics were unavailable; reader discovery, actions, repeat use, switching and commercial outcomes remain unmeasured."
+    "Broad capability decline across popular AI models is not established as of 27 October 2026.",
+    "OpenAI reports statistically significant regressions in selected standard and under-18 safety tests for the GPT-6 October versions.",
+    "The same card reports factuality gains across nearly all of its difficult test metrics and less over-refusal; these tests do not estimate typical production use.",
+    "OpenAI says October GPT-6 versions went to ChatGPT while Work and Codex remained on September versions at publication.",
+    "Recent English- and Spanish-language user posts describe memory/context, tone, correction, and task completion concerns; they are not matched tests.",
+    "An active OpenAI Status investigation concerns hosted Code Reviews and Security Reviews on private GitHub repositories, not a GPT-6 Chat quality evaluation.",
+    "AgentCheck’s latest shown daily 20-prompt monitor covers selected Anthropic models and does not measure GPT-6.",
+    "For a switching decision, compare the same safe task on the actual surface, record completion separately from quality, and count correction cost."
   ],
   "uncertainty": [
-    "The Claude Code issue is one user account with no matched response archive, verified served route, or independent replication.",
-    "The Anthropic status record for 21 October and the issue share a calendar date, but the issue gives no test time or time zone; a causal link is not established.",
-    "Anthropic status windows describe provider-reported errors and recovery; they do not measure completed answer quality or prove every account recovered.",
-    "BenchGecko’s 22-probe monitor is narrow, uses a judge model on some refusal questions, and does not recreate context-compacted conversations or an agent workflow.",
-    "The Chat memory full report is a single user follow-up, not an official diagnosis or model-quality measurement.",
-    "The earlier GPT-6 regular-versus-Temporary Chat and Codex refusal comparisons involve individual reports, not population estimates.",
-    "The read-only analytics broker was unavailable, so readership, repeat use, switching, and revenue remain unknown."
+    "OpenAI’s system card is provider-authored. It reports difficult evaluation results, not prevalence in ordinary ChatGPT use, and its published evaluations do not include some system-level safeguards.",
+    "The reported GPT-6 regressions are in specified safety categories. The same card reports factuality and helpfulness gains; neither result proves a broad change in general capability.",
+    "OpenAI states that ChatGPT received October GPT-6 versions while Work and Codex remained on September versions at the time of publication; a current user’s served model and route should be checked rather than inferred from a family label.",
+    "Recent Reddit and community posts are self-selected reports without saved matched outputs, verified serving identity, independent replication, or population denominators.",
+    "AgentCheck’s daily 20-prompt exact-golden panel covers selected Anthropic models, not GPT-6 or multi-turn ChatGPT workflows; its stable result does not test the reported complaints.",
+    "OpenAI’s active status investigation concerns hosted Code Reviews and Security Reviews on private GitHub repositories; it does not report a GPT-6 Chat answer-quality issue.",
+    "First-party pool analytics were unavailable, so discovery, reader actions, repeat use, switching, and revenue remain unknown."
   ],
-  "checked_at": "2026-10-24T12:06:22Z",
-  "meaningfully_updated_at": "2026-10-24T12:06:22Z",
-  "freshness_note": "Reviewed 24 October 2026. A new Claude Code workflow complaint and multiple resolved provider error windows add a cross-provider test lead; status timing does not identify the cause, and broad decline remains unproven."
+  "checked_at": "2026-10-27T08:13:18Z",
+  "meaningfully_updated_at": "2026-10-27T08:13:18Z",
+  "freshness_note": "Reviewed 27 October 2026. OpenAI’s release card adds a narrow, measured safety regression alongside factuality gains and lower over-refusal. The affected test categories and the ChatGPT-versus-Work/Codex release boundary matter; broad model decline remains unestablished."
 }

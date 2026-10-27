@@ -960,6 +960,12 @@
       "changed_at": "2026-10-24T12:06:22Z",
       "summary": "Published the dated Claude Code report, Anthropic status timeline, ChatGPT continuity follow-up, and a scoped BenchGecko counterweight.",
       "path": "/p/ai-model-degradation-watch/reports/2026-10-24.html"
+    },
+    {
+      "change_id": "current-verdict-2026-10-27",
+      "changed_at": "2026-10-27T08:13:18Z",
+      "summary": "Added OpenAI’s GPT-6 October safety/factuality trade-off, the ChatGPT versus Work/Codex release boundary, current provider-status checks, and recent self-selected conversation reports. Broad capability decline remains unestablished.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }
