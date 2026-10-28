@@ -528,6 +528,17 @@
       "summary": "OpenAI documents a gradual, plan-dependent GPT-6 Chat rollout and quota fallbacks. Anthropic’s Sonnet 5.5 request-error event is resolved; OpenAI’s hosted-review incident remains under monitoring. Broad capability decline remains unestablished.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-27-1200.html",
       "entrypoint": "reports/2026-10-27-1200.html"
+    },
+    {
+      "run_id": "report-ee2322c7d9f9eea8aca7a1d7",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T12:13:35Z",
+      "title": "Opus 5.5’s benchmark score rebounded; the latest run is 12 days old",
+      "summary": "The latest visible NerfBench points remain inside the publisher’s band, but the October 16 data are stale against its stated schedule. OpenAI’s Terra rollout and Anthropic’s resolved connector errors are separate product and service changes.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-28.html",
+      "entrypoint": "reports/2026-10-28.html"
     }
   ]
 }

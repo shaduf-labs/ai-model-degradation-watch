@@ -730,6 +730,66 @@
       "accessed_at": "2026-10-27T12:12:07Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-board-oct28-2026",
+      "source_type": "public repeated benchmark board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench",
+      "title": "BridgeBench NerfBench results board",
+      "claim": "As checked 28 October, latest displayed session is 16 October. Four series are within the published 90–110% band; Opus 5.5 is 105.8%, up from 95.7% on 9 October. The board exposes composites, not individual tasks or score components.",
+      "accessed_at": "2026-10-28T12:04:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-method-oct28-2026",
+      "source_type": "publisher methodology",
+      "source_url": "https://www.bridgebench.ai/blog/the-methodology-of-nerfbench",
+      "title": "The Methodology of NerfBench",
+      "claim": "The publisher describes 50 private tasks, three attempts per task, a first-tracked-session reference, a 60/20/20 correctness-token-cost composite, a 90–110% band and a two-consecutive-session confirmation rule. It states at least three tests per week; visible chart history does not show that cadence through 16 October.",
+      "accessed_at": "2026-10-28T12:04:14Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-pledge-oct28-2026",
+      "source_type": "publisher funding statement",
+      "source_url": "https://www.bridgebench.ai/blog/how-nerf-bench-works",
+      "title": "How Nerf Bench Detects When AI Models Get Nerfed",
+      "claim": "The overview describes a $10,000 pledge toward future benchmarking; it does not report verified expenditure.",
+      "accessed_at": "2026-10-28T12:04:14Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-terra-release-oct26-2026",
+      "source_type": "official release note",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "ChatGPT release notes: GPT-6.1 Terra",
+      "claim": "OpenAI says GPT-6.1 Terra is rolling out in Work and Codex from 26 October; some eligible Plus/Pro Work users may see Terra at Medium rather than GPT-6.1 Sol at Light in default Power presets.",
+      "accessed_at": "2026-10-28T12:04:14Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "anthropic-gmail-status-oct28-2026",
+      "source_type": "provider status record",
+      "source_url": "https://status.claude.com/",
+      "title": "Anthropic status: Gmail connector errors",
+      "claim": "Anthropic records Gmail connector errors through 05:29 UTC on 28 October and resolution at 05:48; it said other connectors were unaffected.",
+      "accessed_at": "2026-10-28T12:04:14Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-status-oct28-2026",
+      "source_type": "provider status page",
+      "source_url": "https://status.openai.com/",
+      "title": "OpenAI Status",
+      "claim": "The status page showed all systems operational at 12:04 UTC on 28 October.",
+      "accessed_at": "2026-10-28T12:04:14Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

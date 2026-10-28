@@ -1,32 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 27 October 2026, public evidence still does not establish broad capability decline across popular AI models. OpenAI’s 7 October system card reports statistically significant regressions for GPT-6 Sol and Luna in selected safety evaluations against GPT-5.6, alongside better factuality on nearly all of its difficult test metrics and less over-refusal. These are narrow provider evaluations, not estimates of typical production behavior; some system safeguards are excluded. OpenAI’s current Help Center says GPT-6 is rolling out to eligible paid Chat users, while Free and Go receive GPT-5.6 Luna; explicit GPT-5.6 Sol selections remain on that model. Plan and effort determine available model options, and some usage limits can continue with a different model—including GPT-5.6 Thinking at Medium after the GPT-6 Pro weekly limit on Pro $200. Work and Codex allowances are separate. Record plan, model selection, effort, any quota or fallback, and product surface before comparing tasks. On 27 October Anthropic reported elevated Claude Sonnet 5.5 request errors from 09:14 to 09:56 UTC, now resolved; its displayed components were operational at the 12:12 UTC check. OpenAI said mitigation was applied for hosted Code Review/Security Review errors and it was monitoring recovery, with no components marked affected. These are service events, not evidence that completed answers got worse. Recent community posts about context, memory, style, and correction remain uncontrolled and provide no denominator.",
+  "current_answer": "As of 28 October 2026, public evidence does not establish broad capability decline across popular AI models. BridgeBench’s latest visible NerfBench session is dated 16 October: GPT-6 Astra scored 97.1%, GPT-6.1 Sol 98.0%, Claude Sonnet 5.5 98.9%, and Claude Opus 5.5 105.8% of their first tracked sessions, all inside the publisher’s 90–110% band. Opus 5.5 rose 10.1 points from 95.7% on 9 October, but the score combines correctness, output tokens, and cost, and the board does not show which component moved. OpenAI’s 26 October notes add GPT-6.1 Terra to Work/Codex; some eligible users may see a changed default effort/model preset. Anthropic’s Gmail connector errors were resolved at 05:48 UTC on 28 October, with the provider reporting impact through 05:29 UTC. These product and service changes do not establish a decline in completed answers. Record the exact surface, selected model, effort, context, quota state, and task result before switching.",
   "catalogue_card": {
-    "question": "Could a plan or usage limit change the model you get?",
-    "text": "OpenAI says GPT-6 is rolling out to eligible paid Chat accounts; Free/Go use GPT-5.6 Luna, and some limits trigger a fallback. Record plan, effort, and model path before judging quality."
+    "question": "Did the latest public monitor find a lasting Opus 5.5 regression?",
+    "text": "No confirmed drop. NerfBench’s latest displayed Opus 5.5 score rebounded to 105.8% on 16 October, inside its 90–110% band. The score combines correctness, tokens, and cost; the page shows no newer session by 28 October."
   },
   "summary": [
-    "Broad capability decline across popular AI models is not established as of 27 October 2026.",
-    "OpenAI reports selected GPT-6 safety regressions alongside factuality gains and less over-refusal; the difficult tests do not estimate everyday frequency.",
-    "OpenAI’s current Help Center says GPT-6 is rolling out to eligible paid Chat users; Free and Go receive GPT-5.6 Luna, and explicit GPT-5.6 Sol selections remain on that model.",
-    "Plan and effort affect model options. Thinking limits can lead to another model; Pro $200 users move from GPT-6 Pro to GPT-5.6 Thinking at Medium after the weekly limit. Work/Codex allowances are separate.",
-    "Anthropic marked elevated Claude Sonnet 5.5 request errors resolved at 09:56 UTC on 27 October; listed components were operational at the 12:12 check.",
-    "OpenAI’s hosted Code Review/Security Review errors remained under monitoring after mitigation; no components were marked affected, and this is not a GPT-6 Chat quality report.",
-    "Public monitors have different scopes and freshness: AgentCheck covers selected Anthropic exact-answer prompts; Modelometer excludes capability and quality; ABIS showed different homepage and detailed-run dates.",
-    "For a switching decision, record plan, surface, model selection, effort, quota/fallback, and whether the same safe task completed; score correctness, safety, and correction cost separately."
+    "Broad capability decline across popular models is not established as of 28 October 2026.",
+    "BridgeBench’s latest visible NerfBench session is dated 16 October; all four displayed series are within the publisher’s 90–110% band.",
+    "Claude Opus 5.5 moved from 95.7% on 9 October to 105.8% on 16 October; the composite combines correctness, output tokens, and cost.",
+    "The board does not display component scores or task outputs, and the visible histories do not show its stated three sessions per week.",
+    "OpenAI’s 26 October release notes describe GPT-6.1 Terra rolling out in Work/Codex and a default Power preset change for some eligible Plus/Pro users.",
+    "Anthropic’s Gmail connector error window ended by 05:29 UTC on 28 October and was marked resolved at 05:48; this is a service-path event, not an answer-quality measure.",
+    "For a user decision, record surface, model, effort, context, task completion, and any limit/fallback; compare correctness and correction cost separately."
   ],
   "uncertainty": [
-    "OpenAI’s system card is provider-authored. It reports difficult evaluation results, not prevalence in ordinary ChatGPT use, and its published evaluations do not include some system-level safeguards.",
-    "The reported GPT-6 regressions are in specified safety categories. The same card reports factuality and helpfulness gains; neither result proves a broad change in general capability.",
-    "OpenAI’s Help Center describes a gradual rollout and plan/workspace-dependent model options; it does not show what model served an individual request. Usage-limit fallback can change the model path.",
-    "Recent Reddit and community posts are self-selected reports without saved matched outputs, verified serving identity, independent replication, or population denominators.",
-    "Anthropic marked the 27 October Sonnet 5.5 request-error event resolved at 09:56 UTC; status recovery does not establish the outcome of any one account’s task.",
-    "OpenAI’s hosted Code Review/Security Review incident remained in monitoring after mitigation at the 12:12 UTC check and had no components marked affected; it does not report GPT-6 Chat quality.",
-    "Public drift monitors have different scopes and freshness; their aggregate results do not test every user workflow or establish broad decline.",
-    "First-party pool analytics were unavailable, so discovery, reader actions, repeat use, switching, and revenue remain unknown."
+    "NerfBench’s 50 tasks and session outputs are private; the public board exposes only composite percentages, and the first tracked session is not shown to coincide with a model launch.",
+    "The 90–110% band and two-session rule are publisher methodology. The stated sampling illustration addresses a 70%-pass model, but the method does not publish calibration across other baseline rates or dependence across repeated fixed tasks.",
+    "The latest NerfBench session shown is 16 October; its public chart does not show the stated three tests per week. Whether sessions are missing from publication or testing cadence differed is unresolved.",
+    "OpenAI’s release notes and Anthropic’s incident history establish what the providers published, not a particular account’s route or outcome.",
+    "The new Gemini post and limit tracker are self-selected audience signals without representative denominators, matched tasks, or evidence of willingness to pay.",
+    "First-party pool analytics were unavailable, so page use, return visits, switching, sharing, follows, and funding remain unknown."
   ],
-  "checked_at": "2026-10-27T12:12:07Z",
-  "meaningfully_updated_at": "2026-10-27T12:12:07Z",
-  "freshness_note": "Rechecked 27 October 2026 at 12:12 UTC. OpenAI Help Center now describes plan-dependent GPT-6 rollout and usage-limit fallbacks; Anthropic marked its Sonnet 5.5 error window resolved at 09:56 UTC, while OpenAI’s hosted-review incident remained under monitoring after mitigation. These product paths and service events are not evidence of broad completed-answer quality decline."
+  "checked_at": "2026-10-28T12:04:14Z",
+  "meaningfully_updated_at": "2026-10-28T12:04:14Z",
+  "freshness_note": "Rechecked 28 October 2026 at 12:04 UTC. The newest visible NerfBench data is still dated 16 October, so the public monitor is not current to today. OpenAI’s Terra rollout and Anthropic’s resolved Gmail connector event add product-path and service context, not evidence of broad completed-answer decline."
 }
