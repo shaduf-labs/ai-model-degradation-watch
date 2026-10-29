@@ -1,29 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 28 October 2026, public evidence does not establish broad capability decline across popular AI models. BridgeBench’s latest visible NerfBench session is dated 16 October: GPT-6 Astra scored 97.1%, GPT-6.1 Sol 98.0%, Claude Sonnet 5.5 98.9%, and Claude Opus 5.5 105.8% of their first tracked sessions, all inside the publisher’s 90–110% band. Opus 5.5 rose 10.1 points from 95.7% on 9 October, but the score combines correctness, output tokens, and cost, and the board does not show which component moved. OpenAI’s 26 October notes add GPT-6.1 Terra to Work/Codex; some eligible users may see a changed default effort/model preset. Anthropic’s Gmail connector errors were resolved at 05:48 UTC on 28 October, with the provider reporting impact through 05:29 UTC. These product and service changes do not establish a decline in completed answers. Record the exact surface, selected model, effort, context, quota state, and task result before switching.",
+  "current_answer": "As of 29 October 2026, public evidence does not establish broad capability decline across popular AI models. AI Stupid Level reports no below-baseline result among 25 API-tested models on its 24-hour boards as of 10:31 UTC; it says none of its 66 armed model-suite detectors fired, while nine are not yet armed. This is one monitor operator’s result, not a test of consumer chat surfaces or private workflows. BridgeBench’s latest visible NerfBench session remains 16 October: four series are inside its 90–110% band, and Opus 5.5 rose 10.1 percentage points from 9 to 16 October on a composite of correctness, output tokens, and cost. OpenAI’s October GPT-6 card reports selected safety regressions alongside factuality gains and less over-refusal; that is a narrow, provider-reported trade-off, not broad task decline. Anthropic’s Google Calendar connector errors on Claude.ai, Claude Code, and Cowork were marked resolved at 18:52 UTC on 28 October. For a failed tool request, check the affected connector and status history; for a completed poor answer, repeat a safe task on the same surface, model selection, effort, and context, and score correctness separately from access, safety, cost, and correction time.",
   "catalogue_card": {
-    "question": "Did the latest public monitor find a lasting Opus 5.5 regression?",
-    "text": "No confirmed drop. NerfBench’s latest displayed Opus 5.5 score rebounded to 105.8% on 16 October, inside its 90–110% band. The score combines correctness, tokens, and cost; the page shows no newer session by 28 October."
+    "question": "Did a live monitor find a broad model drop today?",
+    "text": "Not on AI Stupid Level’s current API boards: it reports no below-baseline score among 25 models at 10:31 UTC. Nine of 75 model-suite detectors are not armed yet, and this does not test every chat app or user task."
   },
   "summary": [
-    "Broad capability decline across popular models is not established as of 28 October 2026.",
-    "BridgeBench’s latest visible NerfBench session is dated 16 October; all four displayed series are within the publisher’s 90–110% band.",
-    "Claude Opus 5.5 moved from 95.7% on 9 October to 105.8% on 16 October; the composite combines correctness, output tokens, and cost.",
-    "The board does not display component scores or task outputs, and the visible histories do not show its stated three sessions per week.",
-    "OpenAI’s 26 October release notes describe GPT-6.1 Terra rolling out in Work/Codex and a default Power preset change for some eligible Plus/Pro users.",
-    "Anthropic’s Gmail connector error window ended by 05:29 UTC on 28 October and was marked resolved at 05:48; this is a service-path event, not an answer-quality measure.",
-    "For a user decision, record surface, model, effort, context, task completion, and any limit/fallback; compare correctness and correction cost separately."
+    "Broad capability decline across popular AI models is not established as of 29 October 2026.",
+    "AI Stupid Level reports no model below its recent baseline on 25 API-side 24-hour boards at 10:31 UTC; 66 of 75 model-suite detectors were armed and none fired, while nine were not yet armed.",
+    "BridgeBench’s NerfBench board still shows 16 October as its newest session; all four tracked scores remain inside its stated 90–110% band. Opus 5.5 rose 10.1 percentage points from 9 to 16 October, but the composite combines correctness, tokens, and cost.",
+    "OpenAI’s October GPT-6 system card reports selected safety regressions and improvements elsewhere, including factuality and reduced over-refusal; the tests are provider-authored and narrow.",
+    "Anthropic records Google Calendar connector errors from 26 October through 18:52 UTC on 28 October for Claude.ai, Claude Code, and Cowork; this is a service-path event, not a completed-answer rating.",
+    "OpenAI’s 26 October GPT-6.1 Terra rollout may change model and effort presets for some eligible Work users; a rollout is not a matched quality test.",
+    "Recent English- and Spanish-language user posts describe context, instruction-following, task-completion, and usage-limit concerns, alongside positive or unchanged reports. They do not estimate prevalence.",
+    "For an individual failure, record the surface, selected model, effort, context, completion status, and any connector or quota error before changing providers."
   ],
   "uncertainty": [
-    "NerfBench’s 50 tasks and session outputs are private; the public board exposes only composite percentages, and the first tracked session is not shown to coincide with a model launch.",
-    "The 90–110% band and two-session rule are publisher methodology. The stated sampling illustration addresses a 70%-pass model, but the method does not publish calibration across other baseline rates or dependence across repeated fixed tasks.",
-    "The latest NerfBench session shown is 16 October; its public chart does not show the stated three tests per week. Whether sessions are missing from publication or testing cadence differed is unresolved.",
-    "OpenAI’s release notes and Anthropic’s incident history establish what the providers published, not a particular account’s route or outcome.",
-    "The new Gemini post and limit tracker are self-selected audience signals without representative denominators, matched tasks, or evidence of willingness to pay.",
-    "First-party pool analytics were unavailable, so page use, return visits, switching, sharing, follows, and funding remain unknown."
+    "AI Stupid Level is a monitor operator’s self-reported API-side benchmark. Its task set is private, its result was not independently reproduced here, and nine of its 75 model-suite detectors are younger than its ten-day arming requirement.",
+    "NerfBench’s latest visible session is 16 October, despite its stated three-tests-per-week schedule; the public board omits task-level outputs and correctness, token, and cost components.",
+    "Provider status records establish declared service events, not the route or recovery of an individual account.",
+    "Community reports are self-selected and mixed; they contain no representative denominator or matched task replay.",
+    "First-party pool analytics were unavailable, so reader use, return visits, switching, sharing, follows, and funding remain unknown."
   ],
-  "checked_at": "2026-10-28T12:04:14Z",
-  "meaningfully_updated_at": "2026-10-28T12:04:14Z",
-  "freshness_note": "Rechecked 28 October 2026 at 12:04 UTC. The newest visible NerfBench data is still dated 16 October, so the public monitor is not current to today. OpenAI’s Terra rollout and Anthropic’s resolved Gmail connector event add product-path and service context, not evidence of broad completed-answer decline."
+  "checked_at": "2026-10-29T12:06:29Z",
+  "meaningfully_updated_at": "2026-10-29T12:06:29Z",
+  "freshness_note": "Checked 29 October 2026 at 12:06 UTC. AI Stupid Level’s page reports a 10:31 UTC API-side snapshot; its result is not independently reproduced and does not cover consumer-app workflows. NerfBench still displays 16 October as its latest test. Anthropic’s Google Calendar connector incident is resolved; broad user-facing capability change remains unestablished."
 }

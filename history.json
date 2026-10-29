@@ -539,6 +539,17 @@
       "summary": "The latest visible NerfBench points remain inside the publisher’s band, but the October 16 data are stale against its stated schedule. OpenAI’s Terra rollout and Anthropic’s resolved connector errors are separate product and service changes.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-28.html",
       "entrypoint": "reports/2026-10-28.html"
+    },
+    {
+      "run_id": "report-9e984c80a50e6b417ef90081",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-29T12:00:00Z",
+      "completed_at": "2026-10-29T12:12:49Z",
+      "title": "A live API monitor reports no broad drop; a Claude connector incident is resolved",
+      "summary": "AI Stupid Level reports no below-baseline result on its current API-side board, while nine suite detectors remain unarmed and consumer-task reports remain uncontrolled. NerfBench is still dated 16 October; Anthropic’s Calendar connector incident has ended.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-29.html",
+      "entrypoint": "reports/2026-10-29.html"
     }
   ]
 }

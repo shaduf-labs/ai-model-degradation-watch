@@ -790,6 +790,76 @@
       "accessed_at": "2026-10-28T12:04:14Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "aistupidlevel-current-board-oct29-2026",
+      "source_type": "competitor monitor report",
+      "source_url": "https://aistupidlevel.info/is-ai-getting-worse",
+      "title": "AI Stupid Level: current 24-hour drift board",
+      "claim": "The operator reports no below-baseline result among 25 API-tested models at 10:31 UTC on 29 October, with none of 66 armed model-suite detectors fired; nine are not yet armed.",
+      "accessed_at": "2026-10-29T12:06:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "aistupidlevel-method-oct29-2026",
+      "source_type": "competitor methodology",
+      "source_url": "https://aistupidlevel.info/ai-drift-detection",
+      "title": "AI Stupid Level drift detection method",
+      "claim": "The operator describes API-side coding, reasoning, tool-use and canary tests; its tasks are private and its method requires ten days before a model-suite detector is armed.",
+      "accessed_at": "2026-10-29T12:06:29Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "bridgebench-nerfbench-oct29-2026",
+      "source_type": "public benchmark board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench",
+      "title": "BridgeBench NerfBench results",
+      "claim": "The latest visible session remains 16 October; all four tracked series are inside the publisher’s 90–110% band and Opus 5.5 rose 10.1 percentage points from 9 to 16 October.",
+      "accessed_at": "2026-10-29T12:06:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "anthropic-calendar-connector-oct29-2026",
+      "source_type": "provider status history",
+      "source_url": "https://status.claude.com/history",
+      "title": "Anthropic Google Calendar connector incident history",
+      "claim": "Anthropic records connector errors affecting Claude.ai, Claude Code, and Cowork through 18:52 UTC on 28 October, then resolved.",
+      "accessed_at": "2026-10-29T12:06:29Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-gpt6-safety-card-oct29-2026",
+      "source_type": "provider evaluation card",
+      "source_url": "https://deploymentsafety.openai.com/gpt-6-october/broken-search-tool",
+      "title": "OpenAI GPT-6 October system card",
+      "claim": "OpenAI reports selected safety regressions alongside factuality improvements and fewer unnecessary refusals on its chosen evaluations.",
+      "accessed_at": "2026-10-29T12:06:29Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-spanish-user-report-oct29-2026",
+      "source_type": "Spanish-language user report",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1xeybay/chatgpt_gpt6_est%C3%A1_muy_raro_y_se_salta_las/",
+      "title": "Spanish-language ChatGPT report on context and task completion",
+      "claim": "One author reports context and instruction problems after a Chat model change and a Work/Astra task that did not progress; this is an uncontrolled report, not a verified model comparison.",
+      "accessed_at": "2026-10-29T12:06:29Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-chatgpt-user-thread-oct29-2026",
+      "source_type": "user discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xbim25/has_anyone_else_noticed_gpt_getting_worse_over/",
+      "title": "ChatGPT quality thread with mixed user reports",
+      "claim": "The thread contains self-reports of task and context problems plus replies describing unchanged or positive results; it has no matched tasks or population denominator.",
+      "accessed_at": "2026-10-29T12:06:29Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

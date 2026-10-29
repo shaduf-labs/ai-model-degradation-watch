@@ -978,6 +978,12 @@
       "changed_at": "2026-10-28T12:12:28Z",
       "summary": "Added the latest dated NerfBench scores, score-component and freshness limits, OpenAI’s Work/Codex Terra rollout, and Anthropic’s resolved Gmail connector incident. Broad capability decline remains unestablished.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "research-review-live-api-monitor-and-calendar-incident-2026-10-29",
+      "changed_at": "2026-10-29T12:06:29Z",
+      "summary": "Added a dated API-side drift-board result and its detector maturity limits, rechecked NerfBench freshness, documented OpenAI’s narrow safety trade-off, and updated Anthropic’s resolved Calendar connector record. Current user reports remain uncontrolled; broad capability decline is not established.",
+      "path": "/p/ai-model-degradation-watch/"
     }
   ]
 }
