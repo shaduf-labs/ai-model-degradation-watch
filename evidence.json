@@ -860,6 +860,86 @@
       "accessed_at": "2026-10-29T12:06:29Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "aistupidlevel-drift-board-oct30",
+      "source_type": "independent API-side monitor",
+      "source_url": "https://aistupidlevel.info/ai-drift-detection",
+      "title": "AI Stupid Level drift monitor",
+      "claim": "The page snapshot dated 30 October 2026, 03:26 UTC reports no below-baseline score among 25 models on its API-side 24-hour boards; 66 of 75 model-suite detectors are armed and none has fired. Nine remain unarmed. The task set is private.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "livenerf-opus55-window3-oct30",
+      "source_type": "open benchmark project",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf Claude Opus 5.5 longitudinal results",
+      "claim": "The 21–30-day window starting 14 October reports 780 samples and a −0.015 ± 0.018 baseline delta over 78 calibrated items; the project labels the result no change. It tests a pinned Claude Code subscription path.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "abis-gemini35flash-finding-oct27",
+      "source_type": "independent behavioral monitor",
+      "source_url": "https://cijlabs.com/findings",
+      "title": "ABIS Gemini 3.5 Flash finding",
+      "claim": "ABIS labels its 27 October Gemini 3.5 Flash signal a possible version update; the displayed largest moves are drift down 73.4% and coherence up 16.0%. This behavioral signal is not a capability-regression result.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-gpt61-sol-status-oct27",
+      "source_type": "provider status incident",
+      "source_url": "https://status.openai.com/incidents/whtv28cg",
+      "title": "OpenAI Status: 6.1 Sol Degraded Model Performance",
+      "claim": "OpenAI lists a 27 October degraded-performance event affecting Chat Completions, Responses, and Batch API components and says it was resolved after mitigation. The record does not identify a root cause or task-quality change.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-pro-allowance-reversal-oct29",
+      "source_type": "provider release notes",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "title": "OpenAI release notes: Pro Work and Codex usage, 29 October",
+      "claim": "OpenAI canceled the announced Pro 200 allowance reduction. Pro 200 accounts on the lower Work/Codex allowance receive twice their previous amount; Pro 100 and Pro 500 Work/Codex allowances also doubled.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openai-pro-tier-current-allowance-oct30",
+      "source_type": "provider help documentation",
+      "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "title": "OpenAI Help: About ChatGPT Pro tiers",
+      "claim": "The current help page says higher-allowance Pro 200 users keep it, lower-allowance users have it doubled to match, and the Pro 200 price remains $200/month.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-gpt6-conversation-quality-oct26",
+      "source_type": "public community discussion",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1xfyaz0/gpt6_became_chatgpts_default_on_october_7_but_has/",
+      "title": "r/ChatGPTcomplaints: GPT-6 conversational quality discussion",
+      "claim": "A 26 October thread contains subjective reports of unwanted tone and weak continuity alongside a report of better intent inference; there are no matched tasks or representative sample.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "v2ex-pro200-policy-discussion-oct30",
+      "source_type": "Chinese-language public discussion",
+      "source_url": "https://global.v2ex.co/t/1253012",
+      "title": "V2EX discussion of Pro 200 allowance reversal",
+      "claim": "A 30 October thread with 13 replies discusses whether the Pro 200 change doubles allowances or avoids the announced reduction; comments also speculate about other changes. It is a small, self-selected discussion.",
+      "accessed_at": "2026-10-30T12:07:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

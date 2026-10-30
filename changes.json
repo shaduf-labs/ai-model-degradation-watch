@@ -984,6 +984,30 @@
       "changed_at": "2026-10-29T12:06:29Z",
       "summary": "Added a dated API-side drift-board result and its detector maturity limits, rechecked NerfBench freshness, documented OpenAI’s narrow safety trade-off, and updated Anthropic’s resolved Calendar connector record. Current user reports remain uncontrolled; broad capability decline is not established.",
       "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "pro200-allowance-reversal-2026-10-29",
+      "changed_at": "2026-10-29T00:00:00Z",
+      "summary": "Updated the reader guidance after OpenAI canceled the planned Pro 200 Work/Codex allowance reduction and doubled some lower-tier allowances.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "model-monitor-results-2026-10-30",
+      "changed_at": "2026-10-30T12:07:03Z",
+      "summary": "Added a current API-side no-drop board, a scoped Opus 5.5 longitudinal result, and a Gemini behavior-change alert with separate limits.",
+      "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "conversation-report-and-reversal-2026-10-30",
+      "changed_at": "2026-10-30T12:07:03Z",
+      "summary": "Added recent conversational-quality reports and a Chinese-language discussion of the Pro allowance reversal, with sample limits.",
+      "path": "/p/ai-model-degradation-watch/research/"
+    },
+    {
+      "change_id": "gpt61-sol-api-incident-2026-10-27",
+      "changed_at": "2026-10-30T12:07:03Z",
+      "summary": "Added OpenAI’s resolved GPT-6.1 Sol API performance incident as a service record, not a broad capability verdict.",
+      "path": "/p/ai-model-degradation-watch/signals/"
     }
   ]
 }

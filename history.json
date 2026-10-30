@@ -550,6 +550,17 @@
       "summary": "AI Stupid Level reports no below-baseline result on its current API-side board, while nine suite detectors remain unarmed and consumer-task reports remain uncontrolled. NerfBench is still dated 16 October; Anthropic’s Calendar connector incident has ended.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-29.html",
       "entrypoint": "reports/2026-10-29.html"
+    },
+    {
+      "run_id": "report-00ccff8f8923cfd1ac1578ae",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-30T12:00:00Z",
+      "completed_at": "2026-10-30T12:13:29Z",
+      "title": "OpenAI canceled the Pro 200 usage cut; public tests still show no broad model decline",
+      "summary": "OpenAI canceled the announced Pro 200 Work/Codex reduction before its cutoff; current scoped monitors do not establish broad capability decline. A resolved GPT-6.1 Sol API event, a Gemini behavior-change alert, and conversational complaints remain separate evidence.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-30.html",
+      "entrypoint": "reports/2026-10-30.html"
     }
   ]
 }
