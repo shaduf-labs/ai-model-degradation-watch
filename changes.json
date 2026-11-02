@@ -1008,6 +1008,18 @@
       "changed_at": "2026-10-30T12:07:03Z",
       "summary": "Added OpenAI’s resolved GPT-6.1 Sol API performance incident as a service record, not a broad capability verdict.",
       "path": "/p/ai-model-degradation-watch/signals/"
+    },
+    {
+      "change_id": "gemini-api-route-and-current-watches-2026-10-31",
+      "changed_at": "2026-10-31T12:08:47Z",
+      "summary": "Added Google’s documented Gemini 3.5 Flash API reroute, distinguished it from two unconfirmed tracker watches, and refreshed monitor and community evidence limits. Broad capability decline remains unestablished.",
+      "path": "/p/ai-model-degradation-watch/"
+    },
+    {
+      "change_id": "route-aware-replay-method-2026-10-31",
+      "changed_at": "2026-10-31T12:08:47Z",
+      "summary": "Updated the method page to record requested model strings and served-version receipts, and to separate composite cost/token scores from answer correctness.",
+      "path": "/p/ai-model-degradation-watch/method/"
     }
   ]
 }

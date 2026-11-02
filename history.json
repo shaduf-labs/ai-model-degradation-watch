@@ -561,6 +561,17 @@
       "summary": "OpenAI canceled the announced Pro 200 Work/Codex reduction before its cutoff; current scoped monitors do not establish broad capability decline. A resolved GPT-6.1 Sol API event, a Gemini behavior-change alert, and conversational complaints remain separate evidence.",
       "report_path": "/p/ai-model-degradation-watch/reports/2026-10-30.html",
       "entrypoint": "reports/2026-10-30.html"
+    },
+    {
+      "run_id": "report-7034a192ad9ef946167869d9",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-31T12:08:47Z",
+      "completed_at": "2026-10-31T12:14:52Z",
+      "title": "Gemini’s old API name now routes to 3.6; tracker watches remain unconfirmed",
+      "summary": "Google documents an automatic 3.5-to-3.6 API route. A separate monitor has two unconfirmed early warnings, while broad capability decline remains unestablished.",
+      "report_path": "/p/ai-model-degradation-watch/reports/2026-10-31.html",
+      "entrypoint": "reports/2026-10-31.html"
     }
   ]
 }

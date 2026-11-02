@@ -940,6 +940,66 @@
       "accessed_at": "2026-10-30T12:07:03Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "google-gemini35flash-route-oct31-2026",
+      "source_type": "Google Gemini API model documentation",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash.md",
+      "title": "Gemini 3.5 Flash model documentation",
+      "claim": "Google’s page, last updated 30 October, says the deprecated gemini-3.5-flash name is no longer selectable in AI Studio and API requests to it are automatically routed to gemini-3.6-flash. This confirms a serving/product change; the page does not state its effective date or show a quality decline.",
+      "accessed_at": "2026-10-31T12:08:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "aistupidlevel-tracker-oct31-2026",
+      "source_type": "Operator-published API drift tracker",
+      "source_url": "https://aistupidlevel.info/ai-degradation-tracker",
+      "title": "AI degradation tracker snapshot",
+      "claim": "As of 31 October 2026 at 07:47 UTC the tracker reports no open alarm among 25 models, with two unconfirmed early warnings: DeepSeek V4.1 Flash coding and tool use, and Gemini 3.5 Flash Lite reasoning. It reports 66/75 suite detectors armed and three models calibrating. Its tasks are private and API-side.",
+      "accessed_at": "2026-10-31T12:08:47Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "nerfbench-oct31-stale-board",
+      "source_type": "Operator-published benchmark board",
+      "source_url": "https://www.bridgebench.ai/nerf-bench",
+      "title": "NerfBench results board",
+      "claim": "The board still lists 16 October as latest session for four models and shows each within its 90–110% launch-reference band. The displayed power score includes correctness, output tokens, and cost and is not a current pure answer-quality result.",
+      "accessed_at": "2026-10-31T12:08:47Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "nerfbench-method-oct31-review",
+      "source_type": "Benchmark operator methodology",
+      "source_url": "https://www.bridgebench.ai/blog/the-methodology-of-nerfbench",
+      "title": "The Methodology of NerfBench",
+      "claim": "The operator describes a 50-task private suite with three attempts per task, a first tracked session frozen as reference, and a 60/20/20 correctness/output-token/cost composite; Codex is reweighted to 75/25. Confirmed changes require two complete comparable sessions outside the 90–110% band on the same side.",
+      "accessed_at": "2026-10-31T12:08:47Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "livenerf-opus55-oct31-status",
+      "source_type": "Open-source longitudinal benchmark repository",
+      "source_url": "https://github.com/ninjahawk/livenerf",
+      "title": "LiveNerf results and status",
+      "claim": "The latest completed Claude Opus 5.5 window is labeled no change, with −0.015 ± 0.018 over 78 items. The repository status dated 29 October said 36 of 45 days were collected and the third window was 6/10 days complete; it tests a pinned Claude Code subscription path.",
+      "accessed_at": "2026-10-31T12:08:47Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "reddit-chatgpt-creative-report-oct31",
+      "source_type": "Self-selected public community report",
+      "source_url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1xf90yh/after_2_years_im_done_chatgpt_is_getting_worse/",
+      "title": "A ChatGPT user describes instruction-following and image-generation concerns",
+      "claim": "One self-described long-time user reports instruction-following and image-generation problems and says they may not renew Pro. No matched prompts, image artifacts, verified model receipt, or representative denominator are supplied.",
+      "accessed_at": "2026-10-31T12:08:47Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

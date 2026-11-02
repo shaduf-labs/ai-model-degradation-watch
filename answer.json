@@ -1,31 +1,30 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "As of 30 October 2026, public evidence does not establish broad capability decline across popular AI models. AI Stupid Level’s 30 October page snapshot reports no below-baseline result among 25 models on its API-side 24-hour boards; none of 66 armed model-suite detectors fired, while nine remain unarmed. Claude Opus 5.5’s latest 10-day LiveNerf window is labeled ‘no change’: its score is 0.571 ± 0.035, with a baseline delta of −0.015 ± 0.018 over 78 items. These monitors test selected routes and tasks, not every consumer surface or a reader’s own workflow.\n\nOpenAI’s release notes on 29 October canceled the planned Pro 200 reduction in Work and Codex usage. Pro 200 users on the lower allowance received twice their previous allowance, matching users who already had the higher amount; Pro 100 and Pro 500 Work/Codex allowances also doubled. OpenAI says Pro 200 remains $200/month. Allowance is not a fixed number of messages or tasks, so check Settings → Usage before reacting to the older notice. OpenAI separately marked a GPT-6.1 Sol API performance incident resolved on 27 October. ABIS flagged a possible Gemini 3.5 Flash version change on 27 October, with a change in its behavior-drift measure; that is not evidence of a capability decline. Recent ChatGPT complaints focus on conversational tone and continuity, but they are not matched task tests.",
+  "current_answer": "As of 31 October 2026, public evidence does not establish broad capability decline across popular models. AI Stupid Level’s API-side tracker reports no confirmed alarm among 25 models, but two early watches: DeepSeek V4.1 Flash on coding and tool use, and Gemini 3.5 Flash Lite on reasoning; these are below-baseline warnings, not confirmed detector fires. Google’s API documentation now says gemini-3.5-flash requests are automatically routed to gemini-3.6-flash, establishing a serving/product identity change that can explain why a model name is not a fixed version, but not showing quality declined. The 27 October ABIS behavior-change finding for Gemini 3.5 Flash remains a behavior signal, not a capability verdict; Flash Lite is a separate label. LiveNerf’s completed Opus 5.5 window still reports no change on one pinned Claude Code subscription path, while its later window remains in progress. NerfBench’s latest displayed session remains 16 October and its score combines correctness, output tokens, and cost. A newly inspected user account describes ChatGPT text-instruction and image-generation friction with renewal intent; it supplies neither a matched replay nor prevalence. For an API user whose old Gemini string behaves differently, capture the requested model name and available response metadata, then compare a safe recurring task using the current documented route before attributing the change to capability.",
   "catalogue_card": {
-    "question": "Did OpenAI cut Pro 200 usage today—and are models getting worse?",
-    "text": "The planned Work/Codex reduction was canceled on 29 October; lower-allowance Pro 200 users received twice their former allowance. Current public tests do not establish broad model decline, though they show a resolved GPT-6.1 Sol API event and a Gemini behavior-change signal."
+    "question": "Why did the Gemini 3.5 Flash result change?",
+    "text": "Google says the old API model name now routes to Gemini 3.6 Flash. That verifies a serving-path change, not a quality drop; two separate tracker watches remain unconfirmed."
   },
   "summary": [
-    "Broad capability decline across popular AI models is not established as of 30 October 2026.",
-    "AI Stupid Level’s page snapshot dated 30 October, 03:26 UTC reports no below-baseline score among 25 models on its API-side 24-hour boards; zero of 66 armed detectors fired, while nine remain unarmed.",
-    "LiveNerf labels its 21–30-day Claude Opus 5.5 window “no change”: −0.015 ± 0.018 from its baseline over 78 calibrated items; this is one pinned Claude Code subscription path.",
-    "ABIS labels a 27 October Gemini 3.5 Flash behavior-drift signal a possible version update; its metric moved, but the result does not establish a capability decline.",
-    "OpenAI’s status record says a GPT-6.1 Sol API performance event affecting Chat Completions, Responses, and Batch was resolved on 27 October.",
-    "OpenAI canceled the planned Pro 200 Work/Codex allowance reduction on 29 October; lower-allowance accounts received twice their prior allowance to match higher accounts. Pro 100 and Pro 500 Work/Codex allowances also doubled.",
-    "Community reports describe conversational-tone and continuity concerns alongside positive experiences. They are not matched task tests or a representative sample.",
-    "Check your current plan allowance and status first; compare a safe, repeated task only after fixing the product surface, model selection, effort, and context."
+    "Broad capability decline across popular AI models is not established as of 31 October 2026.",
+    "AI Stupid Level’s API-side tracker snapshot at 07:47 UTC reports no confirmed alarm among 25 models, but two early watches: DeepSeek V4.1 Flash on coding and tool use, and Gemini 3.5 Flash Lite on reasoning. Both are unconfirmed; 66 of 75 suite detectors are armed and three models are calibrating.",
+    "Google’s Gemini API documentation, last updated 30 October, says requests using gemini-3.5-flash are automatically routed to gemini-3.6-flash; the old name is no longer selectable in AI Studio. This confirms a product/serving change, not a quality decline or its cause.",
+    "The 27 October ABIS Gemini 3.5 Flash behavior-change signal remains a behavior signal, not a capability verdict. Its Flash label is distinct from the tracker’s Gemini 3.5 Flash Lite watch.",
+    "LiveNerf’s latest completed Claude Opus 5.5 window remains “no change” on one pinned Claude Code subscription path; the subsequent window was still in progress in its 29 October status.",
+    "BridgeBench NerfBench still shows 16 October as its latest session. Its “power” score combines correctness, output tokens, and cost, so it is not a pure quality measure.",
+    "One new community post links instruction-following and image-generation friction to a self-reported intention not to renew ChatGPT Pro; the account is not a matched test or a representative sample.",
+    "For an API behavior change, capture the requested model name and response metadata; compare a safe repeated task on the currently documented route before attributing the outcome to model capability."
   ],
   "uncertainty": [
-    "AI Stupid Level reports its own API-side results and does not publish the underlying task set; nine of 75 model-suite detectors are not yet armed.",
-    "LiveNerf measures Claude Opus 5.5 through a pinned Claude Code subscription path on its calibrated panel; it does not establish how consumer Claude or another task performs.",
-    "ABIS labels the Gemini 3.5 Flash event a possible version update signal. Its behavior-drift metric does not by itself say capability improved or declined.",
-    "OpenAI status confirms its declared GPT-6.1 Sol API performance event and resolution, not root cause, affected-account outcome, or a model-weight change.",
-    "Community reports are self-selected and lack matched task artifacts, verified serving receipts, and a representative denominator.",
-    "Actual allowance depends on plan, model, task, and settings; the OpenAI help page directs users to Settings → Usage for their account-specific values.",
-    "First-party pool analytics were unavailable; reach, return use, switching, sharing, follows, and funding remain unknown."
+    "AI Stupid Level’s tasks and serving conditions are operator-controlled; its two early watches are not confirmed alerts.",
+    "Google’s model page does not state when the automatic route began or whether it matches the date of ABIS’s signal.",
+    "LiveNerf is a narrow task panel, and its current completed result ends 23 October; no equivalent representative consumer test was found.",
+    "BridgeBench’s latest visible tests are from 16 October, and its composite includes tokens and cost as well as correctness.",
+    "Community reports lack matched artifacts and a representative denominator.",
+    "First-party analytics are unavailable; reach, return use, task outcomes, renewal, switching, and funding remain unknown."
   ],
-  "checked_at": "2026-10-30T12:07:03Z",
-  "meaningfully_updated_at": "2026-10-30T12:07:03Z",
-  "freshness_note": "Checked 30 October 2026 at 12:07 UTC. OpenAI reversed the announced Pro 200 Work/Codex reduction on 29 October. The latest directly inspected AI Stupid Level snapshot is dated 03:26 UTC, and the most recent LiveNerf row covers one pinned Claude Code path. Neither result represents every consumer workflow."
+  "checked_at": "2026-10-31T12:08:47Z",
+  "meaningfully_updated_at": "2026-10-31T12:08:47Z",
+  "freshness_note": "Checked 31 October 2026 at 12:08 UTC. Google documents that gemini-3.5-flash API requests are automatically routed to gemini-3.6-flash, but the page gives no effective date. The current tracker has two unconfirmed watches and no confirmed alarm; its private API task set is not a consumer-app test."
 }
